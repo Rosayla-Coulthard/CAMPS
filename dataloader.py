@@ -1,87 +1,98 @@
 """Reads data from a catalog file and stores it locally in a dictionary."""
-from astroquery.vizier import Vizier
-from astropy.table import Table
-from astropy.io import fits
-from config import COLUMNS
-import config as c
 import json
+import numpy as np
+from astroquery.vizier import Vizier
+from config import COLUMNS, TEMP_FOLDER
+from utilfuncs import find_nearest_galaxy
 
-def retreive_catalog(prompt:str) -> dict:
-    """Retreives a catalog from a file.
-    
-    Args:
-        prompt: The prompt for searching on ViZier.
-    
-    Returns:
-        A dict containing the catalog.
-    """
+def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'dSph'):
+    """Retrieves data from Vizier via one prompt"""
     V = Vizier(
         columns = COLUMNS,
         row_limit = -1
     )
     catalog_list = V.get_catalogs(prompt)
+    catalog_keys = list(catalog_list.keys())
 
-    print(f"Found {len(catalog_list)} catalogs.")
-    catalog_names = catalog_list.keys()
+    for count, i in enumerate(catalog_keys):
+        print(f'[{count}]', i)
 
-    catalogs_found = {}
-    for count, name in enumerate(catalog_names):
-        # Find the catalog with all the columns we want
-        catalog_columns = catalog_list[name].keys()
-        if len(catalog_columns) == len(COLUMNS):
-            catalogs_found[name] = catalog_list[name]
+    catalog_choice = int(input("Which catalog above would you like to use? Type index:"))
 
-    if count == len(catalog_names):
-        raise NameError("No catalog found with all the columns we want.")
+    catalog = catalog_list[catalog_keys[catalog_choice]]
     
-    print(len(catalogs_found), "catalogs found with all the columns we want.")
-    return catalogs_found
-
-def convert_catalog(catalog:Table, catalog_name:str, save_path = None) -> dict:
-    """Converts a catalog to a dictionary, and saves it to a JSON file.
-    
-    Args:
-        catalog: The catalog to convert.
-        catalog_name: The name of the catalog.
-        save_path: The path to save the catalog to.
-    """
-    print("Rearranging data for saving...")
-    star_dict = {}
-    catalog_columns = catalog.keys()
+    print(catalog.colnames)
+    output = {}
+    # catalog is a table object containing the data
+    print("Adding stars...")
 
     for star in catalog:
-        gal_name = star["dSph"]
-
-        try: # Assign stars to galaxies. If no such galaxy, make one
-            star_dict[gal_name][star["Name"]] = {catalog_name: {}}
+        star_gal_name = star[gal_title]
+        try:
+            output[star_gal_name][star[UI]] = {}
         except KeyError:
-            star_dict[gal_name] = {star["Name"]: {catalog_name: {}}}
+            output[star_gal_name] = {star[UI]: {}}
+            print("Adding newfound galaxy...")
 
-        for column in catalog_columns:
-            # Check if column name is mentioned in the alternative column names
-            if column in c.ALT_COL_NAMES.keys():
-                column = c.ALT_COL_NAMES[column]
-            star_dict[gal_name][star["Name"]][catalog_name][column] = str(star[column])
+        # Add catalog under star
+        output[star_gal_name][star[UI]][prompt] = {}
 
-            # If the colunns are RA and DEC, convert them to floats
-            if column == "RAJ2000" or column == "DEJ2000":
-                coord = str(star[column]).split(" ")
-                coord = float(coord[0]) + float(coord[1]) /60 + float(coord[2]) /3600
-                star_dict[gal_name][star["Name"]][catalog_name][column] = str(coord)
+        for col in catalog.colnames:
+            if col == "RAJ2000" or col == "DEJ2000":
+                star_col = str(star[col]).split(" ")
+                star_cord = float(star_col[0])
+                star_cord += float(star_col[1])/60
+                star_cord += float(star_col[2])/3600
+                
+                star_col = star_cord
+            
+            elif col == gal_title:
+                star_col = star[col]
+            elif col == UI:
+                continue
+            elif star[col] == "--":
+                star_col = 'NaN'
+            else:
+                star_col = float(star[col])
 
+            output[star_gal_name][star[UI]][prompt][col] = star_col
 
-    print("Saving data to JSON...")
-    if save_path:
-        with open(save_path, "w+", encoding = "utf-8") as f:
-            f.write(json.dumps(star_dict, indent=4))
+    print("Done adding stars.")
+    if savepath is not None:
+        print("Saving catalog to JSON...")
+        with open(savepath, 'w', encoding="utf-8") as f:
+            json.dump(output, f, indent = 4)
+    
+    print("Done saving catalog.")
+    return output
 
-    print(f"Catalog '{catalog_name}' saved to JSON.")
-    return star_dict
+# Write a function to sort new stars into galaxies
+def add_catalog(new_prompt, cache_path, catalog_name):
+    """Adds a new catalog from Vizier to an existing cache."""
+    # Load JSON file
+    V = Vizier(
+        columns = COLUMNS,
+        row_limit = -1
+    )
+    catalog_list = V.get_catalogs(new_prompt)
+    catalog_keys = list(catalog_list.keys())
+
+    for count, i in enumerate(catalog_keys):
+        print(f'[{count}]', i)
+
+    catalog_choice = int(input("Which catalog above would you like to use? Type index:"))
+
+    catalog = catalog_list[catalog_keys[catalog_choice]]
+
+    # Load the cache and find the galaxy radii
+    
 
 # Execution code
 if __name__ == "__main__":
-    Kirby_2009 = retreive_catalog("Kirby 2009")
+    Kirby_2009 = retrieve_catalog("J/ApJS/191/352/abun",
+                                  f"{TEMP_FOLDER}/Kirby_2009.json")
 
-    for name, item in Kirby_2009.items():
-        catalog = item
-        convert_catalog(catalog, name, f"{c.TEMP_FOLDER}/Kirby 2009.json")
+    test = retrieve_catalog("J/A+A/641/A127")
+
+    # print(Kirby_2009)
+    # add_catalog(test, f"{TEMP_FOLDER}/Kirby_2009.json", "J/ApJS/191/352/abun")
