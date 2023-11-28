@@ -1,4 +1,30 @@
 {
+    "Meta data": {
+        "Included titles": {
+            "J/ApJS/191/352/abun": [
+                "RAJ2000",
+                "DEJ2000",
+                "dSph",
+                "Name",
+                "Vmag",
+                "Imag",
+                "Teff",
+                "e_Teff",
+                "logg",
+                "e_logg",
+                "__Fe_H_",
+                "e__Fe_H_",
+                "__Mg_Fe_",
+                "e__Mg_Fe_",
+                "__Si_Fe_",
+                "e__Si_Fe_",
+                "__Ca_Fe_",
+                "e__Ca_Fe_",
+                "__Ti_Fe_",
+                "e__Ti_Fe_"
+            ]
+        }
+    },
     "Scl": {
         "1002473": {
             "J/ApJS/191/352/abun": {

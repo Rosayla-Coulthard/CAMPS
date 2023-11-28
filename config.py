@@ -39,3 +39,6 @@ ALT_COL_NAMES = {
     '__Ca_Fe_': '[Ca/Fe]',
     'e__Ca_Fe_': 'e[Ca/Fe]'
 }
+
+# Key name for meta data
+META_DATA_KEY = "Meta data"
