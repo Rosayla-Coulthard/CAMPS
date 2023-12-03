@@ -5,6 +5,7 @@ from astroquery.vizier import Vizier
 from datetime import datetime
 from config import COLUMNS, TEMP_FOLDER, META_DATA_KEY
 from utilfuncs import find_nearest_galaxy
+from utilfuncs import dict_depth, galaxy_crossmatch
 
 def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'dSph'):
     """Retrieves data from Vizier via one prompt.
@@ -16,12 +17,12 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'dSph
         gal_title: The column name for the galaxy title.
     """
     V = Vizier(
-        columns = COLUMNS,
+        # columns = COLUMNS,
         row_limit = -1
     )
     catalog_list = V.get_catalogs(prompt)
     catalog_keys = list(catalog_list.keys())
-
+    
     for count, i in enumerate(catalog_keys):
         print(f'[{count}]', i)
 
@@ -37,27 +38,49 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'dSph
 
     print(f"[{datetime.now()}] Found the following columns: {catalog.colnames}")
     output = {f"{META_DATA_KEY}": {"Included titles": {prompt: catalog.colnames}}}
-    # catalog is a table object containing the data
+    
+    # Ask if the catalog is a single-galaxy catalog
+    msg = "Is this a single-galaxy catalog? (y/n): "
+    single_galaxy = input(msg)
+    if single_galaxy == 'y':
+        single_galaxy = True
+        msg = "Please specify a galaxy name: "
+        gal_name = input(msg)
+        catalog[gal_title] = gal_name
+    elif single_galaxy == 'n':
+        single_galaxy = False
+    else:
+        print(f"[{datetime.now()}] WARNING: Invalid input. Operation aborted, no changes made.")
+        quit()
+    
     print(f"[{datetime.now()}] Adding stars...")
 
+    count = 0
     for star in catalog:
+        # Fix this part
         try:
             star_gal_name = star[gal_title]
         except KeyError:
-            err_msg = "The catalog does not have a galaxy title column. "
-            err_msg += "Please use a different catalog that has one."
-            print(err_msg)
-            print(f"[{datetime.now()}] WARNING: Operation aborted, no changes made.")
-            quit()
+            # If the galaxy name is not specified, find the nearest galaxy
+            print(f"[{datetime.now()}] Single galaxy catalog detected.")
+            star_gal_name = input("Please specify a galaxy name: ")
 
+        # Check if the star has a name, make one up if not
+        if UI not in star.keys():
+            star_name = f"{star_gal_name}_{count:04d}"
+        else:
+            star_name = star[UI]
+        
+        # Check if the star's galaxy is specified. If not, add one.
         try:
-            output[star_gal_name][star[UI]] = {}
+            output[star_gal_name][star_name] = {}
         except KeyError:
-            output[star_gal_name] = {star[UI]: {}}
-            print(f"[{datetime.now()}] Adding newfound galaxy {star_gal_name}...")
+            if single_galaxy:
+                output[star_gal_name] = {star_name: {}}
+                print(f"[{datetime.now()}] Adding newfound galaxy {star_gal_name}...")
 
         # Add catalog under star
-        output[star_gal_name][star[UI]][prompt] = {}
+        output[star_gal_name][star_name][prompt] = {}
 
         for col in catalog.colnames:
             if col == "RAJ2000" or col == "DEJ2000":
@@ -75,9 +98,16 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'dSph
             elif star[col] == "--":
                 star_col = 'NaN'
             else:
-                star_col = float(star[col])
+                try:
+                    star_col = float(star[col])
+                except ValueError:
+                    star_col = star[col]
 
-            output[star_gal_name][star[UI]][prompt][col] = star_col
+            output[star_gal_name][star_name][prompt][col] = star_col
+
+        count += 1
+
+    output[META_DATA_KEY]['Member count'] = count
 
     print(f"[{datetime.now()}] Done adding stars.")
     if savepath is not None:
@@ -89,36 +119,46 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'dSph
     return output
 
 # Write a function to sort new stars into galaxies
-def add_catalog(new_prompt, cache_path, catalog_name):
-    """Adds a new catalog from Vizier to an existing cache."""
-    # Load JSON file
-    V = Vizier(
-        columns = COLUMNS,
-        row_limit = -1
-    )
-    catalog_list = V.get_catalogs(new_prompt)
-    catalog_keys = list(catalog_list.keys())
+def add_catalog(catalog_path, cache_path):
+    """Takes a single-catalog JSON file and adds it to the cache."""
+    # Load the catalog
+    catalog = json.load(open(catalog_path, encoding="utf-8"))
+    catalog_contents = list(catalog[META_DATA_KEY]['Included titles'].keys())
 
-    for count, i in enumerate(catalog_keys):
-        print(f'[{count}]', i)
+    print(catalog_contents)
+    # Check if the incoming file is a single-catalog file
+    if len(catalog_contents) > 1:
+        raise ValueError("Incoming catalog must be a single-catalog file.")
 
-    catalog_choice = int(input("Which catalog above would you like to use? Type index:"))
+    # Load the cache
+    cache = json.load(open(cache_path, encoding="utf-8"))
 
-    catalog = catalog_list[catalog_keys[catalog_choice]]
+    # Do galaxy crossmatching
+    print(f"[{datetime.now()}] Crossmatching galaxies...")
+    catalog_galaxies = list(catalog.keys())[1:]
+    cache_galaxies = list(cache.keys())[1:]
 
-    # Load the cache and find the galaxy radii
-    # for gal in catalog.keys():
+    # Iterate through each galaxy in the catalog
+    for gal_name in catalog_galaxies:
+        # Check if the galaxy is already in the cache
+        for gal_name_ in cache_galaxies:
+            # If the galaxy is already in the cache, add the stars to the cache
+            if gal_name == gal_name_:
+                status_msg = f"[{datetime.now()}] Galaxy {gal_name} found in cache. " 
+                status_msg += "Adding stars..."
+                print(status_msg)
+                for star_name in catalog[gal_name].keys():
+                    if star_name == META_DATA_KEY:
+                        continue
+                    cache[gal_name][star_name] = catalog[gal_name][star_name]
+                print(f"[{datetime.now()}] Done adding stars.")
+                break
 
 
 # Execution code
 if __name__ == "__main__":
-    Kirby_2009 = retrieve_catalog("J/ApJS/191/352/abun",
-                                  f"{TEMP_FOLDER}/Kirby_2009.json")
-
-    test = retrieve_catalog("J/ApJ/838/83")
-
-    # print(Kirby_2009)
-    # add_catalog(test, f"{TEMP_FOLDER}/Kirby_2009.json", "J/ApJS/191/352/abun")
+    add_catalog("Temp/Kirby_2009.json", "Data/cache.json")
+    
 
 
 # =============================================================================
