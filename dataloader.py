@@ -3,9 +3,13 @@ import json
 import numpy as np
 from astroquery.vizier import Vizier
 from datetime import datetime
-from config import COLUMNS, TEMP_FOLDER, META_DATA_KEY
-from utilfuncs import find_nearest_galaxy
+from utilfuncs import find_nearest_galaxy, save_to_json
 from utilfuncs import dict_depth, galaxy_crossmatch
+
+# Load the configs
+config = json.load(open("config.json", encoding="utf-8"))
+ALT_COL_NAMES = config["ALT_COL_NAMES"]
+META_DATA_KEY = config["META_DATA_KEY"]
 
 def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'dSph'):
     """Retrieves data from Vizier via one prompt.
@@ -17,7 +21,6 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'dSph
         gal_title: The column name for the galaxy title.
     """
     V = Vizier(
-        # columns = COLUMNS,
         row_limit = -1
     )
     catalog_list = V.get_catalogs(prompt)
@@ -26,7 +29,7 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'dSph
     for count, i in enumerate(catalog_keys):
         print(f'[{count}]', i)
 
-    input_msg = "Which catalog above would you like to use? Type index: (Type anything else to quit)"
+    input_msg = "Which table above would you like to use? Type index: (Type anything else to quit)"
     catalog_choice = input(input_msg)
 
     try:
@@ -37,7 +40,17 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'dSph
         quit()
 
     print(f"[{datetime.now()}] Found the following columns: {catalog.colnames}")
-    output = {f"{META_DATA_KEY}": {"Included titles": {prompt: catalog.colnames}}}
+
+    # Refer to config file for the column name conversion
+    col_list = {}
+    for col in catalog.colnames:
+        try:
+            col_list[col] = ALT_COL_NAMES[col]
+        except KeyError:
+            msg = f"Found column {col} not in config file. Please specify a name: "
+            col_list[col] = input(msg)
+
+    output = {f"{META_DATA_KEY}": {"Included titles": {prompt: col_list}}}
     
     # Ask if the catalog is a single-galaxy catalog
     msg = "Is this a single-galaxy catalog? (y/n): "
@@ -52,7 +65,13 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'dSph
     else:
         print(f"[{datetime.now()}] WARNING: Invalid input. Operation aborted, no changes made.")
         quit()
-    
+
+    # Configure naming scheme
+    if isinstance(UI, list) is False:
+        UI_new = [UI]
+    else:
+        UI_new = UI
+
     print(f"[{datetime.now()}] Adding stars...")
 
     count = 0
@@ -66,9 +85,10 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'dSph
             star_gal_name = input("Please specify a galaxy name: ")
 
         # Check if the star has a name, make one up if not
-        if UI not in star.keys():
+        if UI not in star.colnames or UI is not str:
             star_name = f"{star_gal_name}_{count:04d}"
         else:
+            # If the star has a name, use it
             star_name = star[UI]
         
         # Check if the star's galaxy is specified. If not, add one.
@@ -76,8 +96,8 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'dSph
             output[star_gal_name][star_name] = {}
         except KeyError:
             if single_galaxy:
-                output[star_gal_name] = {star_name: {}}
                 print(f"[{datetime.now()}] Adding newfound galaxy {star_gal_name}...")
+            output[star_gal_name] = {star_name: {}}
 
         # Add catalog under star
         output[star_gal_name][star_name][prompt] = {}
@@ -95,37 +115,69 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'dSph
                 star_col = star[col]
             elif col == UI:
                 continue
-            elif star[col] == "--":
-                star_col = 'NaN'
             else:
                 try:
                     star_col = float(star[col])
                 except ValueError:
                     star_col = star[col]
 
-            output[star_gal_name][star_name][prompt][col] = star_col
+            if col == 'dSph':
+                new_col_name = 'dSph'
+                star_col = star_gal_name
+            else:
+                new_col_name = col_list[col]
+
+            # If the star has been labled as not a member, remove the star
+            star_abandoned = False
+            if new_col_name == 'Member' and star_col != 'Y' and star_col != 'y':
+                output[star_gal_name].pop(star_name)
+                star_abandoned = True
+                break
+            output[star_gal_name][star_name][prompt][new_col_name] = star_col
+
+        if star_abandoned:
+            continue
+
+        star = output[star_gal_name][star_name]
+        # Refresh star name
+        if isinstance(UI_new, list):
+            star = output[star_gal_name][star_name]
+            ui_temp = [star[prompt][i] for i in UI_new]
+            name_list = [str(i) for i in ui_temp]
+            star_name_new = '_'.join(name_list)
+
+            try:
+                output[star_gal_name][star_name_new] = output[star_gal_name].pop(star_name)
+            except KeyError:
+                pass
 
         count += 1
 
     output[META_DATA_KEY]['Member count'] = count
-
     print(f"[{datetime.now()}] Done adding stars.")
     if savepath is not None:
         print(f"[{datetime.now()}] Saving catalog to JSON...")
         with open(savepath, 'w', encoding="utf-8") as f:
             json.dump(output, f, indent = 4)
+
+    # Update column name settings
+    with open("config.json", 'r', encoding="utf-8") as f:
+        config_file = json.load(f)
+    config_file["ALT_COL_NAMES"].update(col_list)
+    save_to_json(config_file, "config.json")
     
     print(f"[{datetime.now()}] Done saving catalog.")
     return output
 
+
 # Write a function to sort new stars into galaxies
-def add_catalog(catalog_path, cache_path):
+def add_catalog(catalog_path, catalog_name, cache_path, ref_catalog):
     """Takes a single-catalog JSON file and adds it to the cache."""
     # Load the catalog
     catalog = json.load(open(catalog_path, encoding="utf-8"))
     catalog_contents = list(catalog[META_DATA_KEY]['Included titles'].keys())
 
-    print(catalog_contents)
+    # print(catalog_contents)
     # Check if the incoming file is a single-catalog file
     if len(catalog_contents) > 1:
         raise ValueError("Incoming catalog must be a single-catalog file.")
@@ -144,21 +196,127 @@ def add_catalog(catalog_path, cache_path):
         for gal_name_ in cache_galaxies:
             # If the galaxy is already in the cache, add the stars to the cache
             if gal_name == gal_name_:
-                status_msg = f"[{datetime.now()}] Galaxy {gal_name} found in cache. " 
+                status_msg = f"[{datetime.now()}] Galaxy {gal_name} found in cache. "
                 status_msg += "Adding stars..."
                 print(status_msg)
-                for star_name in catalog[gal_name].keys():
-                    if star_name == META_DATA_KEY:
-                        continue
-                    cache[gal_name][star_name] = catalog[gal_name][star_name]
-                print(f"[{datetime.now()}] Done adding stars.")
-                break
 
+            # If the galaxy is not in the cache, find the nearest galaxy
+            # and add the stars to that galaxy
+            else:
+                status_msg = f"[{datetime.now()}] Galaxy {gal_name} not found in cache. "
+                status_msg += "Finding nearest galaxy..."
+                print(status_msg)
+
+                # Find the nearest galaxy
+                nearest_galaxy = galaxy_crossmatch(catalog[gal_name],
+                                                      catalog_name,
+                                                      ref_catalog,
+                                                      cache)
+
+                if nearest_galaxy is None:
+                    msg = f"[{datetime.now()}] No galaxy in the cach matches galaxy {gal_name}. "
+                    msg += "Adding galaxy to cache..."
+                    print(msg)
+                    cache[gal_name] = catalog[gal_name]
+                    continue
+
+                # Add the stars to the nearest galaxy
+                try:
+                    cache[nearest_galaxy][gal_name] = catalog[gal_name]
+                except KeyError:
+                    print(f"[{datetime.now()}] Adding newfound galaxy {nearest_galaxy}...")
+                    cache[nearest_galaxy] = {gal_name: catalog[gal_name]}
+                print(f"[{datetime.now()}] Added galaxy {gal_name} to galaxy {nearest_galaxy}.")
+
+            for star_name in catalog[gal_name].keys():
+                if star_name == META_DATA_KEY:
+                    continue
+                cache[gal_name][star_name] = catalog[gal_name][star_name]
+
+                time = datetime.now()
+                print(f"[{time}] Added star {star_name} to galaxy {gal_name}.")
+            print(f"[{datetime.now()}] Done adding stars.")
+
+    # Add catalog to the list of included titles
+    catalog_metadata = catalog[META_DATA_KEY]['Included titles'][catalog_name]
+    cache[META_DATA_KEY]['Included titles'][catalog_name] = catalog_metadata
+
+    # Update member count
+    cache[META_DATA_KEY]['Included titles'] += catalog[META_DATA_KEY]['Memeber count']
+    
+    # Save the cache
+    print(f"[{datetime.now()}] Saving cache...")
+    save_to_json(cache, cache_path)
+
+    return cache
+
+def merge_catalogs(catalog1_path, catalog2_path, catalog1_name, catalog2_name, alter_savepath = None):
+    """Naively merges two catalogs by combining their data.
+    If both catalogs have stars and galaxies under the same names,
+        their data will be combined.
+    If both catalogs have stars and galaxies under different names,
+        their data will be logged separately. 
+    
+    Args:
+        catalog1: Save path to the receiving catalog
+        catalog2: Save path to the catalog to be merged into the receiving catalog
+        catalog1_name: The name of the receiving catalog
+        catalog2_name: The name of the other catalog
+    
+    Returns:
+        The merged catalog
+    """
+    # Load the catalogs
+    catalog1 = json.load(open(catalog1_path, encoding="utf-8"))
+    catalog2 = json.load(open(catalog2_path, encoding="utf-8"))
+
+    # Check each of their depths
+    catalog1_depth = dict_depth(catalog1)
+    catalog2_depth = dict_depth(catalog2)
+
+    if catalog1_depth != catalog2_depth:
+        raise ValueError("Catalogs must have the same depth.")
+    if catalog1_depth != 4:
+        msg = "Need 4-level catalogs. "
+        msg += f"Catalog 1 has {catalog1_depth} levels. "
+        msg += f"Catalog 2 has {catalog2_depth} levels."
+        raise ValueError(msg)
+    
+    for gal_name in catalog2:
+        if gal_name == META_DATA_KEY:
+            catalog1_columns = catalog1[gal_name]['Included titles'][catalog1_name]
+            catalog2_columns = catalog2[gal_name]['Included titles'][catalog2_name]
+
+            new_columns = catalog1_columns | catalog2_columns
+
+            catalog1[gal_name]['Included titles'][catalog1_name] = new_columns
+
+            continue
+        
+        gal = catalog2[gal_name]
+        for star2_name in gal:
+            star2 = gal[star2_name]
+            try:
+                catalog1_gal = catalog1[gal_name]
+            except KeyError:
+                continue
+            if star2_name in catalog1_gal.keys():
+                star1 = catalog1_gal[star2_name]
+                new_star = star1 | star2
+                catalog1_gal[star2_name] = new_star
+            else:
+                catalog1_gal[star2_name] = star2
+
+    # Save the merged catalog
+    savepath = alter_savepath if alter_savepath is not None else catalog1_path
+    save_to_json(catalog1, savepath)
+
+    return catalog1
+                
 
 # Execution code
 if __name__ == "__main__":
-    add_catalog("Temp/Kirby_2009.json", "Data/cache.json")
-    
+    # add_catalog("Temp/J_ApJ_838_83.json", "J/ApJ/838/83", 'Data/cache.json', "J/ApJS/191/352/abun")
 
 
 # =============================================================================
