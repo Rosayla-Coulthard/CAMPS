@@ -172,6 +172,8 @@ def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str):
     
         Precondition: the two galaxies are already crossmatched.
     """
+    # BUG: throws error when the two galaxies have different number of stars
+    # NOTE: check distance to the closest star, if it is too far, then they don't match
     # Get the coordinates of all stars in gal1
     gal1_coords = []
     for star in gal1.keys():
@@ -196,6 +198,8 @@ def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str):
 
     idx, d2d, d3d = match_coordinates_sky(gal1_coords, gal2_coords)
 
+    # NOTE: iteratre through the stars in the incoming galaxy and the closest stars. Skip the ones that do not have a match and save them to a separate dictionary. For those that have a match, add their data directly to the matching star. The ones without a match will be added to the cache galaxy as a new star.
+    # NOTE: Remember the threshold thing
     # Find the closest star in gal2 for each star in gal1
     gal1_star_names = list(gal1.keys())
     gal2_star_names = list(gal2.keys())
@@ -223,6 +227,9 @@ if __name__ == "__main__":
     cache = json.load(open("Data/cache.json", encoding="utf-8"))
 
     gal1 = cache['Scl']
-    gal2 = cache['Scl']
+    gal2 = cache['For']
 
-    star_crossmatch(gal1, "J/ApJS/191/352/abun", gal2, "J/ApJS/191/352/abun")
+    gal1_, gal2_ = star_crossmatch(gal1, "J/ApJS/191/352/abun", gal2, "J/ApJS/191/352/abun")
+
+    print(gal1_.keys())
+    print(gal2_.keys())

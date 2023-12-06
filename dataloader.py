@@ -193,57 +193,48 @@ def add_catalog(catalog_path, catalog_name, cache_path, ref_catalog):
     # Iterate through each galaxy in the catalog
     for gal_name in catalog_galaxies:
         # Check if the galaxy is already in the cache
+        galaxy_found = False
         for gal_name_ in cache_galaxies:
             # If the galaxy is already in the cache, add the stars to the cache
             if gal_name == gal_name_:
+                galaxy_found = True
                 status_msg = f"[{datetime.now()}] Galaxy {gal_name} found in cache. "
                 status_msg += "Adding stars..."
                 print(status_msg)
+                # NOTE: star crossmatch happens here, and add the stars to the cache
 
+                break
             # If the galaxy is not in the cache, find the nearest galaxy
             # and add the stars to that galaxy
-            else:
-                status_msg = f"[{datetime.now()}] Galaxy {gal_name} not found in cache. "
-                status_msg += "Finding nearest galaxy..."
-                print(status_msg)
 
-                # Find the nearest galaxy
-                nearest_galaxy = galaxy_crossmatch(catalog[gal_name],
-                                                      catalog_name,
-                                                      ref_catalog,
-                                                      cache)
+        if galaxy_found is False:
+            status_msg = f"[{datetime.now()}] Galaxy {gal_name} not found in cache. "
+            status_msg += "Finding nearest galaxy..."
+            print(status_msg)
 
-                if nearest_galaxy is None:
-                    msg = f"[{datetime.now()}] No galaxy in the cach matches galaxy {gal_name}. "
-                    msg += "Adding galaxy to cache..."
-                    print(msg)
-                    cache[gal_name] = catalog[gal_name]
-                    continue
+            # Find the nearest galaxy
+            nearest_galaxy = galaxy_crossmatch(catalog[gal_name],catalog_name,ref_catalog,cache)
 
-                # Add the stars to the nearest galaxy
-                try:
-                    cache[nearest_galaxy][gal_name] = catalog[gal_name]
-                except KeyError:
-                    print(f"[{datetime.now()}] Adding newfound galaxy {nearest_galaxy}...")
-                    cache[nearest_galaxy] = {gal_name: catalog[gal_name]}
-                print(f"[{datetime.now()}] Added galaxy {gal_name} to galaxy {nearest_galaxy}.")
+            if nearest_galaxy is None:
+                # This happens when the galaxy was not previously recorded
+                msg = f"[{datetime.now()}] No galaxy in the cach matches galaxy {gal_name}. "
+                msg += "Adding galaxy to cache..."
+                print(msg)
+                cache[gal_name] = catalog[gal_name]
+                continue
+            
+            #NOTE: star crossmatch happens here, AGAIN
 
-            for star_name in catalog[gal_name].keys():
-                if star_name == META_DATA_KEY:
-                    continue
-                cache[gal_name][star_name] = catalog[gal_name][star_name]
-
-                time = datetime.now()
-                print(f"[{time}] Added star {star_name} to galaxy {gal_name}.")
-            print(f"[{datetime.now()}] Done adding stars.")
+        time = datetime.now()
+        print(f"[{time}] Done adding stars.")
 
     # Add catalog to the list of included titles
     catalog_metadata = catalog[META_DATA_KEY]['Included titles'][catalog_name]
     cache[META_DATA_KEY]['Included titles'][catalog_name] = catalog_metadata
 
     # Update member count
-    cache[META_DATA_KEY]['Included titles'] += catalog[META_DATA_KEY]['Memeber count']
-    
+    cache[META_DATA_KEY]['Member count'] += catalog[META_DATA_KEY]['Member count']
+
     # Save the cache
     print(f"[{datetime.now()}] Saving cache...")
     save_to_json(cache, cache_path)
@@ -316,7 +307,7 @@ def merge_catalogs(catalog1_path, catalog2_path, catalog1_name, catalog2_name, a
 
 # Execution code
 if __name__ == "__main__":
-    # add_catalog("Temp/J_ApJ_838_83.json", "J/ApJ/838/83", 'Data/cache.json', "J/ApJS/191/352/abun")
+    add_catalog("Temp/J_ApJ_838_83.json", "J/ApJ/838/83", 'Data/cache.json', "J/ApJS/191/352/abun")
 
 
 # =============================================================================
