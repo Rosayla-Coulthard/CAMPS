@@ -1,0 +1,3398 @@
+{
+    "Meta data": {
+        "Included titles": {
+            "J/A+A/641/A127": {
+                "ID": "Name",
+                "Galaxy": "dSph",
+                "El": "Element",
+                "Ion": "Ion_state",
+                "lambda": "Absorp_feature_lambda",
+                "log_eps_": "Abs_abun"
+            }
+        },
+        "Member count": 4606
+    },
+    "Boo I": {
+        "[NGW2008] 41": {
+            "J/A+A/641/A127": {
+                "dSph": "Boo I",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5476.919921875,
+                "Abs_abun": 4.139999866485596
+            }
+        },
+        "[NGW2008] 1137": {
+            "J/A+A/641/A127": {
+                "dSph": "Boo I",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6496.89990234375,
+                "Abs_abun": -2.0999999046325684
+            }
+        },
+        "[NGW2008] 7": {
+            "J/A+A/641/A127": {
+                "dSph": "Boo I",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5183.60009765625,
+                "Abs_abun": 5.230000019073486
+            }
+        }
+    },
+    "Car": {
+        "2MASS J06411566-5059480": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Mn",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5420.35986328125,
+                "Abs_abun": 3.640000104904175
+            }
+        },
+        "[SMS86]  70": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6606.9501953125,
+                "Abs_abun": 3.630000114440918
+            }
+        },
+        "[MOP2000] C120318": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 4.110000133514404
+            }
+        },
+        "[LHT2012] MKV0577": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.010000228881836
+            }
+        },
+        "2MASS J06413647-5056231": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4883.68994140625,
+                "Abs_abun": 0.3100000023841858
+            }
+        },
+        "[LHT2012] MKV0397": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5476.919921875,
+                "Abs_abun": 3.3299999237060547
+            }
+        },
+        "[LHT2012] MKV0598": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 4.420000076293945
+            }
+        },
+        "2MASS J06411632-5100185": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.440000057220459
+            }
+        },
+        "2MASS J06412612-5055439": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6330.08984375,
+                "Abs_abun": 4.800000190734863
+            }
+        },
+        "[LHT2012] MKV0976": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.139999866485596
+            }
+        },
+        "2MASS J06403111-5055246": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5476.919921875,
+                "Abs_abun": 4.570000171661377
+            }
+        },
+        "[LHT2012] MKV0743": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5409.77001953125,
+                "Abs_abun": 3.7300000190734863
+            }
+        },
+        "2MASS J06405711-5057442": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 4.03000020980835
+            }
+        },
+        "2MASS J06405695-5058383": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.260000228881836
+            }
+        },
+        "2MASS J06403535-5054080": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6606.9501953125,
+                "Abs_abun": 4.309999942779541
+            }
+        },
+        "2MASS J06410030-5103427": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5526.7998046875,
+                "Abs_abun": 1.340000033378601
+            }
+        },
+        "2MASS J06411227-5057260": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.25
+            }
+        },
+        "2MASS J06404244-5100428": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 3.680000066757202
+            }
+        },
+        "2MASS J06404083-5054292": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.039999961853027
+            }
+        },
+        "2MASS J06412918-5105219": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 4.389999866485596
+            }
+        },
+        "2MASS J06414637-5101227": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 4.090000152587891
+            }
+        },
+        "[MOP2000] C160266": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 4.949999809265137
+            }
+        },
+        "2MASS J06415460-5057007": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5526.7998046875,
+                "Abs_abun": 0.75
+            }
+        },
+        "2MASS J06420281-5058597": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 4.159999847412109
+            }
+        },
+        "2MASS J06420896-5100481": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 6.360000133514404
+            }
+        },
+        "[MOP2000] C131364": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 4.869999885559082
+            }
+        },
+        "[MOP2000] C131048": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.539999961853027
+            }
+        },
+        "2MASS J06415158-5103355": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 5.099999904632568
+            }
+        },
+        "2MASS J06415434-5102460": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 4.559999942779541
+            }
+        },
+        "2MASS J06421749-5056260": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5409.77001953125,
+                "Abs_abun": 3.940000057220459
+            }
+        },
+        "[MOP2000] C130725": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 5.039999961853027
+            }
+        },
+        "[MOP2000] C121630": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.329999923706055
+            }
+        },
+        "[MOP2000] C120769": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 5.739999771118164
+            }
+        },
+        "[MOP2000] C120614": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.170000076293945
+            }
+        },
+        "2MASS J06423035-5056331": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 4.849999904632568
+            }
+        },
+        "2MASS J06423789-5053377": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5409.77001953125,
+                "Abs_abun": 3.0799999237060547
+            }
+        },
+        "2MASS J06423853-5056001": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 4.019999980926514
+            }
+        },
+        "2MASS J06414463-5103312": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.819999933242798
+            }
+        },
+        "2MASS J06414082-5054457": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 5.829999923706055
+            }
+        },
+        "2MASS J06413765-5101436": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.180000066757202
+            }
+        },
+        "[WMO2009] Car-0724": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.440000057220459
+            }
+        },
+        "[WMO2009] Car-1494": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6496.89990234375,
+                "Abs_abun": 0.18000000715255737
+            }
+        },
+        "[MOP2000] C160589": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5409.77001953125,
+                "Abs_abun": 3.4600000381469727
+            }
+        },
+        "[MOP2000] C170294": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5476.919921875,
+                "Abs_abun": 4.860000133514404
+            }
+        },
+        "2MASS J06414604-5051013": {
+            "J/A+A/641/A127": {
+                "dSph": "Car",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5409.77001953125,
+                "Abs_abun": 2.609999895095825
+            }
+        }
+    },
+    "For": {
+        "[LHT2010] BL158": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6606.9501953125,
+                "Abs_abun": 4.099999904632568
+            }
+        },
+        "GB07 Fnx11": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5409.77001953125,
+                "Abs_abun": 4.75
+            }
+        },
+        "[WMO2009] For-0968": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.4800000190734863
+            }
+        },
+        "[WMO2009] For-0956": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6141.72998046875,
+                "Abs_abun": 1.5499999523162842
+            }
+        },
+        "2MASS J02392218-3419407": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mn",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5432.5498046875,
+                "Abs_abun": 3.4600000381469727
+            }
+        },
+        "[WMO2009] For-0952": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 4.050000190734863
+            }
+        },
+        "GB07 Fnx08": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 5.050000190734863
+            }
+        },
+        "FBW J024006.1-342852": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6496.89990234375,
+                "Abs_abun": 1.0099999904632568
+            }
+        },
+        "[WMO2009] For-0970": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4883.68994140625,
+                "Abs_abun": 0.07000000029802322
+            }
+        },
+        "2MASS J02383503-3441380": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Eu",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6645.2099609375,
+                "Abs_abun": 0.3400000035762787
+            }
+        },
+        "2MASS J02392769-3437487": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.880000114440918
+            }
+        },
+        "2MASS J02392805-3434013": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6318.72021484375,
+                "Abs_abun": 6.519999980926514
+            }
+        },
+        "2MASS J02393084-3435451": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6606.9501953125,
+                "Abs_abun": 4.639999866485596
+            }
+        },
+        "2MASS J02392483-3434383": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 4.130000114440918
+            }
+        },
+        "2MASS J02393808-3437062": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.949999809265137
+            }
+        },
+        "2MASS J02394195-3430361": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6606.9501953125,
+                "Abs_abun": 4.269999980926514
+            }
+        },
+        "2MASS J02393412-3433096": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6176.81982421875,
+                "Abs_abun": 5.25
+            }
+        },
+        "2MASS J02393153-3423052": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.9800000190734863
+            }
+        },
+        "[WMO2009] For-1120": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.75
+            }
+        },
+        "[WMO2009] For-1117": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5476.919921875,
+                "Abs_abun": 4.949999809265137
+            }
+        },
+        "[LHT2010] BL233": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 5.300000190734863
+            }
+        },
+        "[LHT2010] BL204": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5526.7998046875,
+                "Abs_abun": 1.6200000047683716
+            }
+        },
+        "[LHT2010] BL261": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6606.9501953125,
+                "Abs_abun": 4.079999923706055
+            }
+        },
+        "[LHT2010] BL147": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.260000228881836
+            }
+        },
+        "[LHT2010] BL163": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5476.919921875,
+                "Abs_abun": 5.989999771118164
+            }
+        },
+        "[LDH2014] Fnx-mem0556": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 5.010000228881836
+            }
+        },
+        "[LDH2014] Fnx-mem0546": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5476.919921875,
+                "Abs_abun": 4.849999904632568
+            }
+        },
+        "[LDH2014] Fnx-mem0572": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6606.9501953125,
+                "Abs_abun": 4.190000057220459
+            }
+        },
+        "[LDH2014] Fnx-mem0543": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Eu",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6645.2099609375,
+                "Abs_abun": 0.029999999329447746
+            }
+        },
+        "[LDH2014] Fnx-mem0574": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Eu",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6645.2099609375,
+                "Abs_abun": 0.07999999821186066
+            }
+        },
+        "[LHT2010] BL298": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5402.77978515625,
+                "Abs_abun": 1.5199999809265137
+            }
+        },
+        "[LHT2010] BL146": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6496.89990234375,
+                "Abs_abun": 1.340000033378601
+            }
+        },
+        "2MASS J02381393-3446553": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Eu",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6645.2099609375,
+                "Abs_abun": -0.5099999904632568
+            }
+        },
+        "2MASS J02382132-3436180": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.890000104904175
+            }
+        },
+        "[LDH2014] Fnx-rgb0522": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6141.72998046875,
+                "Abs_abun": 0.6600000262260437
+            }
+        },
+        "[LDH2014] Fnx-rgb0553": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5476.919921875,
+                "Abs_abun": 4.949999809265137
+            }
+        },
+        "2MASS J02383502-3442406": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.519999980926514
+            }
+        },
+        "2MASS J02383087-3447446": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 3.190000057220459
+            }
+        },
+        "[LHT2010] BL138": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 4.260000228881836
+            }
+        },
+        "[LHT2010] BL104": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.760000228881836
+            }
+        },
+        "[LHT2010] BL084": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6606.9501953125,
+                "Abs_abun": 3.930000066757202
+            }
+        },
+        "[LHT2010] BL100": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mn",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5420.35986328125,
+                "Abs_abun": 4.110000133514404
+            }
+        },
+        "[WMO2009] For-1581": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.869999885559082
+            }
+        },
+        "[WMO2009] For-1877": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.6600000858306885
+            }
+        },
+        "[WMO2009] For-1579": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6496.89990234375,
+                "Abs_abun": 1.4700000286102295
+            }
+        },
+        "[WMO2009] For-2026": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.920000076293945
+            }
+        },
+        "[WMO2009] For-2280": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6606.9501953125,
+                "Abs_abun": 4.119999885559082
+            }
+        },
+        "[WMO2009] For-1353": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5476.919921875,
+                "Abs_abun": 3.950000047683716
+            }
+        },
+        "[WMO2009] For-1208": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6318.72021484375,
+                "Abs_abun": 6.809999942779541
+            }
+        },
+        "[WMO2009] For-1219": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6309.89990234375,
+                "Abs_abun": 1.940000057220459
+            }
+        },
+        "[LDH2014] Fnx-mem0522": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.769999980926514
+            }
+        },
+        "[LDH2014] Fnx-mem0532": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5409.77001953125,
+                "Abs_abun": 5.199999809265137
+            }
+        },
+        "[KGS2010] For   64059": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5526.7998046875,
+                "Abs_abun": 1.649999976158142
+            }
+        },
+        "[LHT2010] BL311": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mn",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5420.35986328125,
+                "Abs_abun": 3.9800000190734863
+            }
+        },
+        "[LDH2014] Fnx-mem0539": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6141.72998046875,
+                "Abs_abun": 1.4800000190734863
+            }
+        },
+        "WEL  60": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5526.7998046875,
+                "Abs_abun": 1.4700000286102295
+            }
+        },
+        "[BTH2006] fnx-05 042": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4883.68994140625,
+                "Abs_abun": -1.100000023841858
+            }
+        },
+        "[HBJ2016] b0016": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.8499999046325684
+            }
+        },
+        "[HKW2014] 150": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5476.919921875,
+                "Abs_abun": 5.489999771118164
+            }
+        },
+        "2MASS J02394309-3440186": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6606.9501953125,
+                "Abs_abun": 4.159999847412109
+            }
+        },
+        "2MASS J02385365-3433048": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5476.919921875,
+                "Abs_abun": 5.53000020980835
+            }
+        },
+        "2MASS J02385555-3425365": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6496.89990234375,
+                "Abs_abun": -0.05999999865889549
+            }
+        },
+        "2MASS J02385721-3435400": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Eu",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6645.2099609375,
+                "Abs_abun": -0.17000000178813934
+            }
+        },
+        "2MASS J02384113-3444205": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Eu",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6645.2099609375,
+                "Abs_abun": 0.09000000357627869
+            }
+        },
+        "2MASS J02390031-3430302": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6176.81982421875,
+                "Abs_abun": 5.099999904632568
+            }
+        },
+        "2MASS J02390157-3436488": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6606.9501953125,
+                "Abs_abun": 4.199999809265137
+            }
+        },
+        "[LDH2014] Fnx-mem0717": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.920000076293945
+            }
+        },
+        "[LDH2014] Fnx-mem0732": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mn",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5432.5498046875,
+                "Abs_abun": 3.0299999713897705
+            }
+        },
+        "[LDH2014] Fnx-mem0715": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.71999979019165
+            }
+        },
+        "[LDH2014] Fnx-mem0754": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.539999961853027
+            }
+        },
+        "[LDH2014] Fnx-mem0747": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6606.9501953125,
+                "Abs_abun": 3.9800000190734863
+            }
+        },
+        "2MASS J02391437-3434427": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 7.0
+            }
+        },
+        "2MASS J02391606-3430135": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6309.89990234375,
+                "Abs_abun": 1.9199999570846558
+            }
+        },
+        "2MASS J02391398-3428364": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 4.130000114440918
+            }
+        },
+        "2MASS J02391159-3430448": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6176.81982421875,
+                "Abs_abun": 4.860000133514404
+            }
+        },
+        "2MASS J02391783-3430570": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6496.89990234375,
+                "Abs_abun": 1.2999999523162842
+            }
+        },
+        "[MOW91]  21": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6330.08984375,
+                "Abs_abun": 4.860000133514404
+            }
+        },
+        "2MASS J02390819-3436537": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.989999771118164
+            }
+        },
+        "2MASS J02390853-3430556": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6177.25,
+                "Abs_abun": 5.110000133514404
+            }
+        },
+        "2MASS J02390434-3425190": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5409.77001953125,
+                "Abs_abun": 5.329999923706055
+            }
+        },
+        "2MASS J02391102-3428348": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5476.919921875,
+                "Abs_abun": 5.349999904632568
+            }
+        },
+        "[LDH2014] Fnx-mem0714": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5476.919921875,
+                "Abs_abun": 4.429999828338623
+            }
+        },
+        "[WMO2006] F01-23": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.800000190734863
+            }
+        },
+        "[LDH2014] Fnx-mem0607": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6176.81982421875,
+                "Abs_abun": 5.199999809265137
+            }
+        },
+        "[WMO2006] F01-6": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.7899999618530273
+            }
+        },
+        "[LDH2014] Fnx-mem0626": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 5.150000095367432
+            }
+        },
+        "[LDH2014] Fnx-mem0612": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mn",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5420.35986328125,
+                "Abs_abun": 3.75
+            }
+        },
+        "[LDH2014] Fnx-mem0629": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 4.110000133514404
+            }
+        },
+        "[WMO2009] For-0168": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mn",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5432.5498046875,
+                "Abs_abun": 3.609999895095825
+            }
+        },
+        "[WMO2009] For-0391": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6606.9501953125,
+                "Abs_abun": 4.210000038146973
+            }
+        },
+        "[WMO2009] For-0387": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6177.25,
+                "Abs_abun": 4.820000171661377
+            }
+        },
+        "[WMO2009] For-0910": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.769999980926514
+            }
+        },
+        "[WMO2009] For-0361": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6176.81982421875,
+                "Abs_abun": 4.789999961853027
+            }
+        },
+        "[WMO2009] For-0365": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6141.72998046875,
+                "Abs_abun": 1.5299999713897705
+            }
+        },
+        "[LDH2014] Fnx-mem0664": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5526.7998046875,
+                "Abs_abun": 0.6899999976158142
+            }
+        },
+        "[LDH2014] Fnx-mem0675": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 4.019999980926514
+            }
+        },
+        "[LDH2014] Fnx-mem0647": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6176.81982421875,
+                "Abs_abun": 4.900000095367432
+            }
+        },
+        "[LDH2014] Fnx-mem0654": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.75
+            }
+        },
+        "[LDH2014] Fnx-mem0678": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6606.9501953125,
+                "Abs_abun": 4.510000228881836
+            }
+        },
+        "[LDH2014] Fnx-mem0682": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5526.7998046875,
+                "Abs_abun": 1.7300000190734863
+            }
+        },
+        "[LDH2014] Fnx-mem0633": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6606.9501953125,
+                "Abs_abun": 3.740000009536743
+            }
+        },
+        "[LDH2014] Fnx-mem0631": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6318.72021484375,
+                "Abs_abun": 6.630000114440918
+            }
+        },
+        "[LDH2014] Fnx-mem0634": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6606.9501953125,
+                "Abs_abun": 4.369999885559082
+            }
+        },
+        "[LDH2014] Fnx-mem0638": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6496.89990234375,
+                "Abs_abun": 1.5800000429153442
+            }
+        },
+        "2MASS J02401752-3426065": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.559999942779541
+            }
+        },
+        "2MASS J02401790-3427010": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6606.9501953125,
+                "Abs_abun": 3.940000057220459
+            }
+        },
+        "2MASS J02401677-3429346": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5409.77001953125,
+                "Abs_abun": 5.039999961853027
+            }
+        },
+        "2MASS J02401043-3425177": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6176.81982421875,
+                "Abs_abun": 5.0
+            }
+        },
+        "[LDH2014] Fnx-mem0779": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 5.710000038146973
+            }
+        },
+        "[LDH2014] Fnx-mem0595": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.590000152587891
+            }
+        },
+        "[WMO2009] For-0949": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6309.89990234375,
+                "Abs_abun": 1.809999942779541
+            }
+        },
+        "2MASS J02394528-3431581": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 4.659999847412109
+            }
+        },
+        "2MASS J02395144-3421211": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 4.440000057220459
+            }
+        },
+        "2MASS J02395427-3435114": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.799999952316284
+            }
+        },
+        "2MASS J02395732-3431211": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.5399999618530273
+            }
+        },
+        "2MASS J02395604-3424106": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5409.77001953125,
+                "Abs_abun": 5.289999961853027
+            }
+        },
+        "[WMO2006] F01-20": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mn",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5420.35986328125,
+                "Abs_abun": 3.690000057220459
+            }
+        },
+        "GB07 Fnx24": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.6700000762939453
+            }
+        },
+        "[WMO2006] F01-16": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.949999809265137
+            }
+        },
+        "[MOW91]   8": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.710000038146973
+            }
+        },
+        "2MASS J02384018-3439121": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 4.320000171661377
+            }
+        },
+        "2MASS J02392022-3431571": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 5.159999847412109
+            }
+        },
+        "[MOW91]  25": {
+            "J/A+A/641/A127": {
+                "dSph": "For",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5402.77978515625,
+                "Abs_abun": 0.8899999856948853
+            }
+        }
+    },
+    "Dra": {
+        "[BFO2002] Dra 50027": {
+            "J/A+A/641/A127": {
+                "dSph": "Dra",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5526.7998046875,
+                "Abs_abun": 0.9300000071525574
+            }
+        },
+        "[BS61] 119": {
+            "J/A+A/641/A127": {
+                "dSph": "Dra",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5476.919921875,
+                "Abs_abun": 2.1700000762939453
+            }
+        },
+        "Irwin Dra 21275": {
+            "J/A+A/641/A127": {
+                "dSph": "Dra",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6496.89990234375,
+                "Abs_abun": -0.9200000166893005
+            }
+        },
+        "SDSS J172034.19+575331.9": {
+            "J/A+A/641/A127": {
+                "dSph": "Dra",
+                "Element": "Mn",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5432.5498046875,
+                "Abs_abun": 3.2899999618530273
+            }
+        },
+        "Irwin Dra 18009": {
+            "J/A+A/641/A127": {
+                "dSph": "Dra",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 2.880000114440918
+            }
+        },
+        "Irwin Dra 19219": {
+            "J/A+A/641/A127": {
+                "dSph": "Dra",
+                "Element": "Sr",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4215.52001953125,
+                "Abs_abun": -1.6299999952316284
+            }
+        },
+        "SDSS J171810.38+575209.0": {
+            "J/A+A/641/A127": {
+                "dSph": "Dra",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5183.60009765625,
+                "Abs_abun": 5.329999923706055
+            }
+        }
+    },
+    "Leo I": {
+        "2MASS J10082205+1220204": {
+            "J/A+A/641/A127": {
+                "dSph": "Leo I",
+                "Element": "Mn",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6013.509765625,
+                "Abs_abun": 3.7899999618530273
+            }
+        },
+        "[MOV98]  2": {
+            "J/A+A/641/A127": {
+                "dSph": "Leo I",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5476.919921875,
+                "Abs_abun": 5.070000171661377
+            }
+        }
+    },
+    "Ret II": {
+        "[KCB2015] Reti  4": {
+            "J/A+A/641/A127": {
+                "dSph": "Ret II",
+                "Element": "Eu",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6645.2099609375,
+                "Abs_abun": -0.7799999713897705
+            }
+        },
+        "[WMO2015] 80": {
+            "J/A+A/641/A127": {
+                "dSph": "Ret II",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6496.89990234375,
+                "Abs_abun": 0.49000000953674316
+            }
+        },
+        "[WMO2015] 35": {
+            "J/A+A/641/A127": {
+                "dSph": "Ret II",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6496.89990234375,
+                "Abs_abun": 0.10999999940395355
+            }
+        },
+        "[WMO2015] 129": {
+            "J/A+A/641/A127": {
+                "dSph": "Ret II",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6496.89990234375,
+                "Abs_abun": 0.9900000095367432
+            }
+        },
+        "[KCB2015] Reti 15": {
+            "J/A+A/641/A127": {
+                "dSph": "Ret II",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 3.799999952316284
+            }
+        },
+        "DES J033607.75-540235.6": {
+            "J/A+A/641/A127": {
+                "dSph": "Ret II",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 5.289999961853027
+            }
+        }
+    },
+    "Scl": {
+        "2MASS J01000758-3337039": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6177.25,
+                "Abs_abun": 4.239999771118164
+            }
+        },
+        "2MASS J00594768-3347293": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6309.89990234375,
+                "Abs_abun": 1.7400000095367432
+            }
+        },
+        "2MASS J01000697-3347095": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.389999866485596
+            }
+        },
+        "2MASS J00594992-3344050": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4883.68994140625,
+                "Abs_abun": -0.10999999940395355
+            }
+        },
+        "[STS2015] ET0145": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.609999895095825
+            }
+        },
+        "[STS2015] ET0237": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.190000057220459
+            }
+        },
+        "[SHT2013] Scl 03 059": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5183.60009765625,
+                "Abs_abun": 5.130000114440918
+            }
+        },
+        "[V78] 551": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Sr",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4215.52001953125,
+                "Abs_abun": -2.1500000953674316
+            }
+        },
+        "GB07 Scl34": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4883.68994140625,
+                "Abs_abun": 0.2199999988079071
+            }
+        },
+        "[STS2015] ET0206": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.930000066757202
+            }
+        },
+        "2MASS J00595306-3343583": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.199999809265137
+            }
+        },
+        "2MASS J01000419-3343324": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6141.72998046875,
+                "Abs_abun": -0.550000011920929
+            }
+        },
+        "2MASS J00594258-3342182": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6141.72998046875,
+                "Abs_abun": 0.5099999904632568
+            }
+        },
+        "2MASS J00594490-3344350": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4883.68994140625,
+                "Abs_abun": 0.6899999976158142
+            }
+        },
+        "2MASS J00595563-3333246": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5526.7998046875,
+                "Abs_abun": 1.2400000095367432
+            }
+        },
+        "2MASS J00595448-3337533": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6496.89990234375,
+                "Abs_abun": 0.6700000166893005
+            }
+        },
+        "2MASS J00595422-3340270": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.449999809265137
+            }
+        },
+        "2MASS J00595586-3345435": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4883.68994140625,
+                "Abs_abun": 0.47999998927116394
+            }
+        },
+        "2MASS J00595568-3346400": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 5.940000057220459
+            }
+        },
+        "2MASS J00594529-3343540": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5526.7998046875,
+                "Abs_abun": 0.8700000047683716
+            }
+        },
+        "2MASS J00594721-3333370": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Zn",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 4810.5400390625,
+                "Abs_abun": 2.75
+            }
+        },
+        "2MASS J00595400-3337421": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5409.77001953125,
+                "Abs_abun": 3.930000066757202
+            }
+        },
+        "2MASS J01000268-3330253": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 4.909999847412109
+            }
+        },
+        "2MASS J01000050-3349355": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 5.53000020980835
+            }
+        },
+        "2MASS J00595966-3339319": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Eu",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6645.2099609375,
+                "Abs_abun": -0.5099999904632568
+            }
+        },
+        "2MASS J00595831-3334406": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5526.7998046875,
+                "Abs_abun": 1.2200000286102295
+            }
+        },
+        "2MASS J01000360-3339271": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5526.7998046875,
+                "Abs_abun": 1.5199999809265137
+            }
+        },
+        "2MASS J00595826-3345507": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4883.68994140625,
+                "Abs_abun": 0.12999999523162842
+            }
+        },
+        "2MASS J00595660-3336417": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6141.72998046875,
+                "Abs_abun": 0.25999999046325684
+            }
+        },
+        "2MASS J00595827-3341087": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6141.72998046875,
+                "Abs_abun": 0.800000011920929
+            }
+        },
+        "2MASS J00590860-3342295": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5526.7998046875,
+                "Abs_abun": 0.9599999785423279
+            }
+        },
+        "2MASS J01005418-3340146": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mn",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5432.5498046875,
+                "Abs_abun": 3.4000000953674316
+            }
+        },
+        "2MASS J01001181-3342169": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 5.130000114440918
+            }
+        },
+        "2MASS J01001174-3344503": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5526.7998046875,
+                "Abs_abun": 0.8700000047683716
+            }
+        },
+        "2MASS J01001051-3349366": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.690000057220459
+            }
+        },
+        "2MASS J01001278-3341157": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5476.919921875,
+                "Abs_abun": 4.130000114440918
+            }
+        },
+        "2MASS J01001255-3343011": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 4.760000228881836
+            }
+        },
+        "2MASS J01002384-3342173": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4883.68994140625,
+                "Abs_abun": 0.6200000047683716
+            }
+        },
+        "2MASS J01000919-3336094": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5409.77001953125,
+                "Abs_abun": 4.320000171661377
+            }
+        },
+        "2MASS J00594140-3338470": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6330.08984375,
+                "Abs_abun": 4.440000057220459
+            }
+        },
+        "[MFW2011] 5059": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.809999942779541
+            }
+        },
+        "[SHT2013] Scl074 02": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5183.60009765625,
+                "Abs_abun": 4.539999961853027
+            }
+        },
+        "UCAC4 282-001099": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4883.68994140625,
+                "Abs_abun": 0.46000000834465027
+            }
+        },
+        "2MASS J01001537-3339060": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 4.809999942779541
+            }
+        },
+        "2MASS J01001519-3343110": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6496.89990234375,
+                "Abs_abun": 0.6800000071525574
+            }
+        },
+        "2MASS J01001483-3336498": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.340000152587891
+            }
+        },
+        "2MASS J01001777-3335597": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6318.72021484375,
+                "Abs_abun": 6.400000095367432
+            }
+        },
+        "2MASS J01001759-3346552": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.139999866485596
+            }
+        },
+        "2MASS J01001736-3343595": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 4.340000152587891
+            }
+        },
+        "2MASS J01001471-3339577": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.519999980926514
+            }
+        },
+        "2MASS J01001397-3336391": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Eu",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6645.2099609375,
+                "Abs_abun": -0.44999998807907104
+            }
+        },
+        "2MASS J01001295-3342038": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5183.60009765625,
+                "Abs_abun": 4.760000228881836
+            }
+        },
+        "2MASS J01001460-3347116": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.079999923706055
+            }
+        },
+        "2MASS J00592081-3344049": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mn",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5432.5498046875,
+                "Abs_abun": 2.680000066757202
+            }
+        },
+        "2MASS J00592065-3348566": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.5
+            }
+        },
+        "2MASS J00591884-3342175": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.630000114440918
+            }
+        },
+        "2MASS J00592830-3342073": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4883.68994140625,
+                "Abs_abun": 0.25999999046325684
+            }
+        },
+        "2MASS J00592213-3349037": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5409.77001953125,
+                "Abs_abun": 4.329999923706055
+            }
+        },
+        "2MASS J00591515-3342547": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.21999979019165
+            }
+        },
+        "2MASS J00591183-3341252": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.490000009536743
+            }
+        },
+        "2MASS J00591134-3337281": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 4.559999942779541
+            }
+        },
+        "2MASS J00591514-3339438": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.799999952316284
+            }
+        },
+        "2MASS J00593045-3336050": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6141.72998046875,
+                "Abs_abun": -0.8500000238418579
+            }
+        },
+        "2MASS J00594045-3335539": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4883.68994140625,
+                "Abs_abun": -0.28999999165534973
+            }
+        },
+        "2MASS J00593811-3335080": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6177.25,
+                "Abs_abun": 4.690000057220459
+            }
+        },
+        "2MASS J00593757-3343336": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.179999828338623
+            }
+        },
+        "[SHT2013] Scl031 11": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Sr",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4077.7099609375,
+                "Abs_abun": -1.3799999952316284
+            }
+        },
+        "[SHT2013] Scl002 06": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5183.60009765625,
+                "Abs_abun": 5.03000020980835
+            }
+        },
+        "2MASS J00593698-3330283": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 4.53000020980835
+            }
+        },
+        "2MASS J00593500-3350557": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.590000152587891
+            }
+        },
+        "2MASS J00593048-3339041": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5409.77001953125,
+                "Abs_abun": 3.0799999237060547
+            }
+        },
+        "2MASS J00593723-3337106": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.489999771118164
+            }
+        },
+        "2MASS J01003404-3339046": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 4.360000133514404
+            }
+        },
+        "2MASS J01003432-3349528": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4883.68994140625,
+                "Abs_abun": 0.7400000095367432
+            }
+        },
+        "2MASS J01003385-3344543": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5476.919921875,
+                "Abs_abun": 4.179999828338623
+            }
+        },
+        "2MASS J01002629-3344456": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.210000038146973
+            }
+        },
+        "2MASS J01004250-3344235": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4883.68994140625,
+                "Abs_abun": 0.5899999737739563
+            }
+        },
+        "2MASS J01003813-3348168": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6141.72998046875,
+                "Abs_abun": 0.36000001430511475
+            }
+        },
+        "2MASS J01002579-3330255": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 4.619999885559082
+            }
+        },
+        "SCMS  822": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6496.89990234375,
+                "Abs_abun": 0.6399999856948853
+            }
+        },
+        "[KGB2009] J005939.5-334539": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5409.77001953125,
+                "Abs_abun": 3.4100000858306885
+            }
+        },
+        "2MASS J01002463-3344287": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4883.68994140625,
+                "Abs_abun": -0.09000000357627869
+            }
+        },
+        "[WMO2009] Scl- 927": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 2.119999885559082
+            }
+        },
+        "2MASS J01002531-3350506": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6141.72998046875,
+                "Abs_abun": 1.0700000524520874
+            }
+        },
+        "2MASS J01002504-3342275": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mn",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5432.5498046875,
+                "Abs_abun": 3.7300000190734863
+            }
+        },
+        "2MASS J01004427-3349188": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6141.72998046875,
+                "Abs_abun": 0.8100000023841858
+            }
+        },
+        "2MASS J01002030-3335345": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4883.68994140625,
+                "Abs_abun": -0.03999999910593033
+            }
+        },
+        "2MASS J01001897-3345147": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.130000114440918
+            }
+        },
+        "2MASS J01002109-3333464": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4883.68994140625,
+                "Abs_abun": -0.019999999552965164
+            }
+        },
+        "2MASS J01002118-3346012": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5409.77001953125,
+                "Abs_abun": 4.789999961853027
+            }
+        },
+        "2MASS J01001830-3342122": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6330.08984375,
+                "Abs_abun": 4.03000020980835
+            }
+        },
+        "2MASS J01005087-3345053": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6496.89990234375,
+                "Abs_abun": 1.190000057220459
+            }
+        },
+        "2MASS J01004653-3346472": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Sr",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4215.52001953125,
+                "Abs_abun": 1.7400000095367432
+            }
+        },
+        "2MASS J01005025-3336383": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5409.77001953125,
+                "Abs_abun": 2.9000000953674316
+            }
+        },
+        "2MASS J01002298-3343021": {
+            "J/A+A/641/A127": {
+                "dSph": "Scl",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4883.68994140625,
+                "Abs_abun": 0.949999988079071
+            }
+        }
+    },
+    "Sex": {
+        "[WMO2009] Sex-042": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 5.440000057220459
+            }
+        },
+        "[KGS2010] Sex     191": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5526.7998046875,
+                "Abs_abun": 1.1699999570846558
+            }
+        },
+        "[AAS2009] S 24-72": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 4.75
+            }
+        },
+        "[BTH2011] 129": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6141.72998046875,
+                "Abs_abun": -1.6200000047683716
+            }
+        },
+        "[BTH2011] 48": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 2.5399999618530273
+            }
+        },
+        "[LPP2003]   503": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5526.7998046875,
+                "Abs_abun": 1.309999942779541
+            }
+        },
+        "2MASS J10132736-0134051": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6141.72998046875,
+                "Abs_abun": 0.12999999523162842
+            }
+        },
+        "[WMO2009] Sex-026": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 5.369999885559082
+            }
+        },
+        "[LPP2003] VV  2": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.069999933242798
+            }
+        },
+        "[LPP2003]   169": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.039999961853027
+            }
+        },
+        "[LPP2003]   463": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5526.7998046875,
+                "Abs_abun": 1.100000023841858
+            }
+        },
+        "[LPP2003]   522": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.75
+            }
+        },
+        "[LPP2003]   528": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.140000104904175
+            }
+        },
+        "[LPP2003]   530": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 2.7200000286102295
+            }
+        },
+        "[LPP2003]   457": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 5.5
+            }
+        },
+        "[LPP2003]   458": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5409.77001953125,
+                "Abs_abun": 1.7100000381469727
+            }
+        },
+        "[LPP2003]   561": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5526.7998046875,
+                "Abs_abun": 0.8299999833106995
+            }
+        },
+        "[LPP2003]   570": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5476.919921875,
+                "Abs_abun": 3.7799999713897705
+            }
+        },
+        "[LPP2003]   641": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5409.77001953125,
+                "Abs_abun": 3.0799999237060547
+            }
+        },
+        "[LPP2003]   642": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5476.919921875,
+                "Abs_abun": 3.990000009536743
+            }
+        },
+        "[LPP2003]   534": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 3.559999942779541
+            }
+        },
+        "[LPP2003]   545": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6141.72998046875,
+                "Abs_abun": -0.30000001192092896
+            }
+        },
+        "[LPP2003]   690": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5409.77001953125,
+                "Abs_abun": 3.5799999237060547
+            }
+        },
+        "[LPP2003]   444": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5476.919921875,
+                "Abs_abun": 3.180000066757202
+            }
+        },
+        "[LPP2003]   290": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6496.89990234375,
+                "Abs_abun": -1.6100000143051147
+            }
+        },
+        "[LPP2003]   322": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 4.230000019073486
+            }
+        },
+        "[LPP2003]   342": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.2799999713897705
+            }
+        },
+        "[LPP2003]   245": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.2799999713897705
+            }
+        },
+        "[LPP2003]   343": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 4.110000133514404
+            }
+        },
+        "[LPP2003]   416": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 5.309999942779541
+            }
+        },
+        "[LPP2003]   420": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.3299999237060547
+            }
+        },
+        "[LPP2003]   392": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 3.7899999618530273
+            }
+        },
+        "[LPP2003]   382": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5409.77001953125,
+                "Abs_abun": 3.5299999713897705
+            }
+        },
+        "[LPP2003]   473": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6496.89990234375,
+                "Abs_abun": 0.7200000286102295
+            }
+        },
+        "[LPP2003]   470": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 5.800000190734863
+            }
+        },
+        "[LPP2003]   514": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.0199999809265137
+            }
+        },
+        "[LPP2003]   199": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5183.60009765625,
+                "Abs_abun": 5.760000228881836
+            }
+        },
+        "[LPP2003]   502": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 4.78000020980835
+            }
+        },
+        "[LPP2003]   701": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6496.89990234375,
+                "Abs_abun": 0.4000000059604645
+            }
+        },
+        "[LPP2003]   737": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5476.919921875,
+                "Abs_abun": 3.549999952316284
+            }
+        },
+        "[LPP2003]   740": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5409.77001953125,
+                "Abs_abun": 3.690000057220459
+            }
+        },
+        "[LPP2003]   825": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 4.880000114440918
+            }
+        },
+        "[LPP2003]   792": {
+            "J/A+A/641/A127": {
+                "dSph": "Sex",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6496.89990234375,
+                "Abs_abun": 0.5400000214576721
+            }
+        }
+    },
+    "Seg I": {
+        "SDSS J100814.44+160501.1": {
+            "J/A+A/641/A127": {
+                "dSph": "Seg I",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5183.60009765625,
+                "Abs_abun": 4.46999979019165
+            }
+        }
+    },
+    "Sgr": {
+        "GIU J190638.43-315135.9": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5409.77001953125,
+                "Abs_abun": 4.320000171661377
+            }
+        },
+        "GIU J190043.03-311704.3": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 6.300000190734863
+            }
+        },
+        "GIU J185533.85-300521.2": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6309.89990234375,
+                "Abs_abun": 1.5299999713897705
+            }
+        },
+        "GIU J190651.47-320147.2": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4883.68994140625,
+                "Abs_abun": 0.8899999856948853
+            }
+        },
+        "GIU J185549.44-300349.3": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Ti",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5418.77001953125,
+                "Abs_abun": 3.940000057220459
+            }
+        },
+        "GIU J190039.06-310720.5": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Zn",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 4810.5400390625,
+                "Abs_abun": 2.8299999237060547
+            }
+        },
+        "[MBC98a] Sgr1  894": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Mn",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5432.5498046875,
+                "Abs_abun": 4.670000076293945
+            }
+        },
+        "[MBC98a] Sgr1  628": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6141.72998046875,
+                "Abs_abun": 2.440000057220459
+            }
+        },
+        "[MBC98a] Sgr1  716": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5853.68994140625,
+                "Abs_abun": 2.319999933242798
+            }
+        },
+        "[MBC98a] Sgr1  867": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6309.89990234375,
+                "Abs_abun": 2.299999952316284
+            }
+        },
+        "[MBC98a] Sgr1  432": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5409.77001953125,
+                "Abs_abun": 4.789999961853027
+            }
+        },
+        "[HEM2018] Sgr 2300225": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5183.60009765625,
+                "Abs_abun": 5.820000171661377
+            }
+        },
+        "2MASS J18535171-3026497": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6330.08984375,
+                "Abs_abun": 5.269999980926514
+            }
+        },
+        "2MASS J18535108-3026483": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 7.059999942779541
+            }
+        },
+        "2MASS J18540214-3036218": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5853.68994140625,
+                "Abs_abun": 1.840000033378601
+            }
+        },
+        "2MASS J18535650-3027205": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6141.72998046875,
+                "Abs_abun": 1.2799999713897705
+            }
+        },
+        "Cl* Terzan    7    BCP    1272": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Mn",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5420.35986328125,
+                "Abs_abun": 4.130000114440918
+            }
+        },
+        "2MASS J18534878-3029391": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Mn",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5432.5498046875,
+                "Abs_abun": 4.639999866485596
+            }
+        },
+        "2MASS J18534573-3025574": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Cr",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6330.08984375,
+                "Abs_abun": 5.039999961853027
+            }
+        },
+        "Cl* Terzan    7    KHG       1": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5526.7998046875,
+                "Abs_abun": 2.049999952316284
+            }
+        },
+        "Cl* Terzan    7    BCP    1282": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Eu",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4205.0498046875,
+                "Abs_abun": 0.17000000178813934
+            }
+        },
+        "[HEM2018] Sgr 2300275": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6141.72998046875,
+                "Abs_abun": -1.7400000095367432
+            }
+        },
+        "GIU J184828.45-294929.7": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Eu",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4205.0498046875,
+                "Abs_abun": -0.23999999463558197
+            }
+        },
+        "GIU J185211.31-311907.5": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4883.68994140625,
+                "Abs_abun": 0.7300000190734863
+            }
+        },
+        "GIU J184323.07-290337.6": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Mn",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6021.81982421875,
+                "Abs_abun": 3.0799999237060547
+            }
+        },
+        "GIU J185259.59-312135.1": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5402.77978515625,
+                "Abs_abun": 0.5400000214576721
+            }
+        },
+        "[HEM2018] Sgr 3600436": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4883.68994140625,
+                "Abs_abun": 0.6100000143051147
+            }
+        },
+        "2MASS J18533874-3029290": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5526.7998046875,
+                "Abs_abun": 2.509999990463257
+            }
+        },
+        "2MASS J18534523-3030558": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6141.72998046875,
+                "Abs_abun": 1.25
+            }
+        },
+        "2MASS J18531978-3037403": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6141.72998046875,
+                "Abs_abun": 1.6100000143051147
+            }
+        },
+        "2MASS J18532235-3023473": {
+            "J/A+A/641/A127": {
+                "dSph": "Sgr",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6141.72998046875,
+                "Abs_abun": 1.0099999904632568
+            }
+        }
+    },
+    "UMin": {
+        "COS 171": {
+            "J/A+A/641/A127": {
+                "dSph": "UMin",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5183.60009765625,
+                "Abs_abun": 5.96999979019165
+            }
+        },
+        "Irwin UMi 30760": {
+            "J/A+A/641/A127": {
+                "dSph": "UMin",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 5.909999847412109
+            }
+        },
+        "Irwin UMi 33533": {
+            "J/A+A/641/A127": {
+                "dSph": "UMin",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5183.60009765625,
+                "Abs_abun": 5.019999980926514
+            }
+        },
+        "Irwin UMi 36228": {
+            "J/A+A/641/A127": {
+                "dSph": "UMin",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5476.919921875,
+                "Abs_abun": 2.359999895095825
+            }
+        },
+        "Irwin UMi 36886": {
+            "J/A+A/641/A127": {
+                "dSph": "UMin",
+                "Element": "Eu",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4205.0498046875,
+                "Abs_abun": -1.6699999570846558
+            }
+        },
+        "Irwin UMi 28104": {
+            "J/A+A/641/A127": {
+                "dSph": "UMin",
+                "Element": "Mn",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6021.81982421875,
+                "Abs_abun": 2.490000009536743
+            }
+        },
+        "Irwin UMi 27940": {
+            "J/A+A/641/A127": {
+                "dSph": "UMin",
+                "Element": "Y",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4883.68994140625,
+                "Abs_abun": -0.14000000059604645
+            }
+        },
+        "COS 233": {
+            "J/A+A/641/A127": {
+                "dSph": "UMin",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6141.72998046875,
+                "Abs_abun": -0.10999999940395355
+            }
+        },
+        "Olsz N37": {
+            "J/A+A/641/A127": {
+                "dSph": "UMin",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5526.7998046875,
+                "Abs_abun": 1.0800000429153442
+            }
+        },
+        "NAME UMI718": {
+            "J/A+A/641/A127": {
+                "dSph": "UMin",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5183.60009765625,
+                "Abs_abun": 5.650000095367432
+            }
+        },
+        "NAME UMI396": {
+            "J/A+A/641/A127": {
+                "dSph": "UMin",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 6643.56005859375,
+                "Abs_abun": 4.230000019073486
+            }
+        },
+        "Irwin UMi 41065": {
+            "J/A+A/641/A127": {
+                "dSph": "UMin",
+                "Element": "Ba",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 6141.72998046875,
+                "Abs_abun": -0.6600000262260437
+            }
+        },
+        "NAME UMI446": {
+            "J/A+A/641/A127": {
+                "dSph": "UMin",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5476.919921875,
+                "Abs_abun": 3.440000057220459
+            }
+        }
+    },
+    "Tri II": {
+        "[MIC2016] 40": {
+            "J/A+A/641/A127": {
+                "dSph": "Tri II",
+                "Element": "Sr",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 4215.52001953125,
+                "Abs_abun": -1.6299999952316284
+            }
+        }
+    },
+    "UMa II": {
+        "2MASS J08495341+6308216": {
+            "J/A+A/641/A127": {
+                "dSph": "UMa II",
+                "Element": "Ni",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5476.919921875,
+                "Abs_abun": 2.619999885559082
+            }
+        },
+        "2MASS J08523350+6305009": {
+            "J/A+A/641/A127": {
+                "dSph": "UMa II",
+                "Element": "Mg",
+                "Ion_state": "I",
+                "Absorp_feature_lambda": 5528.47998046875,
+                "Abs_abun": 4.630000114440918
+            }
+        },
+        "2MASS J08525902+6305544": {
+            "J/A+A/641/A127": {
+                "dSph": "UMa II",
+                "Element": "Sc",
+                "Ion_state": "II",
+                "Absorp_feature_lambda": 5526.7998046875,
+                "Abs_abun": 0.6100000143051147
+            }
+        }
+    }
+}

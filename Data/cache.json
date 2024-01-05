@@ -38,8 +38,8 @@
                 "EW": "EW",
                 "A": "A",
                 "SimbadName": "Simbad",
-                "Teff": "Teff",
-                "logg": "logg",
+                "Teff": "T_eff",
+                "logg": "log_g",
                 "__Fe_H_CaT": "Fe_H_CaT",
                 "e__Fe_H_CaT": "e_Fe_H_CaT",
                 "__Fe_H_": "Fe_H",
@@ -56,7 +56,7 @@
                 "e__a_Fe_": "e_a_Fe"
             }
         },
-        "Member count": 2974
+        "Member count": "2960 stars in 9 galaxies."
     },
     "Scl": {
         "1002473": {

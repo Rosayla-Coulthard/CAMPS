@@ -70,6 +70,27 @@ def save_to_json(data, savepath):
     with open(savepath, 'w', encoding="utf-8") as f:
         json.dump(data, f, indent = 4)
 
+def member_count(cat):
+    """Counts the number of galaxies and stars in a catalog.
+    
+    Args:
+        cat: The catalog to be counted.
+
+    Returns:
+        cat: The catalog with the member count added.
+        gal_count: The number of galaxies in the cat.
+        star_count: The number of stars in the cat.
+    """
+    gal_count = len(cat.keys()) - 1
+    star_count = 0
+    for gal_name in cat:
+        if gal_name == META_DATA_KEY:
+            continue
+        star_count += len(cat[gal_name].keys())
+
+    cat[META_DATA_KEY]['Member count'] = f"{star_count} stars in {gal_count} galaxies."
+
+    return cat, gal_count, star_count
 
 
 def find_nearest_galaxy(star_coords, catalog = str or dict, ref_catalog = None):
@@ -167,7 +188,7 @@ def galaxy_crossmatch(gal1:dict, gal1_catalog:str, ref_catalog, cache):
 
     return gal_name
 
-def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str):
+def star_crossmatch_legacy(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str):
     """Main function for crossmatching stars between two galaxies in two catalogs.
     
         Precondition: the two galaxies are already crossmatched.
@@ -220,16 +241,75 @@ def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str):
 
     return gal1, gal2
 
+def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str):
+    """Main function for crossmatching stars between two galaxies in two catalogs.
+    
+        Precondition: the two galaxies are already crossmatched.
+
+        Args:
+            gal1: The incoming galaxy
+            gal1_catalog: The catalog of the incoming galaxy
+            gal2: The reference galaxy (usually stored in the cache)
+            gal2_catalog: The catalog of the reference galaxy
+
+        Returns:
+            gal_output: The galaxy to be added to the cache. It should contain 
+                stars from both galaxies, with the overlapping stars having 
+                two sets of data from the two catalogs.
+    """
+    # Find the closest star in gal2 for each star in gal1
+    # 1. Make a list of all stars in gal1 and gal2
+    # 2. For each star in gal2, find the closest star in gal1. Check the distance. If it's too far, skip it.
+        # If it's not too far, combine the two star's data and add it to the output galaxy.
+    # 3. Whenever there's a match, remove the star from gal1, keep the star in gal2.
+    # 4. After iterating through all stars in gal2, add what's left of gal1 to the output galaxy.
+    # 5. Add the output galaxy to the cache.
+
+    # Convert the stars into SkyCoord objects
+    gal1_coords = []
+    for star in gal1.keys():
+        star = gal1[star][gal1_catalog]
+        ra_temp = np.float64(star['RAJ2000'])
+        dec_temp = np.float64(star['DEJ2000'])
+
+        gal1_coords.append([ra_temp, dec_temp])
+
+    gal2_coords = []
+    for star in gal2.keys():
+        star = gal2[star][gal2_catalog]
+        ra_temp = np.float64(star['RAJ2000'])
+        dec_temp = np.float64(star['DEJ2000'])
+
+        gal2_coords.append([ra_temp, dec_temp])
+
+    gal1_coords = SkyCoord(gal1_coords, unit="deg")
+    gal2_coords = SkyCoord(gal2_coords, unit="deg")
+
+    # Crossmatch the two galaxies
+    idx, d2d, d3d = match_coordinates_sky(gal1_coords, gal2_coords)
+
+    # Iterate through the stars in gal1 and gal2
+    gal_output = {}
+
+    # for star_idx in idx:
+    print(idx)
+
+
+
+
 # Test the functions
 if __name__ == "__main__":
     # Load catalog and cache
-    catalog = json.load(open("Temp/J_ApJ_838_83.json", encoding="utf-8"))
+    catalog = json.load(open("Temp/Reighert 2020.json", encoding="utf-8"))
     cache = json.load(open("Data/cache.json", encoding="utf-8"))
 
-    gal1 = cache['Scl']
-    gal2 = cache['For']
+    gal1 = catalog['Scl']
+    gal2 = cache['Scl']
 
-    gal1_, gal2_ = star_crossmatch(gal1, "J/ApJS/191/352/abun", gal2, "J/ApJS/191/352/abun")
+    print(len(gal1.keys()))
+    print(len(gal2.keys()))
+    # gal1_, gal2_ = star_crossmatch(gal1, "J/ApJS/191/352/abun", gal2, "J/ApJS/191/352/abun")
+    # star_crossmatch(gal1, "J/A+A/641/A127", gal2, "J/ApJS/191/352/abun")
 
-    print(gal1_.keys())
-    print(gal2_.keys())
+    # print(gal1_.keys())
+    # print(gal2_.keys())

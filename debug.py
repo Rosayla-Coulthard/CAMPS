@@ -1,7 +1,4 @@
-test1 = {'a': {'b': 0}}
+test = ['debug']
 
-test2 = {'a': {'c': 1}, 'd': {'e': 2}}
-
-test = test1 | test2
-
+test = '_'.join(test)
 print(test)
