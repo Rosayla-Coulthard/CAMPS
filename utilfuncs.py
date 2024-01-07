@@ -293,6 +293,7 @@ def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str):
 
     # for star_idx in idx:
     print(idx)
+    print(d2d)
 
 
 
@@ -306,10 +307,6 @@ if __name__ == "__main__":
     gal1 = catalog['Scl']
     gal2 = cache['Scl']
 
-    print(len(gal1.keys()))
-    print(len(gal2.keys()))
     # gal1_, gal2_ = star_crossmatch(gal1, "J/ApJS/191/352/abun", gal2, "J/ApJS/191/352/abun")
-    # star_crossmatch(gal1, "J/A+A/641/A127", gal2, "J/ApJS/191/352/abun")
+    star_crossmatch(gal1, "J/A+A/641/A127", gal2, "J/ApJS/191/352/abun")
 
-    # print(gal1_.keys())
-    # print(gal2_.keys())

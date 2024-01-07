@@ -140,7 +140,7 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'dSph
                 # star_cord += float(star_col[1])/60
                 # star_cord += float(star_col[2])/3600
 
-                star_col = float(star[col])
+                star_col = star[col]# float(star[col])
 
             elif col == gal_title:
                 star_col = star[col]
@@ -351,9 +351,10 @@ def merge_catalogs(catalog1_path, catalog2_path, catalog1_name, catalog2_name, a
 
 # Execution code
 if __name__ == "__main__":
-    retrieve_catalog("J/A+A/641/A127", "Temp/Reighert 2020(0).json", "ID", "Galaxy")
+    # retrieve_catalog("J/ApJS/191/352/abun", "Temp/Kirby 2009.json")# , "ID", "Galaxy")
     # merge_catalogs("Temp/Reighert 2020.json", "Temp/Reighert 2020(2).json", "J/A+A/641/A127", "J/A+A/641/A127", "Temp/Reighert 2020.json")
     # add_catalog("Temp/J_ApJ_838_83.json", "J/ApJ/838/83", "Data/Cache.json", "J/ApJS/191/352/abun")
+    pass
 
 # =============================================================================
 # 1. Check if the coords from stars in that catalog match any of the existing database members

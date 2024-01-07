@@ -6,8 +6,8 @@
     "ALT_COL_NAMES": {
         "dSph": "dSph",
         "Name": "Name",
-        "RAJ2000": "RAJ2000",
-        "DEJ2000": "DEJ2000",
+        "RAJ2000": "_",
+        "DEJ2000": "_",
         "Vmag": "Vmag",
         "Imag": "Imag",
         "Teff": "T_eff",
