@@ -2,7 +2,7 @@
 from datetime import datetime
 import json
 import numpy as np
-from astropy.coordinates import SkyCoord, match_coordinates_sky
+from astropy.coordinates import SkyCoord, match_coordinates_sky, Angle
 
 # Import configurations
 config = json.load(open("config.json", encoding="utf-8"))
@@ -22,11 +22,11 @@ def catalog_type_check(catalog):
     try:
         catalog = json.load(open(catalog, encoding="utf-8"))
     except TypeError as e:
-        if type(catalog) != dict:
+        if not isinstance(catalog, dict):
             raise TypeError("Catalog must be a path to a JSON file or a dictionary.") from e
 
     return catalog
-            
+
 def catalog_name_check(catalog, catalog_name):
     """Checks if a specified catalog had already been compiled.
     
@@ -38,7 +38,7 @@ def catalog_name_check(catalog, catalog_name):
         The name of the catalog if it is in the collection.
     """
     collection = list(catalog[META_DATA_KEY]['Included titles'].keys())
-    
+
     if catalog_name not in collection:
         raise ValueError("Catalog was never added to the collection.")
     elif catalog_name is None:
@@ -113,8 +113,6 @@ def find_nearest_galaxy(star_coords, catalog = str or dict, ref_catalog = None):
     # Find the nearest galaxy
     gal_dist = np.inf
 
-    # NOTE: this is where the problem is
-    # dict_depth_ = dict_depth(catalog)
     for gal in catalog.keys():
         if gal == META_DATA_KEY:
             continue
@@ -124,7 +122,7 @@ def find_nearest_galaxy(star_coords, catalog = str or dict, ref_catalog = None):
 
         first_star_coord = first_star["RAJ2000"], first_star["DEJ2000"]
 
-        gal_dist_new = (star_coords["RAJ2000"] - first_star_coord[0])**2 
+        gal_dist_new = (star_coords["RAJ2000"] - first_star_coord[0])**2
         gal_dist_new += (star_coords["DEJ2000"] - first_star_coord[1])**2
 
         if gal_dist_new < gal_dist:
@@ -145,7 +143,7 @@ def find_nearest_galaxy(star_coords, catalog = str or dict, ref_catalog = None):
 
     ra_bound = (max(ra_) - min(ra_)) * 0.5
     dec_bound = (max(dec_) - min(dec_)) * 0.5
-    
+
     # Check if the star is within the boundary
     star_ra, star_dec = star_coords["RAJ2000"], star_coords["DEJ2000"]
     star_dist = (star_ra - (max(ra_) + min(ra_)) * 0.5)**2
@@ -155,11 +153,12 @@ def find_nearest_galaxy(star_coords, catalog = str or dict, ref_catalog = None):
         nearest_gal = None
         gal_dist = None
         time_stamp = datetime.now()
-        print(f"[{time_stamp}] Star is not within the boundary of the nearest galaxy, returning None.")
+        msg = "Star is not within the boundary of the nearest galaxy, returning None."
+        print(f"[{time_stamp}] {msg}")
 
     return nearest_gal, gal_dist
 
-def galaxy_crossmatch(gal1:dict, gal1_catalog:str, ref_catalog, cache):
+def galaxy_crossmatch(gal1:dict, gal1_catalog:str, ref_catalog, cache_):
     """See if gal1 is already in the cache. If so, return gal_name. If not,
         return None. Just provide a galaxy in dict format, and the catalog
         it is from.
@@ -176,7 +175,7 @@ def galaxy_crossmatch(gal1:dict, gal1_catalog:str, ref_catalog, cache):
     Returns:
         gal_name if gal1 is already in the cache, None otherwise.
         """
-    # Provides a star from gal1, and see if it is within the boundary 
+    # Provides a star from gal1, and see if it is within the boundary
     # of any galaxy in the cache
     first_star = list(gal1.keys())[0]
     first_star = gal1[first_star][gal1_catalog]
@@ -184,64 +183,12 @@ def galaxy_crossmatch(gal1:dict, gal1_catalog:str, ref_catalog, cache):
 
     first_star_coord = {"RAJ2000": first_star["RAJ2000"],
                         "DEJ2000": first_star["DEJ2000"]}
-    gal_name, _ = find_nearest_galaxy(first_star_coord, cache, ref_catalog)
+    gal_name, _ = find_nearest_galaxy(first_star_coord, cache_, ref_catalog)
 
     return gal_name
 
-def star_crossmatch_legacy(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str):
-    """Main function for crossmatching stars between two galaxies in two catalogs.
-    
-        Precondition: the two galaxies are already crossmatched.
-    """
-    # BUG: throws error when the two galaxies have different number of stars
-    # NOTE: check distance to the closest star, if it is too far, then they don't match
-    # Get the coordinates of all stars in gal1
-    gal1_coords = []
-    for star in gal1.keys():
-        star = gal1[star][gal1_catalog]
-        ra_temp = np.float64(star['RAJ2000'])
-        dec_temp = np.float64(star['DEJ2000'])
 
-        gal1_coords.append([ra_temp, dec_temp])
-
-    # Get the coordinates of all stars in gal2
-    gal2_coords = []
-    for star in gal2.keys():
-        star = gal2[star][gal2_catalog]
-        ra_temp = np.float64(star['RAJ2000'])
-        dec_temp = np.float64(star['DEJ2000'])
-
-        gal2_coords.append([ra_temp, dec_temp])
-
-    # Crossmatch the two galaxies
-    gal1_coords = SkyCoord(gal1_coords, unit="deg")
-    gal2_coords = SkyCoord(gal2_coords, unit="deg")
-
-    idx, d2d, d3d = match_coordinates_sky(gal1_coords, gal2_coords)
-
-    # NOTE: iteratre through the stars in the incoming galaxy and the closest stars. Skip the ones that do not have a match and save them to a separate dictionary. For those that have a match, add their data directly to the matching star. The ones without a match will be added to the cache galaxy as a new star.
-    # NOTE: Remember the threshold thing
-    # Find the closest star in gal2 for each star in gal1
-    gal1_star_names = list(gal1.keys())
-    gal2_star_names = list(gal2.keys())
-
-    gal1_star_names = np.array(gal1_star_names)[idx]
-    gal2_star_names = np.array(gal2_star_names)
-
-    gal1_star_names = gal1_star_names.tolist()
-    gal2_star_names = gal2_star_names.tolist()
-
-    # Add the closest star in gal2 to gal1
-    for i in range(len(gal1_star_names)):
-        gal1[gal1_star_names[i]][gal1_catalog]["Closest star"] = gal2_star_names[i]
-
-    # Add the closest star in gal1 to gal2
-    for i in range(len(gal2_star_names)):
-        gal2[gal2_star_names[i]][gal2_catalog]["Closest star"] = gal1_star_names[i]
-
-    return gal1, gal2
-
-def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str):
+def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str, match_threshold = '1s'):
     """Main function for crossmatching stars between two galaxies in two catalogs.
     
         Precondition: the two galaxies are already crossmatched.
@@ -251,6 +198,8 @@ def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str):
             gal1_catalog: The catalog of the incoming galaxy
             gal2: The reference galaxy (usually stored in the cache)
             gal2_catalog: The catalog of the reference galaxy
+            match_threshold: The threshold for matching stars. Default is 1s, or 1 arcsecond.
+                This accepts astropy Angle object, string, or degrees in decimal format in float.
 
         Returns:
             gal_output: The galaxy to be added to the cache. It should contain 
@@ -264,9 +213,19 @@ def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str):
     # 3. Whenever there's a match, remove the star from gal1, keep the star in gal2.
     # 4. After iterating through all stars in gal2, add what's left of gal1 to the output galaxy.
     # 5. Add the output galaxy to the cache.
+    
+    # Check if the threshold is valid
+    if isinstance(match_threshold, str):
+        match_threshold = Angle(match_threshold).to('deg').value
+    elif isinstance(match_threshold, Angle):
+        match_threshold = match_threshold.to('deg').value
+    elif isinstance(match_threshold, float):
+        pass
+    else:
+        raise TypeError("match_threshold must be a string, an astropy Angle object, or a float.")
 
     # Convert the stars into SkyCoord objects
-    gal1_coords = []
+    gal1_coords = [] # Incoming data
     for star in gal1.keys():
         star = gal1[star][gal1_catalog]
         ra_temp = np.float64(star['RAJ2000'])
@@ -274,7 +233,7 @@ def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str):
 
         gal1_coords.append([ra_temp, dec_temp])
 
-    gal2_coords = []
+    gal2_coords = [] # Reference data
     for star in gal2.keys():
         star = gal2[star][gal2_catalog]
         ra_temp = np.float64(star['RAJ2000'])
@@ -286,27 +245,89 @@ def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str):
     gal2_coords = SkyCoord(gal2_coords, unit="deg")
 
     # Crossmatch the two galaxies
-    idx, d2d, d3d = match_coordinates_sky(gal1_coords, gal2_coords)
+    idx, d2d, _ = match_coordinates_sky(gal1_coords, gal2_coords)
+    # idx is the index of the closest star in gal2 for each star in gal1
+    # gal2_coords[idx] matches the shape of gal1_coords,
+    # # containing gal2 stars that are closest to each gal1 star
 
-    # Iterate through the stars in gal1 and gal2
-    gal_output = {}
+    # Initiate the output
+    gal_output = gal2.copy()
 
-    # for star_idx in idx:
-    print(idx)
-    print(d2d)
+    idx = np.array(idx) # Represents gal1 using indices of gal2 stars
+    d2d = np.array(d2d) # The angles are in degrees in decimal format
 
+    # Produce sort index
+    sort_index = np.argsort(idx) # index for sorting idx into ascending order
+    idx_sorted = idx[sort_index] # idx but in ascending order
+    d2d_sorted = d2d[sort_index]
 
+    # print("idx = ", idx)
+    # print("sort_index = ", sort_index)
+    # print("idx_sorted = ", idx_sorted)
+    # print("d2d_sorted = ", d2d_sorted)
 
+    # Iterate through sorted idx. Group each identical idx into one list,
+    # # and find the one with the smallest d2d.
+    # The one with the smallest d2d is the closest star.
+    # The other ones are flagged as new stars
+    # If the d2d is too large, then the star is flagged as a new star
+    duplicate_flag = False
+    match_list = {}
+    for count, indx in enumerate(idx_sorted):
+        dist_temp = d2d_sorted[count]
+
+        if indx != idx_sorted[count - 1]:
+            # If the current indx is not equal to the previous indx, make a new minor list
+            count_start = count
+            idx_list = [indx]
+            dist_list = [dist_temp]
+            temp_list_indx = [count]
+            duplicate_flag = False
+        else:
+            # If the current indx is equal to the previous indx, append it to the minor list
+            idx_list.append(indx)
+            dist_list = np.append(dist_list, dist_temp)
+            temp_list_indx.append(count)
+            duplicate_flag = True
+
+        if duplicate_flag is False and count != 0:
+            # If the current indx is not equal to the previous indx, and it's not the first indx
+            # Identify the nearest star in the minor list, compare its distance against threshold
+            dist_list = np.array(dist_list)
+            nearest_temp = np.argmin(dist_list) # Index of the nearest star in the minor list
+            nearest = nearest_temp + count_start # Index of the nearest star in idx_sorted.
+
+            idx_nearest = sort_index[nearest] # index of nearest in idx
+            dist_nearest = dist_list[nearest_temp] # distance of nearest
+
+            # Confirm match if the distance is within the threshold
+            if dist_nearest <= match_threshold:
+                ga1_names = list(gal1.keys())
+                ga2_names = list(gal2.keys())
+                match_list[ga1_names[idx_nearest]] = ga2_names[idx[idx_nearest]]
+
+    for star1_name in gal1.keys():
+        # Iterate through each star in gal1, 
+        # # if there's a match in gal2, add the data from gal1 to gal2.
+        # # if there's no match in gal2, add the star directly to gal_output.
+        if star1_name in match_list.keys():
+            star2_name = match_list[star1_name]
+            gal_output[star2_name][gal1_catalog] = gal1[star1_name][gal1_catalog]
+        
+        else:
+            gal_output[star1_name] = gal1[star1_name]
+
+    return gal_output
 
 # Test the functions
 if __name__ == "__main__":
     # Load catalog and cache
-    catalog = json.load(open("Temp/Reighert 2020.json", encoding="utf-8"))
+    catalog_ = json.load(open("Temp/Reighert 2020.json", encoding="utf-8"))
     cache = json.load(open("Data/cache.json", encoding="utf-8"))
 
-    gal1 = catalog['Scl']
-    gal2 = cache['Scl']
+    gal_1 = catalog_['Scl']
+    gal_2 = cache['Scl']
 
     # gal1_, gal2_ = star_crossmatch(gal1, "J/ApJS/191/352/abun", gal2, "J/ApJS/191/352/abun")
-    star_crossmatch(gal1, "J/A+A/641/A127", gal2, "J/ApJS/191/352/abun")
+    star_crossmatch(gal_1, "J/A+A/641/A127", gal_2, "J/ApJS/191/352/abun")
 

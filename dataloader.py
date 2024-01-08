@@ -17,10 +17,12 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'dSph
     Args:
         prompt: The prompt to search for in Vizier.
         savepath: The path to save the catalog to.
-        UI: The column name for the unique identifier.
+        UI: The column name for the unique identifier. If there are multiple columns,
+            use a list of strings. Use the same names as Vizier.
         gal_title: The column name for the galaxy title.
     """
     # Retrieve data from Vizier
+    print(f"[{datetime.now()}] Retrieving catalog {prompt}...")
     V = Vizier(
         row_limit = -1,
         columns=['*', '_RAJ2000', '_DEJ2000']
@@ -84,7 +86,7 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'dSph
         single_galaxy = True
         msg = "Please specify a galaxy name: "
         gal_name = input(msg)
-        catalog[gal_title] = gal_name
+        # catalog[gal_title] = gal_name
     elif single_galaxy == 'n':
         # If it is not, default to the galaxy name specified in the catalog
         single_galaxy = False
@@ -128,38 +130,32 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'dSph
         # If the star belongs to a multi-galaxy catalog, and the galaxy name is not
         # previously recorded, make a new dictionary entry for the galaxy.
         if star_gal_name not in output.keys():
-            output[star_gal_name] = {star_name: {prompt: {}}}
+            output[star_gal_name] = {star_name: {prompt: {"Name": star_name}}}
         elif star_gal_name in output.keys():
-            output[star_gal_name][star_name] = {prompt: {}}
+            output[star_gal_name][star_name] = {prompt: {"Name": star_name}}
 
         # Add catalog under star
         for col in catalog.colnames:
+            skip = False
             if col == "RAJ2000" or col == "DEJ2000":
-                # star_col = str(star[col]).split(" ")
-                # star_cord = float(star_col[0])
-                # star_cord += float(star_col[1])/60
-                # star_cord += float(star_col[2])/3600
-
-                star_col = star[col]# float(star[col])
-
-            elif col == gal_title:
                 star_col = star[col]
-            elif col == UI:
-                continue
-            elif col_list[col] == '_':
-                continue
-
+            elif col == "Name":
+                star_col = star_name
+            elif col == 'dSph':
+                new_col_name = 'dSph'
+                star_col = star_gal_name
             else:
                 try:
                     star_col = float(star[col])
                 except ValueError:
                     star_col = star[col]
 
-            if col == 'dSph':
-                new_col_name = 'dSph'
-                star_col = star_gal_name
-            else:
-                new_col_name = col_list[col]
+            new_col_name = col_list[col]
+            # if col == 'dSph':
+                # new_col_name = 'dSph'
+                # star_col = star_gal_name
+            # else:
+                # new_col_name = col_list[col]
 
             # If the star has been labled as not a member, remove the star
             star_abandoned = False
@@ -167,14 +163,13 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'dSph
                 output[star_gal_name].pop(star_name)
                 star_abandoned = True
                 break
-            output[star_gal_name][star_name][prompt][new_col_name] = star_col
+            if new_col_name != "_":
+                output[star_gal_name][star_name][prompt][new_col_name] = star_col
 
         if star_abandoned:
             continue
 
-        star = output[star_gal_name][star_name]
-
-    output, gal_count, star_count = member_count(output)
+    output, _, _ = member_count(output)
     print(f"[{datetime.now()}] Done adding stars.")
     if savepath is not None:
         print(f"[{datetime.now()}] Saving catalog to JSON...")
@@ -351,9 +346,29 @@ def merge_catalogs(catalog1_path, catalog2_path, catalog1_name, catalog2_name, a
 
 # Execution code
 if __name__ == "__main__":
-    # retrieve_catalog("J/ApJS/191/352/abun", "Temp/Kirby 2009.json")# , "ID", "Galaxy")
-    # merge_catalogs("Temp/Reighert 2020.json", "Temp/Reighert 2020(2).json", "J/A+A/641/A127", "J/A+A/641/A127", "Temp/Reighert 2020.json")
-    # add_catalog("Temp/J_ApJ_838_83.json", "J/ApJ/838/83", "Data/Cache.json", "J/ApJS/191/352/abun")
+    # Retrieve the catalogs
+    # retrieve_catalog("J/ApJS/191/352/abun", "Temp/Kirby 2009.json")
+
+    # retrieve_catalog("J/ApJ/838/83", "Temp/J_ApJ_838_83(0).json",
+                    #  ["__KCS2015_", "__MIC2016_"])
+    # retrieve_catalog("J/ApJ/838/83", "Temp/J_ApJ_838_83(1).json",
+                    #  ["__KCS2015_", "__MIC2016_"])
+    # merge_catalogs("Temp/J_ApJ_838_83(0).json", "Temp/J_ApJ_838_83(1).json",
+                #    "J/ApJ/838/83", "J/ApJ/838/83", "Temp/J_ApJ_838_83.json")
+
+    # retrieve_catalog("J/A+A/641/A127", "Temp/Reighert 2020(0).json",
+                    #  "ID", "Galaxy")
+    # retrieve_catalog("J/A+A/641/A127", "Temp/Reighert 2020(1).json",
+                        # "ID", "Galaxy")
+    # retrieve_catalog("J/A+A/641/A127", "Temp/Reighert 2020(2).json",
+                        # "ID", "Galaxy")
+    # merge_catalogs("Temp/Reighert 2020(0).json", "Temp/Reighert 2020(1).json",
+                #    "J/A+A/641/A127", "J/A+A/641/A127", "Temp/Reighert 2020.json")
+    # merge_catalogs("Temp/Reighert 2020.json", "Temp/Reighert 2020(2).json",
+                #    "J/A+A/641/A127", "J/A+A/641/A127", "Temp/Reighert 2020.json")
+
+    # add_catalog("Temp/J_ApJ_838_83.json", "J/ApJ/838/83", "Data/Cache.json",
+                # "J/ApJS/191/352/abun")
     pass
 
 # =============================================================================
