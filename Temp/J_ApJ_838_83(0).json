@@ -23,7 +23,10 @@
                 "f_Mm": "f_Mm",
                 "EW": "EW",
                 "A": "A",
-                "SimbadName": "Simbad"
+                "SimbadName": "Simbad",
+                "Members": [
+                    "TriII"
+                ]
             }
         },
         "Member count": "13 stars in 1 galaxies."
@@ -51,7 +54,8 @@
                 "f_Mm": "",
                 "EW": "EW",
                 "A": "A",
-                "Simbad": "[MIC2016] 22"
+                "Simbad": "[MIC2016] 22",
+                "Galaxy": "TriII"
             }
         },
         "128_--": {
@@ -76,7 +80,8 @@
                 "f_Mm": "",
                 "EW": "EW",
                 "A": "A",
-                "Simbad": "[KCS2015] 128"
+                "Simbad": "[KCS2015] 128",
+                "Galaxy": "TriII"
             }
         },
         "116_21": {
@@ -101,7 +106,8 @@
                 "f_Mm": "",
                 "EW": "EW",
                 "A": "A",
-                "Simbad": "[KCS2015] 116"
+                "Simbad": "[KCS2015] 116",
+                "Galaxy": "TriII"
             }
         },
         "106_40": {
@@ -126,7 +132,8 @@
                 "f_Mm": "",
                 "EW": "EW",
                 "A": "A",
-                "Simbad": "[KCS2015] 106"
+                "Simbad": "[KCS2015] 106",
+                "Galaxy": "TriII"
             }
         },
         "91_20": {
@@ -151,7 +158,8 @@
                 "f_Mm": "",
                 "EW": "EW",
                 "A": "A",
-                "Simbad": "[KCS2015]  91"
+                "Simbad": "[KCS2015]  91",
+                "Galaxy": "TriII"
             }
         },
         "76_23": {
@@ -176,7 +184,8 @@
                 "f_Mm": "",
                 "EW": "EW",
                 "A": "A",
-                "Simbad": "[KCS2015]  76"
+                "Simbad": "[KCS2015]  76",
+                "Galaxy": "TriII"
             }
         },
         "--_27": {
@@ -201,7 +210,8 @@
                 "f_Mm": "",
                 "EW": "EW",
                 "A": "A",
-                "Simbad": "[MIC2016] 27"
+                "Simbad": "[MIC2016] 27",
+                "Galaxy": "TriII"
             }
         },
         "65_46": {
@@ -226,7 +236,8 @@
                 "f_Mm": "",
                 "EW": "EW",
                 "A": "A",
-                "Simbad": "[KCS2015]  65"
+                "Simbad": "[KCS2015]  65",
+                "Galaxy": "TriII"
             }
         },
         "--_24": {
@@ -251,7 +262,8 @@
                 "f_Mm": "",
                 "EW": "EW",
                 "A": "A",
-                "Simbad": "[MIC2016] 24"
+                "Simbad": "[MIC2016] 24",
+                "Galaxy": "TriII"
             }
         },
         "--_26": {
@@ -276,7 +288,8 @@
                 "f_Mm": "",
                 "EW": "EW",
                 "A": "A",
-                "Simbad": "[MIC2016] 26"
+                "Simbad": "[MIC2016] 26",
+                "Galaxy": "TriII"
             }
         },
         "--_9": {
@@ -301,7 +314,8 @@
                 "f_Mm": "",
                 "EW": "EW",
                 "A": "A",
-                "Simbad": "[MIC2016]  9"
+                "Simbad": "[MIC2016]  9",
+                "Galaxy": "TriII"
             }
         },
         "--_29": {
@@ -326,7 +340,8 @@
                 "f_Mm": "",
                 "EW": "EW",
                 "A": "A",
-                "Simbad": "[MIC2016] 29"
+                "Simbad": "[MIC2016] 29",
+                "Galaxy": "TriII"
             }
         },
         "--_31": {
@@ -351,7 +366,8 @@
                 "f_Mm": "",
                 "EW": "EW",
                 "A": "A",
-                "Simbad": "[MIC2016] 31"
+                "Simbad": "[MIC2016] 31",
+                "Galaxy": "TriII"
             }
         }
     }

@@ -3,20 +3,35 @@
         "Included titles": {
             "J/A+A/641/A127": {
                 "ID": "Name",
-                "Galaxy": "dSph",
+                "Galaxy": "Galaxy",
                 "El": "Element",
                 "Ion": "Ion_state",
                 "lambda": "Absorp_feature_lambda",
-                "log_eps_": "Abs_abun"
+                "log_eps_": "Abs_abun",
+                "Members": [
+                    "BooI",
+                    "Car",
+                    "For",
+                    "Dra",
+                    "LeoI",
+                    "RetII",
+                    "Scl",
+                    "Sex",
+                    "SegI",
+                    "Sgr",
+                    "UMi",
+                    "TriII",
+                    "UMaII"
+                ]
             }
         },
         "Member count": "373 stars in 13 galaxies."
     },
-    "Boo I": {
+    "BooI": {
         "[NGW2008] 41": {
             "J/A+A/641/A127": {
                 "Name": "[NGW2008] 41",
-                "dSph": "Boo I",
+                "Galaxy": "BooI",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5476.919921875,
@@ -26,7 +41,7 @@
         "[NGW2008] 1137": {
             "J/A+A/641/A127": {
                 "Name": "[NGW2008] 1137",
-                "dSph": "Boo I",
+                "Galaxy": "BooI",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6496.89990234375,
@@ -36,7 +51,7 @@
         "[NGW2008] 7": {
             "J/A+A/641/A127": {
                 "Name": "[NGW2008] 7",
-                "dSph": "Boo I",
+                "Galaxy": "BooI",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5183.60009765625,
@@ -48,7 +63,7 @@
         "2MASS J06411566-5059480": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06411566-5059480",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Mn",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5420.35986328125,
@@ -58,7 +73,7 @@
         "[SMS86]  70": {
             "J/A+A/641/A127": {
                 "Name": "[SMS86]  70",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6606.9501953125,
@@ -68,7 +83,7 @@
         "[MOP2000] C120318": {
             "J/A+A/641/A127": {
                 "Name": "[MOP2000] C120318",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -78,7 +93,7 @@
         "[LHT2012] MKV0577": {
             "J/A+A/641/A127": {
                 "Name": "[LHT2012] MKV0577",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -88,7 +103,7 @@
         "2MASS J06413647-5056231": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06413647-5056231",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4883.68994140625,
@@ -98,7 +113,7 @@
         "[LHT2012] MKV0397": {
             "J/A+A/641/A127": {
                 "Name": "[LHT2012] MKV0397",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5476.919921875,
@@ -108,7 +123,7 @@
         "[LHT2012] MKV0598": {
             "J/A+A/641/A127": {
                 "Name": "[LHT2012] MKV0598",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -118,7 +133,7 @@
         "2MASS J06411632-5100185": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06411632-5100185",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -128,7 +143,7 @@
         "2MASS J06412612-5055439": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06412612-5055439",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6330.08984375,
@@ -138,7 +153,7 @@
         "[LHT2012] MKV0976": {
             "J/A+A/641/A127": {
                 "Name": "[LHT2012] MKV0976",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -148,7 +163,7 @@
         "2MASS J06403111-5055246": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06403111-5055246",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5476.919921875,
@@ -158,7 +173,7 @@
         "[LHT2012] MKV0743": {
             "J/A+A/641/A127": {
                 "Name": "[LHT2012] MKV0743",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5409.77001953125,
@@ -168,7 +183,7 @@
         "2MASS J06405711-5057442": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06405711-5057442",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -178,7 +193,7 @@
         "2MASS J06405695-5058383": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06405695-5058383",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -188,7 +203,7 @@
         "2MASS J06403535-5054080": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06403535-5054080",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6606.9501953125,
@@ -198,7 +213,7 @@
         "2MASS J06410030-5103427": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06410030-5103427",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5526.7998046875,
@@ -208,7 +223,7 @@
         "2MASS J06411227-5057260": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06411227-5057260",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -218,7 +233,7 @@
         "2MASS J06404244-5100428": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06404244-5100428",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -228,7 +243,7 @@
         "2MASS J06404083-5054292": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06404083-5054292",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -238,7 +253,7 @@
         "2MASS J06412918-5105219": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06412918-5105219",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -248,7 +263,7 @@
         "2MASS J06414637-5101227": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06414637-5101227",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -258,7 +273,7 @@
         "[MOP2000] C160266": {
             "J/A+A/641/A127": {
                 "Name": "[MOP2000] C160266",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -268,7 +283,7 @@
         "2MASS J06415460-5057007": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06415460-5057007",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5526.7998046875,
@@ -278,7 +293,7 @@
         "2MASS J06420281-5058597": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06420281-5058597",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -288,7 +303,7 @@
         "2MASS J06420896-5100481": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06420896-5100481",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -298,7 +313,7 @@
         "[MOP2000] C131364": {
             "J/A+A/641/A127": {
                 "Name": "[MOP2000] C131364",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -308,7 +323,7 @@
         "[MOP2000] C131048": {
             "J/A+A/641/A127": {
                 "Name": "[MOP2000] C131048",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -318,7 +333,7 @@
         "2MASS J06415158-5103355": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06415158-5103355",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -328,7 +343,7 @@
         "2MASS J06415434-5102460": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06415434-5102460",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -338,7 +353,7 @@
         "2MASS J06421749-5056260": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06421749-5056260",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5409.77001953125,
@@ -348,7 +363,7 @@
         "[MOP2000] C130725": {
             "J/A+A/641/A127": {
                 "Name": "[MOP2000] C130725",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -358,7 +373,7 @@
         "[MOP2000] C121630": {
             "J/A+A/641/A127": {
                 "Name": "[MOP2000] C121630",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -368,7 +383,7 @@
         "[MOP2000] C120769": {
             "J/A+A/641/A127": {
                 "Name": "[MOP2000] C120769",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -378,7 +393,7 @@
         "[MOP2000] C120614": {
             "J/A+A/641/A127": {
                 "Name": "[MOP2000] C120614",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -388,7 +403,7 @@
         "2MASS J06423035-5056331": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06423035-5056331",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -398,7 +413,7 @@
         "2MASS J06423789-5053377": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06423789-5053377",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5409.77001953125,
@@ -408,7 +423,7 @@
         "2MASS J06423853-5056001": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06423853-5056001",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -418,7 +433,7 @@
         "2MASS J06414463-5103312": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06414463-5103312",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -428,7 +443,7 @@
         "2MASS J06414082-5054457": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06414082-5054457",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -438,7 +453,7 @@
         "2MASS J06413765-5101436": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06413765-5101436",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -448,7 +463,7 @@
         "[WMO2009] Car-0724": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] Car-0724",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -458,7 +473,7 @@
         "[WMO2009] Car-1494": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] Car-1494",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6496.89990234375,
@@ -468,7 +483,7 @@
         "[MOP2000] C160589": {
             "J/A+A/641/A127": {
                 "Name": "[MOP2000] C160589",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5409.77001953125,
@@ -478,7 +493,7 @@
         "[MOP2000] C170294": {
             "J/A+A/641/A127": {
                 "Name": "[MOP2000] C170294",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5476.919921875,
@@ -488,7 +503,7 @@
         "2MASS J06414604-5051013": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J06414604-5051013",
-                "dSph": "Car",
+                "Galaxy": "Car",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5409.77001953125,
@@ -500,7 +515,7 @@
         "[LHT2010] BL158": {
             "J/A+A/641/A127": {
                 "Name": "[LHT2010] BL158",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6606.9501953125,
@@ -510,7 +525,7 @@
         "GB07 Fnx11": {
             "J/A+A/641/A127": {
                 "Name": "GB07 Fnx11",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5409.77001953125,
@@ -520,7 +535,7 @@
         "[WMO2009] For-0968": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] For-0968",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -530,7 +545,7 @@
         "[WMO2009] For-0956": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] For-0956",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6141.72998046875,
@@ -540,7 +555,7 @@
         "2MASS J02392218-3419407": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02392218-3419407",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mn",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5432.5498046875,
@@ -550,7 +565,7 @@
         "[WMO2009] For-0952": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] For-0952",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -560,7 +575,7 @@
         "GB07 Fnx08": {
             "J/A+A/641/A127": {
                 "Name": "GB07 Fnx08",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -570,7 +585,7 @@
         "FBW J024006.1-342852": {
             "J/A+A/641/A127": {
                 "Name": "FBW J024006.1-342852",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6496.89990234375,
@@ -580,7 +595,7 @@
         "[WMO2009] For-0970": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] For-0970",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4883.68994140625,
@@ -590,7 +605,7 @@
         "2MASS J02383503-3441380": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02383503-3441380",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Eu",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6645.2099609375,
@@ -600,7 +615,7 @@
         "2MASS J02392769-3437487": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02392769-3437487",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -610,7 +625,7 @@
         "2MASS J02392805-3434013": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02392805-3434013",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6318.72021484375,
@@ -620,7 +635,7 @@
         "2MASS J02393084-3435451": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02393084-3435451",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6606.9501953125,
@@ -630,7 +645,7 @@
         "2MASS J02392483-3434383": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02392483-3434383",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -640,7 +655,7 @@
         "2MASS J02393808-3437062": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02393808-3437062",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -650,7 +665,7 @@
         "2MASS J02394195-3430361": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02394195-3430361",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6606.9501953125,
@@ -660,7 +675,7 @@
         "2MASS J02393412-3433096": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02393412-3433096",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6176.81982421875,
@@ -670,7 +685,7 @@
         "2MASS J02393153-3423052": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02393153-3423052",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -680,7 +695,7 @@
         "[WMO2009] For-1120": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] For-1120",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -690,7 +705,7 @@
         "[WMO2009] For-1117": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] For-1117",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5476.919921875,
@@ -700,7 +715,7 @@
         "[LHT2010] BL233": {
             "J/A+A/641/A127": {
                 "Name": "[LHT2010] BL233",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -710,7 +725,7 @@
         "[LHT2010] BL204": {
             "J/A+A/641/A127": {
                 "Name": "[LHT2010] BL204",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5526.7998046875,
@@ -720,7 +735,7 @@
         "[LHT2010] BL261": {
             "J/A+A/641/A127": {
                 "Name": "[LHT2010] BL261",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6606.9501953125,
@@ -730,7 +745,7 @@
         "[LHT2010] BL147": {
             "J/A+A/641/A127": {
                 "Name": "[LHT2010] BL147",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -740,7 +755,7 @@
         "[LHT2010] BL163": {
             "J/A+A/641/A127": {
                 "Name": "[LHT2010] BL163",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5476.919921875,
@@ -750,7 +765,7 @@
         "[LDH2014] Fnx-mem0556": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0556",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -760,7 +775,7 @@
         "[LDH2014] Fnx-mem0546": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0546",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5476.919921875,
@@ -770,7 +785,7 @@
         "[LDH2014] Fnx-mem0572": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0572",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6606.9501953125,
@@ -780,7 +795,7 @@
         "[LDH2014] Fnx-mem0543": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0543",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Eu",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6645.2099609375,
@@ -790,7 +805,7 @@
         "[LDH2014] Fnx-mem0574": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0574",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Eu",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6645.2099609375,
@@ -800,7 +815,7 @@
         "[LHT2010] BL298": {
             "J/A+A/641/A127": {
                 "Name": "[LHT2010] BL298",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5402.77978515625,
@@ -810,7 +825,7 @@
         "[LHT2010] BL146": {
             "J/A+A/641/A127": {
                 "Name": "[LHT2010] BL146",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6496.89990234375,
@@ -820,7 +835,7 @@
         "2MASS J02381393-3446553": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02381393-3446553",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Eu",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6645.2099609375,
@@ -830,7 +845,7 @@
         "2MASS J02382132-3436180": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02382132-3436180",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -840,7 +855,7 @@
         "[LDH2014] Fnx-rgb0522": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-rgb0522",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6141.72998046875,
@@ -850,7 +865,7 @@
         "[LDH2014] Fnx-rgb0553": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-rgb0553",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5476.919921875,
@@ -860,7 +875,7 @@
         "2MASS J02383502-3442406": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02383502-3442406",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -870,7 +885,7 @@
         "2MASS J02383087-3447446": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02383087-3447446",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -880,7 +895,7 @@
         "[LHT2010] BL138": {
             "J/A+A/641/A127": {
                 "Name": "[LHT2010] BL138",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -890,7 +905,7 @@
         "[LHT2010] BL104": {
             "J/A+A/641/A127": {
                 "Name": "[LHT2010] BL104",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -900,7 +915,7 @@
         "[LHT2010] BL084": {
             "J/A+A/641/A127": {
                 "Name": "[LHT2010] BL084",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6606.9501953125,
@@ -910,7 +925,7 @@
         "[LHT2010] BL100": {
             "J/A+A/641/A127": {
                 "Name": "[LHT2010] BL100",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mn",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5420.35986328125,
@@ -920,7 +935,7 @@
         "[WMO2009] For-1581": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] For-1581",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -930,7 +945,7 @@
         "[WMO2009] For-1877": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] For-1877",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -940,7 +955,7 @@
         "[WMO2009] For-1579": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] For-1579",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6496.89990234375,
@@ -950,7 +965,7 @@
         "[WMO2009] For-2026": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] For-2026",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -960,7 +975,7 @@
         "[WMO2009] For-2280": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] For-2280",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6606.9501953125,
@@ -970,7 +985,7 @@
         "[WMO2009] For-1353": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] For-1353",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5476.919921875,
@@ -980,7 +995,7 @@
         "[WMO2009] For-1208": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] For-1208",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6318.72021484375,
@@ -990,7 +1005,7 @@
         "[WMO2009] For-1219": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] For-1219",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6309.89990234375,
@@ -1000,7 +1015,7 @@
         "[LDH2014] Fnx-mem0522": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0522",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -1010,7 +1025,7 @@
         "[LDH2014] Fnx-mem0532": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0532",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5409.77001953125,
@@ -1020,7 +1035,7 @@
         "[KGS2010] For   64059": {
             "J/A+A/641/A127": {
                 "Name": "[KGS2010] For   64059",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5526.7998046875,
@@ -1030,7 +1045,7 @@
         "[LHT2010] BL311": {
             "J/A+A/641/A127": {
                 "Name": "[LHT2010] BL311",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mn",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5420.35986328125,
@@ -1040,7 +1055,7 @@
         "[LDH2014] Fnx-mem0539": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0539",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6141.72998046875,
@@ -1050,7 +1065,7 @@
         "WEL  60": {
             "J/A+A/641/A127": {
                 "Name": "WEL  60",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5526.7998046875,
@@ -1060,7 +1075,7 @@
         "[BTH2006] fnx-05 042": {
             "J/A+A/641/A127": {
                 "Name": "[BTH2006] fnx-05 042",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4883.68994140625,
@@ -1070,7 +1085,7 @@
         "[HBJ2016] b0016": {
             "J/A+A/641/A127": {
                 "Name": "[HBJ2016] b0016",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -1080,7 +1095,7 @@
         "[HKW2014] 150": {
             "J/A+A/641/A127": {
                 "Name": "[HKW2014] 150",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5476.919921875,
@@ -1090,7 +1105,7 @@
         "2MASS J02394309-3440186": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02394309-3440186",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6606.9501953125,
@@ -1100,7 +1115,7 @@
         "2MASS J02385365-3433048": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02385365-3433048",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5476.919921875,
@@ -1110,7 +1125,7 @@
         "2MASS J02385555-3425365": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02385555-3425365",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6496.89990234375,
@@ -1120,7 +1135,7 @@
         "2MASS J02385721-3435400": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02385721-3435400",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Eu",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6645.2099609375,
@@ -1130,7 +1145,7 @@
         "2MASS J02384113-3444205": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02384113-3444205",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Eu",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6645.2099609375,
@@ -1140,7 +1155,7 @@
         "2MASS J02390031-3430302": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02390031-3430302",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6176.81982421875,
@@ -1150,7 +1165,7 @@
         "2MASS J02390157-3436488": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02390157-3436488",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6606.9501953125,
@@ -1160,7 +1175,7 @@
         "[LDH2014] Fnx-mem0717": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0717",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -1170,7 +1185,7 @@
         "[LDH2014] Fnx-mem0732": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0732",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mn",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5432.5498046875,
@@ -1180,7 +1195,7 @@
         "[LDH2014] Fnx-mem0715": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0715",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -1190,7 +1205,7 @@
         "[LDH2014] Fnx-mem0754": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0754",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -1200,7 +1215,7 @@
         "[LDH2014] Fnx-mem0747": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0747",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6606.9501953125,
@@ -1210,7 +1225,7 @@
         "2MASS J02391437-3434427": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02391437-3434427",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -1220,7 +1235,7 @@
         "2MASS J02391606-3430135": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02391606-3430135",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6309.89990234375,
@@ -1230,7 +1245,7 @@
         "2MASS J02391398-3428364": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02391398-3428364",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -1240,7 +1255,7 @@
         "2MASS J02391159-3430448": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02391159-3430448",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6176.81982421875,
@@ -1250,7 +1265,7 @@
         "2MASS J02391783-3430570": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02391783-3430570",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6496.89990234375,
@@ -1260,7 +1275,7 @@
         "[MOW91]  21": {
             "J/A+A/641/A127": {
                 "Name": "[MOW91]  21",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6330.08984375,
@@ -1270,7 +1285,7 @@
         "2MASS J02390819-3436537": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02390819-3436537",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -1280,7 +1295,7 @@
         "2MASS J02390853-3430556": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02390853-3430556",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6177.25,
@@ -1290,7 +1305,7 @@
         "2MASS J02390434-3425190": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02390434-3425190",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5409.77001953125,
@@ -1300,7 +1315,7 @@
         "2MASS J02391102-3428348": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02391102-3428348",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5476.919921875,
@@ -1310,7 +1325,7 @@
         "[LDH2014] Fnx-mem0714": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0714",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5476.919921875,
@@ -1320,7 +1335,7 @@
         "[WMO2006] F01-23": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2006] F01-23",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -1330,7 +1345,7 @@
         "[LDH2014] Fnx-mem0607": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0607",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6176.81982421875,
@@ -1340,7 +1355,7 @@
         "[WMO2006] F01-6": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2006] F01-6",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -1350,7 +1365,7 @@
         "[LDH2014] Fnx-mem0626": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0626",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -1360,7 +1375,7 @@
         "[LDH2014] Fnx-mem0612": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0612",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mn",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5420.35986328125,
@@ -1370,7 +1385,7 @@
         "[LDH2014] Fnx-mem0629": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0629",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -1380,7 +1395,7 @@
         "[WMO2009] For-0168": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] For-0168",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mn",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5432.5498046875,
@@ -1390,7 +1405,7 @@
         "[WMO2009] For-0391": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] For-0391",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6606.9501953125,
@@ -1400,7 +1415,7 @@
         "[WMO2009] For-0387": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] For-0387",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6177.25,
@@ -1410,7 +1425,7 @@
         "[WMO2009] For-0910": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] For-0910",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -1420,7 +1435,7 @@
         "[WMO2009] For-0361": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] For-0361",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6176.81982421875,
@@ -1430,7 +1445,7 @@
         "[WMO2009] For-0365": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] For-0365",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6141.72998046875,
@@ -1440,7 +1455,7 @@
         "[LDH2014] Fnx-mem0664": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0664",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5526.7998046875,
@@ -1450,7 +1465,7 @@
         "[LDH2014] Fnx-mem0675": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0675",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -1460,7 +1475,7 @@
         "[LDH2014] Fnx-mem0647": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0647",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6176.81982421875,
@@ -1470,7 +1485,7 @@
         "[LDH2014] Fnx-mem0654": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0654",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -1480,7 +1495,7 @@
         "[LDH2014] Fnx-mem0678": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0678",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6606.9501953125,
@@ -1490,7 +1505,7 @@
         "[LDH2014] Fnx-mem0682": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0682",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5526.7998046875,
@@ -1500,7 +1515,7 @@
         "[LDH2014] Fnx-mem0633": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0633",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6606.9501953125,
@@ -1510,7 +1525,7 @@
         "[LDH2014] Fnx-mem0631": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0631",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6318.72021484375,
@@ -1520,7 +1535,7 @@
         "[LDH2014] Fnx-mem0634": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0634",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6606.9501953125,
@@ -1530,7 +1545,7 @@
         "[LDH2014] Fnx-mem0638": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0638",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6496.89990234375,
@@ -1540,7 +1555,7 @@
         "2MASS J02401752-3426065": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02401752-3426065",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -1550,7 +1565,7 @@
         "2MASS J02401790-3427010": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02401790-3427010",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6606.9501953125,
@@ -1560,7 +1575,7 @@
         "2MASS J02401677-3429346": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02401677-3429346",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5409.77001953125,
@@ -1570,7 +1585,7 @@
         "2MASS J02401043-3425177": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02401043-3425177",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6176.81982421875,
@@ -1580,7 +1595,7 @@
         "[LDH2014] Fnx-mem0779": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0779",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -1590,7 +1605,7 @@
         "[LDH2014] Fnx-mem0595": {
             "J/A+A/641/A127": {
                 "Name": "[LDH2014] Fnx-mem0595",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -1600,7 +1615,7 @@
         "[WMO2009] For-0949": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] For-0949",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6309.89990234375,
@@ -1610,7 +1625,7 @@
         "2MASS J02394528-3431581": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02394528-3431581",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -1620,7 +1635,7 @@
         "2MASS J02395144-3421211": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02395144-3421211",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -1630,7 +1645,7 @@
         "2MASS J02395427-3435114": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02395427-3435114",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -1640,7 +1655,7 @@
         "2MASS J02395732-3431211": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02395732-3431211",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -1650,7 +1665,7 @@
         "2MASS J02395604-3424106": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02395604-3424106",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5409.77001953125,
@@ -1660,7 +1675,7 @@
         "[WMO2006] F01-20": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2006] F01-20",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mn",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5420.35986328125,
@@ -1670,7 +1685,7 @@
         "GB07 Fnx24": {
             "J/A+A/641/A127": {
                 "Name": "GB07 Fnx24",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -1680,7 +1695,7 @@
         "[WMO2006] F01-16": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2006] F01-16",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -1690,7 +1705,7 @@
         "[MOW91]   8": {
             "J/A+A/641/A127": {
                 "Name": "[MOW91]   8",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -1700,7 +1715,7 @@
         "2MASS J02384018-3439121": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02384018-3439121",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -1710,7 +1725,7 @@
         "2MASS J02392022-3431571": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J02392022-3431571",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -1720,7 +1735,7 @@
         "[MOW91]  25": {
             "J/A+A/641/A127": {
                 "Name": "[MOW91]  25",
-                "dSph": "For",
+                "Galaxy": "For",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5402.77978515625,
@@ -1732,7 +1747,7 @@
         "[BFO2002] Dra 50027": {
             "J/A+A/641/A127": {
                 "Name": "[BFO2002] Dra 50027",
-                "dSph": "Dra",
+                "Galaxy": "Dra",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5526.7998046875,
@@ -1742,7 +1757,7 @@
         "[BS61] 119": {
             "J/A+A/641/A127": {
                 "Name": "[BS61] 119",
-                "dSph": "Dra",
+                "Galaxy": "Dra",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5476.919921875,
@@ -1752,7 +1767,7 @@
         "Irwin Dra 21275": {
             "J/A+A/641/A127": {
                 "Name": "Irwin Dra 21275",
-                "dSph": "Dra",
+                "Galaxy": "Dra",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6496.89990234375,
@@ -1762,7 +1777,7 @@
         "SDSS J172034.19+575331.9": {
             "J/A+A/641/A127": {
                 "Name": "SDSS J172034.19+575331.9",
-                "dSph": "Dra",
+                "Galaxy": "Dra",
                 "Element": "Mn",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5432.5498046875,
@@ -1772,7 +1787,7 @@
         "Irwin Dra 18009": {
             "J/A+A/641/A127": {
                 "Name": "Irwin Dra 18009",
-                "dSph": "Dra",
+                "Galaxy": "Dra",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -1782,7 +1797,7 @@
         "Irwin Dra 19219": {
             "J/A+A/641/A127": {
                 "Name": "Irwin Dra 19219",
-                "dSph": "Dra",
+                "Galaxy": "Dra",
                 "Element": "Sr",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4215.52001953125,
@@ -1792,7 +1807,7 @@
         "SDSS J171810.38+575209.0": {
             "J/A+A/641/A127": {
                 "Name": "SDSS J171810.38+575209.0",
-                "dSph": "Dra",
+                "Galaxy": "Dra",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5183.60009765625,
@@ -1800,11 +1815,11 @@
             }
         }
     },
-    "Leo I": {
+    "LeoI": {
         "2MASS J10082205+1220204": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J10082205+1220204",
-                "dSph": "Leo I",
+                "Galaxy": "LeoI",
                 "Element": "Mn",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6013.509765625,
@@ -1814,7 +1829,7 @@
         "[MOV98]  2": {
             "J/A+A/641/A127": {
                 "Name": "[MOV98]  2",
-                "dSph": "Leo I",
+                "Galaxy": "LeoI",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5476.919921875,
@@ -1822,11 +1837,11 @@
             }
         }
     },
-    "Ret II": {
+    "RetII": {
         "[KCB2015] Reti  4": {
             "J/A+A/641/A127": {
                 "Name": "[KCB2015] Reti  4",
-                "dSph": "Ret II",
+                "Galaxy": "RetII",
                 "Element": "Eu",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6645.2099609375,
@@ -1836,7 +1851,7 @@
         "[WMO2015] 80": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2015] 80",
-                "dSph": "Ret II",
+                "Galaxy": "RetII",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6496.89990234375,
@@ -1846,7 +1861,7 @@
         "[WMO2015] 35": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2015] 35",
-                "dSph": "Ret II",
+                "Galaxy": "RetII",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6496.89990234375,
@@ -1856,7 +1871,7 @@
         "[WMO2015] 129": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2015] 129",
-                "dSph": "Ret II",
+                "Galaxy": "RetII",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6496.89990234375,
@@ -1866,7 +1881,7 @@
         "[KCB2015] Reti 15": {
             "J/A+A/641/A127": {
                 "Name": "[KCB2015] Reti 15",
-                "dSph": "Ret II",
+                "Galaxy": "RetII",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -1876,7 +1891,7 @@
         "DES J033607.75-540235.6": {
             "J/A+A/641/A127": {
                 "Name": "DES J033607.75-540235.6",
-                "dSph": "Ret II",
+                "Galaxy": "RetII",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -1888,7 +1903,7 @@
         "2MASS J01000758-3337039": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01000758-3337039",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6177.25,
@@ -1898,7 +1913,7 @@
         "2MASS J00594768-3347293": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00594768-3347293",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6309.89990234375,
@@ -1908,7 +1923,7 @@
         "2MASS J01000697-3347095": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01000697-3347095",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -1918,7 +1933,7 @@
         "2MASS J00594992-3344050": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00594992-3344050",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4883.68994140625,
@@ -1928,7 +1943,7 @@
         "[STS2015] ET0145": {
             "J/A+A/641/A127": {
                 "Name": "[STS2015] ET0145",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -1938,7 +1953,7 @@
         "[STS2015] ET0237": {
             "J/A+A/641/A127": {
                 "Name": "[STS2015] ET0237",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -1948,7 +1963,7 @@
         "[SHT2013] Scl 03 059": {
             "J/A+A/641/A127": {
                 "Name": "[SHT2013] Scl 03 059",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5183.60009765625,
@@ -1958,7 +1973,7 @@
         "[V78] 551": {
             "J/A+A/641/A127": {
                 "Name": "[V78] 551",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Sr",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4215.52001953125,
@@ -1968,7 +1983,7 @@
         "GB07 Scl34": {
             "J/A+A/641/A127": {
                 "Name": "GB07 Scl34",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4883.68994140625,
@@ -1978,7 +1993,7 @@
         "[STS2015] ET0206": {
             "J/A+A/641/A127": {
                 "Name": "[STS2015] ET0206",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -1988,7 +2003,7 @@
         "2MASS J00595306-3343583": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00595306-3343583",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -1998,7 +2013,7 @@
         "2MASS J01000419-3343324": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01000419-3343324",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6141.72998046875,
@@ -2008,7 +2023,7 @@
         "2MASS J00594258-3342182": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00594258-3342182",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6141.72998046875,
@@ -2018,7 +2033,7 @@
         "2MASS J00594490-3344350": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00594490-3344350",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4883.68994140625,
@@ -2028,7 +2043,7 @@
         "2MASS J00595563-3333246": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00595563-3333246",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5526.7998046875,
@@ -2038,7 +2053,7 @@
         "2MASS J00595448-3337533": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00595448-3337533",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6496.89990234375,
@@ -2048,7 +2063,7 @@
         "2MASS J00595422-3340270": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00595422-3340270",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -2058,7 +2073,7 @@
         "2MASS J00595586-3345435": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00595586-3345435",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4883.68994140625,
@@ -2068,7 +2083,7 @@
         "2MASS J00595568-3346400": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00595568-3346400",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -2078,7 +2093,7 @@
         "2MASS J00594529-3343540": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00594529-3343540",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5526.7998046875,
@@ -2088,7 +2103,7 @@
         "2MASS J00594721-3333370": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00594721-3333370",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Zn",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 4810.5400390625,
@@ -2098,7 +2113,7 @@
         "2MASS J00595400-3337421": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00595400-3337421",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5409.77001953125,
@@ -2108,7 +2123,7 @@
         "2MASS J01000268-3330253": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01000268-3330253",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -2118,7 +2133,7 @@
         "2MASS J01000050-3349355": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01000050-3349355",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -2128,7 +2143,7 @@
         "2MASS J00595966-3339319": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00595966-3339319",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Eu",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6645.2099609375,
@@ -2138,7 +2153,7 @@
         "2MASS J00595831-3334406": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00595831-3334406",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5526.7998046875,
@@ -2148,7 +2163,7 @@
         "2MASS J01000360-3339271": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01000360-3339271",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5526.7998046875,
@@ -2158,7 +2173,7 @@
         "2MASS J00595826-3345507": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00595826-3345507",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4883.68994140625,
@@ -2168,7 +2183,7 @@
         "2MASS J00595660-3336417": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00595660-3336417",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6141.72998046875,
@@ -2178,7 +2193,7 @@
         "2MASS J00595827-3341087": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00595827-3341087",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6141.72998046875,
@@ -2188,7 +2203,7 @@
         "2MASS J00590860-3342295": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00590860-3342295",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5526.7998046875,
@@ -2198,7 +2213,7 @@
         "2MASS J01005418-3340146": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01005418-3340146",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mn",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5432.5498046875,
@@ -2208,7 +2223,7 @@
         "2MASS J01001181-3342169": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01001181-3342169",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -2218,7 +2233,7 @@
         "2MASS J01001174-3344503": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01001174-3344503",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5526.7998046875,
@@ -2228,7 +2243,7 @@
         "2MASS J01001051-3349366": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01001051-3349366",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -2238,7 +2253,7 @@
         "2MASS J01001278-3341157": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01001278-3341157",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5476.919921875,
@@ -2248,7 +2263,7 @@
         "2MASS J01001255-3343011": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01001255-3343011",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -2258,7 +2273,7 @@
         "2MASS J01002384-3342173": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01002384-3342173",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4883.68994140625,
@@ -2268,7 +2283,7 @@
         "2MASS J01000919-3336094": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01000919-3336094",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5409.77001953125,
@@ -2278,7 +2293,7 @@
         "2MASS J00594140-3338470": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00594140-3338470",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6330.08984375,
@@ -2288,7 +2303,7 @@
         "[MFW2011] 5059": {
             "J/A+A/641/A127": {
                 "Name": "[MFW2011] 5059",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -2298,7 +2313,7 @@
         "[SHT2013] Scl074 02": {
             "J/A+A/641/A127": {
                 "Name": "[SHT2013] Scl074 02",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5183.60009765625,
@@ -2308,7 +2323,7 @@
         "UCAC4 282-001099": {
             "J/A+A/641/A127": {
                 "Name": "UCAC4 282-001099",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4883.68994140625,
@@ -2318,7 +2333,7 @@
         "2MASS J01001537-3339060": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01001537-3339060",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -2328,7 +2343,7 @@
         "2MASS J01001519-3343110": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01001519-3343110",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6496.89990234375,
@@ -2338,7 +2353,7 @@
         "2MASS J01001483-3336498": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01001483-3336498",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -2348,7 +2363,7 @@
         "2MASS J01001777-3335597": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01001777-3335597",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6318.72021484375,
@@ -2358,7 +2373,7 @@
         "2MASS J01001759-3346552": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01001759-3346552",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -2368,7 +2383,7 @@
         "2MASS J01001736-3343595": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01001736-3343595",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -2378,7 +2393,7 @@
         "2MASS J01001471-3339577": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01001471-3339577",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -2388,7 +2403,7 @@
         "2MASS J01001397-3336391": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01001397-3336391",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Eu",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6645.2099609375,
@@ -2398,7 +2413,7 @@
         "2MASS J01001295-3342038": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01001295-3342038",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5183.60009765625,
@@ -2408,7 +2423,7 @@
         "2MASS J01001460-3347116": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01001460-3347116",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -2418,7 +2433,7 @@
         "2MASS J00592081-3344049": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00592081-3344049",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mn",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5432.5498046875,
@@ -2428,7 +2443,7 @@
         "2MASS J00592065-3348566": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00592065-3348566",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -2438,7 +2453,7 @@
         "2MASS J00591884-3342175": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00591884-3342175",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -2448,7 +2463,7 @@
         "2MASS J00592830-3342073": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00592830-3342073",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4883.68994140625,
@@ -2458,7 +2473,7 @@
         "2MASS J00592213-3349037": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00592213-3349037",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5409.77001953125,
@@ -2468,7 +2483,7 @@
         "2MASS J00591515-3342547": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00591515-3342547",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -2478,7 +2493,7 @@
         "2MASS J00591183-3341252": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00591183-3341252",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -2488,7 +2503,7 @@
         "2MASS J00591134-3337281": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00591134-3337281",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -2498,7 +2513,7 @@
         "2MASS J00591514-3339438": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00591514-3339438",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -2508,7 +2523,7 @@
         "2MASS J00593045-3336050": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00593045-3336050",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6141.72998046875,
@@ -2518,7 +2533,7 @@
         "2MASS J00594045-3335539": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00594045-3335539",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4883.68994140625,
@@ -2528,7 +2543,7 @@
         "2MASS J00593811-3335080": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00593811-3335080",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6177.25,
@@ -2538,7 +2553,7 @@
         "2MASS J00593757-3343336": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00593757-3343336",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -2548,7 +2563,7 @@
         "[SHT2013] Scl031 11": {
             "J/A+A/641/A127": {
                 "Name": "[SHT2013] Scl031 11",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Sr",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4077.7099609375,
@@ -2558,7 +2573,7 @@
         "[SHT2013] Scl002 06": {
             "J/A+A/641/A127": {
                 "Name": "[SHT2013] Scl002 06",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5183.60009765625,
@@ -2568,7 +2583,7 @@
         "2MASS J00593698-3330283": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00593698-3330283",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -2578,7 +2593,7 @@
         "2MASS J00593500-3350557": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00593500-3350557",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -2588,7 +2603,7 @@
         "2MASS J00593048-3339041": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00593048-3339041",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5409.77001953125,
@@ -2598,7 +2613,7 @@
         "2MASS J00593723-3337106": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J00593723-3337106",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -2608,7 +2623,7 @@
         "2MASS J01003404-3339046": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01003404-3339046",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -2618,7 +2633,7 @@
         "2MASS J01003432-3349528": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01003432-3349528",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4883.68994140625,
@@ -2628,7 +2643,7 @@
         "2MASS J01003385-3344543": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01003385-3344543",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5476.919921875,
@@ -2638,7 +2653,7 @@
         "2MASS J01002629-3344456": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01002629-3344456",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -2648,7 +2663,7 @@
         "2MASS J01004250-3344235": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01004250-3344235",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4883.68994140625,
@@ -2658,7 +2673,7 @@
         "2MASS J01003813-3348168": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01003813-3348168",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6141.72998046875,
@@ -2668,7 +2683,7 @@
         "2MASS J01002579-3330255": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01002579-3330255",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -2678,7 +2693,7 @@
         "SCMS  822": {
             "J/A+A/641/A127": {
                 "Name": "SCMS  822",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6496.89990234375,
@@ -2688,7 +2703,7 @@
         "[KGB2009] J005939.5-334539": {
             "J/A+A/641/A127": {
                 "Name": "[KGB2009] J005939.5-334539",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5409.77001953125,
@@ -2698,7 +2713,7 @@
         "2MASS J01002463-3344287": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01002463-3344287",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4883.68994140625,
@@ -2708,7 +2723,7 @@
         "[WMO2009] Scl- 927": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] Scl- 927",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -2718,7 +2733,7 @@
         "2MASS J01002531-3350506": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01002531-3350506",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6141.72998046875,
@@ -2728,7 +2743,7 @@
         "2MASS J01002504-3342275": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01002504-3342275",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mn",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5432.5498046875,
@@ -2738,7 +2753,7 @@
         "2MASS J01004427-3349188": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01004427-3349188",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6141.72998046875,
@@ -2748,7 +2763,7 @@
         "2MASS J01002030-3335345": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01002030-3335345",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4883.68994140625,
@@ -2758,7 +2773,7 @@
         "2MASS J01001897-3345147": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01001897-3345147",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -2768,7 +2783,7 @@
         "2MASS J01002109-3333464": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01002109-3333464",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4883.68994140625,
@@ -2778,7 +2793,7 @@
         "2MASS J01002118-3346012": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01002118-3346012",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5409.77001953125,
@@ -2788,7 +2803,7 @@
         "2MASS J01001830-3342122": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01001830-3342122",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6330.08984375,
@@ -2798,7 +2813,7 @@
         "2MASS J01005087-3345053": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01005087-3345053",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6496.89990234375,
@@ -2808,7 +2823,7 @@
         "2MASS J01004653-3346472": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01004653-3346472",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Sr",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4215.52001953125,
@@ -2818,7 +2833,7 @@
         "2MASS J01005025-3336383": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01005025-3336383",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5409.77001953125,
@@ -2828,7 +2843,7 @@
         "2MASS J01002298-3343021": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J01002298-3343021",
-                "dSph": "Scl",
+                "Galaxy": "Scl",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4883.68994140625,
@@ -2840,7 +2855,7 @@
         "[WMO2009] Sex-042": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] Sex-042",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -2850,7 +2865,7 @@
         "[KGS2010] Sex     191": {
             "J/A+A/641/A127": {
                 "Name": "[KGS2010] Sex     191",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5526.7998046875,
@@ -2860,7 +2875,7 @@
         "[AAS2009] S 24-72": {
             "J/A+A/641/A127": {
                 "Name": "[AAS2009] S 24-72",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -2870,7 +2885,7 @@
         "[BTH2011] 129": {
             "J/A+A/641/A127": {
                 "Name": "[BTH2011] 129",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6141.72998046875,
@@ -2880,7 +2895,7 @@
         "[BTH2011] 48": {
             "J/A+A/641/A127": {
                 "Name": "[BTH2011] 48",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -2890,7 +2905,7 @@
         "[LPP2003]   503": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   503",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5526.7998046875,
@@ -2900,7 +2915,7 @@
         "2MASS J10132736-0134051": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J10132736-0134051",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6141.72998046875,
@@ -2910,7 +2925,7 @@
         "[WMO2009] Sex-026": {
             "J/A+A/641/A127": {
                 "Name": "[WMO2009] Sex-026",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -2920,7 +2935,7 @@
         "[LPP2003] VV  2": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003] VV  2",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -2930,7 +2945,7 @@
         "[LPP2003]   169": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   169",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -2940,7 +2955,7 @@
         "[LPP2003]   463": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   463",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5526.7998046875,
@@ -2950,7 +2965,7 @@
         "[LPP2003]   522": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   522",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -2960,7 +2975,7 @@
         "[LPP2003]   528": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   528",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -2970,7 +2985,7 @@
         "[LPP2003]   530": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   530",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -2980,7 +2995,7 @@
         "[LPP2003]   457": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   457",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -2990,7 +3005,7 @@
         "[LPP2003]   458": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   458",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5409.77001953125,
@@ -3000,7 +3015,7 @@
         "[LPP2003]   561": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   561",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5526.7998046875,
@@ -3010,7 +3025,7 @@
         "[LPP2003]   570": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   570",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5476.919921875,
@@ -3020,7 +3035,7 @@
         "[LPP2003]   641": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   641",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5409.77001953125,
@@ -3030,7 +3045,7 @@
         "[LPP2003]   642": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   642",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5476.919921875,
@@ -3040,7 +3055,7 @@
         "[LPP2003]   534": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   534",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -3050,7 +3065,7 @@
         "[LPP2003]   545": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   545",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6141.72998046875,
@@ -3060,7 +3075,7 @@
         "[LPP2003]   690": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   690",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5409.77001953125,
@@ -3070,7 +3085,7 @@
         "[LPP2003]   444": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   444",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5476.919921875,
@@ -3080,7 +3095,7 @@
         "[LPP2003]   290": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   290",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6496.89990234375,
@@ -3090,7 +3105,7 @@
         "[LPP2003]   322": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   322",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -3100,7 +3115,7 @@
         "[LPP2003]   342": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   342",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -3110,7 +3125,7 @@
         "[LPP2003]   245": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   245",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -3120,7 +3135,7 @@
         "[LPP2003]   343": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   343",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -3130,7 +3145,7 @@
         "[LPP2003]   416": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   416",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -3140,7 +3155,7 @@
         "[LPP2003]   420": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   420",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -3150,7 +3165,7 @@
         "[LPP2003]   392": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   392",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -3160,7 +3175,7 @@
         "[LPP2003]   382": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   382",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5409.77001953125,
@@ -3170,7 +3185,7 @@
         "[LPP2003]   473": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   473",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6496.89990234375,
@@ -3180,7 +3195,7 @@
         "[LPP2003]   470": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   470",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -3190,7 +3205,7 @@
         "[LPP2003]   514": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   514",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -3200,7 +3215,7 @@
         "[LPP2003]   199": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   199",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5183.60009765625,
@@ -3210,7 +3225,7 @@
         "[LPP2003]   502": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   502",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -3220,7 +3235,7 @@
         "[LPP2003]   701": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   701",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6496.89990234375,
@@ -3230,7 +3245,7 @@
         "[LPP2003]   737": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   737",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5476.919921875,
@@ -3240,7 +3255,7 @@
         "[LPP2003]   740": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   740",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5409.77001953125,
@@ -3250,7 +3265,7 @@
         "[LPP2003]   825": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   825",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -3260,7 +3275,7 @@
         "[LPP2003]   792": {
             "J/A+A/641/A127": {
                 "Name": "[LPP2003]   792",
-                "dSph": "Sex",
+                "Galaxy": "Sex",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6496.89990234375,
@@ -3268,11 +3283,11 @@
             }
         }
     },
-    "Seg I": {
+    "SegI": {
         "SDSS J100814.44+160501.1": {
             "J/A+A/641/A127": {
                 "Name": "SDSS J100814.44+160501.1",
-                "dSph": "Seg I",
+                "Galaxy": "SegI",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5183.60009765625,
@@ -3284,7 +3299,7 @@
         "GIU J190638.43-315135.9": {
             "J/A+A/641/A127": {
                 "Name": "GIU J190638.43-315135.9",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5409.77001953125,
@@ -3294,7 +3309,7 @@
         "GIU J190043.03-311704.3": {
             "J/A+A/641/A127": {
                 "Name": "GIU J190043.03-311704.3",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -3304,7 +3319,7 @@
         "GIU J185533.85-300521.2": {
             "J/A+A/641/A127": {
                 "Name": "GIU J185533.85-300521.2",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6309.89990234375,
@@ -3314,7 +3329,7 @@
         "GIU J190651.47-320147.2": {
             "J/A+A/641/A127": {
                 "Name": "GIU J190651.47-320147.2",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4883.68994140625,
@@ -3324,7 +3339,7 @@
         "GIU J185549.44-300349.3": {
             "J/A+A/641/A127": {
                 "Name": "GIU J185549.44-300349.3",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Ti",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5418.77001953125,
@@ -3334,7 +3349,7 @@
         "GIU J190039.06-310720.5": {
             "J/A+A/641/A127": {
                 "Name": "GIU J190039.06-310720.5",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Zn",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 4810.5400390625,
@@ -3344,7 +3359,7 @@
         "[MBC98a] Sgr1  894": {
             "J/A+A/641/A127": {
                 "Name": "[MBC98a] Sgr1  894",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Mn",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5432.5498046875,
@@ -3354,7 +3369,7 @@
         "[MBC98a] Sgr1  628": {
             "J/A+A/641/A127": {
                 "Name": "[MBC98a] Sgr1  628",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6141.72998046875,
@@ -3364,7 +3379,7 @@
         "[MBC98a] Sgr1  716": {
             "J/A+A/641/A127": {
                 "Name": "[MBC98a] Sgr1  716",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5853.68994140625,
@@ -3374,7 +3389,7 @@
         "[MBC98a] Sgr1  867": {
             "J/A+A/641/A127": {
                 "Name": "[MBC98a] Sgr1  867",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6309.89990234375,
@@ -3384,7 +3399,7 @@
         "[MBC98a] Sgr1  432": {
             "J/A+A/641/A127": {
                 "Name": "[MBC98a] Sgr1  432",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5409.77001953125,
@@ -3394,7 +3409,7 @@
         "[HEM2018] Sgr 2300225": {
             "J/A+A/641/A127": {
                 "Name": "[HEM2018] Sgr 2300225",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5183.60009765625,
@@ -3404,7 +3419,7 @@
         "2MASS J18535171-3026497": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J18535171-3026497",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6330.08984375,
@@ -3414,7 +3429,7 @@
         "2MASS J18535108-3026483": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J18535108-3026483",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -3424,7 +3439,7 @@
         "2MASS J18540214-3036218": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J18540214-3036218",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5853.68994140625,
@@ -3434,7 +3449,7 @@
         "2MASS J18535650-3027205": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J18535650-3027205",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6141.72998046875,
@@ -3444,7 +3459,7 @@
         "Cl* Terzan    7    BCP    1272": {
             "J/A+A/641/A127": {
                 "Name": "Cl* Terzan    7    BCP    1272",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Mn",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5420.35986328125,
@@ -3454,7 +3469,7 @@
         "2MASS J18534878-3029391": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J18534878-3029391",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Mn",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5432.5498046875,
@@ -3464,7 +3479,7 @@
         "2MASS J18534573-3025574": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J18534573-3025574",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Cr",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6330.08984375,
@@ -3474,7 +3489,7 @@
         "Cl* Terzan    7    KHG       1": {
             "J/A+A/641/A127": {
                 "Name": "Cl* Terzan    7    KHG       1",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5526.7998046875,
@@ -3484,7 +3499,7 @@
         "Cl* Terzan    7    BCP    1282": {
             "J/A+A/641/A127": {
                 "Name": "Cl* Terzan    7    BCP    1282",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Eu",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4205.0498046875,
@@ -3494,7 +3509,7 @@
         "[HEM2018] Sgr 2300275": {
             "J/A+A/641/A127": {
                 "Name": "[HEM2018] Sgr 2300275",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6141.72998046875,
@@ -3504,7 +3519,7 @@
         "GIU J184828.45-294929.7": {
             "J/A+A/641/A127": {
                 "Name": "GIU J184828.45-294929.7",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Eu",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4205.0498046875,
@@ -3514,7 +3529,7 @@
         "GIU J185211.31-311907.5": {
             "J/A+A/641/A127": {
                 "Name": "GIU J185211.31-311907.5",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4883.68994140625,
@@ -3524,7 +3539,7 @@
         "GIU J184323.07-290337.6": {
             "J/A+A/641/A127": {
                 "Name": "GIU J184323.07-290337.6",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Mn",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6021.81982421875,
@@ -3534,7 +3549,7 @@
         "GIU J185259.59-312135.1": {
             "J/A+A/641/A127": {
                 "Name": "GIU J185259.59-312135.1",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5402.77978515625,
@@ -3544,7 +3559,7 @@
         "[HEM2018] Sgr 3600436": {
             "J/A+A/641/A127": {
                 "Name": "[HEM2018] Sgr 3600436",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4883.68994140625,
@@ -3554,7 +3569,7 @@
         "2MASS J18533874-3029290": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J18533874-3029290",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5526.7998046875,
@@ -3564,7 +3579,7 @@
         "2MASS J18534523-3030558": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J18534523-3030558",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6141.72998046875,
@@ -3574,7 +3589,7 @@
         "2MASS J18531978-3037403": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J18531978-3037403",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6141.72998046875,
@@ -3584,7 +3599,7 @@
         "2MASS J18532235-3023473": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J18532235-3023473",
-                "dSph": "Sgr",
+                "Galaxy": "Sgr",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6141.72998046875,
@@ -3592,11 +3607,11 @@
             }
         }
     },
-    "UMin": {
+    "UMi": {
         "COS 171": {
             "J/A+A/641/A127": {
                 "Name": "COS 171",
-                "dSph": "UMin",
+                "Galaxy": "UMi",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5183.60009765625,
@@ -3606,7 +3621,7 @@
         "Irwin UMi 30760": {
             "J/A+A/641/A127": {
                 "Name": "Irwin UMi 30760",
-                "dSph": "UMin",
+                "Galaxy": "UMi",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -3616,7 +3631,7 @@
         "Irwin UMi 33533": {
             "J/A+A/641/A127": {
                 "Name": "Irwin UMi 33533",
-                "dSph": "UMin",
+                "Galaxy": "UMi",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5183.60009765625,
@@ -3626,7 +3641,7 @@
         "Irwin UMi 36228": {
             "J/A+A/641/A127": {
                 "Name": "Irwin UMi 36228",
-                "dSph": "UMin",
+                "Galaxy": "UMi",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5476.919921875,
@@ -3636,7 +3651,7 @@
         "Irwin UMi 36886": {
             "J/A+A/641/A127": {
                 "Name": "Irwin UMi 36886",
-                "dSph": "UMin",
+                "Galaxy": "UMi",
                 "Element": "Eu",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4205.0498046875,
@@ -3646,7 +3661,7 @@
         "Irwin UMi 28104": {
             "J/A+A/641/A127": {
                 "Name": "Irwin UMi 28104",
-                "dSph": "UMin",
+                "Galaxy": "UMi",
                 "Element": "Mn",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6021.81982421875,
@@ -3656,7 +3671,7 @@
         "Irwin UMi 27940": {
             "J/A+A/641/A127": {
                 "Name": "Irwin UMi 27940",
-                "dSph": "UMin",
+                "Galaxy": "UMi",
                 "Element": "Y",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4883.68994140625,
@@ -3666,7 +3681,7 @@
         "COS 233": {
             "J/A+A/641/A127": {
                 "Name": "COS 233",
-                "dSph": "UMin",
+                "Galaxy": "UMi",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6141.72998046875,
@@ -3676,7 +3691,7 @@
         "Olsz N37": {
             "J/A+A/641/A127": {
                 "Name": "Olsz N37",
-                "dSph": "UMin",
+                "Galaxy": "UMi",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5526.7998046875,
@@ -3686,7 +3701,7 @@
         "NAME UMI718": {
             "J/A+A/641/A127": {
                 "Name": "NAME UMI718",
-                "dSph": "UMin",
+                "Galaxy": "UMi",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5183.60009765625,
@@ -3696,7 +3711,7 @@
         "NAME UMI396": {
             "J/A+A/641/A127": {
                 "Name": "NAME UMI396",
-                "dSph": "UMin",
+                "Galaxy": "UMi",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 6643.56005859375,
@@ -3706,7 +3721,7 @@
         "Irwin UMi 41065": {
             "J/A+A/641/A127": {
                 "Name": "Irwin UMi 41065",
-                "dSph": "UMin",
+                "Galaxy": "UMi",
                 "Element": "Ba",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 6141.72998046875,
@@ -3716,7 +3731,7 @@
         "NAME UMI446": {
             "J/A+A/641/A127": {
                 "Name": "NAME UMI446",
-                "dSph": "UMin",
+                "Galaxy": "UMi",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5476.919921875,
@@ -3724,11 +3739,11 @@
             }
         }
     },
-    "Tri II": {
+    "TriII": {
         "[MIC2016] 40": {
             "J/A+A/641/A127": {
                 "Name": "[MIC2016] 40",
-                "dSph": "Tri II",
+                "Galaxy": "TriII",
                 "Element": "Sr",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 4215.52001953125,
@@ -3736,11 +3751,11 @@
             }
         }
     },
-    "UMa II": {
+    "UMaII": {
         "2MASS J08495341+6308216": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J08495341+6308216",
-                "dSph": "UMa II",
+                "Galaxy": "UMaII",
                 "Element": "Ni",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5476.919921875,
@@ -3750,7 +3765,7 @@
         "2MASS J08523350+6305009": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J08523350+6305009",
-                "dSph": "UMa II",
+                "Galaxy": "UMaII",
                 "Element": "Mg",
                 "Ion_state": "I",
                 "Absorp_feature_lambda": 5528.47998046875,
@@ -3760,7 +3775,7 @@
         "2MASS J08525902+6305544": {
             "J/A+A/641/A127": {
                 "Name": "2MASS J08525902+6305544",
-                "dSph": "UMa II",
+                "Galaxy": "UMaII",
                 "Element": "Sc",
                 "Ion_state": "II",
                 "Absorp_feature_lambda": 5526.7998046875,

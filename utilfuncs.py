@@ -14,7 +14,9 @@ def catalog_type_check(catalog):
     """Checks if the catalog is a path to a JSON file or a dictionary.
     
     Args:
-        catalog: The catalog to be checked.
+        catalog: The catalog to be checked. If the input is a path to a JSON file,
+            it will be loaded as a dictionary. If the input is a dictionary, it will
+            be returned as is.
 
     Returns:
         The catalog as a dictionary.
@@ -28,7 +30,8 @@ def catalog_type_check(catalog):
     return catalog
 
 def catalog_name_check(catalog, catalog_name):
-    """Checks if a specified catalog had already been compiled.
+    """Checks if a specified catalog had already been compiled. If the specified catalog
+        was never recorded, or if the catalog name is not specified, an error will be raised.
     
     Args:
         catalog: The catalog to be checked.
@@ -94,11 +97,13 @@ def member_count(cat):
 
 
 def find_nearest_galaxy(star_coords, catalog = str or dict, ref_catalog = None):
-    """Finds the nearest star in a catalog to a given star.
+    """Finds the nearest galaxy in a catalog to a given star.
+        This function is intended to be used while scanning through the cache.
     
     Args:
-        star_coords: A dictionary containing the coordinates of the incoming star.
-        catalog_path: The path to the catalog file.
+        star_coords: A dictionary containing the coordinates of the incoming star. 
+            The dictionary corresponds to the incoming galaxy.
+        catalog: The path to the catalog file, or the catalog dict itself.
         ref_catalog: Reference catalog to cross match with.
     
     Returns:
@@ -106,9 +111,11 @@ def find_nearest_galaxy(star_coords, catalog = str or dict, ref_catalog = None):
         gal_dist: The distance between the incoming star and the nearest galaxy.
     """
     # Load JSON file and check type
-    print(f"[{datetime.now()}] Finding the nearest galaxy...")
+    print("Finding the nearest galaxy...")
+    # Make sure that the catalog is a dictionary
     catalog = catalog_type_check(catalog)
 
+    # Make sure that the reference catalog name is in the collection
     ref_catalog = catalog_name_check(catalog, ref_catalog)
     # Find the nearest galaxy
     gal_dist = np.inf
@@ -116,9 +123,16 @@ def find_nearest_galaxy(star_coords, catalog = str or dict, ref_catalog = None):
     for gal in catalog.keys():
         if gal == META_DATA_KEY:
             continue
+        if type(catalog[gal]) == tuple:
+            catalog[gal] = catalog[gal][0] # I don't know why sometimes it's a tuple,
+            # but this fixes it.
 
+        # print(len(catalog[gal]), type(catalog[gal]), gal)
         first_star = list(catalog[gal].keys())[0]
-        first_star = catalog[gal][first_star][ref_catalog]
+        first_star = catalog[gal][first_star]
+
+        for cat in first_star:
+            first_star = first_star[cat]
 
         first_star_coord = first_star["RAJ2000"], first_star["DEJ2000"]
 
@@ -133,7 +147,11 @@ def find_nearest_galaxy(star_coords, catalog = str or dict, ref_catalog = None):
     # and check if the star is within the boundary
     gal_member_coords = []
     for star in catalog[nearest_gal].keys():
-        star = catalog[nearest_gal][star][ref_catalog]
+        star = catalog[nearest_gal][star]
+        for cat in star:
+            star = star[cat]
+            break
+
         ra_temp = np.float64(star['RAJ2000'])
         dec_temp = np.float64(star['DEJ2000'])
 
@@ -152,9 +170,8 @@ def find_nearest_galaxy(star_coords, catalog = str or dict, ref_catalog = None):
     if star_dist > ra_bound**2 + dec_bound**2:
         nearest_gal = None
         gal_dist = None
-        time_stamp = datetime.now()
-        msg = "Star is not within the boundary of the nearest galaxy, returning None."
-        print(f"[{time_stamp}] {msg}")
+        msg = "Not within the boundary of the nearest galaxy, returning None."
+        print(msg)
 
     return nearest_gal, gal_dist
 
@@ -179,14 +196,12 @@ def galaxy_crossmatch(gal1:dict, gal1_catalog:str, ref_catalog, cache_):
     # of any galaxy in the cache
     first_star = list(gal1.keys())[0]
     first_star = gal1[first_star][gal1_catalog]
-    print(first_star)
 
     first_star_coord = {"RAJ2000": first_star["RAJ2000"],
                         "DEJ2000": first_star["DEJ2000"]}
     gal_name, _ = find_nearest_galaxy(first_star_coord, cache_, ref_catalog)
 
     return gal_name
-
 
 def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str, match_threshold = '1s'):
     """Main function for crossmatching stars between two galaxies in two catalogs.
@@ -205,6 +220,10 @@ def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str, ma
             gal_output: The galaxy to be added to the cache. It should contain 
                 stars from both galaxies, with the overlapping stars having 
                 two sets of data from the two catalogs.
+            match_list: A dictionary containing the names of the stars that
+                were matched between the two galaxies. The keys are the names
+                of the stars in gal1, and the values are the names of the stars
+                in gal2.
     """
     # Find the closest star in gal2 for each star in gal1
     # 1. Make a list of all stars in gal1 and gal2
@@ -228,13 +247,20 @@ def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str, ma
     gal1_coords = [] # Incoming data
     for star in gal1.keys():
         star = gal1[star][gal1_catalog]
-        ra_temp = np.float64(star['RAJ2000'])
-        dec_temp = np.float64(star['DEJ2000'])
+        try:
+            ra_temp = np.float64(star['RAJ2000'])
+            dec_temp = np.float64(star['DEJ2000'])
+        except KeyError:
+            star_name = star["Name"]
+            print(f"{star_name} does not have RAJ2000 or DEJ2000, skipping it.")
+            continue
 
         gal1_coords.append([ra_temp, dec_temp])
 
     gal2_coords = [] # Reference data
     for star in gal2.keys():
+        if gal2_catalog not in gal2[star].keys():
+            gal2_catalog = list(gal2[star].keys())[0]
         star = gal2[star][gal2_catalog]
         ra_temp = np.float64(star['RAJ2000'])
         dec_temp = np.float64(star['DEJ2000'])
@@ -261,11 +287,6 @@ def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str, ma
     idx_sorted = idx[sort_index] # idx but in ascending order
     d2d_sorted = d2d[sort_index]
 
-    # print("idx = ", idx)
-    # print("sort_index = ", sort_index)
-    # print("idx_sorted = ", idx_sorted)
-    # print("d2d_sorted = ", d2d_sorted)
-
     # Iterate through sorted idx. Group each identical idx into one list,
     # # and find the one with the smallest d2d.
     # The one with the smallest d2d is the closest star.
@@ -276,7 +297,7 @@ def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str, ma
     for count, indx in enumerate(idx_sorted):
         dist_temp = d2d_sorted[count]
 
-        if indx != idx_sorted[count - 1]:
+        if indx != idx_sorted[count - 1] or len(idx_sorted) == 1:
             # If the current indx is not equal to the previous indx, make a new minor list
             count_start = count
             idx_list = [indx]
@@ -285,7 +306,10 @@ def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str, ma
             duplicate_flag = False
         else:
             # If the current indx is equal to the previous indx, append it to the minor list
-            idx_list.append(indx)
+            try: # BUG: need to consider the case where the incoming galaxy has only one star
+                idx_list.append(indx)
+            except UnboundLocalError:
+                print(idx, indx, idx_sorted[count - 1], idx_sorted)
             dist_list = np.append(dist_list, dist_temp)
             temp_list_indx.append(count)
             duplicate_flag = True
@@ -313,11 +337,11 @@ def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str, ma
         if star1_name in match_list.keys():
             star2_name = match_list[star1_name]
             gal_output[star2_name][gal1_catalog] = gal1[star1_name][gal1_catalog]
-        
+
         else:
             gal_output[star1_name] = gal1[star1_name]
 
-    return gal_output
+    return gal_output, match_list
 
 # Test the functions
 if __name__ == "__main__":
@@ -329,5 +353,5 @@ if __name__ == "__main__":
     gal_2 = cache['Scl']
 
     # gal1_, gal2_ = star_crossmatch(gal1, "J/ApJS/191/352/abun", gal2, "J/ApJS/191/352/abun")
-    star_crossmatch(gal_1, "J/A+A/641/A127", gal_2, "J/ApJS/191/352/abun")
+    crossmatch_output, match_list = star_crossmatch(gal_1, "J/A+A/641/A127", gal_2, "J/ApJS/191/352/abun")
 

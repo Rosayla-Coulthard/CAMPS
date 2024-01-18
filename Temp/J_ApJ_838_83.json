@@ -24,6 +24,9 @@
                 "EW": "EW",
                 "A": "A",
                 "SimbadName": "Simbad",
+                "Members": [
+                    "TriII"
+                ],
                 "Teff": "T_eff",
                 "logg": "log_g",
                 "__Fe_H_CaT": "Fe_H_CaT",
@@ -67,7 +70,8 @@
                 "f_Mm": "",
                 "EW": "EW",
                 "A": "A",
-                "Simbad": "[MIC2016] 22"
+                "Simbad": "[MIC2016] 22",
+                "Galaxy": "TriII"
             }
         },
         "128_--": {
@@ -93,6 +97,7 @@
                 "EW": "EW",
                 "A": "A",
                 "Simbad": "[KCS2015] 128",
+                "Galaxy": "TriII",
                 "T_eff": 5466.0,
                 "log_g": 3.1700000762939453,
                 "Fe_H_CaT": -3.009999990463257,
@@ -134,6 +139,7 @@
                 "EW": "EW",
                 "A": "A",
                 "Simbad": "[KCS2015] 116",
+                "Galaxy": "TriII",
                 "T_eff": 5635.0,
                 "log_g": 3.4100000858306885,
                 "Fe_H_CaT": -3.140000104904175,
@@ -175,6 +181,7 @@
                 "EW": "EW",
                 "A": "A",
                 "Simbad": "[KCS2015] 106",
+                "Galaxy": "TriII",
                 "T_eff": 4917.0,
                 "log_g": 1.8899999856948853,
                 "Fe_H_CaT": -2.7100000381469727,
@@ -216,6 +223,7 @@
                 "EW": "EW",
                 "A": "A",
                 "Simbad": "[KCS2015]  91",
+                "Galaxy": "TriII",
                 "T_eff": 5434.0,
                 "log_g": 3.3299999237060547,
                 "Fe_H_CaT": -2.130000114440918,
@@ -256,7 +264,8 @@
                 "f_Mm": "",
                 "EW": "EW",
                 "A": "A",
-                "Simbad": "[KCS2015]  76"
+                "Simbad": "[KCS2015]  76",
+                "Galaxy": "TriII"
             }
         },
         "--_27": {
@@ -281,7 +290,8 @@
                 "f_Mm": "",
                 "EW": "EW",
                 "A": "A",
-                "Simbad": "[MIC2016] 27"
+                "Simbad": "[MIC2016] 27",
+                "Galaxy": "TriII"
             }
         },
         "65_46": {
@@ -307,6 +317,7 @@
                 "EW": "EW",
                 "A": "A",
                 "Simbad": "[KCS2015]  65",
+                "Galaxy": "TriII",
                 "T_eff": 5282.0,
                 "log_g": 2.740000009536743,
                 "Fe_H_CaT": -2.559999942779541,
@@ -347,7 +358,8 @@
                 "f_Mm": "",
                 "EW": "EW",
                 "A": "A",
-                "Simbad": "[MIC2016] 24"
+                "Simbad": "[MIC2016] 24",
+                "Galaxy": "TriII"
             }
         },
         "--_26": {
@@ -372,7 +384,8 @@
                 "f_Mm": "",
                 "EW": "EW",
                 "A": "A",
-                "Simbad": "[MIC2016] 26"
+                "Simbad": "[MIC2016] 26",
+                "Galaxy": "TriII"
             }
         },
         "--_9": {
@@ -397,7 +410,8 @@
                 "f_Mm": "",
                 "EW": "EW",
                 "A": "A",
-                "Simbad": "[MIC2016]  9"
+                "Simbad": "[MIC2016]  9",
+                "Galaxy": "TriII"
             }
         },
         "--_29": {
@@ -422,7 +436,8 @@
                 "f_Mm": "",
                 "EW": "EW",
                 "A": "A",
-                "Simbad": "[MIC2016] 29"
+                "Simbad": "[MIC2016] 29",
+                "Galaxy": "TriII"
             }
         },
         "--_31": {
@@ -448,6 +463,7 @@
                 "EW": "EW",
                 "A": "A",
                 "Simbad": "[MIC2016] 31",
+                "Galaxy": "TriII",
                 "T_eff": 5551.0,
                 "log_g": 3.490000009536743,
                 "Fe_H_CaT": -0.8999999761581421,

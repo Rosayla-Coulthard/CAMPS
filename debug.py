@@ -1,7 +1,10 @@
 from astropy import units as u
+from astropy import constants as cons
 from astropy.coordinates import Angle
 import numpy as np
+import json
 
-test = {11: 1, 22: 2, 33: 3}
+test = {"a": "b", "c": "d"}
 
-print(11 in test.keys())
+del test["a"]
+print(test)
