@@ -383,7 +383,12 @@ def merge_tables(catalog1_path, catalog2_path, catalog1_name, catalog2_name, alt
 
 # Execution code
 if __name__ == "__main__":
-    retrieve_catalog("J/ApJ/801/125", "Temp/Kirby+ Carbon.json", gal_title="Syst",
-                     paper_name="Kirby+ Carbon", table_num=2)
-    add_catalog("Temp/Kirby+ Carbon.json", "Kirby+ Carbon", "Data/Cache.json",
-                "Kirby+ 2010")
+    retrieve_catalog("J/ApJ/838/83", "Temp/J_ApJ_838_83(0).json")
+
+    # Sex, UMi, and Dra: show what catalogs I have about those galaxies,
+    # which abundances are included, and how many stars.
+    # Retreive the info as a panda file, or fits, or a data table format of some kind
+    # Oh and the csv thing.
+    # Make a "galaxy" called "field" that just records field stars.
+
+    # Debug single galaxy feature
