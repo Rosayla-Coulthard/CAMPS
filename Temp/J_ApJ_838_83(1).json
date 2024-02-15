@@ -1,25 +1,27 @@
 {
     "Meta data": {
         "Included titles": {
-            "J/ApJ/838/83": {
-                "__KCS2015_": "ID_K15",
-                "__MIC2016_": "ID_M16",
-                "Teff": "T_eff",
-                "logg": "log_g",
-                "__Fe_H_CaT": "Fe_H_CaT",
-                "e__Fe_H_CaT": "e_Fe_H_CaT",
-                "__Fe_H_": "Fe_H",
-                "e__Fe_H_": "e_Fe_H",
-                "__Mg_Fe_": "Mg_Fe",
-                "e__Mg_Fe_": "e_Mg_Fe",
-                "__Si_Fe_": "Si_Fe",
-                "e__Si_Fe_": "e_Si_Fe",
-                "__Ca_Fe_": "Ca_Fe",
-                "e__Ca_Fe_": "e_Ca_Fe",
-                "__Ti_Fe_": "Ti_Fe",
-                "e__Ti_Fe_": "e_Ti_Fe",
-                "__a_Fe_": "a_Fe",
-                "e__a_Fe_": "e_a_Fe",
+            "Kirby+, 2017": {
+                "Columns": [
+                    "ID_K15",
+                    "ID_M16",
+                    "T_eff",
+                    "log_g",
+                    "Fe_H_CaT",
+                    "e_Fe_H_CaT",
+                    "Fe_H",
+                    "e_Fe_H",
+                    "Mg_Fe",
+                    "e_Mg_Fe",
+                    "Si_Fe",
+                    "e_Si_Fe",
+                    "Ca_Fe",
+                    "e_Ca_Fe",
+                    "Ti_Fe",
+                    "e_Ti_Fe",
+                    "a_Fe",
+                    "e_a_Fe"
+                ],
                 "Members": [
                     "TriII"
                 ]
@@ -29,7 +31,7 @@
     },
     "TriII": {
         "128_--": {
-            "J/ApJ/838/83": {
+            "Kirby+, 2017": {
                 "Name": "128_--",
                 "ID_K15": 128.0,
                 "ID_M16": NaN,
@@ -53,7 +55,7 @@
             }
         },
         "116_21": {
-            "J/ApJ/838/83": {
+            "Kirby+, 2017": {
                 "Name": "116_21",
                 "ID_K15": 116.0,
                 "ID_M16": 21.0,
@@ -77,7 +79,7 @@
             }
         },
         "106_40": {
-            "J/ApJ/838/83": {
+            "Kirby+, 2017": {
                 "Name": "106_40",
                 "ID_K15": 106.0,
                 "ID_M16": 40.0,
@@ -101,7 +103,7 @@
             }
         },
         "91_20": {
-            "J/ApJ/838/83": {
+            "Kirby+, 2017": {
                 "Name": "91_20",
                 "ID_K15": 91.0,
                 "ID_M16": 20.0,
@@ -125,7 +127,7 @@
             }
         },
         "65_46": {
-            "J/ApJ/838/83": {
+            "Kirby+, 2017": {
                 "Name": "65_46",
                 "ID_K15": 65.0,
                 "ID_M16": 46.0,
@@ -149,7 +151,7 @@
             }
         },
         "--_31": {
-            "J/ApJ/838/83": {
+            "Kirby+, 2017": {
                 "Name": "--_31",
                 "ID_K15": NaN,
                 "ID_M16": 31.0,

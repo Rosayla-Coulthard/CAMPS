@@ -194,11 +194,28 @@ def galaxy_crossmatch(gal1:dict, gal1_catalog:str, ref_catalog, cache_):
         """
     # Provides a star from gal1, and see if it is within the boundary
     # of any galaxy in the cache
-    first_star = list(gal1.keys())[0]
-    first_star = gal1[first_star][gal1_catalog]
+    # first_star = list(gal1.keys())[0]
+    # first_star = gal1[first_star][gal1_catalog]
+# 
+    # try:
+        # first_star_coord = {"RAJ2000": first_star["RAJ2000"],
+                            # "DEJ2000": first_star["DEJ2000"]}
+    # except KeyError:
+        # print(first_star)
+        # quit()
+    
+    count = 0
+    while True:
+        first_star = list(gal1.keys())[count]
+        first_star = gal1[first_star][gal1_catalog]
+        try:
+            first_star_coord = {"RAJ2000": first_star["RAJ2000"],
+                                "DEJ2000": first_star["DEJ2000"]}
+            break
+        except KeyError:
+            count += 1
+            continue
 
-    first_star_coord = {"RAJ2000": first_star["RAJ2000"],
-                        "DEJ2000": first_star["DEJ2000"]}
     gal_name, _ = find_nearest_galaxy(first_star_coord, cache_, ref_catalog)
 
     return gal_name
@@ -355,3 +372,6 @@ if __name__ == "__main__":
     # gal1_, gal2_ = star_crossmatch(gal1, "J/ApJS/191/352/abun", gal2, "J/ApJS/191/352/abun")
     crossmatch_output, match_list = star_crossmatch(gal_1, "J/A+A/641/A127", gal_2, "J/ApJS/191/352/abun")
 
+# TODO: add a calibration function that either ODR or curve_fit the incoming data
+    # to the reference data, and return the calibrated data. Consider integrating
+    # this into the crossmatch function.

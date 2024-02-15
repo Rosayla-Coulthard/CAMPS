@@ -1,13 +1,15 @@
 {
     "Meta data": {
         "Included titles": {
-            "J/A+A/641/A127": {
-                "ID": "Name",
-                "Galaxy": "Galaxy",
-                "El": "Element",
-                "Ion": "Ion_state",
-                "lambda": "Absorp_feature_lambda",
-                "log_eps_": "Abs_abun",
+            "Reichert+ 2020": {
+                "Columns": [
+                    "Name",
+                    "Galaxy",
+                    "Element",
+                    "Ion_state",
+                    "Absorp_feature_lambda",
+                    "Abs_abun"
+                ],
                 "Members": [
                     "BooI",
                     "Car",
@@ -29,7 +31,7 @@
     },
     "BooI": {
         "[NGW2008] 41": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[NGW2008] 41",
                 "Galaxy": "BooI",
                 "Element": "Ni",
@@ -39,7 +41,7 @@
             }
         },
         "[NGW2008] 1137": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[NGW2008] 1137",
                 "Galaxy": "BooI",
                 "Element": "Ba",
@@ -49,7 +51,7 @@
             }
         },
         "[NGW2008] 7": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[NGW2008] 7",
                 "Galaxy": "BooI",
                 "Element": "Mg",
@@ -61,7 +63,7 @@
     },
     "Car": {
         "2MASS J06411566-5059480": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06411566-5059480",
                 "Galaxy": "Car",
                 "Element": "Mn",
@@ -71,7 +73,7 @@
             }
         },
         "[SMS86]  70": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[SMS86]  70",
                 "Galaxy": "Car",
                 "Element": "Ti",
@@ -81,7 +83,7 @@
             }
         },
         "[MOP2000] C120318": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[MOP2000] C120318",
                 "Galaxy": "Car",
                 "Element": "Ti",
@@ -91,7 +93,7 @@
             }
         },
         "[LHT2012] MKV0577": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LHT2012] MKV0577",
                 "Galaxy": "Car",
                 "Element": "Mg",
@@ -101,7 +103,7 @@
             }
         },
         "2MASS J06413647-5056231": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06413647-5056231",
                 "Galaxy": "Car",
                 "Element": "Y",
@@ -111,7 +113,7 @@
             }
         },
         "[LHT2012] MKV0397": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LHT2012] MKV0397",
                 "Galaxy": "Car",
                 "Element": "Ni",
@@ -121,7 +123,7 @@
             }
         },
         "[LHT2012] MKV0598": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LHT2012] MKV0598",
                 "Galaxy": "Car",
                 "Element": "Ni",
@@ -131,7 +133,7 @@
             }
         },
         "2MASS J06411632-5100185": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06411632-5100185",
                 "Galaxy": "Car",
                 "Element": "Ti",
@@ -141,7 +143,7 @@
             }
         },
         "2MASS J06412612-5055439": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06412612-5055439",
                 "Galaxy": "Car",
                 "Element": "Cr",
@@ -151,7 +153,7 @@
             }
         },
         "[LHT2012] MKV0976": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LHT2012] MKV0976",
                 "Galaxy": "Car",
                 "Element": "Mg",
@@ -161,7 +163,7 @@
             }
         },
         "2MASS J06403111-5055246": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06403111-5055246",
                 "Galaxy": "Car",
                 "Element": "Ni",
@@ -171,7 +173,7 @@
             }
         },
         "[LHT2012] MKV0743": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LHT2012] MKV0743",
                 "Galaxy": "Car",
                 "Element": "Cr",
@@ -181,7 +183,7 @@
             }
         },
         "2MASS J06405711-5057442": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06405711-5057442",
                 "Galaxy": "Car",
                 "Element": "Ti",
@@ -191,7 +193,7 @@
             }
         },
         "2MASS J06405695-5058383": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06405695-5058383",
                 "Galaxy": "Car",
                 "Element": "Mg",
@@ -201,7 +203,7 @@
             }
         },
         "2MASS J06403535-5054080": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06403535-5054080",
                 "Galaxy": "Car",
                 "Element": "Ti",
@@ -211,7 +213,7 @@
             }
         },
         "2MASS J06410030-5103427": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06410030-5103427",
                 "Galaxy": "Car",
                 "Element": "Sc",
@@ -221,7 +223,7 @@
             }
         },
         "2MASS J06411227-5057260": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06411227-5057260",
                 "Galaxy": "Car",
                 "Element": "Mg",
@@ -231,7 +233,7 @@
             }
         },
         "2MASS J06404244-5100428": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06404244-5100428",
                 "Galaxy": "Car",
                 "Element": "Ni",
@@ -241,7 +243,7 @@
             }
         },
         "2MASS J06404083-5054292": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06404083-5054292",
                 "Galaxy": "Car",
                 "Element": "Mg",
@@ -251,7 +253,7 @@
             }
         },
         "2MASS J06412918-5105219": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06412918-5105219",
                 "Galaxy": "Car",
                 "Element": "Ti",
@@ -261,7 +263,7 @@
             }
         },
         "2MASS J06414637-5101227": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06414637-5101227",
                 "Galaxy": "Car",
                 "Element": "Ni",
@@ -271,7 +273,7 @@
             }
         },
         "[MOP2000] C160266": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[MOP2000] C160266",
                 "Galaxy": "Car",
                 "Element": "Ni",
@@ -281,7 +283,7 @@
             }
         },
         "2MASS J06415460-5057007": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06415460-5057007",
                 "Galaxy": "Car",
                 "Element": "Sc",
@@ -291,7 +293,7 @@
             }
         },
         "2MASS J06420281-5058597": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06420281-5058597",
                 "Galaxy": "Car",
                 "Element": "Ti",
@@ -301,7 +303,7 @@
             }
         },
         "2MASS J06420896-5100481": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06420896-5100481",
                 "Galaxy": "Car",
                 "Element": "Ni",
@@ -311,7 +313,7 @@
             }
         },
         "[MOP2000] C131364": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[MOP2000] C131364",
                 "Galaxy": "Car",
                 "Element": "Mg",
@@ -321,7 +323,7 @@
             }
         },
         "[MOP2000] C131048": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[MOP2000] C131048",
                 "Galaxy": "Car",
                 "Element": "Mg",
@@ -331,7 +333,7 @@
             }
         },
         "2MASS J06415158-5103355": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06415158-5103355",
                 "Galaxy": "Car",
                 "Element": "Ni",
@@ -341,7 +343,7 @@
             }
         },
         "2MASS J06415434-5102460": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06415434-5102460",
                 "Galaxy": "Car",
                 "Element": "Ni",
@@ -351,7 +353,7 @@
             }
         },
         "2MASS J06421749-5056260": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06421749-5056260",
                 "Galaxy": "Car",
                 "Element": "Cr",
@@ -361,7 +363,7 @@
             }
         },
         "[MOP2000] C130725": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[MOP2000] C130725",
                 "Galaxy": "Car",
                 "Element": "Ti",
@@ -371,7 +373,7 @@
             }
         },
         "[MOP2000] C121630": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[MOP2000] C121630",
                 "Galaxy": "Car",
                 "Element": "Mg",
@@ -381,7 +383,7 @@
             }
         },
         "[MOP2000] C120769": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[MOP2000] C120769",
                 "Galaxy": "Car",
                 "Element": "Mg",
@@ -391,7 +393,7 @@
             }
         },
         "[MOP2000] C120614": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[MOP2000] C120614",
                 "Galaxy": "Car",
                 "Element": "Mg",
@@ -401,7 +403,7 @@
             }
         },
         "2MASS J06423035-5056331": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06423035-5056331",
                 "Galaxy": "Car",
                 "Element": "Ti",
@@ -411,7 +413,7 @@
             }
         },
         "2MASS J06423789-5053377": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06423789-5053377",
                 "Galaxy": "Car",
                 "Element": "Cr",
@@ -421,7 +423,7 @@
             }
         },
         "2MASS J06423853-5056001": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06423853-5056001",
                 "Galaxy": "Car",
                 "Element": "Ni",
@@ -431,7 +433,7 @@
             }
         },
         "2MASS J06414463-5103312": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06414463-5103312",
                 "Galaxy": "Car",
                 "Element": "Ti",
@@ -441,7 +443,7 @@
             }
         },
         "2MASS J06414082-5054457": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06414082-5054457",
                 "Galaxy": "Car",
                 "Element": "Mg",
@@ -451,7 +453,7 @@
             }
         },
         "2MASS J06413765-5101436": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06413765-5101436",
                 "Galaxy": "Car",
                 "Element": "Ti",
@@ -461,7 +463,7 @@
             }
         },
         "[WMO2009] Car-0724": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] Car-0724",
                 "Galaxy": "Car",
                 "Element": "Ti",
@@ -471,7 +473,7 @@
             }
         },
         "[WMO2009] Car-1494": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] Car-1494",
                 "Galaxy": "Car",
                 "Element": "Ba",
@@ -481,7 +483,7 @@
             }
         },
         "[MOP2000] C160589": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[MOP2000] C160589",
                 "Galaxy": "Car",
                 "Element": "Cr",
@@ -491,7 +493,7 @@
             }
         },
         "[MOP2000] C170294": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[MOP2000] C170294",
                 "Galaxy": "Car",
                 "Element": "Ni",
@@ -501,7 +503,7 @@
             }
         },
         "2MASS J06414604-5051013": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J06414604-5051013",
                 "Galaxy": "Car",
                 "Element": "Cr",
@@ -513,7 +515,7 @@
     },
     "For": {
         "[LHT2010] BL158": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LHT2010] BL158",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -523,7 +525,7 @@
             }
         },
         "GB07 Fnx11": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "GB07 Fnx11",
                 "Galaxy": "For",
                 "Element": "Cr",
@@ -533,7 +535,7 @@
             }
         },
         "[WMO2009] For-0968": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] For-0968",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -543,7 +545,7 @@
             }
         },
         "[WMO2009] For-0956": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] For-0956",
                 "Galaxy": "For",
                 "Element": "Ba",
@@ -553,7 +555,7 @@
             }
         },
         "2MASS J02392218-3419407": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02392218-3419407",
                 "Galaxy": "For",
                 "Element": "Mn",
@@ -563,7 +565,7 @@
             }
         },
         "[WMO2009] For-0952": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] For-0952",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -573,7 +575,7 @@
             }
         },
         "GB07 Fnx08": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "GB07 Fnx08",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -583,7 +585,7 @@
             }
         },
         "FBW J024006.1-342852": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "FBW J024006.1-342852",
                 "Galaxy": "For",
                 "Element": "Ba",
@@ -593,7 +595,7 @@
             }
         },
         "[WMO2009] For-0970": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] For-0970",
                 "Galaxy": "For",
                 "Element": "Y",
@@ -603,7 +605,7 @@
             }
         },
         "2MASS J02383503-3441380": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02383503-3441380",
                 "Galaxy": "For",
                 "Element": "Eu",
@@ -613,7 +615,7 @@
             }
         },
         "2MASS J02392769-3437487": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02392769-3437487",
                 "Galaxy": "For",
                 "Element": "Mg",
@@ -623,7 +625,7 @@
             }
         },
         "2MASS J02392805-3434013": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02392805-3434013",
                 "Galaxy": "For",
                 "Element": "Mg",
@@ -633,7 +635,7 @@
             }
         },
         "2MASS J02393084-3435451": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02393084-3435451",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -643,7 +645,7 @@
             }
         },
         "2MASS J02392483-3434383": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02392483-3434383",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -653,7 +655,7 @@
             }
         },
         "2MASS J02393808-3437062": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02393808-3437062",
                 "Galaxy": "For",
                 "Element": "Mg",
@@ -663,7 +665,7 @@
             }
         },
         "2MASS J02394195-3430361": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02394195-3430361",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -673,7 +675,7 @@
             }
         },
         "2MASS J02393412-3433096": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02393412-3433096",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -683,7 +685,7 @@
             }
         },
         "2MASS J02393153-3423052": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02393153-3423052",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -693,7 +695,7 @@
             }
         },
         "[WMO2009] For-1120": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] For-1120",
                 "Galaxy": "For",
                 "Element": "Mg",
@@ -703,7 +705,7 @@
             }
         },
         "[WMO2009] For-1117": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] For-1117",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -713,7 +715,7 @@
             }
         },
         "[LHT2010] BL233": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LHT2010] BL233",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -723,7 +725,7 @@
             }
         },
         "[LHT2010] BL204": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LHT2010] BL204",
                 "Galaxy": "For",
                 "Element": "Sc",
@@ -733,7 +735,7 @@
             }
         },
         "[LHT2010] BL261": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LHT2010] BL261",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -743,7 +745,7 @@
             }
         },
         "[LHT2010] BL147": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LHT2010] BL147",
                 "Galaxy": "For",
                 "Element": "Mg",
@@ -753,7 +755,7 @@
             }
         },
         "[LHT2010] BL163": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LHT2010] BL163",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -763,7 +765,7 @@
             }
         },
         "[LDH2014] Fnx-mem0556": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0556",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -773,7 +775,7 @@
             }
         },
         "[LDH2014] Fnx-mem0546": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0546",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -783,7 +785,7 @@
             }
         },
         "[LDH2014] Fnx-mem0572": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0572",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -793,7 +795,7 @@
             }
         },
         "[LDH2014] Fnx-mem0543": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0543",
                 "Galaxy": "For",
                 "Element": "Eu",
@@ -803,7 +805,7 @@
             }
         },
         "[LDH2014] Fnx-mem0574": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0574",
                 "Galaxy": "For",
                 "Element": "Eu",
@@ -813,7 +815,7 @@
             }
         },
         "[LHT2010] BL298": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LHT2010] BL298",
                 "Galaxy": "For",
                 "Element": "Y",
@@ -823,7 +825,7 @@
             }
         },
         "[LHT2010] BL146": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LHT2010] BL146",
                 "Galaxy": "For",
                 "Element": "Ba",
@@ -833,7 +835,7 @@
             }
         },
         "2MASS J02381393-3446553": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02381393-3446553",
                 "Galaxy": "For",
                 "Element": "Eu",
@@ -843,7 +845,7 @@
             }
         },
         "2MASS J02382132-3436180": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02382132-3436180",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -853,7 +855,7 @@
             }
         },
         "[LDH2014] Fnx-rgb0522": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-rgb0522",
                 "Galaxy": "For",
                 "Element": "Ba",
@@ -863,7 +865,7 @@
             }
         },
         "[LDH2014] Fnx-rgb0553": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-rgb0553",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -873,7 +875,7 @@
             }
         },
         "2MASS J02383502-3442406": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02383502-3442406",
                 "Galaxy": "For",
                 "Element": "Mg",
@@ -883,7 +885,7 @@
             }
         },
         "2MASS J02383087-3447446": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02383087-3447446",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -893,7 +895,7 @@
             }
         },
         "[LHT2010] BL138": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LHT2010] BL138",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -903,7 +905,7 @@
             }
         },
         "[LHT2010] BL104": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LHT2010] BL104",
                 "Galaxy": "For",
                 "Element": "Mg",
@@ -913,7 +915,7 @@
             }
         },
         "[LHT2010] BL084": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LHT2010] BL084",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -923,7 +925,7 @@
             }
         },
         "[LHT2010] BL100": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LHT2010] BL100",
                 "Galaxy": "For",
                 "Element": "Mn",
@@ -933,7 +935,7 @@
             }
         },
         "[WMO2009] For-1581": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] For-1581",
                 "Galaxy": "For",
                 "Element": "Mg",
@@ -943,7 +945,7 @@
             }
         },
         "[WMO2009] For-1877": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] For-1877",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -953,7 +955,7 @@
             }
         },
         "[WMO2009] For-1579": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] For-1579",
                 "Galaxy": "For",
                 "Element": "Ba",
@@ -963,7 +965,7 @@
             }
         },
         "[WMO2009] For-2026": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] For-2026",
                 "Galaxy": "For",
                 "Element": "Mg",
@@ -973,7 +975,7 @@
             }
         },
         "[WMO2009] For-2280": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] For-2280",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -983,7 +985,7 @@
             }
         },
         "[WMO2009] For-1353": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] For-1353",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -993,7 +995,7 @@
             }
         },
         "[WMO2009] For-1208": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] For-1208",
                 "Galaxy": "For",
                 "Element": "Mg",
@@ -1003,7 +1005,7 @@
             }
         },
         "[WMO2009] For-1219": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] For-1219",
                 "Galaxy": "For",
                 "Element": "Sc",
@@ -1013,7 +1015,7 @@
             }
         },
         "[LDH2014] Fnx-mem0522": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0522",
                 "Galaxy": "For",
                 "Element": "Mg",
@@ -1023,7 +1025,7 @@
             }
         },
         "[LDH2014] Fnx-mem0532": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0532",
                 "Galaxy": "For",
                 "Element": "Cr",
@@ -1033,7 +1035,7 @@
             }
         },
         "[KGS2010] For   64059": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[KGS2010] For   64059",
                 "Galaxy": "For",
                 "Element": "Sc",
@@ -1043,7 +1045,7 @@
             }
         },
         "[LHT2010] BL311": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LHT2010] BL311",
                 "Galaxy": "For",
                 "Element": "Mn",
@@ -1053,7 +1055,7 @@
             }
         },
         "[LDH2014] Fnx-mem0539": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0539",
                 "Galaxy": "For",
                 "Element": "Ba",
@@ -1063,7 +1065,7 @@
             }
         },
         "WEL  60": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "WEL  60",
                 "Galaxy": "For",
                 "Element": "Sc",
@@ -1073,7 +1075,7 @@
             }
         },
         "[BTH2006] fnx-05 042": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[BTH2006] fnx-05 042",
                 "Galaxy": "For",
                 "Element": "Y",
@@ -1083,7 +1085,7 @@
             }
         },
         "[HBJ2016] b0016": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[HBJ2016] b0016",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -1093,7 +1095,7 @@
             }
         },
         "[HKW2014] 150": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[HKW2014] 150",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -1103,7 +1105,7 @@
             }
         },
         "2MASS J02394309-3440186": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02394309-3440186",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -1113,7 +1115,7 @@
             }
         },
         "2MASS J02385365-3433048": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02385365-3433048",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -1123,7 +1125,7 @@
             }
         },
         "2MASS J02385555-3425365": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02385555-3425365",
                 "Galaxy": "For",
                 "Element": "Ba",
@@ -1133,7 +1135,7 @@
             }
         },
         "2MASS J02385721-3435400": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02385721-3435400",
                 "Galaxy": "For",
                 "Element": "Eu",
@@ -1143,7 +1145,7 @@
             }
         },
         "2MASS J02384113-3444205": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02384113-3444205",
                 "Galaxy": "For",
                 "Element": "Eu",
@@ -1153,7 +1155,7 @@
             }
         },
         "2MASS J02390031-3430302": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02390031-3430302",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -1163,7 +1165,7 @@
             }
         },
         "2MASS J02390157-3436488": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02390157-3436488",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -1173,7 +1175,7 @@
             }
         },
         "[LDH2014] Fnx-mem0717": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0717",
                 "Galaxy": "For",
                 "Element": "Mg",
@@ -1183,7 +1185,7 @@
             }
         },
         "[LDH2014] Fnx-mem0732": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0732",
                 "Galaxy": "For",
                 "Element": "Mn",
@@ -1193,7 +1195,7 @@
             }
         },
         "[LDH2014] Fnx-mem0715": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0715",
                 "Galaxy": "For",
                 "Element": "Mg",
@@ -1203,7 +1205,7 @@
             }
         },
         "[LDH2014] Fnx-mem0754": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0754",
                 "Galaxy": "For",
                 "Element": "Mg",
@@ -1213,7 +1215,7 @@
             }
         },
         "[LDH2014] Fnx-mem0747": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0747",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -1223,7 +1225,7 @@
             }
         },
         "2MASS J02391437-3434427": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02391437-3434427",
                 "Galaxy": "For",
                 "Element": "Mg",
@@ -1233,7 +1235,7 @@
             }
         },
         "2MASS J02391606-3430135": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02391606-3430135",
                 "Galaxy": "For",
                 "Element": "Sc",
@@ -1243,7 +1245,7 @@
             }
         },
         "2MASS J02391398-3428364": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02391398-3428364",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -1253,7 +1255,7 @@
             }
         },
         "2MASS J02391159-3430448": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02391159-3430448",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -1263,7 +1265,7 @@
             }
         },
         "2MASS J02391783-3430570": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02391783-3430570",
                 "Galaxy": "For",
                 "Element": "Ba",
@@ -1273,7 +1275,7 @@
             }
         },
         "[MOW91]  21": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[MOW91]  21",
                 "Galaxy": "For",
                 "Element": "Cr",
@@ -1283,7 +1285,7 @@
             }
         },
         "2MASS J02390819-3436537": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02390819-3436537",
                 "Galaxy": "For",
                 "Element": "Mg",
@@ -1293,7 +1295,7 @@
             }
         },
         "2MASS J02390853-3430556": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02390853-3430556",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -1303,7 +1305,7 @@
             }
         },
         "2MASS J02390434-3425190": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02390434-3425190",
                 "Galaxy": "For",
                 "Element": "Cr",
@@ -1313,7 +1315,7 @@
             }
         },
         "2MASS J02391102-3428348": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02391102-3428348",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -1323,7 +1325,7 @@
             }
         },
         "[LDH2014] Fnx-mem0714": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0714",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -1333,7 +1335,7 @@
             }
         },
         "[WMO2006] F01-23": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2006] F01-23",
                 "Galaxy": "For",
                 "Element": "Mg",
@@ -1343,7 +1345,7 @@
             }
         },
         "[LDH2014] Fnx-mem0607": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0607",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -1353,7 +1355,7 @@
             }
         },
         "[WMO2006] F01-6": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2006] F01-6",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -1363,7 +1365,7 @@
             }
         },
         "[LDH2014] Fnx-mem0626": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0626",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -1373,7 +1375,7 @@
             }
         },
         "[LDH2014] Fnx-mem0612": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0612",
                 "Galaxy": "For",
                 "Element": "Mn",
@@ -1383,7 +1385,7 @@
             }
         },
         "[LDH2014] Fnx-mem0629": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0629",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -1393,7 +1395,7 @@
             }
         },
         "[WMO2009] For-0168": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] For-0168",
                 "Galaxy": "For",
                 "Element": "Mn",
@@ -1403,7 +1405,7 @@
             }
         },
         "[WMO2009] For-0391": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] For-0391",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -1413,7 +1415,7 @@
             }
         },
         "[WMO2009] For-0387": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] For-0387",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -1423,7 +1425,7 @@
             }
         },
         "[WMO2009] For-0910": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] For-0910",
                 "Galaxy": "For",
                 "Element": "Mg",
@@ -1433,7 +1435,7 @@
             }
         },
         "[WMO2009] For-0361": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] For-0361",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -1443,7 +1445,7 @@
             }
         },
         "[WMO2009] For-0365": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] For-0365",
                 "Galaxy": "For",
                 "Element": "Ba",
@@ -1453,7 +1455,7 @@
             }
         },
         "[LDH2014] Fnx-mem0664": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0664",
                 "Galaxy": "For",
                 "Element": "Sc",
@@ -1463,7 +1465,7 @@
             }
         },
         "[LDH2014] Fnx-mem0675": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0675",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -1473,7 +1475,7 @@
             }
         },
         "[LDH2014] Fnx-mem0647": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0647",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -1483,7 +1485,7 @@
             }
         },
         "[LDH2014] Fnx-mem0654": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0654",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -1493,7 +1495,7 @@
             }
         },
         "[LDH2014] Fnx-mem0678": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0678",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -1503,7 +1505,7 @@
             }
         },
         "[LDH2014] Fnx-mem0682": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0682",
                 "Galaxy": "For",
                 "Element": "Sc",
@@ -1513,7 +1515,7 @@
             }
         },
         "[LDH2014] Fnx-mem0633": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0633",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -1523,7 +1525,7 @@
             }
         },
         "[LDH2014] Fnx-mem0631": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0631",
                 "Galaxy": "For",
                 "Element": "Mg",
@@ -1533,7 +1535,7 @@
             }
         },
         "[LDH2014] Fnx-mem0634": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0634",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -1543,7 +1545,7 @@
             }
         },
         "[LDH2014] Fnx-mem0638": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0638",
                 "Galaxy": "For",
                 "Element": "Ba",
@@ -1553,7 +1555,7 @@
             }
         },
         "2MASS J02401752-3426065": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02401752-3426065",
                 "Galaxy": "For",
                 "Element": "Mg",
@@ -1563,7 +1565,7 @@
             }
         },
         "2MASS J02401790-3427010": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02401790-3427010",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -1573,7 +1575,7 @@
             }
         },
         "2MASS J02401677-3429346": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02401677-3429346",
                 "Galaxy": "For",
                 "Element": "Cr",
@@ -1583,7 +1585,7 @@
             }
         },
         "2MASS J02401043-3425177": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02401043-3425177",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -1593,7 +1595,7 @@
             }
         },
         "[LDH2014] Fnx-mem0779": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0779",
                 "Galaxy": "For",
                 "Element": "Mg",
@@ -1603,7 +1605,7 @@
             }
         },
         "[LDH2014] Fnx-mem0595": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LDH2014] Fnx-mem0595",
                 "Galaxy": "For",
                 "Element": "Mg",
@@ -1613,7 +1615,7 @@
             }
         },
         "[WMO2009] For-0949": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] For-0949",
                 "Galaxy": "For",
                 "Element": "Sc",
@@ -1623,7 +1625,7 @@
             }
         },
         "2MASS J02394528-3431581": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02394528-3431581",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -1633,7 +1635,7 @@
             }
         },
         "2MASS J02395144-3421211": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02395144-3421211",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -1643,7 +1645,7 @@
             }
         },
         "2MASS J02395427-3435114": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02395427-3435114",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -1653,7 +1655,7 @@
             }
         },
         "2MASS J02395732-3431211": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02395732-3431211",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -1663,7 +1665,7 @@
             }
         },
         "2MASS J02395604-3424106": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02395604-3424106",
                 "Galaxy": "For",
                 "Element": "Cr",
@@ -1673,7 +1675,7 @@
             }
         },
         "[WMO2006] F01-20": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2006] F01-20",
                 "Galaxy": "For",
                 "Element": "Mn",
@@ -1683,7 +1685,7 @@
             }
         },
         "GB07 Fnx24": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "GB07 Fnx24",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -1693,7 +1695,7 @@
             }
         },
         "[WMO2006] F01-16": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2006] F01-16",
                 "Galaxy": "For",
                 "Element": "Mg",
@@ -1703,7 +1705,7 @@
             }
         },
         "[MOW91]   8": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[MOW91]   8",
                 "Galaxy": "For",
                 "Element": "Mg",
@@ -1713,7 +1715,7 @@
             }
         },
         "2MASS J02384018-3439121": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02384018-3439121",
                 "Galaxy": "For",
                 "Element": "Ti",
@@ -1723,7 +1725,7 @@
             }
         },
         "2MASS J02392022-3431571": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J02392022-3431571",
                 "Galaxy": "For",
                 "Element": "Ni",
@@ -1733,7 +1735,7 @@
             }
         },
         "[MOW91]  25": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[MOW91]  25",
                 "Galaxy": "For",
                 "Element": "Y",
@@ -1745,7 +1747,7 @@
     },
     "Dra": {
         "[BFO2002] Dra 50027": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[BFO2002] Dra 50027",
                 "Galaxy": "Dra",
                 "Element": "Sc",
@@ -1755,7 +1757,7 @@
             }
         },
         "[BS61] 119": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[BS61] 119",
                 "Galaxy": "Dra",
                 "Element": "Ni",
@@ -1765,7 +1767,7 @@
             }
         },
         "Irwin Dra 21275": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "Irwin Dra 21275",
                 "Galaxy": "Dra",
                 "Element": "Ba",
@@ -1775,7 +1777,7 @@
             }
         },
         "SDSS J172034.19+575331.9": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "SDSS J172034.19+575331.9",
                 "Galaxy": "Dra",
                 "Element": "Mn",
@@ -1785,7 +1787,7 @@
             }
         },
         "Irwin Dra 18009": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "Irwin Dra 18009",
                 "Galaxy": "Dra",
                 "Element": "Ti",
@@ -1795,7 +1797,7 @@
             }
         },
         "Irwin Dra 19219": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "Irwin Dra 19219",
                 "Galaxy": "Dra",
                 "Element": "Sr",
@@ -1805,7 +1807,7 @@
             }
         },
         "SDSS J171810.38+575209.0": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "SDSS J171810.38+575209.0",
                 "Galaxy": "Dra",
                 "Element": "Mg",
@@ -1817,7 +1819,7 @@
     },
     "LeoI": {
         "2MASS J10082205+1220204": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J10082205+1220204",
                 "Galaxy": "LeoI",
                 "Element": "Mn",
@@ -1827,7 +1829,7 @@
             }
         },
         "[MOV98]  2": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[MOV98]  2",
                 "Galaxy": "LeoI",
                 "Element": "Ni",
@@ -1839,7 +1841,7 @@
     },
     "RetII": {
         "[KCB2015] Reti  4": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[KCB2015] Reti  4",
                 "Galaxy": "RetII",
                 "Element": "Eu",
@@ -1849,7 +1851,7 @@
             }
         },
         "[WMO2015] 80": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2015] 80",
                 "Galaxy": "RetII",
                 "Element": "Ba",
@@ -1859,7 +1861,7 @@
             }
         },
         "[WMO2015] 35": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2015] 35",
                 "Galaxy": "RetII",
                 "Element": "Ba",
@@ -1869,7 +1871,7 @@
             }
         },
         "[WMO2015] 129": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2015] 129",
                 "Galaxy": "RetII",
                 "Element": "Ba",
@@ -1879,7 +1881,7 @@
             }
         },
         "[KCB2015] Reti 15": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[KCB2015] Reti 15",
                 "Galaxy": "RetII",
                 "Element": "Ni",
@@ -1889,7 +1891,7 @@
             }
         },
         "DES J033607.75-540235.6": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "DES J033607.75-540235.6",
                 "Galaxy": "RetII",
                 "Element": "Mg",
@@ -1901,7 +1903,7 @@
     },
     "Scl": {
         "2MASS J01000758-3337039": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01000758-3337039",
                 "Galaxy": "Scl",
                 "Element": "Ni",
@@ -1911,7 +1913,7 @@
             }
         },
         "2MASS J00594768-3347293": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00594768-3347293",
                 "Galaxy": "Scl",
                 "Element": "Sc",
@@ -1921,7 +1923,7 @@
             }
         },
         "2MASS J01000697-3347095": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01000697-3347095",
                 "Galaxy": "Scl",
                 "Element": "Mg",
@@ -1931,7 +1933,7 @@
             }
         },
         "2MASS J00594992-3344050": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00594992-3344050",
                 "Galaxy": "Scl",
                 "Element": "Y",
@@ -1941,7 +1943,7 @@
             }
         },
         "[STS2015] ET0145": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[STS2015] ET0145",
                 "Galaxy": "Scl",
                 "Element": "Ti",
@@ -1951,7 +1953,7 @@
             }
         },
         "[STS2015] ET0237": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[STS2015] ET0237",
                 "Galaxy": "Scl",
                 "Element": "Mg",
@@ -1961,7 +1963,7 @@
             }
         },
         "[SHT2013] Scl 03 059": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[SHT2013] Scl 03 059",
                 "Galaxy": "Scl",
                 "Element": "Mg",
@@ -1971,7 +1973,7 @@
             }
         },
         "[V78] 551": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[V78] 551",
                 "Galaxy": "Scl",
                 "Element": "Sr",
@@ -1981,7 +1983,7 @@
             }
         },
         "GB07 Scl34": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "GB07 Scl34",
                 "Galaxy": "Scl",
                 "Element": "Y",
@@ -1991,7 +1993,7 @@
             }
         },
         "[STS2015] ET0206": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[STS2015] ET0206",
                 "Galaxy": "Scl",
                 "Element": "Ti",
@@ -2001,7 +2003,7 @@
             }
         },
         "2MASS J00595306-3343583": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00595306-3343583",
                 "Galaxy": "Scl",
                 "Element": "Mg",
@@ -2011,7 +2013,7 @@
             }
         },
         "2MASS J01000419-3343324": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01000419-3343324",
                 "Galaxy": "Scl",
                 "Element": "Ba",
@@ -2021,7 +2023,7 @@
             }
         },
         "2MASS J00594258-3342182": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00594258-3342182",
                 "Galaxy": "Scl",
                 "Element": "Ba",
@@ -2031,7 +2033,7 @@
             }
         },
         "2MASS J00594490-3344350": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00594490-3344350",
                 "Galaxy": "Scl",
                 "Element": "Y",
@@ -2041,7 +2043,7 @@
             }
         },
         "2MASS J00595563-3333246": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00595563-3333246",
                 "Galaxy": "Scl",
                 "Element": "Sc",
@@ -2051,7 +2053,7 @@
             }
         },
         "2MASS J00595448-3337533": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00595448-3337533",
                 "Galaxy": "Scl",
                 "Element": "Ba",
@@ -2061,7 +2063,7 @@
             }
         },
         "2MASS J00595422-3340270": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00595422-3340270",
                 "Galaxy": "Scl",
                 "Element": "Mg",
@@ -2071,7 +2073,7 @@
             }
         },
         "2MASS J00595586-3345435": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00595586-3345435",
                 "Galaxy": "Scl",
                 "Element": "Y",
@@ -2081,7 +2083,7 @@
             }
         },
         "2MASS J00595568-3346400": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00595568-3346400",
                 "Galaxy": "Scl",
                 "Element": "Mg",
@@ -2091,7 +2093,7 @@
             }
         },
         "2MASS J00594529-3343540": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00594529-3343540",
                 "Galaxy": "Scl",
                 "Element": "Sc",
@@ -2101,7 +2103,7 @@
             }
         },
         "2MASS J00594721-3333370": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00594721-3333370",
                 "Galaxy": "Scl",
                 "Element": "Zn",
@@ -2111,7 +2113,7 @@
             }
         },
         "2MASS J00595400-3337421": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00595400-3337421",
                 "Galaxy": "Scl",
                 "Element": "Cr",
@@ -2121,7 +2123,7 @@
             }
         },
         "2MASS J01000268-3330253": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01000268-3330253",
                 "Galaxy": "Scl",
                 "Element": "Ni",
@@ -2131,7 +2133,7 @@
             }
         },
         "2MASS J01000050-3349355": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01000050-3349355",
                 "Galaxy": "Scl",
                 "Element": "Mg",
@@ -2141,7 +2143,7 @@
             }
         },
         "2MASS J00595966-3339319": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00595966-3339319",
                 "Galaxy": "Scl",
                 "Element": "Eu",
@@ -2151,7 +2153,7 @@
             }
         },
         "2MASS J00595831-3334406": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00595831-3334406",
                 "Galaxy": "Scl",
                 "Element": "Sc",
@@ -2161,7 +2163,7 @@
             }
         },
         "2MASS J01000360-3339271": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01000360-3339271",
                 "Galaxy": "Scl",
                 "Element": "Sc",
@@ -2171,7 +2173,7 @@
             }
         },
         "2MASS J00595826-3345507": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00595826-3345507",
                 "Galaxy": "Scl",
                 "Element": "Y",
@@ -2181,7 +2183,7 @@
             }
         },
         "2MASS J00595660-3336417": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00595660-3336417",
                 "Galaxy": "Scl",
                 "Element": "Ba",
@@ -2191,7 +2193,7 @@
             }
         },
         "2MASS J00595827-3341087": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00595827-3341087",
                 "Galaxy": "Scl",
                 "Element": "Ba",
@@ -2201,7 +2203,7 @@
             }
         },
         "2MASS J00590860-3342295": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00590860-3342295",
                 "Galaxy": "Scl",
                 "Element": "Sc",
@@ -2211,7 +2213,7 @@
             }
         },
         "2MASS J01005418-3340146": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01005418-3340146",
                 "Galaxy": "Scl",
                 "Element": "Mn",
@@ -2221,7 +2223,7 @@
             }
         },
         "2MASS J01001181-3342169": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01001181-3342169",
                 "Galaxy": "Scl",
                 "Element": "Ni",
@@ -2231,7 +2233,7 @@
             }
         },
         "2MASS J01001174-3344503": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01001174-3344503",
                 "Galaxy": "Scl",
                 "Element": "Sc",
@@ -2241,7 +2243,7 @@
             }
         },
         "2MASS J01001051-3349366": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01001051-3349366",
                 "Galaxy": "Scl",
                 "Element": "Mg",
@@ -2251,7 +2253,7 @@
             }
         },
         "2MASS J01001278-3341157": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01001278-3341157",
                 "Galaxy": "Scl",
                 "Element": "Ni",
@@ -2261,7 +2263,7 @@
             }
         },
         "2MASS J01001255-3343011": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01001255-3343011",
                 "Galaxy": "Scl",
                 "Element": "Ni",
@@ -2271,7 +2273,7 @@
             }
         },
         "2MASS J01002384-3342173": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01002384-3342173",
                 "Galaxy": "Scl",
                 "Element": "Y",
@@ -2281,7 +2283,7 @@
             }
         },
         "2MASS J01000919-3336094": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01000919-3336094",
                 "Galaxy": "Scl",
                 "Element": "Cr",
@@ -2291,7 +2293,7 @@
             }
         },
         "2MASS J00594140-3338470": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00594140-3338470",
                 "Galaxy": "Scl",
                 "Element": "Cr",
@@ -2301,7 +2303,7 @@
             }
         },
         "[MFW2011] 5059": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[MFW2011] 5059",
                 "Galaxy": "Scl",
                 "Element": "Ti",
@@ -2311,7 +2313,7 @@
             }
         },
         "[SHT2013] Scl074 02": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[SHT2013] Scl074 02",
                 "Galaxy": "Scl",
                 "Element": "Mg",
@@ -2321,7 +2323,7 @@
             }
         },
         "UCAC4 282-001099": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "UCAC4 282-001099",
                 "Galaxy": "Scl",
                 "Element": "Y",
@@ -2331,7 +2333,7 @@
             }
         },
         "2MASS J01001537-3339060": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01001537-3339060",
                 "Galaxy": "Scl",
                 "Element": "Ni",
@@ -2341,7 +2343,7 @@
             }
         },
         "2MASS J01001519-3343110": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01001519-3343110",
                 "Galaxy": "Scl",
                 "Element": "Ba",
@@ -2351,7 +2353,7 @@
             }
         },
         "2MASS J01001483-3336498": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01001483-3336498",
                 "Galaxy": "Scl",
                 "Element": "Mg",
@@ -2361,7 +2363,7 @@
             }
         },
         "2MASS J01001777-3335597": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01001777-3335597",
                 "Galaxy": "Scl",
                 "Element": "Mg",
@@ -2371,7 +2373,7 @@
             }
         },
         "2MASS J01001759-3346552": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01001759-3346552",
                 "Galaxy": "Scl",
                 "Element": "Mg",
@@ -2381,7 +2383,7 @@
             }
         },
         "2MASS J01001736-3343595": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01001736-3343595",
                 "Galaxy": "Scl",
                 "Element": "Ni",
@@ -2391,7 +2393,7 @@
             }
         },
         "2MASS J01001471-3339577": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01001471-3339577",
                 "Galaxy": "Scl",
                 "Element": "Mg",
@@ -2401,7 +2403,7 @@
             }
         },
         "2MASS J01001397-3336391": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01001397-3336391",
                 "Galaxy": "Scl",
                 "Element": "Eu",
@@ -2411,7 +2413,7 @@
             }
         },
         "2MASS J01001295-3342038": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01001295-3342038",
                 "Galaxy": "Scl",
                 "Element": "Mg",
@@ -2421,7 +2423,7 @@
             }
         },
         "2MASS J01001460-3347116": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01001460-3347116",
                 "Galaxy": "Scl",
                 "Element": "Mg",
@@ -2431,7 +2433,7 @@
             }
         },
         "2MASS J00592081-3344049": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00592081-3344049",
                 "Galaxy": "Scl",
                 "Element": "Mn",
@@ -2441,7 +2443,7 @@
             }
         },
         "2MASS J00592065-3348566": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00592065-3348566",
                 "Galaxy": "Scl",
                 "Element": "Mg",
@@ -2451,7 +2453,7 @@
             }
         },
         "2MASS J00591884-3342175": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00591884-3342175",
                 "Galaxy": "Scl",
                 "Element": "Mg",
@@ -2461,7 +2463,7 @@
             }
         },
         "2MASS J00592830-3342073": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00592830-3342073",
                 "Galaxy": "Scl",
                 "Element": "Y",
@@ -2471,7 +2473,7 @@
             }
         },
         "2MASS J00592213-3349037": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00592213-3349037",
                 "Galaxy": "Scl",
                 "Element": "Cr",
@@ -2481,7 +2483,7 @@
             }
         },
         "2MASS J00591515-3342547": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00591515-3342547",
                 "Galaxy": "Scl",
                 "Element": "Mg",
@@ -2491,7 +2493,7 @@
             }
         },
         "2MASS J00591183-3341252": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00591183-3341252",
                 "Galaxy": "Scl",
                 "Element": "Ti",
@@ -2501,7 +2503,7 @@
             }
         },
         "2MASS J00591134-3337281": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00591134-3337281",
                 "Galaxy": "Scl",
                 "Element": "Ni",
@@ -2511,7 +2513,7 @@
             }
         },
         "2MASS J00591514-3339438": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00591514-3339438",
                 "Galaxy": "Scl",
                 "Element": "Ti",
@@ -2521,7 +2523,7 @@
             }
         },
         "2MASS J00593045-3336050": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00593045-3336050",
                 "Galaxy": "Scl",
                 "Element": "Ba",
@@ -2531,7 +2533,7 @@
             }
         },
         "2MASS J00594045-3335539": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00594045-3335539",
                 "Galaxy": "Scl",
                 "Element": "Y",
@@ -2541,7 +2543,7 @@
             }
         },
         "2MASS J00593811-3335080": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00593811-3335080",
                 "Galaxy": "Scl",
                 "Element": "Ni",
@@ -2551,7 +2553,7 @@
             }
         },
         "2MASS J00593757-3343336": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00593757-3343336",
                 "Galaxy": "Scl",
                 "Element": "Mg",
@@ -2561,7 +2563,7 @@
             }
         },
         "[SHT2013] Scl031 11": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[SHT2013] Scl031 11",
                 "Galaxy": "Scl",
                 "Element": "Sr",
@@ -2571,7 +2573,7 @@
             }
         },
         "[SHT2013] Scl002 06": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[SHT2013] Scl002 06",
                 "Galaxy": "Scl",
                 "Element": "Mg",
@@ -2581,7 +2583,7 @@
             }
         },
         "2MASS J00593698-3330283": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00593698-3330283",
                 "Galaxy": "Scl",
                 "Element": "Ni",
@@ -2591,7 +2593,7 @@
             }
         },
         "2MASS J00593500-3350557": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00593500-3350557",
                 "Galaxy": "Scl",
                 "Element": "Mg",
@@ -2601,7 +2603,7 @@
             }
         },
         "2MASS J00593048-3339041": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00593048-3339041",
                 "Galaxy": "Scl",
                 "Element": "Cr",
@@ -2611,7 +2613,7 @@
             }
         },
         "2MASS J00593723-3337106": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J00593723-3337106",
                 "Galaxy": "Scl",
                 "Element": "Mg",
@@ -2621,7 +2623,7 @@
             }
         },
         "2MASS J01003404-3339046": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01003404-3339046",
                 "Galaxy": "Scl",
                 "Element": "Ti",
@@ -2631,7 +2633,7 @@
             }
         },
         "2MASS J01003432-3349528": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01003432-3349528",
                 "Galaxy": "Scl",
                 "Element": "Y",
@@ -2641,7 +2643,7 @@
             }
         },
         "2MASS J01003385-3344543": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01003385-3344543",
                 "Galaxy": "Scl",
                 "Element": "Ni",
@@ -2651,7 +2653,7 @@
             }
         },
         "2MASS J01002629-3344456": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01002629-3344456",
                 "Galaxy": "Scl",
                 "Element": "Mg",
@@ -2661,7 +2663,7 @@
             }
         },
         "2MASS J01004250-3344235": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01004250-3344235",
                 "Galaxy": "Scl",
                 "Element": "Y",
@@ -2671,7 +2673,7 @@
             }
         },
         "2MASS J01003813-3348168": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01003813-3348168",
                 "Galaxy": "Scl",
                 "Element": "Ba",
@@ -2681,7 +2683,7 @@
             }
         },
         "2MASS J01002579-3330255": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01002579-3330255",
                 "Galaxy": "Scl",
                 "Element": "Ni",
@@ -2691,7 +2693,7 @@
             }
         },
         "SCMS  822": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "SCMS  822",
                 "Galaxy": "Scl",
                 "Element": "Ba",
@@ -2701,7 +2703,7 @@
             }
         },
         "[KGB2009] J005939.5-334539": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[KGB2009] J005939.5-334539",
                 "Galaxy": "Scl",
                 "Element": "Cr",
@@ -2711,7 +2713,7 @@
             }
         },
         "2MASS J01002463-3344287": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01002463-3344287",
                 "Galaxy": "Scl",
                 "Element": "Y",
@@ -2721,7 +2723,7 @@
             }
         },
         "[WMO2009] Scl- 927": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] Scl- 927",
                 "Galaxy": "Scl",
                 "Element": "Ti",
@@ -2731,7 +2733,7 @@
             }
         },
         "2MASS J01002531-3350506": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01002531-3350506",
                 "Galaxy": "Scl",
                 "Element": "Ba",
@@ -2741,7 +2743,7 @@
             }
         },
         "2MASS J01002504-3342275": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01002504-3342275",
                 "Galaxy": "Scl",
                 "Element": "Mn",
@@ -2751,7 +2753,7 @@
             }
         },
         "2MASS J01004427-3349188": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01004427-3349188",
                 "Galaxy": "Scl",
                 "Element": "Ba",
@@ -2761,7 +2763,7 @@
             }
         },
         "2MASS J01002030-3335345": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01002030-3335345",
                 "Galaxy": "Scl",
                 "Element": "Y",
@@ -2771,7 +2773,7 @@
             }
         },
         "2MASS J01001897-3345147": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01001897-3345147",
                 "Galaxy": "Scl",
                 "Element": "Mg",
@@ -2781,7 +2783,7 @@
             }
         },
         "2MASS J01002109-3333464": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01002109-3333464",
                 "Galaxy": "Scl",
                 "Element": "Y",
@@ -2791,7 +2793,7 @@
             }
         },
         "2MASS J01002118-3346012": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01002118-3346012",
                 "Galaxy": "Scl",
                 "Element": "Cr",
@@ -2801,7 +2803,7 @@
             }
         },
         "2MASS J01001830-3342122": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01001830-3342122",
                 "Galaxy": "Scl",
                 "Element": "Cr",
@@ -2811,7 +2813,7 @@
             }
         },
         "2MASS J01005087-3345053": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01005087-3345053",
                 "Galaxy": "Scl",
                 "Element": "Ba",
@@ -2821,7 +2823,7 @@
             }
         },
         "2MASS J01004653-3346472": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01004653-3346472",
                 "Galaxy": "Scl",
                 "Element": "Sr",
@@ -2831,7 +2833,7 @@
             }
         },
         "2MASS J01005025-3336383": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01005025-3336383",
                 "Galaxy": "Scl",
                 "Element": "Cr",
@@ -2841,7 +2843,7 @@
             }
         },
         "2MASS J01002298-3343021": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J01002298-3343021",
                 "Galaxy": "Scl",
                 "Element": "Y",
@@ -2853,7 +2855,7 @@
     },
     "Sex": {
         "[WMO2009] Sex-042": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] Sex-042",
                 "Galaxy": "Sex",
                 "Element": "Mg",
@@ -2863,7 +2865,7 @@
             }
         },
         "[KGS2010] Sex     191": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[KGS2010] Sex     191",
                 "Galaxy": "Sex",
                 "Element": "Sc",
@@ -2873,7 +2875,7 @@
             }
         },
         "[AAS2009] S 24-72": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[AAS2009] S 24-72",
                 "Galaxy": "Sex",
                 "Element": "Mg",
@@ -2883,7 +2885,7 @@
             }
         },
         "[BTH2011] 129": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[BTH2011] 129",
                 "Galaxy": "Sex",
                 "Element": "Ba",
@@ -2893,7 +2895,7 @@
             }
         },
         "[BTH2011] 48": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[BTH2011] 48",
                 "Galaxy": "Sex",
                 "Element": "Ti",
@@ -2903,7 +2905,7 @@
             }
         },
         "[LPP2003]   503": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   503",
                 "Galaxy": "Sex",
                 "Element": "Sc",
@@ -2913,7 +2915,7 @@
             }
         },
         "2MASS J10132736-0134051": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J10132736-0134051",
                 "Galaxy": "Sex",
                 "Element": "Ba",
@@ -2923,7 +2925,7 @@
             }
         },
         "[WMO2009] Sex-026": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[WMO2009] Sex-026",
                 "Galaxy": "Sex",
                 "Element": "Mg",
@@ -2933,7 +2935,7 @@
             }
         },
         "[LPP2003] VV  2": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003] VV  2",
                 "Galaxy": "Sex",
                 "Element": "Ti",
@@ -2943,7 +2945,7 @@
             }
         },
         "[LPP2003]   169": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   169",
                 "Galaxy": "Sex",
                 "Element": "Mg",
@@ -2953,7 +2955,7 @@
             }
         },
         "[LPP2003]   463": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   463",
                 "Galaxy": "Sex",
                 "Element": "Sc",
@@ -2963,7 +2965,7 @@
             }
         },
         "[LPP2003]   522": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   522",
                 "Galaxy": "Sex",
                 "Element": "Ti",
@@ -2973,7 +2975,7 @@
             }
         },
         "[LPP2003]   528": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   528",
                 "Galaxy": "Sex",
                 "Element": "Ti",
@@ -2983,7 +2985,7 @@
             }
         },
         "[LPP2003]   530": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   530",
                 "Galaxy": "Sex",
                 "Element": "Ti",
@@ -2993,7 +2995,7 @@
             }
         },
         "[LPP2003]   457": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   457",
                 "Galaxy": "Sex",
                 "Element": "Mg",
@@ -3003,7 +3005,7 @@
             }
         },
         "[LPP2003]   458": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   458",
                 "Galaxy": "Sex",
                 "Element": "Cr",
@@ -3013,7 +3015,7 @@
             }
         },
         "[LPP2003]   561": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   561",
                 "Galaxy": "Sex",
                 "Element": "Sc",
@@ -3023,7 +3025,7 @@
             }
         },
         "[LPP2003]   570": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   570",
                 "Galaxy": "Sex",
                 "Element": "Ni",
@@ -3033,7 +3035,7 @@
             }
         },
         "[LPP2003]   641": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   641",
                 "Galaxy": "Sex",
                 "Element": "Cr",
@@ -3043,7 +3045,7 @@
             }
         },
         "[LPP2003]   642": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   642",
                 "Galaxy": "Sex",
                 "Element": "Ni",
@@ -3053,7 +3055,7 @@
             }
         },
         "[LPP2003]   534": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   534",
                 "Galaxy": "Sex",
                 "Element": "Ni",
@@ -3063,7 +3065,7 @@
             }
         },
         "[LPP2003]   545": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   545",
                 "Galaxy": "Sex",
                 "Element": "Ba",
@@ -3073,7 +3075,7 @@
             }
         },
         "[LPP2003]   690": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   690",
                 "Galaxy": "Sex",
                 "Element": "Cr",
@@ -3083,7 +3085,7 @@
             }
         },
         "[LPP2003]   444": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   444",
                 "Galaxy": "Sex",
                 "Element": "Ni",
@@ -3093,7 +3095,7 @@
             }
         },
         "[LPP2003]   290": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   290",
                 "Galaxy": "Sex",
                 "Element": "Ba",
@@ -3103,7 +3105,7 @@
             }
         },
         "[LPP2003]   322": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   322",
                 "Galaxy": "Sex",
                 "Element": "Ni",
@@ -3113,7 +3115,7 @@
             }
         },
         "[LPP2003]   342": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   342",
                 "Galaxy": "Sex",
                 "Element": "Ti",
@@ -3123,7 +3125,7 @@
             }
         },
         "[LPP2003]   245": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   245",
                 "Galaxy": "Sex",
                 "Element": "Ti",
@@ -3133,7 +3135,7 @@
             }
         },
         "[LPP2003]   343": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   343",
                 "Galaxy": "Sex",
                 "Element": "Ni",
@@ -3143,7 +3145,7 @@
             }
         },
         "[LPP2003]   416": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   416",
                 "Galaxy": "Sex",
                 "Element": "Mg",
@@ -3153,7 +3155,7 @@
             }
         },
         "[LPP2003]   420": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   420",
                 "Galaxy": "Sex",
                 "Element": "Ti",
@@ -3163,7 +3165,7 @@
             }
         },
         "[LPP2003]   392": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   392",
                 "Galaxy": "Sex",
                 "Element": "Ni",
@@ -3173,7 +3175,7 @@
             }
         },
         "[LPP2003]   382": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   382",
                 "Galaxy": "Sex",
                 "Element": "Cr",
@@ -3183,7 +3185,7 @@
             }
         },
         "[LPP2003]   473": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   473",
                 "Galaxy": "Sex",
                 "Element": "Ba",
@@ -3193,7 +3195,7 @@
             }
         },
         "[LPP2003]   470": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   470",
                 "Galaxy": "Sex",
                 "Element": "Mg",
@@ -3203,7 +3205,7 @@
             }
         },
         "[LPP2003]   514": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   514",
                 "Galaxy": "Sex",
                 "Element": "Ti",
@@ -3213,7 +3215,7 @@
             }
         },
         "[LPP2003]   199": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   199",
                 "Galaxy": "Sex",
                 "Element": "Mg",
@@ -3223,7 +3225,7 @@
             }
         },
         "[LPP2003]   502": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   502",
                 "Galaxy": "Sex",
                 "Element": "Mg",
@@ -3233,7 +3235,7 @@
             }
         },
         "[LPP2003]   701": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   701",
                 "Galaxy": "Sex",
                 "Element": "Ba",
@@ -3243,7 +3245,7 @@
             }
         },
         "[LPP2003]   737": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   737",
                 "Galaxy": "Sex",
                 "Element": "Ni",
@@ -3253,7 +3255,7 @@
             }
         },
         "[LPP2003]   740": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   740",
                 "Galaxy": "Sex",
                 "Element": "Cr",
@@ -3263,7 +3265,7 @@
             }
         },
         "[LPP2003]   825": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   825",
                 "Galaxy": "Sex",
                 "Element": "Ni",
@@ -3273,7 +3275,7 @@
             }
         },
         "[LPP2003]   792": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[LPP2003]   792",
                 "Galaxy": "Sex",
                 "Element": "Ba",
@@ -3285,7 +3287,7 @@
     },
     "SegI": {
         "SDSS J100814.44+160501.1": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "SDSS J100814.44+160501.1",
                 "Galaxy": "SegI",
                 "Element": "Mg",
@@ -3297,7 +3299,7 @@
     },
     "Sgr": {
         "GIU J190638.43-315135.9": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "GIU J190638.43-315135.9",
                 "Galaxy": "Sgr",
                 "Element": "Cr",
@@ -3307,7 +3309,7 @@
             }
         },
         "GIU J190043.03-311704.3": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "GIU J190043.03-311704.3",
                 "Galaxy": "Sgr",
                 "Element": "Mg",
@@ -3317,7 +3319,7 @@
             }
         },
         "GIU J185533.85-300521.2": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "GIU J185533.85-300521.2",
                 "Galaxy": "Sgr",
                 "Element": "Sc",
@@ -3327,7 +3329,7 @@
             }
         },
         "GIU J190651.47-320147.2": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "GIU J190651.47-320147.2",
                 "Galaxy": "Sgr",
                 "Element": "Y",
@@ -3337,7 +3339,7 @@
             }
         },
         "GIU J185549.44-300349.3": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "GIU J185549.44-300349.3",
                 "Galaxy": "Sgr",
                 "Element": "Ti",
@@ -3347,7 +3349,7 @@
             }
         },
         "GIU J190039.06-310720.5": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "GIU J190039.06-310720.5",
                 "Galaxy": "Sgr",
                 "Element": "Zn",
@@ -3357,7 +3359,7 @@
             }
         },
         "[MBC98a] Sgr1  894": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[MBC98a] Sgr1  894",
                 "Galaxy": "Sgr",
                 "Element": "Mn",
@@ -3367,7 +3369,7 @@
             }
         },
         "[MBC98a] Sgr1  628": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[MBC98a] Sgr1  628",
                 "Galaxy": "Sgr",
                 "Element": "Ba",
@@ -3377,7 +3379,7 @@
             }
         },
         "[MBC98a] Sgr1  716": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[MBC98a] Sgr1  716",
                 "Galaxy": "Sgr",
                 "Element": "Ba",
@@ -3387,7 +3389,7 @@
             }
         },
         "[MBC98a] Sgr1  867": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[MBC98a] Sgr1  867",
                 "Galaxy": "Sgr",
                 "Element": "Sc",
@@ -3397,7 +3399,7 @@
             }
         },
         "[MBC98a] Sgr1  432": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[MBC98a] Sgr1  432",
                 "Galaxy": "Sgr",
                 "Element": "Cr",
@@ -3407,7 +3409,7 @@
             }
         },
         "[HEM2018] Sgr 2300225": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[HEM2018] Sgr 2300225",
                 "Galaxy": "Sgr",
                 "Element": "Mg",
@@ -3417,7 +3419,7 @@
             }
         },
         "2MASS J18535171-3026497": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J18535171-3026497",
                 "Galaxy": "Sgr",
                 "Element": "Cr",
@@ -3427,7 +3429,7 @@
             }
         },
         "2MASS J18535108-3026483": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J18535108-3026483",
                 "Galaxy": "Sgr",
                 "Element": "Mg",
@@ -3437,7 +3439,7 @@
             }
         },
         "2MASS J18540214-3036218": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J18540214-3036218",
                 "Galaxy": "Sgr",
                 "Element": "Ba",
@@ -3447,7 +3449,7 @@
             }
         },
         "2MASS J18535650-3027205": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J18535650-3027205",
                 "Galaxy": "Sgr",
                 "Element": "Ba",
@@ -3457,7 +3459,7 @@
             }
         },
         "Cl* Terzan    7    BCP    1272": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "Cl* Terzan    7    BCP    1272",
                 "Galaxy": "Sgr",
                 "Element": "Mn",
@@ -3467,7 +3469,7 @@
             }
         },
         "2MASS J18534878-3029391": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J18534878-3029391",
                 "Galaxy": "Sgr",
                 "Element": "Mn",
@@ -3477,7 +3479,7 @@
             }
         },
         "2MASS J18534573-3025574": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J18534573-3025574",
                 "Galaxy": "Sgr",
                 "Element": "Cr",
@@ -3487,7 +3489,7 @@
             }
         },
         "Cl* Terzan    7    KHG       1": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "Cl* Terzan    7    KHG       1",
                 "Galaxy": "Sgr",
                 "Element": "Sc",
@@ -3497,7 +3499,7 @@
             }
         },
         "Cl* Terzan    7    BCP    1282": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "Cl* Terzan    7    BCP    1282",
                 "Galaxy": "Sgr",
                 "Element": "Eu",
@@ -3507,7 +3509,7 @@
             }
         },
         "[HEM2018] Sgr 2300275": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[HEM2018] Sgr 2300275",
                 "Galaxy": "Sgr",
                 "Element": "Ba",
@@ -3517,7 +3519,7 @@
             }
         },
         "GIU J184828.45-294929.7": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "GIU J184828.45-294929.7",
                 "Galaxy": "Sgr",
                 "Element": "Eu",
@@ -3527,7 +3529,7 @@
             }
         },
         "GIU J185211.31-311907.5": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "GIU J185211.31-311907.5",
                 "Galaxy": "Sgr",
                 "Element": "Y",
@@ -3537,7 +3539,7 @@
             }
         },
         "GIU J184323.07-290337.6": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "GIU J184323.07-290337.6",
                 "Galaxy": "Sgr",
                 "Element": "Mn",
@@ -3547,7 +3549,7 @@
             }
         },
         "GIU J185259.59-312135.1": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "GIU J185259.59-312135.1",
                 "Galaxy": "Sgr",
                 "Element": "Y",
@@ -3557,7 +3559,7 @@
             }
         },
         "[HEM2018] Sgr 3600436": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[HEM2018] Sgr 3600436",
                 "Galaxy": "Sgr",
                 "Element": "Y",
@@ -3567,7 +3569,7 @@
             }
         },
         "2MASS J18533874-3029290": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J18533874-3029290",
                 "Galaxy": "Sgr",
                 "Element": "Sc",
@@ -3577,7 +3579,7 @@
             }
         },
         "2MASS J18534523-3030558": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J18534523-3030558",
                 "Galaxy": "Sgr",
                 "Element": "Ba",
@@ -3587,7 +3589,7 @@
             }
         },
         "2MASS J18531978-3037403": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J18531978-3037403",
                 "Galaxy": "Sgr",
                 "Element": "Ba",
@@ -3597,7 +3599,7 @@
             }
         },
         "2MASS J18532235-3023473": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J18532235-3023473",
                 "Galaxy": "Sgr",
                 "Element": "Ba",
@@ -3609,7 +3611,7 @@
     },
     "UMi": {
         "COS 171": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "COS 171",
                 "Galaxy": "UMi",
                 "Element": "Mg",
@@ -3619,7 +3621,7 @@
             }
         },
         "Irwin UMi 30760": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "Irwin UMi 30760",
                 "Galaxy": "UMi",
                 "Element": "Mg",
@@ -3629,7 +3631,7 @@
             }
         },
         "Irwin UMi 33533": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "Irwin UMi 33533",
                 "Galaxy": "UMi",
                 "Element": "Mg",
@@ -3639,7 +3641,7 @@
             }
         },
         "Irwin UMi 36228": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "Irwin UMi 36228",
                 "Galaxy": "UMi",
                 "Element": "Ni",
@@ -3649,7 +3651,7 @@
             }
         },
         "Irwin UMi 36886": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "Irwin UMi 36886",
                 "Galaxy": "UMi",
                 "Element": "Eu",
@@ -3659,7 +3661,7 @@
             }
         },
         "Irwin UMi 28104": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "Irwin UMi 28104",
                 "Galaxy": "UMi",
                 "Element": "Mn",
@@ -3669,7 +3671,7 @@
             }
         },
         "Irwin UMi 27940": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "Irwin UMi 27940",
                 "Galaxy": "UMi",
                 "Element": "Y",
@@ -3679,7 +3681,7 @@
             }
         },
         "COS 233": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "COS 233",
                 "Galaxy": "UMi",
                 "Element": "Ba",
@@ -3689,7 +3691,7 @@
             }
         },
         "Olsz N37": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "Olsz N37",
                 "Galaxy": "UMi",
                 "Element": "Sc",
@@ -3699,7 +3701,7 @@
             }
         },
         "NAME UMI718": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "NAME UMI718",
                 "Galaxy": "UMi",
                 "Element": "Mg",
@@ -3709,7 +3711,7 @@
             }
         },
         "NAME UMI396": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "NAME UMI396",
                 "Galaxy": "UMi",
                 "Element": "Ni",
@@ -3719,7 +3721,7 @@
             }
         },
         "Irwin UMi 41065": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "Irwin UMi 41065",
                 "Galaxy": "UMi",
                 "Element": "Ba",
@@ -3729,7 +3731,7 @@
             }
         },
         "NAME UMI446": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "NAME UMI446",
                 "Galaxy": "UMi",
                 "Element": "Ni",
@@ -3741,7 +3743,7 @@
     },
     "TriII": {
         "[MIC2016] 40": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "[MIC2016] 40",
                 "Galaxy": "TriII",
                 "Element": "Sr",
@@ -3753,7 +3755,7 @@
     },
     "UMaII": {
         "2MASS J08495341+6308216": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J08495341+6308216",
                 "Galaxy": "UMaII",
                 "Element": "Ni",
@@ -3763,7 +3765,7 @@
             }
         },
         "2MASS J08523350+6305009": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J08523350+6305009",
                 "Galaxy": "UMaII",
                 "Element": "Mg",
@@ -3773,7 +3775,7 @@
             }
         },
         "2MASS J08525902+6305544": {
-            "J/A+A/641/A127": {
+            "Reichert+ 2020": {
                 "Name": "2MASS J08525902+6305544",
                 "Galaxy": "UMaII",
                 "Element": "Sc",

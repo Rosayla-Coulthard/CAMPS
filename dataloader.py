@@ -12,7 +12,7 @@ ALT_COL_NAMES = config["ALT_COL_NAMES"]
 META_DATA_KEY = config["META_DATA_KEY"]
 
 def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'Galaxy',
-                     table_num = None):
+                     table_num = None, paper_name = None):
     """Retrieves data from Vizier via one prompt.
     
     Args:
@@ -76,13 +76,16 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'Gala
         save_to_json(config, "config.json")
         print("Updated config file with new column names.")
         retrieve_catalog(prompt, savepath, UI, gal_title, table_num=catalog_choice)
-        # msg = "Please re-run retrieve_catalog() and specify the new column names "
-        # msg += "for star identifiers and galaxy names."
-        # print(msg)
-        # quit()
 
     # Initiate the output dictionary with metadata
-    output = {f"{META_DATA_KEY}": {"Included titles": {prompt: col_list}}}
+    # if paper_name is not None:
+    if paper_name is None:
+        cat_title = prompt
+    else:
+        cat_title = paper_name
+    
+    output = {f"{META_DATA_KEY}": {"Included titles": {cat_title: {}}}}
+    output[META_DATA_KEY]["Included titles"][cat_title]["Columns"] = list(col_list.values())
 
     # Ask if the catalog is a single-galaxy catalog
     msg = "Is this a single-galaxy catalog? (y/n): "
@@ -136,9 +139,9 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'Gala
         # If the star belongs to a multi-galaxy catalog, and the galaxy name is not
         # previously recorded, make a new dictionary entry for the galaxy.
         if star_gal_name not in output.keys():
-            output[star_gal_name] = {star_name: {prompt: {"Name": star_name}}}
+            output[star_gal_name] = {star_name: {cat_title: {"Name": star_name}}}
         elif star_gal_name in output.keys():
-            output[star_gal_name][star_name] = {prompt: {"Name": star_name}}
+            output[star_gal_name][star_name] = {cat_title: {"Name": star_name}}
 
         # Add catalog under star
         for col in catalog.colnames:
@@ -156,11 +159,6 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'Gala
                     star_col = star[col]
 
             new_col_name = col_list[col]
-            # if col == 'dSph':
-                # new_col_name = 'dSph'
-                # star_col = star_gal_name
-            # else:
-                # new_col_name = col_list[col]
 
             # If the star has been labled as not a member, remove the star
             star_abandoned = False
@@ -169,20 +167,20 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'Gala
                 star_abandoned = True
                 break
             if new_col_name != "_":
-                output[star_gal_name][star_name][prompt][new_col_name] = star_col
+                output[star_gal_name][star_name][cat_title][new_col_name] = star_col
 
         if star_abandoned:
             continue
 
-        output[star_gal_name][star_name][prompt]["Galaxy"] = star_gal_name
+        output[star_gal_name][star_name][cat_title]["Galaxy"] = star_gal_name
 
     # Update member count to metadata
     output, _, _ = member_count(output)
     galaxy_members = list(output.keys())[1:]
-    output[META_DATA_KEY]["Included titles"][prompt]["Members"] = galaxy_members
+    output[META_DATA_KEY]["Included titles"][cat_title]["Members"] = galaxy_members
 
     print("Done adding stars.")
-    
+
     # Save the data
     if savepath is not None:
         print("Saving catalog to JSON...")
@@ -192,8 +190,8 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'Gala
     # Update column name configs
     with open("config.json", 'r', encoding="utf-8") as f:
         config_file = json.load(f)
-    
-    del col_list['Members']
+
+    # del col_list['Members']
     save_to_json(config_file, "config.json")
 
     print("Done saving catalog.")
@@ -297,6 +295,8 @@ def add_catalog(catalog_path, catalog_name, cache_path, ref_catalog):
     print("Saving cache...")
     save_to_json(cache, cache_path)
 
+    print(f"Added {catalog_name} to cache.\n")
+
     return cache
 
 def merge_tables(catalog1_path, catalog2_path, catalog1_name, catalog2_name, alter_savepath = None):
@@ -332,19 +332,22 @@ def merge_tables(catalog1_path, catalog2_path, catalog1_name, catalog2_name, alt
         msg += f"Catalog 1 has {catalog1_depth} levels. "
         msg += f"Catalog 2 has {catalog2_depth} levels."
         raise ValueError(msg)
-    
+
     # Iterate through each galaxy in the incoming catalog
     for gal_name in catalog2:
         if gal_name == META_DATA_KEY: # If it's metadata, simply merge them
-            catalog1_columns = catalog1[META_DATA_KEY]['Included titles'][catalog1_name]
-            catalog2_columns = catalog2[META_DATA_KEY]['Included titles'][catalog2_name]
+            catalog1_temp = catalog1[META_DATA_KEY]['Included titles'][catalog1_name]
+            catalog2_temp = catalog2[META_DATA_KEY]['Included titles'][catalog2_name]
 
-            new_columns = catalog1_columns | catalog2_columns
+            # new_columns = catalog1_columns | catalog2_columns
+            new_columns = list(set(catalog1_temp['Columns'] + catalog2_temp['Columns']))
+            new_members = list(set(catalog1_temp['Members'] + catalog2_temp['Members']))
 
-            catalog1[META_DATA_KEY]['Included titles'][catalog1_name] = new_columns
+            new_cat_metadata = {"Columns": new_columns, "Members": new_members}
+            catalog1[META_DATA_KEY]['Included titles'][catalog1_name] = new_cat_metadata
 
             continue
-        
+
         gal = catalog2[gal_name]
         for star2_name in gal:
             star2 = gal[star2_name]
@@ -374,57 +377,13 @@ def merge_tables(catalog1_path, catalog2_path, catalog1_name, catalog2_name, alt
     savepath = alter_savepath if alter_savepath is not None else catalog1_path
     save_to_json(catalog1, savepath)
 
+    print(f"Done merging {catalog2_name} into {catalog1_name}. \n")
     return catalog1
 
 
 # Execution code
 if __name__ == "__main__":
-    # Retrieve the catalogs
-    # retrieve_catalog("J/ApJS/191/352/abun", "Temp/Kirby 2009.json", gal_title="dSph")
-
-    # retrieve_catalog("J/ApJ/838/83", "Temp/J_ApJ_838_83(0).json",
-                    #  ["__KCS2015_", "__MIC2016_"], table_num=0)
-    # retrieve_catalog("J/ApJ/838/83", "Temp/J_ApJ_838_83(1).json",
-                    #  ["__KCS2015_", "__MIC2016_"], table_num=1)
-    # merge_tables("Temp/J_ApJ_838_83(0).json", "Temp/J_ApJ_838_83(1).json",
-                #    "J/ApJ/838/83", "J/ApJ/838/83", "Temp/J_ApJ_838_83.json")
-
-    # retrieve_catalog("J/A+A/641/A127", "Temp/Reighert 2020(0).json",
-                    #  "ID", "Galaxy", table_num=0)
-    # retrieve_catalog("J/A+A/641/A127", "Temp/Reighert 2020(1).json",
-                        # "ID", "Galaxy", table_num=1)
-    # retrieve_catalog("J/A+A/641/A127", "Temp/Reighert 2020(2).json",
-                        # "ID", "Galaxy", table_num=2)
-    # merge_tables("Temp/Reighert 2020(0).json", "Temp/Reighert 2020(1).json",
-                #    "J/A+A/641/A127", "J/A+A/641/A127", "Temp/Reighert 2020.json")
-    # merge_tables("Temp/Reighert 2020.json", "Temp/Reighert 2020(2).json",
-                #    "J/A+A/641/A127", "J/A+A/641/A127", "Temp/Reighert 2020.json")
-
-    # add_catalog("Temp/J_ApJ_838_83.json", "J/ApJ/838/83", "Data/Cache.json",
-                # "J/ApJS/191/352/abun")
-    # add_catalog("Temp/Reighert 2020.json", "J/A+A/641/A127", "Data/Cache.json",
-                # "J/ApJS/191/352/abun") # NOTE: needs to accomodate multiple if not all ref catalogs
-
-    # retrieve_catalog("J/A+A/642/A176", "Temp/Theler 2020(0).json", "ID", table_num=0)
-    # retrieve_catalog("J/A+A/642/A176", "Temp/Theler 2020(10).json", "ID", table_num=6)
-    # merge_tables("Temp/Theler 2020(0).json", "Temp/Theler 2020(10).json",
-                    # "J/A+A/642/A176", "J/A+A/642/A176", "Temp/Theler 2020.json")
-    # add_catalog("Temp/Theler 2020.json", "J/A+A/642/A176", "Data/Cache.json",
-                # "J/ApJS/191/352/abun")
-
-    # retrieve_catalog("J/A+A/631/A171", "Temp/Skuladottir 2019.json", "Star", table_num=0)
-    # add_catalog("Temp/Skuladottir 2019.json", "J/A+A/631/A171", "Data/Cache.json",
-                # "J/ApJS/191/352/abun")
-
-    pass
-
-# =============================================================================
-# 1. Check if the coords from stars in that catalog match any of the existing database members
-
-# Precondition for new incoming catalogs:
-# they usually either look at several galaxies at once, or one galaxy at a time.
-# If it's the latter, then we can just manually indicate which galaxy is that,
-# and manually decide if that's a new galaxy.
-
-
-
+    retrieve_catalog("J/ApJ/801/125", "Temp/Kirby+ Carbon.json", gal_title="Syst",
+                     paper_name="Kirby+ Carbon", table_num=2)
+    add_catalog("Temp/Kirby+ Carbon.json", "Kirby+ Carbon", "Data/Cache.json",
+                "Kirby+ 2010")

@@ -3,6 +3,12 @@ import numpy as np
 from matplotlib import pyplot as plt
 import json
 from utilfuncs import catalog_name_check, META_DATA_KEY
+from scipy.optimize import curve_fit
+import math
+
+def linear(x, m, b):
+    """A linear function."""
+    return m*x + b
 
 def data_by_galaxy(cache_path:str, catalog_name:str, galaxies, columns):
     """Plots a pair of specified columns for each galaxy in the list, with
@@ -90,15 +96,37 @@ def data_by_catalog(cache_path:str, galaxy_name:str, catalogs:list, columns):
 
     # Organize the data by cataglog
     col1, col2 = columns
+
     output = {}
     for cat in catalogs:
-        if cat not in cache[META_DATA_KEY]["Included titles"].keys():
-            print(f"{cat} not found in galaxy, skipping")
+        included_titles = cache[META_DATA_KEY]["Included titles"]
+        cat_list = list(included_titles.keys())
+        cat_col_list = list(included_titles[cat]["Columns"])
+        cat_mem_list = list(included_titles[cat]["Members"])
+
+        # print(included_titles)
+        # print(cat_list)
+        # print(cat_col_list)
+        # print(cat_mem_list)
+
+        # quit()
+
+        if cat not in cat_list:
+            print(f"{cat} not found in cache, skipping")
+            continue
+        elif col1 not in cat_col_list:
+            print(f"{col1} not found in {cat}, skipping")
+            continue
+        elif col2 not in cat_col_list:
+            print(f"{col2} not found in {cat}, skipping")
+            continue
+        elif galaxy_name not in cat_mem_list:
+            print(f"{galaxy_name} not found in {cat}, skipping")
             continue
 
-        col1, col2 = [], []
+        col1_list, col2_list = [], []
         col1_name, col2_name = columns
-        output[cat] = {col1_name: col1, col2_name: col2}
+        output[cat] = {col1_name: col1_list, col2_name: col2_list}
 
         for star_name in galaxy.keys():
             star = galaxy[star_name]
@@ -114,7 +142,52 @@ def data_by_catalog(cache_path:str, galaxy_name:str, catalogs:list, columns):
 
     return output
 
-def plot_data(data:dict, title:str = None, savepath:str=None, plot_size = (5, 5)):
+def data_for_crossmatch(cache_path:str, catalogs:list, column:str, gal_list=None):
+    """Extracts data for crossmatching between catalogs. Only extracts data from 
+    the same star."""
+    # Check inputs
+    if len(catalogs) != 2:
+        raise ValueError("catalogs must have exactly two elements")
+
+    # Load cache
+    with open(cache_path, "r", encoding="utf-8") as cache_file:
+        cache = json.load(cache_file)
+
+    # Read data
+    cat1, cat2 = catalogs
+    cat1_data, cat2_data = [], []
+
+    if gal_list is None:
+        gal_list = list(cache.keys())[1:]
+
+    # Check if the requested column is in both catalogs
+    included_titles = cache[META_DATA_KEY]["Included titles"]
+    if column not in included_titles[cat1]["Columns"]:
+        raise ValueError(f"{column} not found in {cat1}")
+    if column not in included_titles[cat2]["Columns"]:
+        raise ValueError(f"{column} not found in {cat2}")
+
+    # Scan through the cache
+    for gal_name in gal_list:
+        gal = cache[gal_name]
+        for star_name in gal.keys():
+            star = gal[star_name]
+
+            try:
+                temp_1 = star[cat1][column]
+                temp_2 = star[cat2][column]
+            except KeyError:
+                continue
+
+            cat1_data.append(temp_1)
+            cat2_data.append(temp_2)
+
+    output = {column:{cat1: cat1_data, cat2: cat2_data}}
+    return output
+
+
+def plot_data(data:dict, title:str = None, savepath:str=None,
+              plot_size = (5, 5), nbins = 0, units_xy = ("", "")):
     """Plots the data extracted from the cache file. Can be applied to the 
     output of either data_by_galaxy or data_by_catalog.
 
@@ -138,15 +211,99 @@ def plot_data(data:dict, title:str = None, savepath:str=None, plot_size = (5, 5)
         col1 = data[plot_num][col1_name]
         col2 = data[plot_num][col2_name]
 
-        ax.scatter(col1, col2, label = plot_num, s = 15,
-                   marker = marker_styles[count], alpha=0.8)
+        # ax.scatter(col1, col2, label = plot_num, s = 15,
+        #            marker = marker_styles[count], alpha=0.5)
 
-        count += 1
+        if nbins > 0:
+            hist, edges = np.histogram(col1, bins = nbins)
+            middle = (edges[1:] + edges[:-1]) / 2
 
-    ax.set_xlabel(f'[{col1_name}]')
-    ax.set_ylabel(f'[{col2_name}]')
+            col_min = min(col1)
+            bins = {str(i):[] for i in range(nbins)}
+            
+            for i, point in enumerate(col1):
+                if math.isnan(col2[i]) is False:
+                    # Calculate the index of the bin to put the point in
+                    bin_indx = min(math.floor(nbins * (point / abs(col_min) + 1)), nbins - 1)
+                    bins[str(bin_indx)].append(col2[i])
+
+            bin_means = []
+            bin_stds = []
+            for bin_temp in bins.values():
+                if len(bin_temp) != 0:
+                    bin_means.append(np.mean(bin_temp))
+                    bin_stds.append(np.std(bin_temp))
+                else:
+                    bin_means.append(np.nan)
+                    bin_stds.append(np.nan)
+
+            ax.errorbar(middle, bin_means, yerr = bin_stds, alpha = 0.6,
+                        marker = marker_styles[count], label = plot_num, markersize = 10, capsize=3)
+
+        # else: 
+            ax.scatter(col1, col2, s = 15, #label = plot_num,
+                       marker = marker_styles[count], alpha=0.1)
+
+        count += 2
+        print(f"Plotted {plot_num}")
+
+    ax.set_xlabel(f'{col1_name} [{units_xy[0]}]')
+    ax.set_ylabel(f'{col2_name} [{units_xy[1]}]')
     ax.set_title(title)
-    ax.legend()
+    ax.legend(ncol = min(int((count+1)/2), 5), bbox_to_anchor=(0, 1),
+              loc='lower left')
+    ax.grid()
+
+    fig.tight_layout()
+
+    if savepath is not None:
+        fig.savefig(savepath)
+        return
+
+    plt.show()
+
+def plot_crossmatch(data:dict, title:str = None, savepath:str=None, plot_size = (5, 5),
+                    units_xy = ("", "")):
+    """Plots the data extracted from the cache file. Can be applied to the 
+    output of either data_by_galaxy or data_by_catalog.
+
+    Args:
+        data (dict): The data to plot.
+        title (str): The title of the plot.
+        savepath (str): The path to save the plot to. If None, the plot is
+            displayed instead of saved.
+
+    Returns:
+        None (plots the data and saves it)
+    """
+    # Unpack data
+    column = list(data.keys())[0]
+    data = data[column]
+    cat1, cat2 = list(data.keys())
+    cat1_data, cat2_data = data[cat1], data[cat2]
+
+    # Fit data to a linear function
+    popt, pcov = curve_fit(linear, cat1_data, cat2_data)
+    m, b = popt
+    m_err, b_err = np.sqrt(np.diag(pcov))
+
+    fit_curve = linear(np.array(cat1_data), m, b)
+
+    # Plot data
+    fig, ax = plt.subplots(1, 1, figsize=plot_size)
+
+    ax.scatter(cat1_data, cat2_data, label = f"[{column}] between {cat1} and {cat2}",
+               s = 15, marker = "o", alpha=0.5)
+    plot_label = f"Linear fit: y = ({m:.3f} +/- {round(m_err, 3)})x + ({b:.3f} +/- {round(b_err, 3)})"
+    ax.plot(cat1_data, fit_curve, label = plot_label,
+            color = "red", alpha = 0.5)
+
+    ax.set_xlabel(f'{cat1} [{units_xy[0]}]')
+    ax.set_ylabel(f'{cat2} [{units_xy[1]}]')
+    ax.set_title(title)
+    ax.legend(ncol = 1, bbox_to_anchor=(0, 1), loc='lower left')
+
+    fig.tight_layout()
 
     if savepath is not None:
         fig.savefig(savepath)
@@ -156,17 +313,27 @@ def plot_data(data:dict, title:str = None, savepath:str=None, plot_size = (5, 5)
 
 
 if __name__ == "__main__":
-    # data_galaxy = data_by_galaxy("Data/cache.json", "J/ApJS/191/352/abun",
-                        #   ["Scl", "For", "TriII"], ["Fe_H", "Mg_Fe"])
-    # data_catalog = data_by_catalog("Data/cache.json", "Scl",
-                    # ["J/ApJS/191/352/abun", "J/ApJ/838/83", "J/A+A/641/A127"],
-                    # ["Fe_H", "Mg_Fe"])
-
-    # plot_data(data_galaxy, "Test", plot_size=(8, 8))
-
-    Kirby_Mg_abun = data_by_galaxy("Data/cache.json", "J/ApJS/191/352/abun",
-                          [ "Scl", "For", "LeoI", "Sex", "LeoII", "CVnI", "UMi", "Dra"], ["Fe_H", "Mg_Fe"])
+    gal_list = ["Scl", "For", "LeoI"]#, "Sex", "LeoII", "CVnI", "UMi", "Dra"]
+    Kirby_Mg_abun = data_by_galaxy("Data/cache.json", "Kirby+ 2010",
+                                    gal_list , ["Fe_H", "Mg_Fe"])
     plot_data(Kirby_Mg_abun, savepath = "Output/Kirby 2009 Mg Abundance",
-              plot_size=(8, 8))
+              nbins = 10, units_xy = ("log", "log")
+
+    catalog_list = ["Kirby+ 2010", "Reichert+ 2020", "Theler+ 2020", "Skuladottir+ 2019"]
+    # catalog_cross_ref = data_by_catalog("Data/cache.json", "Scl",
+                                            # catalog_list, ["Fe_H", "Mg_Fe"])
+    # plot_data(catalog_cross_ref_scl, savepath = "Output/Scl Cross Reference")
+
+    # catalog_cross_ref= data_by_catalog("Data/cache.json", "Sex",
+                                            # catalog_list, ["Fe_H", "Mg_Fe"])
+    # plot_data(catalog_cross_ref_scl, savepath = "Output/Sex Cross Reference")
+
+    # fe_h_cross_ref = data_by_galaxy("Data/cache.json", "Kirby+ 2010",
+                                    # gal_list, ["Fe_H", "T_eff"])
+    # plot_data(fe_h_cross_ref, savepath = "Output/Kirby 2010 FeH vs Teff",
+            #   nbins = 10)
     
-    # catalog_cross_ref = data_by_catalog
+    calibration_data = data_for_crossmatch("Data/cache.json",
+                                             ["Reichert+ 2020", "Kirby+ 2010"],
+                                             "Fe_H")
+    plot_crossmatch(calibration_data, savepath = "Output/Fe_H Calibration")
