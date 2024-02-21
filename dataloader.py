@@ -383,12 +383,12 @@ def merge_tables(catalog1_path, catalog2_path, catalog1_name, catalog2_name, alt
 
 # Execution code
 if __name__ == "__main__":
-    retrieve_catalog("J/ApJ/838/83", "Temp/J_ApJ_838_83(0).json")
+    retrieve_catalog("J/ApJ/838/83", "Temp/J_ApJ_838_83(0).json", ['__KCS2015_', '__MIC2016_'])
 
     # Sex, UMi, and Dra: show what catalogs I have about those galaxies,
     # which abundances are included, and how many stars.
+
     # Retreive the info as a panda file, or fits, or a data table format of some kind
     # Oh and the csv thing.
-    # Make a "galaxy" called "field" that just records field stars.
 
-    # Debug single galaxy feature
+    # Make a "galaxy" called "field" that just records field stars.

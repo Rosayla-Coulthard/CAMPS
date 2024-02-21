@@ -360,6 +360,41 @@ def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str, ma
 
     return gal_output, match_list
 
+def demo(cache_path, gal_name):
+    """Show what catalogs are inside a given galaxy, what abundances are included,
+        and what stars are inside the galaxy."""
+    # Load the cache
+    cache = json.load(open(cache_path, encoding="utf-8"))
+
+    galaxy = cache[gal_name]
+
+    n_star = 0
+    catalog_list = []
+    star_col_list = []
+    for star in galaxy.keys():
+        star_catalogs = list(galaxy[star].keys())
+        catalog_list += star_catalogs
+
+        n_star += 1
+
+        for cat in star_catalogs:
+            cat_col = list(galaxy[star][cat].keys())
+            star_col_list += cat_col
+
+    catalog_list = list(set(catalog_list))
+    star_col_list = list(set(star_col_list))
+
+    print(f"Papers included that have data on {gal_name}:")
+    print(catalog_list)
+    print( )
+    print(f"Number of stars in {gal_name}: {n_star}")
+    print( )
+    print(f"Columns included in {gal_name}:")
+    print(star_col_list)
+
+    return catalog_list, star_col_list
+
+
 # Test the functions
 if __name__ == "__main__":
     # Load catalog and cache
