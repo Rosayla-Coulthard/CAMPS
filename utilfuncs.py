@@ -3,6 +3,7 @@ from datetime import datetime
 import json
 import numpy as np
 from astropy.coordinates import SkyCoord, match_coordinates_sky, Angle
+from astropy.table import Table
 
 # Import configurations
 config = json.load(open("config.json", encoding="utf-8"))
@@ -89,7 +90,11 @@ def member_count(cat):
     for gal_name in cat:
         if gal_name == META_DATA_KEY:
             continue
+        
+        # try:
         star_count += len(cat[gal_name].keys())
+        # except AttributeError:
+            
 
     cat[META_DATA_KEY]['Member count'] = f"{star_count} stars in {gal_count} galaxies."
 
@@ -220,7 +225,8 @@ def galaxy_crossmatch(gal1:dict, gal1_catalog:str, ref_catalog, cache_):
 
     return gal_name
 
-def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str, match_threshold = '1s'):
+def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str,
+                    match_threshold = '1s', matched_gal_name = None):
     """Main function for crossmatching stars between two galaxies in two catalogs.
     
         Precondition: the two galaxies are already crossmatched.
@@ -259,6 +265,9 @@ def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str, ma
         pass
     else:
         raise TypeError("match_threshold must be a string, an astropy Angle object, or a float.")
+
+    if matched_gal_name is None:
+        raise ValueError("matched_gal_name must be a galaxy's name.")
 
     # Convert the stars into SkyCoord objects
     gal1_coords = [] # Incoming data
@@ -327,6 +336,10 @@ def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str, ma
                 idx_list.append(indx)
             except UnboundLocalError:
                 print(idx, indx, idx_sorted[count - 1], idx_sorted)
+                err_msg = "This issue can happen the reference galaxy has only one star."
+                exc = UnboundLocalError(err_msg)
+                raise UnboundLocalError(err_msg) from exc
+
             dist_list = np.append(dist_list, dist_temp)
             temp_list_indx.append(count)
             duplicate_flag = True
@@ -351,12 +364,21 @@ def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str, ma
         # Iterate through each star in gal1, 
         # # if there's a match in gal2, add the data from gal1 to gal2.
         # # if there's no match in gal2, add the star directly to gal_output.
+        gal_output_size = len(gal_output.keys())
+
         if star1_name in match_list.keys():
             star2_name = match_list[star1_name]
-            gal_output[star2_name][gal1_catalog] = gal1[star1_name][gal1_catalog]
+            gal2_catalog = list(gal2[star2_name].keys())[0]
+            star1 = gal1[star1_name][gal1_catalog]
+            star2 = gal2[star2_name][gal2_catalog]
+
+            star1["Star ID"] = star2_name
+            star2["Star ID"] = star2_name
+
+            gal_output[star2_name][gal1_catalog] = star1
 
         else:
-            gal_output[star1_name] = gal1[star1_name]
+            gal_output[f"{matched_gal_name}_{gal_output_size}"] = gal1[star1_name]
 
     return gal_output, match_list
 
@@ -394,19 +416,21 @@ def demo(cache_path, gal_name):
 
     return catalog_list, star_col_list
 
+def make_table(columns, galaxies, stars, papers, cache_path):
+    """Turns data from cache into a table. Optionally, save it in csv format."""
+    # Load the cache
+    cache = json.load(open(cache_path, encoding="utf-8"))
+
+    table_output = Table(names=columns) # Put the mandatory columns first
+
+    
+    
+
+
 
 # Test the functions
 if __name__ == "__main__":
-    # Load catalog and cache
-    catalog_ = json.load(open("Temp/Reighert 2020.json", encoding="utf-8"))
-    cache = json.load(open("Data/cache.json", encoding="utf-8"))
-
-    gal_1 = catalog_['Scl']
-    gal_2 = cache['Scl']
-
-    # gal1_, gal2_ = star_crossmatch(gal1, "J/ApJS/191/352/abun", gal2, "J/ApJS/191/352/abun")
-    crossmatch_output, match_list = star_crossmatch(gal_1, "J/A+A/641/A127", gal_2, "J/ApJS/191/352/abun")
-
-# TODO: add a calibration function that either ODR or curve_fit the incoming data
+    pass
+    # TODO: add a calibration function that either ODR or curve_fit the incoming data
     # to the reference data, and return the calibrated data. Consider integrating
     # this into the crossmatch function.

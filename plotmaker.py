@@ -317,7 +317,7 @@ if __name__ == "__main__":
     Kirby_Mg_abun = data_by_galaxy("Data/cache.json", "Kirby+ 2010",
                                     gal_list , ["Fe_H", "Mg_Fe"])
     plot_data(Kirby_Mg_abun, savepath = "Output/Kirby 2009 Mg Abundance",
-              nbins = 10, units_xy = ("log", "log")
+              nbins = 10, units_xy = ("log", "log"))
 
     catalog_list = ["Kirby+ 2010", "Reichert+ 2020", "Theler+ 2020", "Skuladottir+ 2019"]
     # catalog_cross_ref = data_by_catalog("Data/cache.json", "Scl",

@@ -12,7 +12,8 @@ ALT_COL_NAMES = config["ALT_COL_NAMES"]
 META_DATA_KEY = config["META_DATA_KEY"]
 
 def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'Galaxy',
-                     table_num = None, paper_name = None):
+                     data_source = "Vizier",
+                     table_num = None, paper_name = None, single_galaxy = None, gal_name = None):
     """Retrieves data from Vizier via one prompt.
     
     Args:
@@ -24,10 +25,15 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'Gala
     """
     # Retrieve data from Vizier
     print(f"Retrieving catalog {prompt}...")
-    V = Vizier(
+
+    if data_source is "Vizier":
+        V = Vizier(
         row_limit = -1,
         columns=['*', '_RAJ2000', '_DEJ2000']
-    )
+        )
+    else:
+        raise ValueError("Data source not recognized. Not implemented.")
+
     catalog_list = V.get_catalogs(prompt)
     catalog_keys = list(catalog_list.keys())
 
@@ -35,6 +41,13 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'Gala
     for count, i in enumerate(catalog_keys):
         print(f'[{count}]', i)
         count_temp = count
+        if count_temp > config['MAX_TABLES']:
+            msg = "WARNING: Too many tables are found."
+            msg += "Please refine your search, or increase MAX_TABLES in config.json."
+            print(msg)
+            print("Operation aborted, no changes made.")
+            raise ValueError(msg)
+
     if count_temp == 0:
         msg = "Only one table found. Using that table."
         catalog_choice = 0
@@ -48,10 +61,11 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'Gala
     # Check if the input is valid. Either use that table, or quit.
     try:
         catalog_choice = int(catalog_choice)
-        catalog = catalog_list[catalog_keys[catalog_choice]]
+        table_name = catalog_keys[catalog_choice]
+        catalog = catalog_list[table_name]
     except ValueError:
         print("WARNING: Invalid input. Operation aborted, no changes made.")
-        quit()
+        raise ValueError("Invalid input.") from None
 
     # Indicates the columns in the catalog
     print(f"Found the following columns: {catalog.colnames}")
@@ -83,26 +97,36 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'Gala
         cat_title = prompt
     else:
         cat_title = paper_name
-    
+
     output = {f"{META_DATA_KEY}": {"Included titles": {cat_title: {}}}}
     output[META_DATA_KEY]["Included titles"][cat_title]["Columns"] = list(col_list.values())
+    
+    # Add the table info to the metadata
+    table_name = table_name.split("/")
+    catalog_name = "/".join(table_name[:-1])
+    table_name = table_name[-1]
+
+    table_info = {"Data source": data_source, "Name": catalog_name, "Tables used": [table_name]}
+
+    output[META_DATA_KEY]["Included titles"][cat_title]["Table info"] = table_info
 
     # Ask if the catalog is a single-galaxy catalog
     msg = "Is this a single-galaxy catalog? (y/n): "
-    single_galaxy = input(msg)
-    if single_galaxy == 'y':
+    if single_galaxy is None:
+        single_galaxy = input(msg)
+    if single_galaxy == 'y' or single_galaxy == True:
         # If it is, ask for the galaxy name
         single_galaxy = True
         msg = "Please specify a galaxy name: "
         gal_name = input(msg)
         # catalog[gal_title] = gal_name
-    elif single_galaxy == 'n':
+    elif single_galaxy == 'n' or single_galaxy == False:
         # If it is not, default to the galaxy name specified in the catalog
         single_galaxy = False
     else:
         # If the input is invalid, quit
         print("WARNING: Invalid input. Operation aborted, no changes made.")
-        quit()
+        raise ValueError("Invalid input.") from None
 
     # Configure naming scheme
     if isinstance(UI, list) is False:
@@ -185,6 +209,7 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'Gala
     if savepath is not None:
         print("Saving catalog to JSON...")
         with open(savepath, 'w', encoding="utf-8") as f:
+            print(type(output))
             json.dump(output, f, indent = 4)
 
     # Update column name configs
@@ -219,7 +244,37 @@ def add_catalog(catalog_path, catalog_name, cache_path, ref_catalog):
         raise ValueError("Incoming catalog must be a single-catalog file.")
 
     # Load the cache
-    cache = json.load(open(cache_path, encoding="utf-8"))
+    from json.decoder import JSONDecodeError
+    try:
+        cache = json.load(open(cache_path, encoding="utf-8"))
+
+    # If the cache is empty, copy the reference catalog to the cache
+    except JSONDecodeError:
+        print("Cache is empty. Copying reference catalog...")
+        cache = {META_DATA_KEY: {"Included titles": {}}}
+
+        for gal in catalog:
+            gal_temp = catalog[gal]
+
+            if gal == META_DATA_KEY:
+                cache[META_DATA_KEY] = catalog[META_DATA_KEY]
+                continue
+            count = 0
+
+            cache[gal] = {}
+            for star in gal_temp:
+                # Generate name for the star
+                star_name = f"{gal}_{count}"
+                count += 1
+
+                # Add the star to the cache
+                cache[gal][star_name] = gal_temp[star]
+                cache[gal][star_name][catalog_name]["Star ID"] = star_name
+
+        # Save the cache
+        save_to_json(cache, cache_path)
+        print("Done copying reference catalog to cache.")
+        return cache
 
     # Do galaxy crossmatching
     print("Crossmatching galaxies...")
@@ -242,7 +297,7 @@ def add_catalog(catalog_path, catalog_name, cache_path, ref_catalog):
                 incoming_gal = catalog[gal_name]
                 ref_gal = cache[gal_name_]
                 matched_gal, _ = star_crossmatch(incoming_gal, catalog_name,
-                                              ref_gal, ref_catalog)
+                                              ref_gal, ref_catalog, matched_gal_name = gal_name_)
 
                 # Add the updated galaxy to the cache
                 cache[gal_name_] = matched_gal # BUG: this step somehow converted dict to tuple. Fixed for now, but need to investigate later
@@ -263,7 +318,18 @@ def add_catalog(catalog_path, catalog_name, cache_path, ref_catalog):
                 msg = f"No galaxy in the cach matches galaxy {gal_name}. "
                 msg += "Adding galaxy to cache..."
                 print(msg)
-                cache[gal_name] = catalog[gal_name]
+
+                # Add the galaxy to the cache with updated star names
+                count = 0
+                new_gal = {}
+                for star in catalog[gal_name]:
+                    star_name = f"{gal_name}_{count}"
+                    count += 1
+                    new_gal[star_name] = catalog[gal_name][star]
+                    new_gal[star_name][catalog_name]["Star ID"] = star_name
+
+                cache[gal_name] = new_gal
+
                 print(f"Done adding {gal_name} to cache.\n")
                 continue
             else:
@@ -273,7 +339,7 @@ def add_catalog(catalog_path, catalog_name, cache_path, ref_catalog):
                 incoming_gal = catalog[gal_name]
                 ref_gal = cache[nearest_galaxy]
                 matched_gal = star_crossmatch(incoming_gal, catalog_name,
-                                              ref_gal, ref_catalog)
+                                              ref_gal, ref_catalog, matched_gal_name = gal_name_)
 
                 # Add the updated galaxy to the cache
                 cache[nearest_galaxy] = matched_gal
@@ -316,6 +382,9 @@ def merge_tables(catalog1_path, catalog2_path, catalog1_name, catalog2_name, alt
     Returns:
         The merged catalog
     """
+    if catalog1_name != catalog2_name:
+        raise ValueError("Why are you merging two different catalogs?")
+    
     # Load the catalogs
     catalog1 = json.load(open(catalog1_path, encoding="utf-8"))
     catalog2 = json.load(open(catalog2_path, encoding="utf-8"))
@@ -327,7 +396,7 @@ def merge_tables(catalog1_path, catalog2_path, catalog1_name, catalog2_name, alt
     # Check if the catalogs are formatted correctly
     if catalog1_depth != catalog2_depth:
         raise ValueError("Catalogs must have the same depth.")
-    if catalog1_depth != 4:
+    if catalog1_depth != 5:
         msg = "Need 4-level catalogs. "
         msg += f"Catalog 1 has {catalog1_depth} levels. "
         msg += f"Catalog 2 has {catalog2_depth} levels."
@@ -343,7 +412,17 @@ def merge_tables(catalog1_path, catalog2_path, catalog1_name, catalog2_name, alt
             new_columns = list(set(catalog1_temp['Columns'] + catalog2_temp['Columns']))
             new_members = list(set(catalog1_temp['Members'] + catalog2_temp['Members']))
 
-            new_cat_metadata = {"Columns": new_columns, "Members": new_members}
+            catalog1_info = catalog1[META_DATA_KEY]['Included titles'][catalog1_name]["Table info"]
+            catalog2_info = catalog2[META_DATA_KEY]['Included titles'][catalog2_name]["Table info"]
+
+            catalog1_tables = catalog1_info["Tables used"]
+            catalog2_tables = catalog2_info["Tables used"]
+
+            new_tables = list(set(catalog1_tables + catalog2_tables))
+            catalog1_info["Tables used"] = new_tables
+
+            new_cat_metadata = {"Columns": new_columns, "Members": new_members, "Table info": catalog1_info}
+
             catalog1[META_DATA_KEY]['Included titles'][catalog1_name] = new_cat_metadata
 
             continue
@@ -383,8 +462,18 @@ def merge_tables(catalog1_path, catalog2_path, catalog1_name, catalog2_name, alt
 
 # Execution code
 if __name__ == "__main__":
-    retrieve_catalog("J/ApJ/838/83", "Temp/J_ApJ_838_83(0).json", ['__KCS2015_', '__MIC2016_'])
-
+    # add_catalog("Temp/Kirby 2009.json", "Kirby+ 2010", "Data/cache.json", "Kirby+ 2010")
+    # add_catalog("Temp/Theler 2020.json", "Theler+ 2020", "Data/cache.json", "Kirby+ 2010")
+    # add_catalog("Temp/Reichert 2020.json", "Reichert+ 2020", "Data/cache.json", "Kirby+ 2010")
+    # add_catalog("Temp/Kirby+, 2020.json", "Kirby+, 2020", "Data/cache.json", "Kirby+ 2010")
+    # add_catalog("Temp/Kirby+ Carbon.json", "Kirby+ Carbon", "Data/cache.json", "Kirby+ 2010")
+    # add_catalog("Temp/Kirby+, 2017.json", "Kirby+, 2017", "Data/cache.json", "Reichert+ 2020")
+    # add_catalog("Temp/Kirby+ 2017 multigal.json", "Kirby+ 2017 multigal", "Data/cache.json", "Reichert+ 2020")
+    # add_catalog("Temp/Duggan+, 2018.json", "Duggan+, 2018", "Data/cache.json", "Reichert+ 2020")
+    # add_catalog("Temp/de los Reyes 2020.json", "de los Reyes 2020", "Data/cache.json", "Reichert+ 2020")
+    retrieve_catalog("J/A+A/642/A176/", "Temp/Theler(8).json", UI="ID", paper_name="Theler 2020", single_galaxy=True, gal_name="Sex")
+    merge_tables("Temp/Theler 2020.json", "Temp/Theler(8).json", 
+                 "Theler 2020", "Theler 2020", alter_savepath="Temp/Theler 2020.json")
     # Sex, UMi, and Dra: show what catalogs I have about those galaxies,
     # which abundances are included, and how many stars.
 

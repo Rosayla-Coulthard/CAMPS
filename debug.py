@@ -1,16 +1,11 @@
-from astropy import units as u
-from astropy import constants as cons
-from astropy.coordinates import Angle
-import numpy as np
-from astropy.coordinates import SkyCoord
-import json
+from astropy.table import Table
 
-test1 = [1, 2, 3, 4]
-test2 = [3, 4, 5, 6]
+# Make an astropy table row by row
+t = Table(names=('a', 'b', 'c'), dtype=('i4', 'f4', 'S2'))
+for i in range(10):
+    t.add_row((i, i**2, 'x' * i))
+    print(t)
 
-test = list(set(test1 + test2))
+# Print the table
+print(t)
 
-print(type(test))
-
-# TODO: save arbitrary data in csv
-# TODO: Add
