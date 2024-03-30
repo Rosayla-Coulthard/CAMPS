@@ -26,7 +26,7 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'Gala
     # Retrieve data from Vizier
     print(f"Retrieving catalog {prompt}...")
 
-    if data_source is "Vizier":
+    if data_source == "Vizier":
         V = Vizier(
         row_limit = -1,
         columns=['*', '_RAJ2000', '_DEJ2000']
@@ -106,7 +106,7 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'Gala
     catalog_name = "/".join(table_name[:-1])
     table_name = table_name[-1]
 
-    table_info = {"Data source": data_source, "Name": catalog_name, "Tables used": [table_name]}
+    table_info = {"Data source": data_source, "Paper tag": catalog_name, "Tables used": [table_name]}
 
     output[META_DATA_KEY]["Included titles"][cat_title]["Table info"] = table_info
 
@@ -118,7 +118,8 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'Gala
         # If it is, ask for the galaxy name
         single_galaxy = True
         msg = "Please specify a galaxy name: "
-        gal_name = input(msg)
+        if gal_name is None:
+            gal_name = input(msg)
         # catalog[gal_title] = gal_name
     elif single_galaxy == 'n' or single_galaxy == False:
         # If it is not, default to the galaxy name specified in the catalog
@@ -296,6 +297,7 @@ def add_catalog(catalog_path, catalog_name, cache_path, ref_catalog):
                 # star crossmatch happens here, and add the stars to the cache
                 incoming_gal = catalog[gal_name]
                 ref_gal = cache[gal_name_]
+
                 matched_gal, _ = star_crossmatch(incoming_gal, catalog_name,
                                               ref_gal, ref_catalog, matched_gal_name = gal_name_)
 
@@ -421,7 +423,8 @@ def merge_tables(catalog1_path, catalog2_path, catalog1_name, catalog2_name, alt
             new_tables = list(set(catalog1_tables + catalog2_tables))
             catalog1_info["Tables used"] = new_tables
 
-            new_cat_metadata = {"Columns": new_columns, "Members": new_members, "Table info": catalog1_info}
+            new_cat_metadata = {"Columns": new_columns, "Members": new_members,
+                                "Table info": catalog1_info}
 
             catalog1[META_DATA_KEY]['Included titles'][catalog1_name] = new_cat_metadata
 
@@ -456,7 +459,7 @@ def merge_tables(catalog1_path, catalog2_path, catalog1_name, catalog2_name, alt
     savepath = alter_savepath if alter_savepath is not None else catalog1_path
     save_to_json(catalog1, savepath)
 
-    print(f"Done merging {catalog2_name} into {catalog1_name}. \n")
+    print(f"Done merging {catalog2_path} into {catalog1_path}. \n")
     return catalog1
 
 

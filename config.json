@@ -177,6 +177,8 @@
         "o__NI_Fe_": "o_Ni_Fe",
         "er__Ba_Fe_": "er_Ba_Fe",
         "o__Ba_Fe_": "o_Ba_Fe",
-        "er__Eu_Fe_": "er_Eu_Fe"
+        "er__Eu_Fe_": "er_Eu_Fe",
+        "vturb": "",
+        "K18": ""
     }
 }
