@@ -1,4 +1,4 @@
-# Catalog-Maker
+# Catalog Acquisition and Compilation Tool (CACT)
 
 ## How to use
 1. Retreive data from Vizier:
@@ -75,7 +75,7 @@ Copy one of the existing `.json` catalog files and make it the cache file. Run `
 
 - Kirby 2020 (J/AJ/159/46):
     - Title: Elemental Abundances in M31: The Kinematics and Chemical Evolution of Dwarf Spheroidal Satellite Galaxies
-    - Members: "256 stars in 5 galaxies."
+    - Members: 256 stars in 5 galaxies.
     - Telescope: Keck
     - Instruments: DEIMOS (R ~ 6,000)
     - Fitting method: equivalent widths, synthetic spectra

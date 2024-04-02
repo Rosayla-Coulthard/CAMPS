@@ -22,6 +22,9 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'Gala
         UI: The column name for the unique identifier. If there are multiple columns,
             use a list of strings. Use the same names as Vizier.
         gal_title: The column name for the galaxy title.
+
+    Returns:
+        The catalog as a dictionary.e
     """
     # Retrieve data from Vizier
     print(f"Retrieving catalog {prompt}...")
