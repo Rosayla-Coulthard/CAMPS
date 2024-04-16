@@ -1,5 +1,6 @@
 """Reads data from a catalog file and stores it locally in a dictionary."""
 import json
+from json.decoder import JSONDecodeError
 import numpy as np
 from astroquery.vizier import Vizier
 from datetime import datetime
@@ -226,150 +227,6 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'Gala
     print("Done saving catalog.")
     return output
 
-# Write a function to sort new stars into galaxies
-def add_catalog(catalog_path, catalog_name, cache_path, ref_catalog):
-    """Takes a single-catalog JSON file and adds it to the cache.
-    
-    Args:
-        catalog_path: The path to the catalog to be added.
-        catalog_name: The name of the catalog to be added.
-        cache_path: The path to the cache.
-        ref_catalog: The name of the reference catalog. MUST ALREADY BE IN THE CACHE.
-
-    Returns:
-        The updated cache.
-    """
-    # Load the catalog
-    catalog = json.load(open(catalog_path, encoding="utf-8"))
-    catalog_contents = list(catalog[META_DATA_KEY]['Included titles'].keys())
-
-    # Check if the incoming file is a single-catalog file
-    if len(catalog_contents) > 1:
-        raise ValueError("Incoming catalog must be a single-catalog file.")
-
-    # Load the cache
-    from json.decoder import JSONDecodeError
-    try:
-        cache = json.load(open(cache_path, encoding="utf-8"))
-
-    # If the cache is empty, copy the reference catalog to the cache
-    except JSONDecodeError:
-        print("Cache is empty. Copying reference catalog...")
-        cache = {META_DATA_KEY: {"Included titles": {}}}
-
-        for gal in catalog:
-            gal_temp = catalog[gal]
-
-            if gal == META_DATA_KEY:
-                cache[META_DATA_KEY] = catalog[META_DATA_KEY]
-                continue
-            count = 0
-
-            cache[gal] = {}
-            for star in gal_temp:
-                # Generate name for the star
-                star_name = f"{gal}_{count}"
-                count += 1
-
-                # Add the star to the cache
-                cache[gal][star_name] = gal_temp[star]
-                cache[gal][star_name][catalog_name]["Star ID"] = star_name
-
-        # Save the cache
-        save_to_json(cache, cache_path)
-        print("Done copying reference catalog to cache.")
-        return cache
-
-    # Do galaxy crossmatching
-    print("Crossmatching galaxies...")
-    catalog_galaxies = list(catalog.keys())[1:]
-    cache_galaxies = list(cache.keys())[1:]
-
-    # Iterate through each galaxy in the catalog
-    for gal_name in catalog_galaxies:
-        # Check if the galaxy is already in the cache
-        galaxy_found = False
-        for gal_name_ in cache_galaxies:
-            # If the galaxy is already in the cache, add the stars to the cache
-            if gal_name == gal_name_:
-                galaxy_found = True
-                status_msg = f"Galaxy {gal_name} found in cache. "
-                status_msg += "Crosmatching and adding stars..."
-                print(status_msg)
-
-                # star crossmatch happens here, and add the stars to the cache
-                incoming_gal = catalog[gal_name]
-                ref_gal = cache[gal_name_]
-
-                matched_gal, _ = star_crossmatch(incoming_gal, catalog_name,
-                                              ref_gal, ref_catalog, matched_gal_name = gal_name_)
-
-                # Add the updated galaxy to the cache
-                cache[gal_name_] = matched_gal # BUG: this step somehow converted dict to tuple. Fixed for now, but need to investigate later
-                break
-            # If the galaxy is not in the cache, find the nearest galaxy
-            # and add the stars to that galaxy
-        if galaxy_found is False:
-            status_msg = f"Galaxy {gal_name} not found in cache. "
-            # status_msg += "Finding nearest galaxy..."
-            print(status_msg)
-
-            # Find the nearest galaxy
-            nearest_galaxy = galaxy_crossmatch(catalog[gal_name],catalog_name,
-                                               ref_catalog, cache)
-
-            if nearest_galaxy is None:
-                # This happens when the galaxy was not previously recorded
-                msg = f"No galaxy in the cach matches galaxy {gal_name}. "
-                msg += "Adding galaxy to cache..."
-                print(msg)
-
-                # Add the galaxy to the cache with updated star names
-                count = 0
-                new_gal = {}
-                for star in catalog[gal_name]:
-                    star_name = f"{gal_name}_{count}"
-                    count += 1
-                    new_gal[star_name] = catalog[gal_name][star]
-                    new_gal[star_name][catalog_name]["Star ID"] = star_name
-
-                cache[gal_name] = new_gal
-
-                print(f"Done adding {gal_name} to cache.\n")
-                continue
-            else:
-                # star crossmatch happens here, AGAIN
-                # This happens when the galaxy was previously recorded, but under a different name
-                msg = f"Found {nearest_galaxy} as the nearest galaxy to {gal_name}. "
-                incoming_gal = catalog[gal_name]
-                ref_gal = cache[nearest_galaxy]
-                matched_gal = star_crossmatch(incoming_gal, catalog_name,
-                                              ref_gal, ref_catalog, matched_gal_name = gal_name_)
-
-                # Add the updated galaxy to the cache
-                cache[nearest_galaxy] = matched_gal
-
-        print(f"Done adding {gal_name} to cache.\n")
-
-    # Add catalog to the list of included titles
-    catalog_metadata = catalog[META_DATA_KEY]['Included titles'][catalog_name]
-    cache[META_DATA_KEY]['Included titles'][catalog_name] = catalog_metadata
-
-    # Update member count
-    cache, gal_count, star_count = member_count(cache)
-    titles_count = len(cache[META_DATA_KEY]['Included titles'].keys())
-    msg = f"The updated cache has {gal_count} galaxies and {star_count} stars"
-    msg += f"from {titles_count} catalogs."
-    print(msg)
-
-    # Save the cache
-    print("Saving cache...")
-    save_to_json(cache, cache_path)
-
-    print(f"Added {catalog_name} to cache.\n")
-
-    return cache
-
 def merge_tables(catalog1_path, catalog2_path, catalog1_name, catalog2_name, alter_savepath = None):
     """Naively merges two catalogs by combining their data.
     If both catalogs have stars and galaxies under the same names,
@@ -464,6 +321,163 @@ def merge_tables(catalog1_path, catalog2_path, catalog1_name, catalog2_name, alt
 
     print(f"Done merging {catalog2_path} into {catalog1_path}. \n")
     return catalog1
+
+# Write a function to sort new stars into galaxies
+def add_catalog(catalog_path, catalog_name, cache_path, ref_catalog):
+    """Takes a single-catalog JSON file and adds it to the cache.
+    
+    Args:
+        catalog_path: The path to the catalog to be added.
+        catalog_name: The name of the catalog to be added.
+        cache_path: The path to the cache.
+        ref_catalog: The name of the reference catalog. MUST ALREADY BE IN THE CACHE.
+
+    Returns:
+        The updated cache.
+    """
+    # Load the catalog
+    catalog = json.load(open(catalog_path, encoding="utf-8"))
+    catalog_contents = list(catalog[META_DATA_KEY]['Included titles'].keys())
+
+    # Check if the incoming file is a single-catalog file
+    if len(catalog_contents) > 1:
+        raise ValueError("Incoming catalog must be a single-catalog file.")
+
+    # Load the cache
+    try:
+        cache = json.load(open(cache_path, encoding="utf-8"))
+
+    # If the cache is empty, copy the reference catalog to the cache
+    except JSONDecodeError:
+        print("Cache is empty. Copying reference catalog...")
+        cache = {META_DATA_KEY: {"Included titles": {}}}
+
+        for gal in catalog:
+            gal_temp = catalog[gal]
+
+            if gal == META_DATA_KEY:
+                cache[META_DATA_KEY] = catalog[META_DATA_KEY]
+                continue
+            count = 0
+
+            cache[gal] = {}
+            for star in gal_temp:
+                # Generate name for the star
+                star_name = f"{gal}_{count}"
+                count += 1
+
+                # Add the star to the cache
+                cache[gal][star_name] = gal_temp[star]
+                cache[gal][star_name][catalog_name]["Star ID"] = star_name
+
+        # Save the cache
+        save_to_json(cache, cache_path)
+        print("Done copying reference catalog to cache.")
+        return cache
+
+    # Do galaxy crossmatching
+    print("Crossmatching galaxies...")
+    catalog_galaxies = list(catalog.keys())[1:]
+    cache_galaxies = list(cache.keys())[1:]
+
+    # Iterate through each galaxy in the catalog
+    for gal_name in catalog_galaxies:
+        # Check if the galaxy is already in the cache
+        galaxy_found = False
+        for gal_name_ in cache_galaxies:
+            # If the galaxy is already in the cache, add the stars to the cache
+            if gal_name == gal_name_:
+                galaxy_found = True
+                status_msg = f"Galaxy {gal_name} found in cache. "
+                status_msg += "Crosmatching and adding stars..."
+                print(status_msg)
+
+                # star crossmatch happens here, and add the stars to the cache
+                incoming_gal = catalog[gal_name]
+                ref_gal = cache[gal_name_]
+
+                matched_gal, _ = star_crossmatch(incoming_gal, catalog_name,
+                                              ref_gal, ref_catalog, matched_gal_name = gal_name_)
+
+                # Add the updated galaxy to the cache
+                cache[gal_name_] = matched_gal # BUG: this step somehow converted dict to tuple. Fixed for now, but need to investigate later
+                break
+            # If the galaxy is not in the cache, find the nearest galaxy
+            # and add the stars to that galaxy
+        if galaxy_found is False:
+            status_msg = f"Galaxy {gal_name} not found in cache. "
+            # status_msg += "Finding nearest galaxy..."
+            print(status_msg)
+
+            # Find the nearest galaxy
+            nearest_galaxy = galaxy_crossmatch(catalog[gal_name],catalog_name,
+                                               ref_catalog, cache)
+
+            if nearest_galaxy is None:
+                # This happens when the galaxy was not previously recorded
+                msg = f"No galaxy in the cach matches galaxy {gal_name}. "
+                msg += "Adding galaxy to cache..."
+                print(msg)
+
+                # Add the galaxy to the cache with updated star names
+                count = 0
+                new_gal = {}
+                for star in catalog[gal_name]:
+                    star_name = f"{gal_name}_{count}"
+                    count += 1
+                    new_gal[star_name] = catalog[gal_name][star]
+                    new_gal[star_name][catalog_name]["Star ID"] = star_name
+
+                cache[gal_name] = new_gal
+
+                print(f"Done adding {gal_name} to cache.\n")
+                continue
+            else:
+                # star crossmatch happens here, AGAIN
+                # This happens when the galaxy was previously recorded, but under a different name
+                msg = f"Found {nearest_galaxy} as the nearest galaxy to {gal_name}. "
+                incoming_gal = catalog[gal_name]
+                ref_gal = cache[nearest_galaxy]
+                matched_gal, _ = star_crossmatch(incoming_gal, catalog_name,
+                                              ref_gal, ref_catalog, matched_gal_name = gal_name_)
+
+                # Add the updated galaxy to the cache
+                cache[nearest_galaxy] = matched_gal
+
+        print(f"Done adding {gal_name} to cache.\n")
+
+    # Add catalog to the list of included titles
+    catalog_metadata = catalog[META_DATA_KEY]['Included titles'][catalog_name]
+    cache[META_DATA_KEY]['Included titles'][catalog_name] = catalog_metadata
+
+    # Update member count
+    cache, gal_count, star_count = member_count(cache)
+    titles_count = len(cache[META_DATA_KEY]['Included titles'].keys())
+    msg = f"The updated cache has {gal_count} galaxies and {star_count} stars"
+    msg += f"from {titles_count} catalogs."
+    print(msg)
+
+    # Final pass to ensure all stars have unique names
+    for gal in cache:
+        if gal == "Meta data":
+            continue
+
+        for star in cache[gal]:
+            for paper in cache[gal][star]:
+                try:
+                    cache[gal][star][paper]['Star ID']
+                except KeyError:
+                    cache[gal][star][paper]['Star ID'] = star
+
+    # Save the cache
+    print("Saving cache...")
+    save_to_json(cache, cache_path)
+
+    print(f"Added {catalog_name} to cache.\n")
+
+    return cache
+
+
 
 
 # Execution code

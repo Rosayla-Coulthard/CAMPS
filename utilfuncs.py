@@ -3,7 +3,7 @@ from datetime import datetime
 import json
 import numpy as np
 from astropy.coordinates import SkyCoord, match_coordinates_sky, Angle
-from astropy.table import Table
+import pandas as pd
 
 # Import configurations
 config = json.load(open("config.json", encoding="utf-8"))
@@ -90,15 +90,17 @@ def member_count(cat):
     for gal_name in cat:
         if gal_name == META_DATA_KEY:
             continue
-        
-        # try:
-        star_count += len(cat[gal_name].keys())
-        # except AttributeError:
-            
+
+        try:
+            print(len(cat[gal_name]), type(cat[gal_name]), gal_name)
+            star_count += len(cat[gal_name].keys())
+        except AttributeError:
+            print(cat[gal_name][0].keys(), cat[gal_name][1].keys())
 
     cat[META_DATA_KEY]['Member count'] = f"{star_count} stars in {gal_count} galaxies."
 
     return cat, gal_count, star_count
+
 
 
 def find_nearest_galaxy(star_coords, catalog = str or dict, ref_catalog = None):
@@ -132,7 +134,7 @@ def find_nearest_galaxy(star_coords, catalog = str or dict, ref_catalog = None):
             catalog[gal] = catalog[gal][0] # I don't know why sometimes it's a tuple,
             # but this fixes it.
 
-        # print(len(catalog[gal]), type(catalog[gal]), gal)
+        print(len(catalog[gal]), type(catalog[gal]), gal)
         first_star = list(catalog[gal].keys())[0]
         first_star = catalog[gal][first_star]
 
@@ -178,7 +180,7 @@ def find_nearest_galaxy(star_coords, catalog = str or dict, ref_catalog = None):
         msg = "Not within the boundary of the nearest galaxy, returning None."
         print(msg)
 
-    return nearest_gal, gal_dist
+    return (nearest_gal, gal_dist)
 
 def galaxy_crossmatch(gal1:dict, gal1_catalog:str, ref_catalog, cache_):
     """See if gal1 is already in the cache. If so, return gal_name. If not,
@@ -255,7 +257,7 @@ def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str,
     # 3. Whenever there's a match, remove the star from gal1, keep the star in gal2.
     # 4. After iterating through all stars in gal2, add what's left of gal1 to the output galaxy.
     # 5. Add the output galaxy to the cache.
-    
+
     # Check if the threshold is valid
     if isinstance(match_threshold, str):
         match_threshold = Angle(match_threshold).to('deg').value
@@ -335,8 +337,14 @@ def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str,
             try: # BUG: need to consider the case where the incoming galaxy has only one star
                 idx_list.append(indx)
             except UnboundLocalError:
+                # This error happens when failed to find a match
+                # If neither galaxy has only one star, and this happens, just add the stars as new
+                if len(gal1.values()) > 1 and len(gal2.values()) > 1:
+                    continue
+
                 print(idx, indx, idx_sorted[count - 1], idx_sorted)
-                err_msg = "This issue can happen the reference galaxy has only one star."
+                print(gal1.keys(), gal1_catalog, gal2.keys(), gal2_catalog)
+                err_msg = "This issue can happen when the reference galaxy has only one star."
                 exc = UnboundLocalError(err_msg)
                 raise UnboundLocalError(err_msg) from exc
 
@@ -360,6 +368,7 @@ def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str,
                 ga2_names = list(gal2.keys())
                 match_list[ga1_names[idx_nearest]] = ga2_names[idx[idx_nearest]]
 
+    star_count = 0
     for star1_name in gal1.keys():
         # Iterate through each star in gal1, 
         # # if there's a match in gal2, add the data from gal1 to gal2.
@@ -379,6 +388,8 @@ def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str,
 
         else:
             gal_output[f"{matched_gal_name}_{gal_output_size}"] = gal1[star1_name]
+
+        star_count += 1
 
     return gal_output, match_list
 
@@ -416,21 +427,75 @@ def demo(cache_path, gal_name):
 
     return catalog_list, star_col_list
 
-def make_table(columns, galaxies, stars, papers, cache_path):
-    """Turns data from cache into a table. Optionally, save it in csv format."""
-    # Load the cache
-    cache = json.load(open(cache_path, encoding="utf-8"))
-
-    table_output = Table(names=columns) # Put the mandatory columns first
-
+def make_dataframe(data, include_meta=True):
+    """Turns data from cache into a pandas dataframe. Optionally, save it in csv format.
     
-    
+    Args:
+        data: The data to be turned into a table. Stored in the same format as the cache.
+        include_meta: Whether to include the metadata table. Default is True.
 
+    Returns:
+        data_table: The data table.
+        meta_table: The metadata table.
+    """
+    metadata_dict = data[META_DATA_KEY]
 
+    data_table = data.copy()
+    data_table.pop(META_DATA_KEY)
+
+    output = pd.DataFrame()
+
+    for gal in data_table.keys():
+        gal = data_table[gal]
+
+        gal_data = list(gal.values())
+
+        for star in gal_data:
+            cat_list = list(star.keys())
+
+            for cat in cat_list:
+                cat_data = star[cat]
+                cat_data['Paper'] = cat
+
+                cat_data_temp = pd.DataFrame.from_dict(cat_data, orient='index').T
+                output = pd.concat([output, cat_data_temp], ignore_index=True)
+
+    if include_meta:
+        # Make a metadata table
+        metadata_table = pd.DataFrame()
+
+        for cat_name in list(metadata_dict['Included titles'].keys()):
+            cat = metadata_dict['Included titles'][cat_name]
+            columns = cat['Columns']
+            source = cat["Table info"]['Data source']
+            VizieR_tag = cat["Table info"]['Paper tag']
+            tables_used = cat["Table info"]['Tables used']
+            members = cat['Members']
+
+            cat_info = {
+                "Paper name": cat_name,
+                "ViziER tag": VizieR_tag,
+                "Columns": columns,
+                "Members": members,
+                "Data source": source,
+                "Tables included": tables_used
+            }
+
+            cat_info_temp = pd.DataFrame.from_dict(cat_info, orient='index').T
+
+            metadata_table = pd.concat([metadata_table, cat_info_temp], ignore_index=True)
+
+        return output, metadata_table
+
+    return output
 
 # Test the functions
 if __name__ == "__main__":
-    pass
-    # TODO: add a calibration function that either ODR or curve_fit the incoming data
-    # to the reference data, and return the calibrated data. Consider integrating
-    # this into the crossmatch function.
+    # pass
+    cache = json.load(open("Data/cache.json", encoding="utf-8"))
+
+    # Save the data as dataframe
+    data_table, meta_table = make_dataframe(cache)
+
+    data_table.to_csv("Data/data_table.csv", index=False)
+    meta_table.to_csv("Data/meta_table.csv", index=False)

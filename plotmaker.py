@@ -239,16 +239,27 @@ def plot_data(data:dict, title:str = None, savepath:str=None,
 
             ax.errorbar(middle, bin_means, yerr = bin_stds, alpha = 0.6,
                         marker = marker_styles[count], label = plot_num, markersize = 10, capsize=3)
-
-        # else: 
-            ax.scatter(col1, col2, s = 15, #label = plot_num,
+            ax.scatter(col1, col2, s = 15, label = plot_num,
                        marker = marker_styles[count], alpha=0.1)
+
+        else:
+            ax.scatter(col1, col2, s = 15, label = plot_num,
+                       marker = marker_styles[count], alpha=0.5)
 
         count += 2
         print(f"Plotted {plot_num}")
 
-    ax.set_xlabel(f'{col1_name} [{units_xy[0]}]')
-    ax.set_ylabel(f'{col2_name} [{units_xy[1]}]')
+    units_x, units_y = units_xy
+    
+    if units_x != "":
+        units_x = f" [{units_xy[0]}]"
+
+    if units_y != "":
+        units_y = f" [{units_xy[1]}]"
+    
+
+    ax.set_xlabel(f'[{col1_name}] {units_x}')
+    ax.set_ylabel(f'[{col2_name}] {units_y}')
     ax.set_title(title)
     ax.legend(ncol = min(int((count+1)/2), 5), bbox_to_anchor=(0, 1),
               loc='lower left')
@@ -263,7 +274,7 @@ def plot_data(data:dict, title:str = None, savepath:str=None,
     plt.show()
 
 def plot_crossmatch(data:dict, title:str = None, savepath:str=None, plot_size = (5, 5),
-                    units_xy = ("", "")):
+                    units_xy = ("", ""), col_title = ''):
     """Plots the data extracted from the cache file. Can be applied to the 
     output of either data_by_galaxy or data_by_catalog.
 
@@ -298,8 +309,8 @@ def plot_crossmatch(data:dict, title:str = None, savepath:str=None, plot_size = 
     ax.plot(cat1_data, fit_curve, label = plot_label,
             color = "red", alpha = 0.5)
 
-    ax.set_xlabel(f'{cat1} [{units_xy[0]}]')
-    ax.set_ylabel(f'{cat2} [{units_xy[1]}]')
+    ax.set_xlabel(f'[{column}] {cat1}')
+    ax.set_ylabel(f'[{column}] {cat2}')
     ax.set_title(title)
     ax.legend(ncol = 1, bbox_to_anchor=(0, 1), loc='lower left')
 
@@ -314,26 +325,23 @@ def plot_crossmatch(data:dict, title:str = None, savepath:str=None, plot_size = 
 
 if __name__ == "__main__":
     gal_list = ["Scl", "For", "LeoI"]#, "Sex", "LeoII", "CVnI", "UMi", "Dra"]
-    Kirby_Mg_abun = data_by_galaxy("Data/cache.json", "Kirby+ 2010",
+    Kirby_Mg_abun = data_by_galaxy("Data/cache.json", "Kirby 2009",
                                     gal_list , ["Fe_H", "Mg_Fe"])
     plot_data(Kirby_Mg_abun, savepath = "Output/Kirby 2009 Mg Abundance",
               nbins = 10, units_xy = ("log", "log"))
 
-    catalog_list = ["Kirby+ 2010", "Reichert+ 2020", "Theler+ 2020", "Skuladottir+ 2019"]
-    # catalog_cross_ref = data_by_catalog("Data/cache.json", "Scl",
-                                            # catalog_list, ["Fe_H", "Mg_Fe"])
-    # plot_data(catalog_cross_ref_scl, savepath = "Output/Scl Cross Reference")
+    catalog_list = ["Kirby 2009", "Reichert 2020", "Theler 2020", "Skuladottir 2019"]
+    catalog_cross_ref_scl = data_by_catalog("Data/cache.json", "Scl",
+                                            catalog_list, ["Fe_H", "Mg_Fe"])
+    plot_data(catalog_cross_ref_scl, savepath = "Output/Scl Cross Reference",
+              units_xy=("log", "log"))
 
-    # catalog_cross_ref= data_by_catalog("Data/cache.json", "Sex",
-                                            # catalog_list, ["Fe_H", "Mg_Fe"])
-    # plot_data(catalog_cross_ref_scl, savepath = "Output/Sex Cross Reference")
-
-    # fe_h_cross_ref = data_by_galaxy("Data/cache.json", "Kirby+ 2010",
-                                    # gal_list, ["Fe_H", "T_eff"])
-    # plot_data(fe_h_cross_ref, savepath = "Output/Kirby 2010 FeH vs Teff",
-            #   nbins = 10)
+    catalog_cross_ref_sex = data_by_catalog("Data/cache.json", "Sex",
+                                            catalog_list, ["Fe_H", "Mg_Fe"])
+    plot_data(catalog_cross_ref_sex, savepath = "Output/Sex Cross Reference",
+              units_xy=("log", "log"))
     
-    calibration_data = data_for_crossmatch("Data/cache.json",
-                                             ["Reichert+ 2020", "Kirby+ 2010"],
-                                             "Fe_H")
-    plot_crossmatch(calibration_data, savepath = "Output/Fe_H Calibration")
+    # calibration_data = data_for_crossmatch("Data/cache.json",
+                                            #  ["Reichert 2020", "Kirby 2009"],
+                                            #  "Fe_H")
+    # plot_crossmatch(calibration_data, savepath = "Output/Fe_H Calibration")

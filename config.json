@@ -179,6 +179,18 @@
         "o__Ba_Fe_": "o_Ba_Fe",
         "er__Eu_Fe_": "er_Eu_Fe",
         "vturb": "",
-        "K18": ""
+        "K18": "",
+        "RVHR10": "",
+        "e_RVHR10": "",
+        "o_RVHR10": "",
+        "RVHR13": "",
+        "e_RVHR13": "",
+        "o_RVHR13": "",
+        "RVHR14": "",
+        "e_RVHR14": "",
+        "o_RVHR14": "",
+        "l_RVmean": "",
+        "RVmean": "",
+        "e_RVmean": ""
     }
 }

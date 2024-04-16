@@ -1,8 +1,12 @@
 # Catalog Acquisition and Compilation Tool (CACT)
 
+## Abstract
+
+The chemical evolution of dwarf galaxies is a strongly data-driven field of research, but most chemical abundance data available are scattered over different telescope databases and research papers, without any systematic effort to organize them for future studies. % To be finished
+
 ## How to use
 1. Retreive data from Vizier:
-Run `retrieve_catalog()` following the instructions in the docstring and the prompts in the terminal. Save the output as a separate .json file. If `config.json` has no record of a column header contained in the retrieved table, it will prompt you to rename the column as it will appear in the cache file. If the column header is already in `config.json`, it will automatically rename the column as it appears in the cache file. Once all new column headers have been renamed and added, the script will terminate and you will need to run it again. 
+Run `retrieve_catalog()` following the instructions in the docstring and the prompts in the terminal. Save the output as a separate .json file. If `config.json` has no record of a column header contained in the retrieved table, it will prompt you to rename the column as it will appear in the cache file. If the column header is already in `config.json`, it will automatically rename the column as it appears in the cache file. Once all new column headers have been renamed and added, the script will terminate and you will need to run it again.
 2. Merge tables:
 If the Vizier prompt retrieves multiple tables, save them as separate `.json` files and run `merge_tables()` to merge them into one table.
 3. Create catalog compilation:
@@ -51,7 +55,6 @@ Copy one of the existing `.json` catalog files and make it the cache file. Run `
     - Instruments: DEIMOS (R ~ 6,000)
     - Fitting method: synthetic spectra
 
-
 - Theler 2020 (J/A+A/642/A176):
     - Title: The chemical evolution of the dwarf spheroidal galaxy Sextans
     - Members: 87 stars in 1 galaxies.
@@ -69,7 +72,7 @@ Copy one of the existing `.json` catalog files and make it the cache file. Run `
 - Reichert 2020 (J/A+A/641/A127):
     - Title: Neutron-capture elements in dwarf galaxies: A homogenized analysis of 13 dwarf spheroidal and ultra-faint galaxies
     - Members: 380 stars in 13 galaxies.
-    - Telescope: ESO archive and Keck archive
+    - Telescope: ESO archive and Keck archive (VLT and Keck)
     - Instruments: FLAMES/GIRAFFE (295 observations), UVES (56 observations), X-shoooter (2 observations), HIRES (27 observations)
     - Fitting method: equivalent widths, synthetic spectra
 
