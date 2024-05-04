@@ -1,0 +1,1780 @@
+{
+    "Meta data": {
+        "Included titles": {
+            "Theler 2020": {
+                "Columns": [
+                    "_",
+                    "Name",
+                    "_",
+                    "Co_Fe",
+                    "e_Co_Fe",
+                    "er_Co_Fe",
+                    "Ni_Fe",
+                    "e_Ni_Fe",
+                    "er_Ni_Fe",
+                    "o_Ni_Fe",
+                    "Ba_Fe",
+                    "e_Ba_Fe",
+                    "er_Ba_Fe",
+                    "o_Ba_Fe",
+                    "Eu_Fe",
+                    "e_Eu_Fe",
+                    "er_Eu_Fe"
+                ],
+                "Table info": {
+                    "Data source": "Vizier",
+                    "Paper tag": "J/A+A/642/A176",
+                    "Tables used": [
+                        "table12"
+                    ]
+                },
+                "Members": [
+                    "Sex"
+                ]
+            }
+        },
+        "Member count": "87 stars in 1 galaxies."
+    },
+    "Sex": {
+        "S05-10": {
+            "Theler 2020": {
+                "Name": "S05-10",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": -0.15000000596046448,
+                "e_Ni_Fe": 0.1899999976158142,
+                "er_Ni_Fe": 0.05000000074505806,
+                "o_Ni_Fe": 2.0,
+                "Ba_Fe": 0.28999999165534973,
+                "e_Ba_Fe": 0.18000000715255737,
+                "er_Ba_Fe": 0.029999999329447746,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": 0.699999988079071,
+                "e_Eu_Fe": 0.15000000596046448,
+                "er_Eu_Fe": 0.05999999865889549,
+                "Galaxy": "Sex"
+            }
+        },
+        "S05-47": {
+            "Theler 2020": {
+                "Name": "S05-47",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": -0.03999999910593033,
+                "e_Ba_Fe": 0.20000000298023224,
+                "er_Ba_Fe": 0.07999999821186066,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S05-60": {
+            "Theler 2020": {
+                "Name": "S05-60",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.3499999940395355,
+                "e_Ba_Fe": 0.18000000715255737,
+                "er_Ba_Fe": 0.11999999731779099,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S05-67": {
+            "Theler 2020": {
+                "Name": "S05-67",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.4099999964237213,
+                "e_Ba_Fe": 0.1899999976158142,
+                "er_Ba_Fe": 0.07999999821186066,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S05-70": {
+            "Theler 2020": {
+                "Name": "S05-70",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": -0.27000001072883606,
+                "e_Ba_Fe": 0.15000000596046448,
+                "er_Ba_Fe": 0.11999999731779099,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S05-78": {
+            "Theler 2020": {
+                "Name": "S05-78",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.2199999988079071,
+                "e_Ba_Fe": 0.15000000596046448,
+                "er_Ba_Fe": 0.25999999046325684,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S05-84": {
+            "Theler 2020": {
+                "Name": "S05-84",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S05-86": {
+            "Theler 2020": {
+                "Name": "S05-86",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.5400000214576721,
+                "e_Ba_Fe": 0.18000000715255737,
+                "er_Ba_Fe": 0.10999999940395355,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S05-93": {
+            "Theler 2020": {
+                "Name": "S05-93",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S05-94": {
+            "Theler 2020": {
+                "Name": "S05-94",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S05-95": {
+            "Theler 2020": {
+                "Name": "S05-95",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S05-98": {
+            "Theler 2020": {
+                "Name": "S05-98",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S05-101": {
+            "Theler 2020": {
+                "Name": "S05-101",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S05-104": {
+            "Theler 2020": {
+                "Name": "S05-104",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S05-111": {
+            "Theler 2020": {
+                "Name": "S05-111",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S05-112": {
+            "Theler 2020": {
+                "Name": "S05-112",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S05-115": {
+            "Theler 2020": {
+                "Name": "S05-115",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S05-123": {
+            "Theler 2020": {
+                "Name": "S05-123",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S05-132": {
+            "Theler 2020": {
+                "Name": "S05-132",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S05-133": {
+            "Theler 2020": {
+                "Name": "S05-133",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S05-168": {
+            "Theler 2020": {
+                "Name": "S05-168",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S07-16": {
+            "Theler 2020": {
+                "Name": "S07-16",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": 0.2800000011920929,
+                "e_Ni_Fe": 0.1899999976158142,
+                "er_Ni_Fe": 0.05000000074505806,
+                "o_Ni_Fe": 1.0,
+                "Ba_Fe": 0.6200000047683716,
+                "e_Ba_Fe": 0.1899999976158142,
+                "er_Ba_Fe": 0.03999999910593033,
+                "o_Ba_Fe": 1.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S07-69": {
+            "Theler 2020": {
+                "Name": "S07-69",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": -0.10000000149011612,
+                "e_Ba_Fe": 0.18000000715255737,
+                "er_Ba_Fe": 0.07000000029802322,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S07-76": {
+            "Theler 2020": {
+                "Name": "S07-76",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S07-79": {
+            "Theler 2020": {
+                "Name": "S07-79",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S07-81": {
+            "Theler 2020": {
+                "Name": "S07-81",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S07-110": {
+            "Theler 2020": {
+                "Name": "S07-110",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S07-112": {
+            "Theler 2020": {
+                "Name": "S07-112",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S07-115": {
+            "Theler 2020": {
+                "Name": "S07-115",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-3": {
+            "Theler 2020": {
+                "Name": "S08-3",
+                "Co_Fe": -0.11999999731779099,
+                "e_Co_Fe": 0.14000000059604645,
+                "er_Co_Fe": 0.019999999552965164,
+                "Ni_Fe": -0.2800000011920929,
+                "e_Ni_Fe": 0.14000000059604645,
+                "er_Ni_Fe": 0.019999999552965164,
+                "o_Ni_Fe": 4.0,
+                "Ba_Fe": 0.33000001311302185,
+                "e_Ba_Fe": 0.12999999523162842,
+                "er_Ba_Fe": 0.019999999552965164,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": 0.800000011920929,
+                "e_Eu_Fe": 0.09000000357627869,
+                "er_Eu_Fe": 0.029999999329447746,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-6": {
+            "Theler 2020": {
+                "Name": "S08-6",
+                "Co_Fe": -0.3799999952316284,
+                "e_Co_Fe": 0.18000000715255737,
+                "er_Co_Fe": 0.019999999552965164,
+                "Ni_Fe": -0.3400000035762787,
+                "e_Ni_Fe": 0.18000000715255737,
+                "er_Ni_Fe": 0.029999999329447746,
+                "o_Ni_Fe": 2.0,
+                "Ba_Fe": 0.25,
+                "e_Ba_Fe": 0.1899999976158142,
+                "er_Ba_Fe": 0.029999999329447746,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-38": {
+            "Theler 2020": {
+                "Name": "S08-38",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": 0.09000000357627869,
+                "e_Ni_Fe": 0.20000000298023224,
+                "er_Ni_Fe": 0.029999999329447746,
+                "o_Ni_Fe": 3.0,
+                "Ba_Fe": 0.3499999940395355,
+                "e_Ba_Fe": 0.1899999976158142,
+                "er_Ba_Fe": 0.03999999910593033,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": 0.8700000047683716,
+                "e_Eu_Fe": 0.1599999964237213,
+                "er_Eu_Fe": 0.05999999865889549,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-59": {
+            "Theler 2020": {
+                "Name": "S08-59",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-71": {
+            "Theler 2020": {
+                "Name": "S08-71",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": 0.11999999731779099,
+                "e_Ni_Fe": 0.1599999964237213,
+                "er_Ni_Fe": 0.10999999940395355,
+                "o_Ni_Fe": 2.0,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-75": {
+            "Theler 2020": {
+                "Name": "S08-75",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-98": {
+            "Theler 2020": {
+                "Name": "S08-98",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.5899999737739563,
+                "e_Ba_Fe": 0.1599999964237213,
+                "er_Ba_Fe": 0.11999999731779099,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-113": {
+            "Theler 2020": {
+                "Name": "S08-113",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-131": {
+            "Theler 2020": {
+                "Name": "S08-131",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.1599999964237213,
+                "e_Ba_Fe": 0.1899999976158142,
+                "er_Ba_Fe": 0.10000000149011612,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-151": {
+            "Theler 2020": {
+                "Name": "S08-151",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-183": {
+            "Theler 2020": {
+                "Name": "S08-183",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": -0.10999999940395355,
+                "e_Ba_Fe": 0.1599999964237213,
+                "er_Ba_Fe": 0.1899999976158142,
+                "o_Ba_Fe": 1.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-184": {
+            "Theler 2020": {
+                "Name": "S08-184",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-199": {
+            "Theler 2020": {
+                "Name": "S08-199",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.41999998688697815,
+                "e_Ba_Fe": 0.1599999964237213,
+                "er_Ba_Fe": 0.11999999731779099,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-202": {
+            "Theler 2020": {
+                "Name": "S08-202",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.33000001311302185,
+                "e_Ba_Fe": 0.1899999976158142,
+                "er_Ba_Fe": 0.2199999988079071,
+                "o_Ba_Fe": 1.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-203": {
+            "Theler 2020": {
+                "Name": "S08-203",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-222": {
+            "Theler 2020": {
+                "Name": "S08-222",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-225": {
+            "Theler 2020": {
+                "Name": "S08-225",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-239": {
+            "Theler 2020": {
+                "Name": "S08-239",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.12999999523162842,
+                "e_Ba_Fe": 0.20000000298023224,
+                "er_Ba_Fe": 0.07999999821186066,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-241": {
+            "Theler 2020": {
+                "Name": "S08-241",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.009999999776482582,
+                "e_Ba_Fe": 0.1899999976158142,
+                "er_Ba_Fe": 0.05000000074505806,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-242": {
+            "Theler 2020": {
+                "Name": "S08-242",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.25999999046325684,
+                "e_Ba_Fe": 0.20999999344348907,
+                "er_Ba_Fe": 0.05999999865889549,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": 0.5199999809265137,
+                "e_Eu_Fe": 0.17000000178813934,
+                "er_Eu_Fe": 0.10999999940395355,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-245": {
+            "Theler 2020": {
+                "Name": "S08-245",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-246": {
+            "Theler 2020": {
+                "Name": "S08-246",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.38999998569488525,
+                "e_Ba_Fe": 0.1899999976158142,
+                "er_Ba_Fe": 0.07999999821186066,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-250": {
+            "Theler 2020": {
+                "Name": "S08-250",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": 0.699999988079071,
+                "e_Eu_Fe": 0.1599999964237213,
+                "er_Eu_Fe": 0.12999999523162842,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-252": {
+            "Theler 2020": {
+                "Name": "S08-252",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": -0.10000000149011612,
+                "e_Ba_Fe": 0.1599999964237213,
+                "er_Ba_Fe": 0.09000000357627869,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-253": {
+            "Theler 2020": {
+                "Name": "S08-253",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.3499999940395355,
+                "e_Ba_Fe": 0.17000000178813934,
+                "er_Ba_Fe": 0.07999999821186066,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-257": {
+            "Theler 2020": {
+                "Name": "S08-257",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-258": {
+            "Theler 2020": {
+                "Name": "S08-258",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.5799999833106995,
+                "e_Ba_Fe": 0.17000000178813934,
+                "er_Ba_Fe": 0.07999999821186066,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-259": {
+            "Theler 2020": {
+                "Name": "S08-259",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": -0.029999999329447746,
+                "e_Ba_Fe": 0.17000000178813934,
+                "er_Ba_Fe": 0.10999999940395355,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-261": {
+            "Theler 2020": {
+                "Name": "S08-261",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": -0.41999998688697815,
+                "e_Ba_Fe": 0.14000000059604645,
+                "er_Ba_Fe": 0.07999999821186066,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-264": {
+            "Theler 2020": {
+                "Name": "S08-264",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-267": {
+            "Theler 2020": {
+                "Name": "S08-267",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-274": {
+            "Theler 2020": {
+                "Name": "S08-274",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-280": {
+            "Theler 2020": {
+                "Name": "S08-280",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.20999999344348907,
+                "e_Ba_Fe": 0.17000000178813934,
+                "er_Ba_Fe": 0.10999999940395355,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-282": {
+            "Theler 2020": {
+                "Name": "S08-282",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.12999999523162842,
+                "e_Ba_Fe": 0.1599999964237213,
+                "er_Ba_Fe": 0.18000000715255737,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-284": {
+            "Theler 2020": {
+                "Name": "S08-284",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.009999999776482582,
+                "e_Ba_Fe": 0.17000000178813934,
+                "er_Ba_Fe": 0.10999999940395355,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-289": {
+            "Theler 2020": {
+                "Name": "S08-289",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.7300000190734863,
+                "e_Ba_Fe": 0.1599999964237213,
+                "er_Ba_Fe": 0.14000000059604645,
+                "o_Ba_Fe": 1.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-291": {
+            "Theler 2020": {
+                "Name": "S08-291",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-292": {
+            "Theler 2020": {
+                "Name": "S08-292",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-295": {
+            "Theler 2020": {
+                "Name": "S08-295",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-298": {
+            "Theler 2020": {
+                "Name": "S08-298",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.7099999785423279,
+                "e_Ba_Fe": 0.17000000178813934,
+                "er_Ba_Fe": 0.10999999940395355,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-303": {
+            "Theler 2020": {
+                "Name": "S08-303",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-307": {
+            "Theler 2020": {
+                "Name": "S08-307",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.05999999865889549,
+                "e_Ba_Fe": 0.15000000596046448,
+                "er_Ba_Fe": 0.23999999463558197,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-309": {
+            "Theler 2020": {
+                "Name": "S08-309",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-316": {
+            "Theler 2020": {
+                "Name": "S08-316",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-317": {
+            "Theler 2020": {
+                "Name": "S08-317",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.28999999165534973,
+                "e_Ba_Fe": 0.1599999964237213,
+                "er_Ba_Fe": 0.14000000059604645,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-323": {
+            "Theler 2020": {
+                "Name": "S08-323",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.6700000166893005,
+                "e_Ba_Fe": 0.1599999964237213,
+                "er_Ba_Fe": 0.20999999344348907,
+                "o_Ba_Fe": 1.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-331": {
+            "Theler 2020": {
+                "Name": "S08-331",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-332": {
+            "Theler 2020": {
+                "Name": "S08-332",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-336": {
+            "Theler 2020": {
+                "Name": "S08-336",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-339": {
+            "Theler 2020": {
+                "Name": "S08-339",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S08-341": {
+            "Theler 2020": {
+                "Name": "S08-341",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S11-97": {
+            "Theler 2020": {
+                "Name": "S11-97",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": -0.6399999856948853,
+                "e_Ba_Fe": 0.18000000715255737,
+                "er_Ba_Fe": 0.05999999865889549,
+                "o_Ba_Fe": 1.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S11-100": {
+            "Theler 2020": {
+                "Name": "S11-100",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.03999999910593033,
+                "e_Ba_Fe": 0.20000000298023224,
+                "er_Ba_Fe": 0.07000000029802322,
+                "o_Ba_Fe": 1.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S11-113": {
+            "Theler 2020": {
+                "Name": "S11-113",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.4699999988079071,
+                "e_Ba_Fe": 0.20000000298023224,
+                "er_Ba_Fe": 0.05999999865889549,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S11-127": {
+            "Theler 2020": {
+                "Name": "S11-127",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S11-137": {
+            "Theler 2020": {
+                "Name": "S11-137",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": -0.07999999821186066,
+                "e_Ba_Fe": 0.1899999976158142,
+                "er_Ba_Fe": 0.14000000059604645,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S11-139": {
+            "Theler 2020": {
+                "Name": "S11-139",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": 0.25,
+                "e_Ba_Fe": 0.1599999964237213,
+                "er_Ba_Fe": 0.10999999940395355,
+                "o_Ba_Fe": 2.0,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        },
+        "S11-141": {
+            "Theler 2020": {
+                "Name": "S11-141",
+                "Co_Fe": NaN,
+                "e_Co_Fe": NaN,
+                "er_Co_Fe": NaN,
+                "Ni_Fe": NaN,
+                "e_Ni_Fe": NaN,
+                "er_Ni_Fe": NaN,
+                "o_Ni_Fe": NaN,
+                "Ba_Fe": NaN,
+                "e_Ba_Fe": NaN,
+                "er_Ba_Fe": NaN,
+                "o_Ba_Fe": NaN,
+                "Eu_Fe": NaN,
+                "e_Eu_Fe": NaN,
+                "er_Eu_Fe": NaN,
+                "Galaxy": "Sex"
+            }
+        }
+    }
+}

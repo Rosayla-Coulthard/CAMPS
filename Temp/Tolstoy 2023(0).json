@@ -1,0 +1,50 @@
+{
+    "Meta data": {
+        "Included titles": {
+            "Tolstoy 2023": {
+                "Columns": [
+                    "RAJ2000",
+                    "DEJ2000",
+                    "GaiaID_DR3",
+                    "_",
+                    "_",
+                    "Gmag",
+                    "BPmag",
+                    "RPmag",
+                    "Parallax",
+                    "e_Parallax",
+                    "pm_RA",
+                    "e_pmRA",
+                    "pm_DE",
+                    "e_pmDE",
+                    "elliptical_r",
+                    "FLAMES_field",
+                    "Obj_FLAMES_field",
+                    "N_FLAMES_spec",
+                    "S_N",
+                    "V_LOS",
+                    "e_V_LOS",
+                    "std_V_LOS",
+                    "Fe_H",
+                    "e_Fe_H",
+                    "std_Fe_H",
+                    "_",
+                    "Member",
+                    "q_Fe_H"
+                ],
+                "Table info": {
+                    "Data source": "Vizier",
+                    "Paper tag": "J/A+A/675/A49",
+                    "Tables used": [
+                        "tablee1"
+                    ]
+                },
+                "Members": [
+                    "Scl"
+                ]
+            }
+        },
+        "Member count": "0 stars in 1 galaxies."
+    },
+    "Scl": {}
+}

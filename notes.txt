@@ -1,1 +1,0 @@
-- Ask why would astropy coordinate crossmatch fail when the reference galaxy only has one star

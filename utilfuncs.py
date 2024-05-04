@@ -1,5 +1,6 @@
-"""Utility functions go here"""
-from datetime import datetime
+"""Utility functions go here
+
+Astronomy capstone project of Shuhan Zheng, 2024, University of Toronto."""
 import json
 import numpy as np
 from astropy.coordinates import SkyCoord, match_coordinates_sky, Angle
@@ -75,7 +76,8 @@ def save_to_json(data, savepath):
         json.dump(data, f, indent = 4)
 
 def member_count(cat):
-    """Counts the number of galaxies and stars in a catalog.
+    """Counts the number of galaxies and stars in a catalog. Then automatically 
+        adds the member count to the metadata of the catalog.
     
     Args:
         cat: The catalog to be counted.
@@ -198,19 +200,7 @@ def galaxy_crossmatch(gal1:dict, gal1_catalog:str, ref_catalog, cache_):
         
     Returns:
         gal_name if gal1 is already in the cache, None otherwise.
-        """
-    # Provides a star from gal1, and see if it is within the boundary
-    # of any galaxy in the cache
-    # first_star = list(gal1.keys())[0]
-    # first_star = gal1[first_star][gal1_catalog]
-# 
-    # try:
-        # first_star_coord = {"RAJ2000": first_star["RAJ2000"],
-                            # "DEJ2000": first_star["DEJ2000"]}
-    # except KeyError:
-        # print(first_star)
-        # quit()
-    
+        """  
     count = 0
     while True:
         first_star = list(gal1.keys())[count]
@@ -393,9 +383,18 @@ def star_crossmatch(gal1:dict, gal1_catalog:str, gal2:dict, gal2_catalog:str,
 
     return gal_output, match_list
 
-def demo(cache_path, gal_name):
+def show_catalog_in_galaxy(cache_path, gal_name):
     """Show what catalogs are inside a given galaxy, what abundances are included,
-        and what stars are inside the galaxy."""
+        and what stars are inside the galaxy.
+        
+        Args:
+            cache_path: The path to the cache file.
+            gal_name: The name of the galaxy to be checked.
+
+        Returns:
+            catalog_list: A list of all catalogs included in the galaxy.
+            star_col_list: A list of all columns included in the galaxy.
+        """
     # Load the cache
     cache = json.load(open(cache_path, encoding="utf-8"))
 
@@ -428,7 +427,8 @@ def demo(cache_path, gal_name):
     return catalog_list, star_col_list
 
 def make_dataframe(data, include_meta=True):
-    """Turns data from cache into a pandas dataframe. Optionally, save it in csv format.
+    """Turns data from cache into a pandas dataframe. 
+    Optionally, save it in csv format.
     
     Args:
         data: The data to be turned into a table. Stored in the same format as the cache.

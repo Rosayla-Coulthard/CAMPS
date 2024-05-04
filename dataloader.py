@@ -1,9 +1,10 @@
-"""Reads data from a catalog file and stores it locally in a dictionary."""
+"""Functions for retrieving and manipulating data.
+
+Astronomy capstone project of Shuhan Zheng, 2024, University of Toronto. 
+"""
 import json
 from json.decoder import JSONDecodeError
-import numpy as np
 from astroquery.vizier import Vizier
-from datetime import datetime
 from utilfuncs import save_to_json, member_count, star_crossmatch
 from utilfuncs import dict_depth, galaxy_crossmatch
 
@@ -15,17 +16,25 @@ META_DATA_KEY = config["META_DATA_KEY"]
 def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'Galaxy',
                      data_source = "Vizier",
                      table_num = None, paper_name = None, single_galaxy = None, gal_name = None):
-    """Retrieves data from Vizier via one prompt.
+    """All-in-one function to retrieve data from Vizier and saves it to a JSON file.
     
     Args:
-        prompt: The prompt to search for in Vizier.
-        savepath: The path to save the catalog to.
-        UI: The column name for the unique identifier. If there are multiple columns,
-            use a list of strings. Use the same names as Vizier.
-        gal_title: The column name for the galaxy title.
+        prompt (str): The serach term for the catalog. For example, "J/A+A/642/A176/".
+        savepath (str): The path to save the catalog to. If None, the catalog will
+        not be saved on drive.
+        UI (str): The column to use as the unique identifier for stars. Default is
+        'Name'.
+        gal_title (str): The column to use as the galaxy name. Default is 'Galaxy'.
+        data_source (str): The source of the data. Default is "Vizier".
+        table_num (int): The index of the table to use. If None, the user will be
+        prompted to choose.
+        paper_name (str): The name of the paper. If None, the prompt will be used.
+        single_galaxy (Bool): If True, the catalog is a single-galaxy catalog. If
+        False, it is a multi-galaxy catalog.
+        gal_name (str): The name of the galaxy. If None, the user will be prompted to choose.
 
     Returns:
-        The catalog as a dictionary.e
+        The catalog as a dictionary.
     """
     # Retrieve data from Vizier
     print(f"Retrieving catalog {prompt}...")
@@ -33,7 +42,7 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'Gala
     if data_source == "Vizier":
         V = Vizier(
         row_limit = -1,
-        columns=['*', '_RAJ2000', '_DEJ2000']
+        columns=['**', '_RAJ2000', '_DEJ2000']
         )
     else:
         raise ValueError("Data source not recognized. Not implemented.")
@@ -86,6 +95,8 @@ def retrieve_catalog(prompt:str, savepath = None, UI = 'Name', gal_title = 'Gala
             msg_ = f"(enter _ to not include column '{col}' in the catalog)"
             msg = f"Found column '{col}' not in config file. Please specify a name {msg_}: "
             user_input = input(msg)
+            if user_input == "":
+                print("WARNING: Input empty. Operation aborted, no changes made.")
             col_list[col] = user_input
             config["ALT_COL_NAMES"][col] = col_list[col]
 
@@ -233,13 +244,16 @@ def merge_tables(catalog1_path, catalog2_path, catalog1_name, catalog2_name, alt
         their data will be combined.
     If both catalogs have stars and galaxies under different names,
         their data will be logged separately. 
+
+    ATTENTION: This function assumes that the tables merged have the same consistent 
+        naming scheme.
     
     Args:
         catalog1: Save path to the receiving catalog
         catalog2: Save path to the catalog to be merged into the receiving catalog
         catalog1_name: The name of the receiving catalog
         catalog2_name: The name of the other catalog
-        alter_savepath: The save path for the merged catalog. If None, the receiving catalog will be overwritten.
+        alter_savepath: Alternative save path for the merged catalog. If None, the receiving catalog will be overwritten.
     
     Returns:
         The merged catalog
@@ -477,27 +491,6 @@ def add_catalog(catalog_path, catalog_name, cache_path, ref_catalog):
 
     return cache
 
-
-
-
-# Execution code
+# Place to test this individual module
 if __name__ == "__main__":
-    # add_catalog("Temp/Kirby 2009.json", "Kirby+ 2010", "Data/cache.json", "Kirby+ 2010")
-    # add_catalog("Temp/Theler 2020.json", "Theler+ 2020", "Data/cache.json", "Kirby+ 2010")
-    # add_catalog("Temp/Reichert 2020.json", "Reichert+ 2020", "Data/cache.json", "Kirby+ 2010")
-    # add_catalog("Temp/Kirby+, 2020.json", "Kirby+, 2020", "Data/cache.json", "Kirby+ 2010")
-    # add_catalog("Temp/Kirby+ Carbon.json", "Kirby+ Carbon", "Data/cache.json", "Kirby+ 2010")
-    # add_catalog("Temp/Kirby+, 2017.json", "Kirby+, 2017", "Data/cache.json", "Reichert+ 2020")
-    # add_catalog("Temp/Kirby+ 2017 multigal.json", "Kirby+ 2017 multigal", "Data/cache.json", "Reichert+ 2020")
-    # add_catalog("Temp/Duggan+, 2018.json", "Duggan+, 2018", "Data/cache.json", "Reichert+ 2020")
-    # add_catalog("Temp/de los Reyes 2020.json", "de los Reyes 2020", "Data/cache.json", "Reichert+ 2020")
-    retrieve_catalog("J/A+A/642/A176/", "Temp/Theler(8).json", UI="ID", paper_name="Theler 2020", single_galaxy=True, gal_name="Sex")
-    merge_tables("Temp/Theler 2020.json", "Temp/Theler(8).json", 
-                 "Theler 2020", "Theler 2020", alter_savepath="Temp/Theler 2020.json")
-    # Sex, UMi, and Dra: show what catalogs I have about those galaxies,
-    # which abundances are included, and how many stars.
-
-    # Retreive the info as a panda file, or fits, or a data table format of some kind
-    # Oh and the csv thing.
-
-    # Make a "galaxy" called "field" that just records field stars.
+    pass

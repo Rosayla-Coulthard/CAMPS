@@ -1,8 +1,31 @@
 # Catalog Acquisition and Compilation Tool (CACT)
 
-## Abstract
+## Overview
 
-The chemical evolution of dwarf galaxies is a strongly data-driven field of research, but most chemical abundance data available are scattered over different telescope databases and research papers, without any systematic effort to organize them for future studies. % To be finished
+The chemical evolution of dwarf galaxies is a strongly data-driven field of research, but most chemical abundance data available are scattered over different telescope databases and research papers, without any systematic effort to organize them for future studies. This tool aims to assist researchers in the field by providing a systematic way to retrieve, merge, and compile chemical abundance data from dwarf galaxies. The tool is designed to retrieve data from the Vizier database, merge tables from the same catalog, and compile them into a single catalog file. However, it is not limited to VizieR or chemical abundance data.
+
+## Installation
+
+The tool and all the data I have compiled are available in this repository. To use the tool, simply download the repository and open it in your Python environment (I opened it as a VS Code workspace). The tool requires the following packages:
+
+- Numpy
+- Scipy
+- Matplotlib
+- Astropy
+- Pandas
+- json
+- astroquery
+
+## Directory
+
+- Data: folder for all the presentable data files.
+- Plots: folder for all plots.
+- Temp: temporary storage for data files corresponding to individual sources. Although this hasn't been the case yet, the tool may have to deal with enormous data sets that may saturate the memory. If such a case arises, and you are manipulating the data through a Jupyter Notebook, you may save the data here and purge the memory to avoid crashes.
+- Deprecated: folder for old versions of the tool and data files. This folder exists for version control purposes and should not be used.
+- config.json: configuration file. This file keeps track of the folder paths and the column headers of the data files. When importing a new catalog, the tool checks this file to see if it has already seen the column headers. If it has, it will automatically rename the column headers to be consistent with the cache file. If it hasn't, it will prompt you to rename the column headers. This file is essential for the tool to function properly.
+- dataloader.py: the main script for loading data. This script contains the functions to retrieve, merge, and compile data. All functions related to data retrieval, merging, and compilation go here.
+- plotmaker.py: the main script for making plots. This script contains the functions to retrieve data from the cache file, cross-match between catalogs, galaxies, or headers, and plot the result. All plotting-related functions go here.
+- utilfuncs.py: utility functions, including 19,300
 
 ## How to use
 1. Retreive data from Vizier:
@@ -83,3 +106,13 @@ Copy one of the existing `.json` catalog files and make it the cache file. Run `
     - Instruments: DEIMOS (R ~ 6,000)
     - Fitting method: equivalent widths, synthetic spectra
 
+- Hill 2019 (J/A+A/626/A15):
+    - Title: VLT/FLAMES high-resolution chemical abundances in Sculptor: a textbook dwarf spheroidal galaxy
+    - Members: 129 stars in 1 galaxies.
+    - Telescope: VLT
+    - Instruments: FLAMES/GIRAFFE (R ~ 19,300 ~ 28,800), UVES (R ~ 47,000)
+    - Fitting method: synthetic spectra, equivalent widths
+
+- Tolstoy 2023 (J/A+A/675/A49):
+    - Title: A 3D view of dwarf galaxies with Gaia and VLT/FLAMES. I. The Sculptor dwarf spheroidal
+    - Members: 
