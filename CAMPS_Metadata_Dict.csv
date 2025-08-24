@@ -1,0 +1,469 @@
+Paper,BibT,From,Facility,Resolution,Solar Abundance,Original Order,Bib
+Ryan 1991,1991AJ....102..303R,JINA,Coude Echelle Spectrometer (CES) at AAT (3.9m),55000,self,1,1991AJ....102..303R
+Kipper 1994,1994A&A...290..148K,SAGA,Lynx spectrograph on 6m Telescope,nan,self,2,1994AAP...290..148K
+McWilliam 1995,1995AJ....109.2736M,SAGA,"2D-FRUTTI detector of the du Pont telescope at Las Campanas Observatory (du Pont, 2.5m)",22000,"Moore ( 1966, sst, book, M)",3,1995AJ....109.2736M
+McWilliam 1995,1995AJ....109.2757M,SAGA,"2D-FRUTTI detector of the du Pont telescope at Las Campanas Observatory (du Pont, 2.5m)",22000,"Anders and Grevesse (1989, GeCoA, 53, 197)",4,1995AJ....109.2757M
+Ryan 1996,1996ApJ...471..254R,JINA,Siding Spring Mountain Observatory Telescope (2.3m),nan,"Anders and Grevesse (1989, GeCoA, 53, 197)",5,1996ApJ...471..254R
+Norris 1997,1997ApJ...485..370N,JINA,Coude Echelle Spectrometer (CES) at AAT (3.9m),40000,self,6,1997ApJ...485..370N
+Norris 1997,1997ApJ...488..350N,SAGA,UCLES on Anglo-Australian 3.9m Telescope,40000,"Anders and Grevesse (1989, GeCoA, 53, 197)",7,1997ApJ...488..350N
+Norris 1997,1997ApJ...489L.169N,JINA,Coude Echelle Spectrometer (CES) at AAT (3.9m),40000,self,8,1997ApJ...489L.169N
+Zacs 1998,1998A&A...337..216Z,JINA,CASPEC Echelle Spectrograph at ESO (3.6m),30000,"Anders and Grevesse (1989, GeCoA, 53, 197)",9,1998A&A...337..216Z
+Shetrone 1998,1998AJ....115.1888S,SAGA,"HIRES on Keck I (HIRES, 10m)",34000,self,10,1998AJ....115.1888S
+Sneden 1998,1998ApJ...496..235S,SAGA,Goddard High-Resolution Spectrograph (GHRS) on Hubble Space Telescope (HST),32000,"Grevesse et al. (1996, ASPC, 99, 117)",11,1998ApJ...496..235S
+Ryan 1998,1998ApJ...506..892R,SAGA,"Utrecht echelle spectrograph (UES) on William Herschel Telescope (WHT,4.2m)",52000,"Moore ( 1966, sst, book, M)",12,1998ApJ...506..892R
+Boesgaard 1999,1999AJ....117..492B,SAGA,"HIRES on Keck I (HIRES, 10m)",45000,"Anders and Grevesse (1989, GeCoA, 53, 197)",13,1999AJ....117..492B
+Chen 2000,2000A&AS..141..491C,SAGA,Coude Echelle Spectrometer (CES) at ESO (3.6m),40000,self,14,2000......141..491C
+Hill 2000,2000A&A...353..557H,SAGA,"Fibre-fed Extended Range echelle Spectrograph (FEROS), at ESO (1.52m)",48000,"Grevesse et al. (1996, ASPC, 99, 117)",15,2000AAP...353..557H
+Gratton 2000,2000A&A...354..169G,SAGA,2d-coude on 2.7m H.J.Smith Telescope in McDonald Obs.,60000,unregistered,16,2000AAP...354..169G
+Bonifacio 2000,2000A&A...359..663B,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",43000,self,17,2000AAP...359..663B
+Spite 2000,2000A&A...360.1077S,SAGA,"ESO Multi-Mode Instrument (EMMI) at New Technology Telescope (NTT, 3.58m)",50000,unregistered,18,2000AAP...360.1077S
+Primas 2000,2000A&A...362..666P,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",48000,"Anders and Grevesse (1989, GeCoA, 53, 197)",19,2000AAP...362..666P
+Depagne 2000,2000A&A...364L...6D,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",45000,self,20,2000AAP...364L...6D
+Primas 2000,2000A&A...364L..42P,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",55000,"Grevesse & Sauval (1998, SSRv, 85, 161)",21,2000AAP...364L..42P
+Preston 2000,2000AJ....120.1014P,SAGA,"2D-FRUTTI detector of the du Pont telescope at Las Campanas Observatory (du Pont, 2.5m)",30000,self,22,2000AJ....120.1014P
+Fulbright 2000,2000AJ....120.1841F,SAGA,CAssegrain echelle SPECtrograph (CASPEC) at ESO (3.6m),50000,"Anders and Grevesse (1989, GeCoA, 53, 197) / unregistered",23,2000AJ....120.1841F
+Westin 2000,2000ApJ...530..783W,SAGA,2d-coude on 2.7m H.J.Smith Telescope in McDonald Obs.,60000,"Anders and Grevesse (1989, GeCoA, 53, 197)",24,2000ApJ...530..783W
+Sneden 2000,2000ApJ...533L.139S,SAGA,2d-coude on 2.7m H.J.Smith Telescope in McDonald Obs.,60000,"Anders and Grevesse (1989, GeCoA, 53, 197)",25,2000ApJ...533L.139S
+Aoki 2000,2000ApJ...536L..97A,SAGA,UCLES on Anglo-Australian 3.9m Telescope,40000,"Grevesse et al. (1996, ASPC, 99, 117)",26,2000ApJ...536L..97A
+Norris 2000,2000ApJ...540..456N,SAGA,UCLES on Anglo-Australian 3.9m Telescope,40000,"Anders and Grevesse (1989, GeCoA, 53, 197)",27,2000ApJ...540..456N
+Burris 2000,2000ApJ...544..302B,SAGA,"Mayall telescope at Kitt Peak National Observatory (KPNO, 4m)",20000,"Anders and Grevesse (1989, GeCoA, 53, 197)",28,2000ApJ...544..302B
+Mishenina 2001,2001A&A...370..951M,SAGA,ELODIE spectrograph on the Haute Provence Observatoir (1.93m),42000,"Arlandini et al. (1999, ApJ, 525, 886)",29,2001AAP...370..951M
+Preston 2001,2001AJ....122.1545P,SAGA,"2D-FRUTTI detector of the du Pont telescope at Las Campanas Observatory (du Pont, 2.5m)",30000,self,30,2001AJ....122.1545P
+Preston 2001,2001AJ....122.1545P,JINA,"2D-FRUTTI detector of the du Pont telescope at Las Campanas Observatory (du Pont, 2.5m)",30000,self,41,2001cond.mat..3452P
+Shetrone 2001,2001ApJ...548..592S,SAGA,"HIRES on Keck I (HIRES, 10m)",34000,self,31,2001ApJ...548..592S
+Ryan 2001,2001ApJ...549...55R,SAGA,UCLES on Anglo-Australian 3.9m Telescope,50000,self,32,2001ApJ...549...55R
+Israelian 2001,2001ApJ...551..833I,SAGA,"HIRES on Keck I (HIRES, 10m)",60000,"unregistered / Anders and Grevesse (1989, GeCoA, 53, 197)",33,2001ApJ...551..833I
+Johnson 2001,2001ApJ...554..888J,SAGA,"HIRES on Keck I (HIRES, 10m)",45000,"Anders and Grevesse (1989, GeCoA, 53, 197)",34,2001ApJ...554..888J
+Melendez 2001,2001ApJ...556..858M,SAGA,"Phoenix Spectrograph on Kitt Peak Peak National Observatory (KPNO, 2.1m)",60000,"Grevesse et al. (1996, ASPC, 99, 117)",35,2001ApJ...556..858M
+Israelian 2001,2001ApJ...557L..43I,SAGA,"Utrecht echelle spectrograph (UES) on William Herschel Telescope (WHT,4.2m)",50000,"Anders and Grevesse (1989, GeCoA, 53, 197)",36,2001ApJ...557L..43I
+Aoki 2001,2001ApJ...561..346A,SAGA,UCLES on Anglo-Australian 3.9m Telescope,40000,"Grevesse et al. (1996, ASPC, 99, 117)",37,2001ApJ...561..346A
+Norris 2001,2001ApJ...561.1034N,SAGA,UCLES on Anglo-Australian 3.9m Telescope,42000,"Anders and Grevesse (1989, GeCoA, 53, 197) / Lambert (1978, MNRAS, 182, 249)",38,2001ApJ...561.1034N
+Cayrel 2001,2001NewAR..45..533C,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",47000,unregistered,39,2001NewAR..45..533C
+Giridhar 2001,2001PASP..113..519G,SAGA,Apache Point Observatory (APO) 3.5 m Telescope (3.5m),38000,self,40,2001PASP..113..519G
+Hill 2002,2002A&A...387..560H,JINA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",86000,"Anders and Grevesse (1989, GeCoA, 53, 197)",42,2002A&A...387..560H
+Hill 2002,2002A&A...387..560H,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",86000,"Anders and Grevesse (1989, GeCoA, 53, 197)",43,2002AAP...387..560H
+Depagne 2002,2002A&A...390..187D,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",45000,self,44,2002AAP...390..187D
+Nissen 2002,2002A&A...390..235N,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",55000,unregistered,45,2002AAP...390..235N
+Ford 2002,2002A&A...393..617F,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",90000,self,46,2002AAP...393..617F
+Mishenina 2002,2002A&A...396..189M,SAGA,ELODIE spectrograph on the Haute Provence Observatoir (1.93m),42000,self,47,2002AAP...396..189M
+Stephens 2002,2002AJ....123.1647S,SAGA,"HIRES on Keck I (HIRES, 10m)",48000,"Anders and Grevesse (1989, GeCoA, 53, 197)",48,2002AJ....123.1647S
+Cohen 2002,2002AJ....124..470C,SAGA,"HIRES on Keck I (HIRES, 10m)",45000,self,49,2002AJ....124..470C
+Carretta 2002,2002AJ....124..481C,SAGA,"HIRES on Keck I (HIRES, 10m)",45000,"Anders and Grevesse (1989, GeCoA, 53, 197) / unregistered",50,2002AJ....124..481C
+Aoki 2002,2002ApJ...567.1166A,SAGA,UCLES on Anglo-Australian 3.9m Telescope,40000,"Grevesse et al. (1996, ASPC, 99, 117)",51,2002ApJ...567.1166A
+Norris 2002,2002ApJ...569L.107N,SAGA,UCLES on Anglo-Australian 3.9m Telescope,high,self,52,2002ApJ...569L.107N
+Cowan 2002,2002ApJ...572..861C,SAGA,2d-coude on 2.7m H.J.Smith Telescope in McDonald Obs.,60000,"Grevesse & Sauval (1998, SSRv, 85, 161)",53,2002ApJ...572..861C
+Takada-Hidai 2002,2002ApJ...573..614T,SAGA,"HIDES at the Okayama Astrophysical Observatory (OAO) (OAO, 1.88m)",24500,unregistered,54,2002ApJ...573..614T
+Melendez 2002,2002ApJ...575..474M,SAGA,"Fibre-fed Extended Range echelle Spectrograph (FEROS), at ESO (1.52m)",48000,self,55,2002ApJ...575..474M
+Aoki 2002,2002ApJ...576L.141A,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",50000,"Grevesse et al. (1996, ASPC, 99, 117)",56,2002ApJ...576L.141A
+Johnson 2002,2002ApJ...579..616J,SAGA,"HIRES on Keck I (HIRES, 10m)",45000,"Anders and Grevesse (1989, GeCoA, 53, 197)",58,2002ApJ...579..616J
+Johnson 2002,2002ApJ...579L..87J,SAGA,"HIRES on Keck I (HIRES, 10m)",45000,self,57,2002ApJ...579...87J
+Johnson 2002,2002ApJ...579L..87J,JINA,"HIRES on Keck I (HIRES, 10m)",45000,self,59,2002ApJ...579L..87J
+Aoki 2002,2002ApJ...580.1149A,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",50000,"Grevesse et al. (1996, ASPC, 99, 117)",60,2002ApJ...580.1149A
+Johnson 2002,2002ApJS..139..219J,SAGA,"HIRES on Keck I (HIRES, 10m)",45000,self,61,2002ApJS..139..219J
+Aoki 2002,2002PASJ...54..427A,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",90000,"Grevesse et al. (1996, ASPC, 99, 117)",62,2002PASJ...54..427A
+Aoki 2002,2002PASJ...54..933A,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",50000,"Grevesse et al. (1996, ASPC, 99, 117)",63,2002PASJ...54..933A
+Francois 2003,2003A&A...403.1105F,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",45000,"Grevesse & Sauval (2000, orel.conf., 261)",64,2003AAP...403.1105F
+Gratton 2003,2003A&A...404..187G,SAGA,2d-coude on 2.7m H.J.Smith Telescope in McDonald Obs.,80000,"Anders and Grevesse (1989, GeCoA, 53, 197)",65,2003AAP...404..187G
+VanEck 2003,2003A&A...404..291V,SAGA,AURELIE spectrograph at Observatoire de Haute Provence (1.52m),85000,"Grevesse & Sauval (1998, SSRv, 85, 161)",66,2003AAP...404..291V
+Carney 2003,2003AJ....125..293C,SAGA,FAST spectrograph on Tillinghast telescope (1.5m),nan,self,67,2003AJ....125..293C
+Shetrone 2003,2003AJ....125..684S,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",40000,"Grevesse & Sauval (1998, SSRv, 85, 161)",68,2003AJ....125..684S
+Lucatello 2003,2003AJ....125..875L,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",50000,"Anders and Grevesse (1989, GeCoA, 53, 197) / unregistered",69,2003AJ....125..875L
+Aoki 2003,2003ApJ...586..506A,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",90000,"Grevesse et al. (1996, ASPC, 99, 117)",70,2003ApJ...586..506A
+Barbuy 2003,2003ApJ...588.1072B,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",43000,"Grevesse et al. (1996, ASPC, 99, 117)",71,2003ApJ...588.1072B
+Cohen 2003,2003ApJ...588.1082C,SAGA,"HIRES on Keck I (HIRES, 10m)",45000,unregistered,72,2003ApJ...588.1082C
+Sneden 2003,2003ApJ...591..936S,SAGA,2d-coude on 2.7m H.J.Smith Telescope in McDonald Obs.,60000,"Grevesse & Sauval (1998, SSRv, 85, 161)",73,2003ApJ...591..936S
+Sneden 2003,2003ApJ...592..504S,SAGA,"2D-FRUTTI detector of the du Pont telescope at Las Campanas Observatory (du Pont, 2.5m)",30000,unregistered,74,2003ApJ...592..504S
+Ivans 2003,2003ApJ...592..906I,SAGA,"2D-FRUTTI detector of the du Pont telescope at Las Campanas Observatory (du Pont, 2.5m)",20000,"Anders and Grevesse (1989, GeCoA, 53, 197) / unregistered",75,2003ApJ...592..906I
+Aoki 2003,2003ApJ...592L..67A,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",90000,self,76,2003ApJ...592L..67A
+Fulbright 2003,2003ApJ...595.1154F,SAGA,Gecko echelle spectrograph on Canada-France-Hawaii Telescope (CFHT),130000,"unregistered / Allende Prieto et al. (2001, ApJ, 556, L63)",77,2003ApJ...595.1154F
+Yong 2003,2003ApJ...599.1357Y,SAGA,2d-coude on 2.7m H.J.Smith Telescope in McDonald Obs.,60000,self,78,2003ApJ...599.1357Y
+Sivarani 2004,2004A&A...413.1073S,JINA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",43000,unregistered,79,2004A&A...413.1073S
+Sivarani 2004,2004A&A...413.1073S,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",43000,unregistered,81,2004AAP...413.1073S
+Cayrel 2004,2004A&A...416.1117C,JINA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",47000,"Grevesse & Sauval (1998, SSRv, 85, 161) / unregistered",80,2004A&A...416.1117C
+Cayrel 2004,2004A&A...416.1117C,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",47000,"Grevesse & Sauval (1998, SSRv, 85, 161) / unregistered",86,2004AAP...416.1117C
+Christlieb 2004,2004A&A...428.1027C,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",20000,"Burris et al. ( 2000, ApJ, 544, 302)",89,2004AAP...428.1027C
+Bonifacio 2004,2004A&A...414..503B,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",43000,unregistered,82,2004AAP...414..503B
+Akerman 2004,2004A&A...414..931A,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",60000,"Allende Prieto et al. (2002, ApJ, 573, L137) / unregistered",83,2004AAP...414..931A
+Ryde 2004,2004A&A...415..559R,SAGA,2d-coude on 2.7m H.J.Smith Telescope in McDonald Obs.,60000,unregistered,84,2004AAP...415..559R
+Nissen 2004,2004A&A...415..993N,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",60000,unregistered,85,2004AAP...415..993N
+Bihain 2004,2004A&A...423..777B,SAGA,CAssegrain echelle SPECtrograph (CASPEC) at ESO (3.6m),50000,"Anders and Grevesse (1989, GeCoA, 53, 197)",87,2004AAP...423..777B
+Bai 2004,2004A&A...425..671B,SAGA,Prime-Focus Ehelle Spectrometer (PFES) at Special Astrophysical Observatory (6m),15000,"Grevesse & Sauval (1998, SSRv, 85, 161)",88,2004AAP...425..671B
+Plez 2004,2004A&A...428L...9P,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",80000,"Anders and Grevesse (1989, GeCoA, 53, 197)",90,2004AAP...428L...9P
+Pont 2004,2004AJ....127..840P,SAGA,FORS1 on Yepun (VLT-UT4) 8.2m telescope at the ESO ,1530,self,91,2004AJ....127..840P
+Venn 2004,2004AJ....128.1177V,SAGA,literature,high,"Arlandini et al. (1999, ApJ, 525, 886)",92,2004AJ....128.1177V
+Lai 2004,2004AJ....128.2402L,SAGA,Echelle Spectrograph and Imager (ESI) on Keck II,7000,self,93,2004AJ....128.2402L
+Ishimaru 2004,2004ApJ...600L..47I,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",50000,"Arlandini et al. (1999, ApJ, 525, 886)",94,2004ApJ...600L..47I
+Christlieb 2004,2004ApJ...603..708C,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",40000,unregistered,95,2004ApJ...603..708C
+Johnson 2004,2004ApJ...605..462J,SAGA,"HIRES on Keck I (HIRES, 10m)",45000,"Grevesse et al. (1996, ASPC, 99, 117)",96,2004ApJ...605..462J
+Johnson 2004,2004ApJ...605..462J,SAGA,"HIRES on Keck I (HIRES, 10m)",45000,"Grevesse et al. (1996, ASPC, 99, 117)",468,447Jon.P+..Ap..612P
+Honda 2004,2004ApJ...607..474H,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",90000,"Grevesse et al. (1996, ASPC, 99, 117)",97,2004ApJ...607..474H
+Aoki 2004,2004ApJ...608..971A,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",50000,"Grevesse et al. (1996, ASPC, 99, 117)",98,2004ApJ...608..971A
+Fulbright 2004,2004ApJ...612..447F,JINA,"HIRES on Keck I (HIRES, 10m)",45000,"Moore ( 1966, sst, book, M)",99,2004ApJ...612..447F
+Cohen 2004,2004ApJ...612.1107C,SAGA,"HIRES on Keck I (HIRES, 10m)",34000,"unregistered / Anders and Grevesse (1989, GeCoA, 53, 197)",100,2004ApJ...612.1107C
+Bessell 2004,2004ApJ...612L..61B,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",40000,"Asplund et al. (2000, A&A, 359, 743) / Asplund et al. (2004, A&A, 417, 751)",101,2004ApJ...612L..61B
+Simmerer 2004,2004ApJ...617.1091S,SAGA,2d-coude on 2.7m H.J.Smith Telescope in McDonald Obs.,60000,unregistered,102,2004ApJ...617.1091S
+Honda 2004,2004ApJS..152..113H,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",90000,self,103,2004ApJS..152..113H
+Sadakane 2004,2004PASJ...56.1041S,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",45000,"Grevesse & Sauval (1998, SSRv, 85, 161)",104,2004PASJ...56.1041S
+Barbuy 2005,2005A&A...429.1031B,JINA,High Accuracy Radial velocity Planet Searcher (HARPS) spectrogrpah at ESO (3.6m),100000,"Grevesse & Sauval (1998, SSRv, 85, 161)",105,2005A&A...429.1031B
+Barbuy 2005,2005A&A...429.1031B,SAGA,High Accuracy Radial velocity Planet Searcher (HARPS) spectrogrpah at ESO (3.6m),100000,"Grevesse & Sauval (1998, SSRv, 85, 161)",108,2005AAP...429.1031B
+Barklem 2005,2005A&A...439..129B,JINA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",20000,"Grevesse & Sauval (1998, SSRv, 85, 161)",106,2005A&A...439..129B
+Jonsell 2005,2005A&A...440..321J,JINA,Coude Echelle Spectrometer (CES) of Coude Auxiliary Telescope (CAT) at ESO (1.4m),60000,"Grevesse & Sauval (1998, SSRv, 85, 161) / Asplund et al. (2004, A&A, 417, 751)",107,2005A&A...440..321J
+Jonsell 2005,2005A&A...440..321J,SAGA,Coude Echelle Spectrometer (CES) of Coude Auxiliary Telescope (CAT) at ESO (1.4m),60000,"Grevesse & Sauval (1998, SSRv, 85, 161) / Asplund et al. (2004, A&A, 417, 751)",114,2005AAP...440..321J
+Arnone 2005,2005A&A...430..507A,SAGA,UCLES on Anglo-Australian 3.9m Telescope,40000,"Moore ( 1966, sst, book, M)",109,2005AAP...430..507A
+Spite 2005,2005A&A...430..655S,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",47000,"Grevesse & Sauval (1998, SSRv, 85, 161) / unregistered",110,2005AAP...430..655S
+Bensby 2005,2005A&A...433..185B,SAGA,"Fibre-fed Extended Range echelle Spectrograph (FEROS), at ESO (1.52m)",48000,"Grevesse & Sauval (1998, SSRv, 85, 161)",111,2005AAP...433..185B
+Plez 2005,2005A&A...434.1117P,SAGA,"HIRES on Keck I (HIRES, 10m)",34000,"Grevesse & Sauval (1998, SSRv, 85, 161) / Allende Prieto et al. (2002, ApJ, 573, L137) / Asplund (2003, ASPC, 304, 275) / Asplund et al. (2000, A&A, 359, 743)",112,2005AAP...434.1117P
+Barklem 2005,2005A&A...439..129B,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",20000,"Grevesse & Sauval (1998, SSRv, 85, 161) / Allende Prieto et al. (2002, ApJ, 573, L137)",113,2005AAP...439..129B
+Monaco 2005,2005A&A...441..141M,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",43000,unregistered,115,2005AAP...441..141M
+Caffau 2005,2005A&A...441..533C,SAGA,"ESO Multi-Mode Instrument (EMMI) at New Technology Telescope (NTT, 3.58m)",60000,self,116,2005AAP...441..533C
+Charbonnel 2005,2005A&A...442..961C,SAGA,literature,high,self,117,2005AAP...442..961C
+Geisler 2005,2005AJ....129.1428G,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",22000,unregistered,118,2005AJ....129.1428G
+Cowan 2005,2005ApJ...627..238C,SAGA,"HIRES on Keck I (HIRES, 10m)",45000,"Lodders (2003, ApJ, 591, 1220)",119,2005ApJ...627..238C
+Ivans 2005,2005ApJ...627L.145I,SAGA,"HIRES on Keck I (HIRES, 10m)",40000,self,120,2005ApJ...627L.145I
+Aoki 2005,2005ApJ...632..611A,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",50000,self,121,2005ApJ...632..611A
+Boesgaard 2005,2005ApJ...633..398B,SAGA,"HIRES on Keck I (HIRES, 10m)",48000,unregistered,122,2005ApJ...633..398B
+Boesgaard 2005,2005ApJ...633L.125B,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",50000,unregistered,123,2005ApJ...633L.125B
+Takeda 2005,2005PASJ...57...45T,SAGA,"HIDES at the Okayama Astrophysical Observatory (OAO) (OAO, 1.88m)",70000,unregistered,124,2005PASJ...57...45T
+Takeda 2005,2005PASJ...57...65T,SAGA,"HIDES at the Okayama Astrophysical Observatory (OAO) (OAO, 1.88m)",70000,unregistered,125,2005PASJ...57...65T
+Jonsell 2006,2006A&A...451..651J,JINA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",30000,"Anders and Grevesse (1989, GeCoA, 53, 197)",126,2006A&A...451..651J
+Jonsell 2006,2006A&A...451..651J,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",30000,"Anders and Grevesse (1989, GeCoA, 53, 197)",131,2006AAP...451..651J
+Masseron 2006,2006A&A...455.1059M,JINA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",high,"Asplund et al. (2005, ASPC, 336, 25)",127,2006A&A...455.1059M
+Masseron 2006,2006A&A...455.1059M,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",high,"Asplund et al. (2005, ASPC, 336, 25)",134,2006AAP...455.1059M
+Sivarani 2006,2006A&A...459..125S,JINA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",43000,"Asplund et al. (2005, ASPC, 336, 25)",128,2006A&A...459..125S
+Sivarani 2006,2006A&A...459..125S,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",43000,"Asplund et al. (2005, ASPC, 336, 25)",135,2006AAP...459..125S
+GarciaPerez 2006,2006A&A...447..299G,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",55000,"Grevesse & Sauval (1998, SSRv, 85, 161)",129,2006AAP...447..299G
+GarciaPerez 2006,2006A&A...451..621G,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",55000,"Grevesse & Sauval (1998, SSRv, 85, 161) / unregistered",130,2006AAP...451..621G
+Gehren 2006,2006A&A...451.1065G,SAGA,FOCES on Calar Alto Observatory (2.2m),40000,unregistered,132,2006AAP...451.1065G
+Spite 2006,2006A&A...455..291S,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",47000,"Grevesse & Sauval (1998, SSRv, 85, 161) / unregistered",133,2006AAP...455..291S
+Battaglia 2006,2006A&A...459..423B,SAGA,Fibre Large Array Multi Element Spectrograph (FLAMES) and GIRAFFE on VLT in ESO,6500,self,136,2006AAP...459..423B
+Koch 2006,2006AJ....131..895K,SAGA,Fibre Large Array Multi Element Spectrograph (FLAMES) and GIRAFFE on VLT in ESO,6500,unregistered,137,2006AJ....131..895K
+Preston 2006,2006AJ....132...85P,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),40000,"unregistered / Lawler et al. (2001, ApJ, 563, 1075) / Lawler et al. (2001, ApJ, 556, 452)",138,2006AJ....132...85P
+Cohen 2006,2006AJ....132..137C,SAGA,"HIRES on Keck I (HIRES, 10m)",45000,unregistered,139,2006AJ....132..137C
+Preston 2006,2006AJ....132.1714P,JINA,"MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m), Echelle Spectrograph and Imager (ESI) on Keck II ",25000,self,140,2006AJ....132.1714P
+Frebel 2006,2006ApJ...638L..17F,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",70000,"Asplund et al. (2005, ASPC, 336, 25)",141,2006ApJ...638L..17F
+Aoki 2006,2006ApJ...639..897A,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",60000,"Asplund et al. (2005, ASPC, 336, 25) / Asplund et al. (2005, A&A, 431, 693), log-e(C)",142,2006ApJ...639..897A
+Besgaard 2006,2006ApJ...641.1122B,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",50000,unregistered,143,2006ApJ...641.1122B
+Melendez 2006,2006ApJ...642.1082M,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",60000,unregistered,144,2006ApJ...642.1082M
+Honda 2006,2006ApJ...643.1180H,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",90000,"Asplund et al. (2005, ASPC, 336, 25)",145,2006ApJ...643.1180H
+Asplund 2006,2006ApJ...644..229A,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",120000,unregistered,146,2006ApJ...644..229A
+Collet 2006,2006ApJ...644L.121C,JINA,simulation,nan,self,147,2006ApJ...644L.121C
+Ivans 2006,2006ApJ...645..613I,SAGA,2d-coude on 2.7m H.J.Smith Telescope in McDonald Obs.,60000,"Anders and Grevesse (1989, GeCoA, 53, 197) / Lawler et al. (2001, ApJ, 563, 1075) / unregistered / Lawler et al. (2004, ApJ, 604, 850) / Lawler et al. (2001, ApJ, 556, 452) / Hartog et al. (2003, ApJS, 148, 543) / Lawler et al. (2006, ApJS, 162, 227) / Lawler et al. (2001, ApJS, 137, 341)",148,2006ApJ...645..613I
+Aoki 2006,2006ApJ...650L.127A,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",90000,"Lodders (2003, ApJ, 591, 1220)",149,2006ApJ...650L.127A
+Reddy 2006,2006MNRAS.367.1329R,SAGA,2d-coude on 2.7m H.J.Smith Telescope in McDonald Obs.,60000,unregistered,150,2006MNRAS.367.1329R
+Goswami 2006,2006MNRAS.372..343G,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",50000,"Asplund et al. (2005, ASPC, 336, 25)",151,2006MNRAS.372..343G
+Bonifacio 2007,2007A&A...462..851B,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",43000,"Anstee et al. (1997, MNRAS, 284, 202)",152,2007AAP...462..851B
+Monaco 2007,2007A&A...464..201M,SAGA,SARG spectrograph at the TNG telescope at La Palma (3.58m),29000,self,153,2007AAP...464..201M
+Andrievsky 2007,2007A&A...464.1081A,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",43000,unregistered,154,2007AAP...464.1081A
+Shi 2007,2007A&A...465..587S,SAGA,FOCES on Calar Alto Observatory (2.2m),40000,"Anders and Grevesse (1989, GeCoA, 53, 197)",155,2007AAP...465..587S
+Sbordone 2007,2007A&A...465..815S,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",43000,unregistered,156,2007AAP...465..815S
+Nissen 2007,2007A&A...469..319N,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",60000,self,157,2007AAP...469..319N
+Francois 2007,2007A&A...476..935F,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",47000,"Grevesse & Sauval (2000, orel.conf., 261)",158,2007AAP...476..935F
+Koch 2007,2007AJ....133..270K,SAGA,Fibre Large Array Multi Element Spectrograph (FLAMES) and GIRAFFE on VLT in ESO,6500,self,159,2007AJ....133..270K
+Beers 2007,2007AJ....133.1193B,SAGA,Ohio State InfraRed Imager/Spectrometer (OSIRIS) on Southern Astrophysical Research (SOAR) telescope (4.1m),3000,"Asplund et al. (2005, ASPC, 336, 25)",160,2007AJ....133.1193B
+Aoki 2007,2007ApJ...655..492A,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",50000,"Asplund et al. (2005, ASPC, 336, 25)",161,2007ApJ...655..492A
+Koch 2007,2007ApJ...657..241K,SAGA,DEep Imaging Multi-Object Spectrograph (DEIMOS) on Keck II,6000,self,162,2007ApJ...657..241K
+Frebel 2007,2007ApJ...658..534F,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",60000,"Asplund et al. (2005, ASPC, 336, 25)",163,2007ApJ...658..534F
+Johnson 2007,2007ApJ...658.1203J,SAGA,"R-C spectrograph at Cerro Tololo Inter-American Observatory (CTIO,1.5m)",intermediate,"Anders and Grevesse (1989, GeCoA, 53, 197) / unregistered",164,2007ApJ...658.1203J
+Melendez 2007,2007ApJ...659L..25M,SAGA,"HIRES on Keck I (HIRES, 10m)",100000,"Melendez & Barbuy (2002, ApJ, 575, 474)",165,2007ApJ...659L..25M
+Cohen 2007,2007ApJ...659L.161C,SAGA,"HIRES on Keck I (HIRES, 10m)",35000,"Anders and Grevesse (1989, GeCoA, 53, 197)",166,2007ApJ...659L.161C
+Aoki 2007,2007ApJ...660..747A,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",60000,"Asplund et al. ( 2004, A&A, 417, 751)",167,2007ApJ...660..747A
+Frebel 2007,2007ApJ...660L.117F,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",75000,"Asplund et al. (2005, ASPC, 336, 25)",168,2007ApJ...660L.117F
+Honda 2007,2007ApJ...666.1189H,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",90000,"Asplund et al. (2005, ASPC, 336, 25)",169,2007ApJ...666.1189H
+Lai 2007,2007ApJ...667.1185L,SAGA,Echelle Spectrograph and Imager (ESI) on Keck II,7000,"Anders and Grevesse (1989, GeCoA, 53, 197)",170,2007ApJ...667.1185L
+Boesgaard 2007,2007ApJ...667.1196B,SAGA,"HIRES on Keck I (HIRES, 10m)",46000,"Grevesse & Sauval (1998, SSRv, 85, 161)",171,2007ApJ...667.1196B
+Schuler 2007,2007ApJ...667L..81S,SAGA, NOAO Phoenix near-IR spectrometer on Gemini-South telescope (8.1m),50000,"Asplund et al. (2005, ASPC, 336, 25)",172,2007ApJ...667L..81S
+Norris 2007,2007ApJ...670..774N,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",40000,"Asplund et al. (2005, ASPC, 336, 25)",173,2007ApJ...670..774N
+Bosler 2007,2007MNRAS.378..318B,SAGA,Low Resolution Imaging Spectrometer (LRIS) on Keck I,14000,self,174,2007MNRAS.378..318B
+Martin 2007,2007MNRAS.380..281M,SAGA,DEep Imaging Multi-Object Spectrograph (DEIMOS) on Keck II,nan,nan,175,2007MNRAS.380..281M
+Takeda 2007,2007PASJ...59..335T,SAGA,"HIDES at the Okayama Astrophysical Observatory (OAO) (OAO, 1.88m)",70000,"Asplund et al. (2005, ASPC, 336, 25)",176,2007PASJ...59..335T
+Aoki 2007,2007PASJ...59L..15A,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",40000,"Asplund et al. (2005, ASPC, 336, 25)",177,2007PASJ...59L..15A
+GonzalezHernandez 2008,2008A&A...480..233G,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",43000,"Grevesse & Sauval (2000, eaa.bookE1979) / unregistered",178,2008AAP...480..233G
+Andrievsky 2008,2008A&A...481..481A,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",47000,"Grevesse & Sauval (2000, orel.conf., 261)",179,2008AAP...481..481A
+Bergemann 2008,2008A&A...492..823B,SAGA,FOCES on Calar Alto Observatory (2.2m),60000,self,180,2008AAP...492..823B
+Koch 2008,2008AJ....135.1580K,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",47000,"Lodders (2003, ApJ, 591, 1220)",181,2008AJ....135.1580K
+Cohen 2008,2008ApJ...672..320C,SAGA,"HIRES on Keck I (HIRES, 10m)",35000,unregistered,182,2008ApJ...672..320C
+Roederer 2008,2008ApJ...675..723R,SAGA,2d-coude on 2.7m H.J.Smith Telescope in McDonald Obs.,120000,"Lawler et al. (2001, ApJ, 556, 452) / Grevesse & Sauval (2002, Adv. Space, Rev., 30, 3) / Sneden et al. (1991, AJ, 102, 2001) / Lawler et al. (2006, ApJS, 162, 227)",183,2008ApJ...675..723R
+Thompson 2008,2008ApJ...677..556T,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),40000,unregistered,184,2008ApJ...677..556T
+Aoki 2008,2008ApJ...678.1351A,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",60000,"Asplund et al. (2005, ASPC, 336, 25)",185,2008ApJ...678.1351A
+Mashonkina 2008,2008A&A...478..529M,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",90000,self,186,2008ApJ...679.1549M
+Roederer 2008,2008ApJ...679.1549R,JINA,HET at McDonald Observatory (11m),15000," Grevesse & Sauval (2002, Adv. Space, Rev., 30, 3)",187,2008ApJ...679.1549R
+Lai 2008,2008ApJ...681.1524L,SAGA,"HIRES on Keck I (HIRES, 10m)",46000,"Grevesse & Sauval (1998, SSRv, 85, 161)",188,2008ApJ...681.1524L
+Frebel 2008,2008ApJ...684..588F,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",70000,"Asplund et al. (2005, ASPC, 336, 25)",189,2008ApJ...684..588F
+Koch 2008,2008ApJ...688L..13K,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),20000,"Asplund et al. (2005, ASPC, 336, 25)",190,2008ApJ...688L..13K
+Battaglia 2008,2008MNRAS.383..183B,SAGA,Fibre Large Array Multi Element Spectrograph (FLAMES) and UVES on VLT in ESO,20000,self,191,2008MNRAS.383..183B
+Aoki 2008,2008PASJ...60L...7A,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",50000,"Simmerer & Sneden (2004, ApJ, 617, 1091)",192,2008PASJ...60L...7A
+Andrievsky 2009,2009A&A...494.1083A,JINA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",45000,"Asplund et al. (2005, ASPC, 336, 25)",193,2009A&A...494.1083A
+Andrievsky 2009,2009A&A...494.1083A,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",45000,"Asplund et al. (2005, ASPC, 336, 25)",200,2009AAP...494.1083A
+Bonifacio 2009,2009A&A...501..519B,JINA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",45000,"Anstee et al. (1997, MNRAS, 284, 202)",194,2009A&A...501..519B
+Bonifacio 2009,2009A&A...501..519B,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",45000,"Anstee et al. (1997, MNRAS, 284, 202)",204,2009AAP...501..519B
+Aoki 2009,2009A&A...502..569A,JINA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",40000,"Asplund et al. (2005, ASPC, 336, 25)",195,2009A&A...502..569A
+Aoki 2009,2009A&A...502..569A,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",40000,"Asplund et al. (2005, ASPC, 336, 25)",205,2009AAP...502..569A
+Hayek 2009,2009A&A...504..511H,JINA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",60000,"Asplund et al. (2005, ASPC, 336, 25)",196,2009A&A...504..511H
+Feltzing 2009,2009A&A...508L...1F,JINA,"HIRES on Keck I (HIRES, 10m)",high,"Asplund et al. (2006, NPA, 777, 1)",197,2009A&A...508L...1F
+Feltzing 2009,2009A&A...508L...1F,SAGA,"HIRES on Keck I (HIRES, 10m)",high,"Asplund et al. (2006, NPA, 777, 1)",208,2009AAP...508L...1F
+Feltzing 2009,"2009A&A...508L...1F, 2010ApJ...711..350N",Alex Ji,"HIRES on Keck I (HIRES, 10m)",high,"Asplund et al. (2006, NPA, 777, 1)",198,"2009A&A...508L...1F, 2010ApJ...711..350N"
+Hosford 2009,2009A&A...493..601H,SAGA,UCLES on Anglo-Australian 3.9m Telescope,43000,"Bahcall et al. (2001, ApJ, 555, 990)",199,2009AAP...493..601H
+Smiljanic 2009,2009A&A...499..103S,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",35000,"Lodders (2003, ApJ, 591, 1220)",201,2009AAP...499..103S
+Gullieuszik 2009,2009A&A...500..735G,SAGA,FORS2 on Yepun (VLT-UT4) 8.2m telescope at the ESO ,intermediate,self,202,2009AAP...500..735G
+Fabbian 2009,2009A&A...500.1143F,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),60000,"Asplund et al. (2005, ASPC, 336, 25)",203,2009AAP...500.1143F
+GarciaPerez 2009,2009A&A...504..213G,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",90000,"Grevesse & Sauval (1998, SSRv, 85, 161)",206,2009AAP...504..213G
+Aden 2009,2009A&A...506.1147A,SAGA,Fibre Large Array Multi Element Spectrograph (FLAMES) and GIRAFFE on VLT in ESO,6500,self,207,2009AAP...506.1147A
+Shetrone 2009,2009AJ....137...62S,SAGA,Low Resolution Imaging Spectrometer (LRIS) on Keck I,10000,self,209,2009AJ....137...62S
+Koch 2009,2009ApJ...690..453K,SAGA,Gemini Multiobject Spectrograph (GMOS) on the Gemini North telescope (8m),3600,self,210,2009ApJ...690..453K
+Lai 2009,2009ApJ...697L..63L,JINA,Echelle Spectrograph and Imager (ESI) on Keck II,6000,self,211,2009ApJ...697L..63L
+Aoki 2009,2009ApJ...698.1803A,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",90000,"Asplund et al. (2005, ASPC, 336, 25)",212,2009ApJ...698.1803A
+Roederer 2009,2009ApJ...698.1963R,SAGA,"HIRES on Keck I (HIRES, 10m)",45000,"Lodders (2003, ApJ, 591, 1220)",213,2009ApJ...698.1963R
+Ito 2009,2009ApJ...698L..37I,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",90000,"Asplund et al. (2005, ASPC, 336, 25)",214,2009ApJ...698L..37I
+Cohen 2009,2009ApJ...701.1053C,SAGA,"HIRES on Keck I (HIRES, 10m)",35000,unregistered,215,2009ApJ...701.1053C
+Rich 2009,2009ApJ...701.1519R,SAGA,"HIRES on Keck I (HIRES, 10m)",48000,self,216,2009ApJ...701.1519R
+Kirby 2009,2009ApJ...705..328K,SAGA,DEep Imaging Multi-Object Spectrograph (DEIMOS) on Keck II,6500,"Anders and Grevesse (1989, GeCoA, 53, 197) / unregistered",217,2009ApJ...705..328K
+Zhang 2009,2009ApJ...706.1095Z,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",50000,"Anders and Grevesse (1989, GeCoA, 53, 197)",218,2009ApJ...706.1095Z
+Tan 2009,2009MNRAS.392..205T,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",48000,"Anders and Grevesse (1989, GeCoA, 53, 197) / unregistered",219,2009MNRAS.392..205T
+Saito 2009,2009PASJ...61..549S,SAGA,"HIDES at the Okayama Astrophysical Observatory (OAO) (OAO, 1.88m)",50000,"Asplund et al. (2005, ASPC, 336, 25)",220,2009PASJ...61..549S
+Behara 2010,2010A&A...513A..72B,JINA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",30000,"Lodders (2003, ApJ, 591, 1220) / Caffau et al. (2009, MmSAI, 80, 643)",221,2010A&A...513A..72B
+Behara 2010,2010A&A...513A..72B,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",30000,"Lodders (2003, ApJ, 591, 1220) / Caffau et al. (2009, MmSAI, 80, 643)",229,2010AAP...513A..72B
+Masseron 2010,2010A&A...516A..46M,JINA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",60000,self,222,2010A&A...516A..46M
+Gallagher 2010,2010A&A...523A..24G,JINA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",95000,"Grevesse et al. (1996, ASPC, 99, 117)",223,2010A&A...523A..24G
+Gallagher 2010,2010A&A...523A..24G,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",95000,"Grevesse et al. (1996, ASPC, 99, 117)",235,2010AAP...523A..24G
+Andrievsky 2010,2010A&A...509A..88A,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",45000,self,224,2010AAP...509A..88A
+Masseron 2010,2010A&A...509A..93M,SAGA,multiple,40000,"Asplund et al. (2005, ASPC, 336, 25)",225,2010AAP...509A..93M
+Hosford 2010,2010A&A...511A..47H,SAGA,UCLES on Anglo-Australian 3.9m Telescope,43000,"Bahcall et al. (2001, ApJ, 555, 990)",226,2010AAP...511A..47H
+Nissen 2010,2010A&A...511L..10N,SAGA,"FIbre-fed Echelle Spectrograph (FIES) at the Nordic Optical Telescope (NOT, 2.65m)",40000,self,227,2010AAP...511L..10N
+Alves-Brito 2010,2010A&A...513A..35A,SAGA,2d-coude on 2.7m H.J.Smith Telescope in McDonald Obs.,60000,"Asplund et al. (2009, ARA&A, 47, 481)",228,2010AAP...513A..35A
+Melendez 2010,2010A&A...515L...3M,SAGA,"FIbre-fed Echelle Spectrograph (FIES) at the Nordic Optical Telescope (NOT, 2.65m)",35000,self,230,2010AAP...515L...3M
+Mashonkina 2010,2010A&A...516A..46M,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",60000,"Lodders et al. (2009, Landolt-Boernstein, New Series; 4B, 44)",231,2010AAP...516A..46M
+Bergemann 2010,2010A&A...522A...9B,SAGA,FOCES on Calar Alto Observatory (2.2m),40000,unregistered,232,2010AAP...522A...9B
+Sbordone 2010,2010A&A...522A..26S,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",40000,"Asplund et al. (2005, ASPC, 336, 25)",233,2010AAP...522A..26S
+Letarte 2010,2010A&A...523A..17L,SAGA,Fibre Large Array Multi Element Spectrograph (FLAMES) and GIRAFFE on VLT in ESO,28800,"Anders and Grevesse (1989, GeCoA, 53, 197) / Grevesse & Sauval (1998, SSRv, 85, 161)",234,2010AAP...523A..17L
+Tafelmeyer 2010,2010A&A...524A..58T,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",40000,"Anders and Grevesse (1989, GeCoA, 53, 197) / Grevesse & Sauval (1998, SSRv, 85, 161)",236,2010AAP...524A..58T
+Frebel 2010,2010ApJ...708..560F,SAGA,"HIRES on Keck I (HIRES, 10m)",37000,"Asplund et al. (2005, ASPC, 336, 25)",237,2010ApJ...708..560F
+Norris 2010,2010ApJ...711..350N,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",40000,"Asplund et al. (2005, ASPC, 336, 25)",238,2010ApJ...711..350N
+Roederer 2010,2010ApJ...711..573R,SAGA,2d-coude on 2.7m H.J.Smith Telescope in McDonald Obs.,33000,"Asplund et al. (2009, ARA&A, 47, 481)",239,2010ApJ...711..573R
+Simon 2010,2010ApJ...716..446S,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),28000,"Asplund et al. (2009, ARA&A, 47, 481)",240,2010ApJ...716..446S
+Cohen 2010,2010ApJ...719..931C,SAGA,"HIRES on Keck I (HIRES, 10m)",35000,unregistered,241,2010ApJ...719..931C
+Keller 2010,2010ApJ...720..940K,SAGA,Phoenix spectrograph on the Gemini South telescope (8m),50000,"Asplund et al. (2006, NPA, 777, 1)",242,2010ApJ...720..940K
+Norris 2010,2010ApJ...722L.104N,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",40000,self,243,2010ApJ...722L.104N
+Norris 2010,2010ApJ...723.1632N,SAGA,AAOmega  spectrograph at AAT (3.9m),5000,self,244,2010ApJ...723.1632N
+Aoki 2010,2010ApJ...723L.201A,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",60000,self,245,2010ApJ...723L.201A
+Roederer 2010,2010ApJ...724..975R,SAGA,2d-coude on 2.7m H.J.Smith Telescope in McDonald Obs.,60000,"Asplund et al. (2009, ARA&A, 47, 481)",246,2010ApJ...724..975R
+Kirby 2010,2010ApJS..191..352K,SAGA,DEep Imaging Multi-Object Spectrograph (DEIMOS) on Keck II,6500,"Anders and Grevesse (1989, GeCoA, 53, 197)",247,2010ApJS..191..352K
+Frebel 2010,2010IAUS..265..237F,Alex Ji,"HIRES on Keck I (HIRES, 10m)",high,self,248,2010IAUS..265..237F
+Bergemann 2010,2010MNRAS.401.1334B,SAGA,FOCES on Calar Alto Observatory (2.2m),high,"Asplund et al. (2009, ARA&A, 47, 481)",249,2010MNRAS.401.1334B
+Ishigaki 2010,2010PASJ...62..143I,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",50000,"Grevesse et al. (1996, ASPC, 99, 117)",250,2010PASJ...62..143I
+Hansen 2011,2011A&A...527A..65H,JINA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",43000,"Grevesse & Sauval (1998, SSRv, 85, 161)",251,2011A&A...527A..65H
+Hansen 2011,2011A&A...527A..65H,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",43000,"Grevesse & Sauval (1998, SSRv, 85, 161)",255,2011AAP...527A..65H
+Bensby 2011,2011A&A...533A.134B,JINA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",48000,"Grevesse et al.( 2007, SSR, 130,105)",252,2011A&A...533A.134B
+Caffau 2011,2011A&A...534A...4C,JINA,X-Shooter spectrograph on VLT in ESO,12600,"Lodders et al. (2009, Landolt-Boernstein, New Series; 4B, 44) / Caffau et al. (2011, Sol. Phys., 268, 255)",253,2011A&A...534A...4C
+Caffau 2011,2011A&A...534A...4C,SAGA,X-Shooter spectrograph on VLT in ESO,12600,"Lodders et al. (2009, Landolt-Boernstein, New Series; 4B, 44) / Caffau et al. (2011, Sol. Phys., 268, 255)",260,2011AAP...534A...4C
+Aden 2011,2011A&A...525A.153A,SAGA,Fibre Large Array Multi Element Spectrograph (FLAMES) and GIRAFFE on VLT in ESO,20000,"Asplund et al. (2009, ARA&A, 47, 481)",254,2011AAP...525A.153A
+Spite 2011,2011A&A...528A...9S,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",43000,unregistered,256,2011AAP...528A...9S
+Zhang 2011,2011A&A...528A..92Z,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",20000,"Allende Prieto et al. (2002, ApJ, 573, L137) / Grevesse & Sauval (1998, SSRv, 85, 161)",257,2011AAP...528A..92Z
+Nissen 2011,2011A&A...530A..15N,SAGA,"FIbre-fed Echelle Spectrograph (FIES) at the Nordic Optical Telescope (NOT, 2.65m)",40000,self,258,2011AAP...530A..15N
+Jonsson 2011,2011A&A...530A.144J,SAGA,Cryogenic high-resolution Infrared Echelle Spectrograph (CRIRES) on VLT in ESO,80000,"Asplund et al. (2009, ARA&A, 47, 481)",259,2011AAP...530A.144J
+Honda 2011,2011ApJ...730...77H,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",50000,"Asplund et al. (2009, ARA&A, 47, 481)",261,2011ApJ...730...77H
+Simon 2011,2011ApJ...733...46S,SAGA,DEep Imaging Multi-Object Spectrograph (DEIMOS) on Keck II,6000,"Anders and Grevesse (1989, GeCoA, 53, 197)",262,2011ApJ...733...46S
+Ruchti 2011,2011ApJ...737....9R,SAGA,Apache Point Observatory (APO) 3.5 m Telescope (3.5m),40000,"Grevesse et al. (1996, ASPC, 99, 117)",263,2011ApJ...737....9R
+Lai 2011,2011ApJ...738...51L,SAGA,Low Resolution Imaging Spectrometer (LRIS) on Keck I,1800,unregistered,264,2011ApJ...738...51L
+Hollek 2011,2011ApJ...742...54H,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),35000,self,265,2011ApJ...742...54H
+Ruchti 2011,2011ApJ...743..107R,SAGA,Apache Point Observatory (APO) 3.5 m Telescope (3.5m),45000,"Asplund et al. (2009, ARA&A, 47, 481)",266,2011ApJ...743..107R
+Boesgaard 2011,2011ApJ...743..140B,SAGA,"HIRES on Keck I (HIRES, 10m)",42000,unregistered,267,2011ApJ...743..140B
+Battaglia 2011,2011MNRAS.411.1013B,SAGA,Fibre Large Array Multi Element Spectrograph (FLAMES) and GIRAFFE on VLT in ESO,6500,self,268,2011MNRAS.411.1013B
+Caffau 2011,2011Natur.477...67C,SAGA,X-Shooter spectrograph on VLT in ESO,high,"Caffau et al. (2011, Sol. Phys., 268, 255)",269,2011Nature.477...67C
+Honda 2011,2011PASJ...63S.523H,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",40000,"Asplund et al. (2009, ARA&A, 47, 481)",270,2011PASJ...63S.523H
+Takeda 2011,2011PASJ...63S.537T,SAGA,Infrared Camerra and Spectrograph (IRCS) on Subaru,20000,unregistered,271,2011PASJ...63S.537T
+Hansen 2012,2012A&A...545A..31H,JINA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",40000,"unregistered / Asplund et al. (2009, ARA&A, 47, 481)",272,2012A&A...545A..31H
+Hansen 2012,2012A&A...545A..31H,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",40000,"unregistered / Asplund et al. (2009, ARA&A, 47, 481)",279,2012AAP...545A..31H
+Allen 2012,2012A&A...548A..34A,JINA,"Utrecht echelle spectrograph (UES) on William Herschel Telescope (WHT,4.2m)",52000,"Grevesse & Sauval (1998, SSRv, 85, 161) / Palmeri et al. (2000, Phys. Scr., 61, 323) / Biemont & Lowe (1993, A&A, 273, 665) / Lawler et al. (2001, ApJ, 563, 1075) / Lawler et al. (2001, ApJ, 556, 452) / Hartog et al. (2003, ApJS, 148, 543) / Biemont et al. (1989, A&A, 222, 307)",273,2012A&A...548A..34A
+Allen 2012,2012A&A...548A..34A,SAGA,"Utrecht echelle spectrograph (UES) on William Herschel Telescope (WHT,4.2m)",52000,"Grevesse & Sauval (1998, SSRv, 85, 161) / Palmeri et al. (2000, Phys. Scr., 61, 323) / Biemont & Lowe (1993, A&A, 273, 665) / Lawler et al. (2001, ApJ, 563, 1075) / Lawler et al. (2001, ApJ, 556, 452) / Hartog et al. (2003, ApJS, 148, 543) / Biemont et al. (1989, A&A, 222, 307)",281,2012AAP...548A..34A
+SiqueiraMello 2012,2012A&A...548A..42S,JINA,Echelle SpectroPolarimetric Device for the Observation of Stars (ESPaDOnS) at CFHT,81000,"Caffau et al. (2011, Sol. Phys., 268, 255)",274,2012A&A...548A..42S
+SiqueiraMello 2012,2012A&A...548A..42S,SAGA,Echelle SpectroPolarimetric Device for the Observation of Stars (ESPaDOnS) at CFHT,81000,"Caffau et al. (2011, Sol. Phys., 268, 255)",282,2012AAP...548A..42S
+Ren 2012,2012A&A...537A.118R,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",20000,"Anders and Grevesse (1989, GeCoA, 53, 197)",275,2012AAP...537A.118R
+Lemasle 2012,2012A&A...538A.100L,SAGA,Fibre Large Array Multi Element Spectrograph (FLAMES) and GIRAFFE on VLT in ESO,20000,"Anders and Grevesse (1989, GeCoA, 53, 197) / Grevesse & Sauval (1998, SSRv, 85, 161)",276,2012AAP...538A.100L
+Spite 2012,2012A&A...541A.143S,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",45000,"Grevesse & Sauval (2000, orel.conf., 261)",277,2012AAP...541A.143S
+Bonifacio 2012,2012A&A...542A..87B,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",35000,"Lodders et al. (2009, Landolt-Boernstein, New Series; 4B, 44) / Caffau et al. (2009, MmSAI, 80, 643)",278,2012AAP...542A..87B
+Mishenina 2012,2012A&A...547A.106M,SAGA,ELODIE spectrograph on the Haute Provence Observatoir (1.93m),42000,unregistered,280,2012AAP...547A.106M
+Kirby 2012,2012AJ....144..168K,SAGA,"HIRES on Keck I (HIRES, 10m)",34500,"Anders and Grevesse (1989, GeCoA, 53, 197) / unregistered",283,2012AJ....144..168K
+Roederer 2012,2012ApJ...747L...8R,SAGA,STIS on HST,30000,"Asplund et al. (2009, ARA&A, 47, 481)",284,2012ApJ...747L...8R
+Masseron 2012,2012ApJ...751...14M,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",45000,"Asplund et al. (2005, ASPC, 336, 25)",285,2012ApJ...751...14M
+Venn 2012,2012ApJ...751..102V,SAGA,Fibre Large Array Multi Element Spectrograph (FLAMES) and UVES on VLT in ESO,47000,"Asplund et al. (2009, ARA&A, 47, 481)",286,2012ApJ...751..102V
+Aoki 2012,2012ApJ...751L...6A,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",110000,"Asplund et al. (2009, ARA&A, 47, 481)",287,2012ApJ...751L...6A
+Kirby 2012,2012ApJ...752L..16K,SAGA,DEep Imaging Multi-Object Spectrograph (DEIMOS) on Keck II,6500,self,288,2012ApJ...752L..16K
+Ishigaki 2012,2012ApJ...753...64I,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",50000,"Asplund et al. (2009, ARA&A, 47, 481)",289,2012ApJ...753...64I
+Norris 2012,2012ApJ...753..150N,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",40000,"Asplund et al. (2009, ARA&A, 47, 481)",290,2012ApJ...753..150N
+Roederer 2012,2012ApJS..203...27R,SAGA,"HIRES on Keck I (HIRES, 10m)",45000,"Asplund et al. (2009, ARA&A, 47, 481)",291,2012ApJS..203...27R
+Koch 2013,2013A&A...554A...5K,Alex Ji,Fibre Large Array Multi Element Spectrograph (FLAMES) and GIRAFFE on VLT in ESO,20000,"Asplund et al. (2009, ARA&A, 47, 481)",292,2013A&A...554A...5K
+Koch 2013,2013A&A...554A...5K,SAGA,Fibre Large Array Multi Element Spectrograph (FLAMES) and GIRAFFE on VLT in ESO,20000,"Asplund et al. (2009, ARA&A, 47, 481)",297,2013AAP...554A...5K
+Cui 2013,2013A&A...558A..36C,JINA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",40000,"Grevesse & Sauval (1998, SSRv, 85, 161)",293,2013A&A...558A..36C
+Cui 2013,2013A&A...558A..36C,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",40000,"Grevesse & Sauval (1998, SSRv, 85, 161)",298,2013AAP...558A..36C
+Starkenburg 2013,2013A&A...549...88S,SAGA,X-Shooter spectrograph on VLT in ESO,11000,"Grevesse & Sauval (1998, SSRv, 85, 161)",294,2013AAP...549...88S
+Spite 2013,2013A&A...552A.107S,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",39000,"Lodders et al. (2009, Landolt-Boernstein, New Series; 4B, 44) / Caffau et al. (2011, Sol. Phys., 268, 255)",295,2013AAP...552A.107S
+Mishenina 2013,2013A&A...552A.128M,SAGA,ELODIE spectrograph on the Haute Provence Observatoir (1.93m),42000,unregistered,296,2013AAP...552A.128M
+Caffau 2013,2013A&A...560A..15C,SAGA,X-Shooter spectrograph on VLT in ESO,12000,"Caffau et al. (2011, Sol. Phys., 268, 255) / Lodders et al. (2009, Landolt-Boernstein, New Series; 4B, 44)",299,2013AAP...560A..15C
+Aoki 2013,2013AJ....145...13A,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",36000,"Asplund et al. (2009, ARA&A, 47, 481)",300,2013AJ....145...13A
+Shetrone 2013,2013AJ....145..123S,SAGA,Low Resolution Imaging Spectrometer (LRIS) on Keck I,630,"Cohen & Huang (2009, ApJ, 701, 1053)",301,2013AJ....145..123S
+Norris 2013,2013ApJ...762...25N,SAGA,"HIRES on Keck I (HIRES, 10m)",48000,"Grevesse et al. (2007 SSRv, 130, 105)",302,2013ApJ...762...25N
+Yong 2013,2013ApJ...762...26Y,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",high,"Asplund et al. (2009, ARA&A, 47, 481)",303,2013ApJ...762...26Y
+Gilmore 2013,2013ApJ...763...61G,SAGA,Fibre Large Array Multi Element Spectrograph (FLAMES) and UVES on VLT in ESO,47000,"Asplund et al. (2009, ARA&A, 47, 481)",304,2013ApJ...763...61G
+Gilmore 2013,"2013ApJ...763...61G, 2010ApJ...711..350N",Alex Ji,Fibre Large Array Multi Element Spectrograph (FLAMES) and UVES on VLT in ESO,47000,"Asplund et al. (2009, ARA&A, 47, 481)",305,"2013ApJ...763...61G, 2010ApJ...711..350N"
+Gilmore 2013,"2013ApJ...763...61G, 2010ApJ...711..350N, 2014A&A...562A.146I",Alex Ji,Fibre Large Array Multi Element Spectrograph (FLAMES) and UVES on VLT in ESO,47000,"Asplund et al. (2009, ARA&A, 47, 481)",306,"2013ApJ...763...61G, 2010ApJ...711..350N, 2014A&A...562A.146I"
+Gilmore 2013,"2013ApJ...763...61G, 2011ApJ...738...51L",Alex Ji,Fibre Large Array Multi Element Spectrograph (FLAMES) and UVES on VLT in ESO,47000,"Asplund et al. (2009, ARA&A, 47, 481)",307,"2013ApJ...763...61G, 2011ApJ...738...51L"
+Li 2013,2013ApJ...765...51L,SAGA,Cryogenic high-resolution Infrared Echelle Spectrograph (CRIRES) on VLT in ESO,100000,"Anders and Grevesse (1989, GeCoA, 53, 197)",308,2013ApJ...765...51L
+Vargas 2013,2013ApJ...767..134V,SAGA,DEep Imaging Multi-Object Spectrograph (DEIMOS) on Keck II,6000,"Asplund et al. (2009, ARA&A, 47, 481)",309,2013ApJ...767..134V
+Kirby 2013,2013ApJ...770...16K,SAGA,DEep Imaging Multi-Object Spectrograph (DEIMOS) on Keck II,7000,self,310,2013ApJ...770...16K
+Placco 2013,2013ApJ...770..104P,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),35000,"Asplund et al. (2009, ARA&A, 47, 481)",311,2013ApJ...770..104P
+Ishigaki 2013,2013ApJ...771...67I,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",50000,"Asplund et al. (2009, ARA&A, 47, 481)",312,2013ApJ...771...67I
+Ito 2013,2013ApJ...773...33I,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",90000,"Asplund et al. (2009, ARA&A, 47, 481)",313,2013ApJ...773...33I
+Cohen 2013,2013ApJ...778...56C,SAGA,"HIRES on Keck I (HIRES, 10m)",36000,"Grevesse & Sauval (1998, SSRv, 85, 161) / unregistered",314,2013ApJ...778...56C
+Kirby 2013,2013ApJ...779..102K,Manual Compilation,DEep Imaging Multi-Object Spectrograph (DEIMOS) on Keck II,7100,"Asplund et al. (2005, ASPC, 336, 25)",315,2013ApJ...779..102K
+Ishigaki 2014,2014A&A...562A.146I,JINA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",40000,"Asplund et al. (2009, ARA&A, 47, 481)",316,2014A&A...562A.146I
+Ishigaki 2014,2014A&A...562A.146I,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",40000,"Asplund et al. (2009, ARA&A, 47, 481)",323,2014AAP...562A.146I
+Ishigaki 2014,"2014A&A...562A.146I, 2010ApJ...711..350N",Alex Ji,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",40000,"Asplund et al. (2009, ARA&A, 47, 481)",317,"2014A&A...562A.146I, 2010ApJ...711..350N"
+SiqueiraMello 2014,2014A&A...565A..93S,JINA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",55000,self,318,2014A&A...565A..93S
+SiqueiraMello 2014,2014A&A...565A..93S,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",55000,self,324,2014AAP...565A..93S
+Masseron 2014,2014A&A...569A..43M,JINA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",50000,"Lodders et al. (2009, Landolt-Boernstein, New Series; 4B, 44) ",319,2014A&A...569A..43M
+Spite 2014,2014A&A...571A..40S,JINA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",40000,self,320,2014A&A...571A..40S
+Caliskan 2014,2014A&A...571A..62C,JINA,High Accuracy Radial velocity Planet Searcher (HARPS) spectrogrpah at ESO (3.6m),115000,"Lodders (2003, ApJ, 591, 1220)",321,2014A&A...571A..62C
+Caliskan 2014,2014A&A...571A..62C,SAGA,High Accuracy Radial velocity Planet Searcher (HARPS) spectrogrpah at ESO (3.6m),115000,"Lodders (2003, ApJ, 591, 1220)",327,2014AAP...571A..62C
+Bensby 2014,2014A&A...562A..71B,SAGA,"Fibre-fed Extended Range echelle Spectrograph (FEROS), at ESO (1.52m)",48000,"Asplund et al. (2005, ASPC, 336, 25)",322,2014AAP...562A..71B
+Mashonkina 2014,2014A&A...569A..43M,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",50000,"Lodders et al. (2009, Landolt-Boernstein, New Series; 4B, 44)",325,2014AAP...569A..43M
+Spite 2014,2014A&A...571A..40S,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",40000,self,326,2014AAP...571A..40S
+Hendricks 2014,2014A&A...572A..82H,SAGA,Fibre Large Array Multi Element Spectrograph (FLAMES) and GIRAFFE on VLT in ESO,16000,self,328,2014AAP...572A..82H
+Lemasle 2014,2014A&A...572A..88L,SAGA,Fibre Large Array Multi Element Spectrograph (FLAMES) and GIRAFFE on VLT in ESO,22500,self,329,2014AAP...572A..88L
+Roederer 2014,2014AJ....147..136R,SAGA,2d-coude on 2.7m H.J.Smith Telescope in McDonald Obs.,33000,"Asplund et al. (2009, ARA&A, 47, 481)",330,2014AJ....147..136R
+Placco 2014,2014ApJ...781...40P,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),35000,"Asplund et al. (2009, ARA&A, 47, 481)",331,2014ApJ...781...40P
+Roederer 2014,2014ApJ...784..158R,SAGA,2d-coude on 2.7m H.J.Smith Telescope in McDonald Obs.,33000,"Asplund et al. (2009, ARA&A, 47, 481)",332,2014ApJ...784..158R
+Frebel 2014,2014ApJ...786...74F,SAGA,"HIRES on Keck I (HIRES, 10m)",37500,"Asplund et al. (2009, ARA&A, 47, 481)",333,2014ApJ...786...74F
+Kennedy 2014,2014ApJ...787....6K,SAGA,"Wide-Field Spectrograph (WiFeS) on the ANU 2.3m Telescope (ANU, 2.3m)",7000,"Asplund et al. (2009, ARA&A, 47, 481)",334,2014ApJ...787....6K
+Hansen 2014,2014ApJ...787..162H,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",45000,"Asplund et al. (2009, ARA&A, 47, 481)",335,2014ApJ...787..162H
+Placco 2014,2014ApJ...790...34P,SAGA,STIS on HST,30000,"Asplund et al. (2009, ARA&A, 47, 481)",336,2014ApJ...790...34P
+Roederer 2014,2014ApJ...791...32R,SAGA,STIS on HST,30000,unregistered,337,2014ApJ...791...32R
+Koch 2014,2014ApJ...794...89K,SAGA,"HIRES on Keck I (HIRES, 10m)",36000,"Asplund et al. (2009, ARA&A, 47, 481)",338,2014ApJ...794...89K
+Schlaufman 2014,2014ApJ...797...13S,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),41000,self,339,2014ApJ...797...13S
+Roederer 2014,2014ApJ...797...69R,JINA,"STIS on HST, Barbara A. Mikulski Archive for Space Telescopes (MAST)",30000,"Asplund et al. (2009, ARA&A, 47, 481)",340,2014ApJ...797...69R
+Roederer 2014,2014MNRAS.445.2970R,SAGA,MIKE spectrograph of the Magellan Baade telescope at Las Campanas Observatory (Baade/MIKE 6.5m),41000,"Asplund et al. (2009, ARA&A, 47, 481)",341,2014MNRAS.445.2970R
+Keller 2014,2014Natur.506..463K,JINA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),28000,"Asplund et al. (2009, ARA&A, 47, 481)",342,2014Natur.506..463K
+Keller 2014,2014Natur.506..463K,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),28000,"Asplund et al. (2009, ARA&A, 47, 481)",343,2014Nature.506..463K
+Aoki 2014,2014Sci...345..912A,JINA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",60000,"Asplund et al. (2009, ARA&A, 47, 481)",344,2014Sci...345..912A
+Aoki 2014,2014Sci...345..912A,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",60000,"Asplund et al. (2009, ARA&A, 47, 481)",345,2014Science.345..912A
+Skuladottir 2015,2015A&A...574A.129S,JINA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",40000,"Grevesse & Sauval (1998, SSRv, 85, 161)",346,2015A&A...574A.129S
+Skuladottir 2015,2015A&A...574A.129S,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",40000,"Grevesse & Sauval (1998, SSRv, 85, 161)",348,2015AAP...574A.129S
+Li 2015,2015A&A....15.1264L,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",36000,"Asplund et al. (2009, ARA&A, 47, 481)",347,2015AAP....15.1264L
+Bonifacio 2015,2015A&A...579A..28B,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",47000,"Lodders et al. (2009, Landolt-Boernstein, New Series; 4B, 44) / Caffau et al. (2011, Sol. Phys., 268, 255)",349,2015AAP...579A..28B
+Fabrizio 2015,2015A&A...580A..18F,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",40000,"Grevesse et al. (2007 SSRv, 130, 105)",350,2015AAP...580A..18F
+Skuladottir 2015,2015A&A...580A.129S,SAGA,Fibre Large Array Multi Element Spectrograph (FLAMES) and GIRAFFE on VLT in ESO,19000,"Grevesse & Sauval (1998, SSRv, 85, 161) / Caffau et al. (2011, Sol. Phys., 268, 255)",351,2015AAP...580A.129S
+Spite 2015,2015A&A...582...74S,SAGA,X-Shooter spectrograph on VLT in ESO,11000,unregistered,352,2015AAP...582...74S
+Jablonka 2015,2015A&A...583A..67J,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",45000,unregistered,353,2015AAP...583A..67J
+SiqueiraMello 2015,2015A&A...584...86S,SAGA,Echelle SpectroPolarimetric Device for the Observation of Stars (ESPaDOnS) at CFHT,81000,"Asplund et al. (2009, ARA&A, 47, 481)",354,2015AAP...584...86S
+Li 2015,2015ApJ...798..110L,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),35000,"Asplund et al. (2009, ARA&A, 47, 481)",355,2015ApJ...798..110L
+Kirby 2015,2015ApJ...801..125K,SAGA,DEep Imaging Multi-Object Spectrograph (DEIMOS) on Keck II,2100,"Anders and Grevesse (1989, GeCoA, 53, 197) / Sneden et al. (1991, AJ, 102, 2001)",356,2015ApJ...801..125K
+Simon 2015,2015ApJ...802...93S,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),25000,"Asplund et al. (2009, ARA&A, 47, 481)",357,2015ApJ...802...93S
+Jacobson 2015,2015ApJ...807..171J,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),28000,"Asplund et al. (2009, ARA&A, 47, 481)",358,2015ApJ...807..171J
+Hansen 2015,2015ApJ...807..173H,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",45000,"Asplund et al. (2009, ARA&A, 47, 481)",359,2015ApJ...807..173H
+Casey 2015,2015ApJ...809..110C,JINA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),41000,"Asplund et al. (2009, ARA&A, 47, 481)",360,2015ApJ...809..110C
+Placco 2015,2015ApJ...809..136P,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),35000,"Asplund et al. (2009, ARA&A, 47, 481)",361,2015ApJ...809..136P
+Frebel 2015,2015ApJ...810L..27F,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),35000,"Asplund et al. (2009, ARA&A, 47, 481)",362,2015ApJ...810L..27F
+Placco 2015,2015ApJ...812..109P,SAGA,"HIRES on Keck I (HIRES, 10m)",103000,"Asplund et al. (2009, ARA&A, 47, 481)",363,2015ApJ...812..109P
+Hollek 2015,2015ApJ...814..121H,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),56000,"Asplund et al. (2009, ARA&A, 47, 481)",364,2015ApJ...814..121H
+Ural 2015,2015MNRAS.449..761U,SAGA,"HIRES on Keck I (HIRES, 10m)",high,"Asplund et al. (2009, ARA&A, 47, 481)",365,2015MNRAS.449..761U
+Howes 2015,2015Natur.527..484H,JINA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),35000,"Asplund et al. (2009, ARA&A, 47, 481)",366,2015Natur.527..484H
+Li 2015,2015PASJ...67...84L,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",60000,"Asplund et al. (2009, ARA&A, 47, 481)",367,2015PASJ...67...84L
+Tsujimoto 2015,2015PASJ...67L...3T,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",30000,"Asplund et al. (2009, ARA&A, 47, 481)",368,2015PASJ...67L...3T
+Li 2015,2015RAA....15.1264L,JINA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",36000,"Asplund et al. (2009, ARA&A, 47, 481)",369,2015RAA....15.1264L
+Koch 2015,2016A&A...587A.124K,JINA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),45000,"Asplund et al. (2009, ARA&A, 47, 481)",370,2015yCat..35870124K
+Melendez 2016,2016A&A...585L...5M,JINA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",50000,unregistered,371,2016A&A...585L...5M
+Melendez 2016,2016A&A...585L...5M,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",50000,unregistered,375,2016AAP...585L...5M
+Francois 2016,2016A&A...588A...7F,Alex Ji,X-Shooter spectrograph on VLT in ESO,12600,"Grevesse & Sauval (2000, orel.conf., 261)",372,2016A&A...588A...7F
+Francois 2016,2016A&A...588A...7F,SAGA,X-Shooter spectrograph on VLT in ESO,12600,"Grevesse & Sauval (2000, orel.conf., 261)",376,2016AAP...588A...7F
+Yan 2016,2016A&A...585..102Y,SAGA,"FIbre-fed Echelle Spectrograph (FIES) at the Nordic Optical Telescope (NOT, 2.65m)",40000,"Lodders et al. (2009, Landolt-Boernstein, New Series; 4B, 44)",373,2016AAP...585..102Y
+Lardo 2016,2016A&A...585A..70L,SAGA,Visible Multi-Object Spectrograph (VIMOS) on VLT in ESO,1100,"Asplund et al. (2009, ARA&A, 47, 481)",374,2016AAP...585A..70L
+Aguado 2016,2016A&A...593...10A,SAGA,"High Resolution Spectrograph (HRS) on the Hobby-Eberly Telescope (HET, 9.2m)",15000,"Asplund et al. (2005, ASPC, 336, 25)",377,2016AAP...593...10A
+Caffau 2016,2016A&A...595L...6C,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",29000,"Lodders et al. (2009, Landolt-Boernstein, New Series; 4B, 44) / Caffau et al. (2011, Sol. Phys., 268, 255)",378,2016AAP...595L...6C
+Roederer 2016,2016AJ....151...82R,SAGA,Michigan/Magellan Fiber System (M2FS) spectrograph on Clay Telescope (MagellanII) at Las Campanas Observatory (Magellan II/M2FS 6.5m),30000,"Asplund et al. (2009, ARA&A, 47, 481)",379,2016AJ....151...82R
+Ji 2016,2016ApJ...817...41J,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),28000,"Asplund et al. (2009, ARA&A, 47, 481)",380,2016ApJ...817...41J
+Martin 2016,2016ApJ...818...40M,SAGA,DEep Imaging Multi-Object Spectrograph (DEIMOS) on Keck II,high,self,381,2016ApJ...818...40M
+Roederer 2016,2016ApJ...821...37R,SAGA,STIS on HST,110000,"Asplund et al. (2009, ARA&A, 47, 481)",382,2016ApJ...821...37R
+Roederer 2016,2016ApJ...824L..19R,SAGA,Cosmic Origins Spectrograph on HST,17000,"Asplund et al. (2009, ARA&A, 47, 481)",383,2016ApJ...824L..19R
+Placco 2016,2016ApJ...829...24P,SAGA,"HIRES on Keck I (HIRES, 10m)",95000,"Asplund et al. (2009, ARA&A, 47, 481)",384,2016ApJ...829...24P
+Ji 2016,2016ApJ...830...93J,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),28000,"Asplund et al. (2009, ARA&A, 47, 481)",385,2016ApJ...830...93J
+Ji 2016,"2016ApJ...830...93J, 2016AJ....151...82R",Alex Ji,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),28000,"Asplund et al. (2009, ARA&A, 47, 481)n",386,"2016ApJ...830...93J, 2016AJ....151...82R"
+Ji 2016,2016ApJ...832L...3J,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),28000,"Asplund et al. (2009, ARA&A, 47, 481)n",387,2016ApJ...832L...3J
+Placco 2016,2016ApJ...833...21P,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),35000,"Asplund et al. (2009, ARA&A, 47, 481)",388,2016ApJ...833...21P
+SusmithaRani 2016,2016MNRAS.458.2648S,SAGA,Apache Point Observatory (APO) 3.5 m Telescope (3.5m),31500,"Grevesse & Sauval (1998, SSRv, 85, 161)",389,2016MNRAS.458.2648S
+Howes 2016,2016MNRAS.460..884H,JINA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),28000,"Asplund et al. (2009, ARA&A, 47, 481)",390,2016MNRAS.460..884H
+Ji 2016,2016Natur.531..610J,JINA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),28000,"Asplund et al. (2009, ARA&A, 47, 481)",391,2016Natur.531..610J
+Ji 2016,2016Natur.531..610J,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),28000,"Asplund et al. (2009, ARA&A, 47, 481)",392,2016Nature.531..610J
+Hansen 2017,2017A&A...598A..54H,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),57000,self,393,2017AAP...598...54H
+Prakapavicius 2017,2017A&A...599A.128P,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",60000,"Asplund et al. (2005, ASPC, 336, 25)",394,2017AAP...599..128P
+Spite 2017,2017A&A...600A..26S,SAGA,High Accuracy Radial velocity Planet Searcher (HARPS) spectrogrpah at ESO (3.6m),115000,"Caffau et al. (2011, Sol. Phys., 268, 255) / Lodders et al. (2009, Landolt-Boernstein, New Series; 4B, 44)",395,2017AAP...600...26S
+Aguado 2017,2017A&A...604A...9A,SAGA,Optical System for Imaging and low-Intermediate-Resolution Integrated Spectroscopy (OSIRIS) on Gran Telescopio CANARIAS (GTC 10.4m),2300,self,396,2017AAP...604....9A
+Skuladottir 2017,2017A&A...606A..71S,SAGA,Fibre Large Array Multi Element Spectrograph (FLAMES) and GIRAFFE on VLT in ESO,19500,"Grevesse & Sauval (1998, SSRv, 85, 161)",397,2017AAP...606A..71S
+Matsuno 2017,2017AJ....154...52M,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",60000,"Asplund et al. (2009, ARA&A, 47, 481)",398,2017AJ....154...52M
+Caffau 2017,2017AN....338..686C,SAGA,FEROS on La Silla 2.2 m Max-Planck Telescope at ESO (2.2m),48000,"Caffau et al. (2011, Sol. Phys., 268, 255)",399,2017AN....338..686C
+Kirby 2017,2017ApJ...834....9K,Manual Compilation,DEep Imaging Multi-Object Spectrograph (DEIMOS) on Keck II,7000,"Anders and Grevesse (1989, GeCoA, 53, 197)",400,2017ApJ...834....9K
+Karinkuzhi 2017,2017ApJ...834...61K,SAGA,"Fibre-fed Extended Range echelle Spectrograph (FEROS), at ESO (1.52m)",48000,"Asplund et al. (2009, ARA&A, 47, 481)",401,2017ApJ...834...61K
+Aoki 2017,2017ApJ...837....8A,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",90000,"Asplund et al. (2009, ARA&A, 47, 481)",402,2017ApJ...837....8A
+Hansen 2017,2017ApJ...838...44H,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),28000,"Asplund et al. (2009, ARA&A, 47, 481)",403,2017ApJ...838...44H
+Kirby 2017,2017ApJ...838...83K,SAGA,DEep Imaging Multi-Object Spectrograph (DEIMOS) on Keck II,7000,"Asplund et al. (2009, ARA&A, 47, 481)",404,2017ApJ...838...83K
+O'Malley 2017,2017ApJ...838...90O,SAGA,"HIRES on Keck I (HIRES, 10m)",70500,self,405,2017ApJ...838...90O
+Placco 2017,2017ApJ...844...18P,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),66000,"Asplund et al. (2009, ARA&A, 47, 481)",406,2017ApJ...844...18P
+Tsujimoto 2017,2017ApJ...850L..12T,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",45000,self,407,2017ApJ...850L..12T
+Norris 2017,2017ApJS..230...28N,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",47000,"Asplund et al. (2009, ARA&A, 47, 481)",408,2017ApJS..230...28N
+Venn 2017,2017MNRAS.466.3741V,SAGA,Gemini Remote Access to CFHT Echelle SpectroPolarimetric Device for the Observation of Stars (ESPaDOnS) Spectrograph (GRACES),20000,"Asplund et al. (2009, ARA&A, 47, 481)",409,2017MNRAS.466.3741V
+Pereira 2017,2017MNRAS.469..774P,SAGA,FEROS on La Silla 2.2 m Max-Planck Telescope at ESO (2.2m),48000,"unregistered / Grevesse & Sauval (1998, SSRv, 85, 161)",410,2017MNRAS.469..774P
+Mishenina 2017,2017MNRAS.469.4378M,SAGA,SOPHIE spectrograph on the Haute Provence Observatoir (1.93m),75000,"unregistered / Den Hartog et al. (2006, ApJS, 167, 292) / Lawler et al. (2006, ApJS, 162, 227)",411,2017MNRAS.469.4378M
+Kielty 2017,2017MNRAS.471..404K,SAGA,Apache Point Observatory Galactic Evolution Experiment (APOGEE) with Sloan Foundation 2.5m Telescope at APO (2.5m),22500,"Caffau et al. (2011, Sol. Phys., 268, 255) / Asplund et al. (2009, ARA&A, 47, 481)",412,2017MNRAS.471..404K
+Roriz 2017,2017MNRAS.472..350R,SAGA,"Fibre-fed Extended Range echelle Spectrograph (FEROS), at ESO (1.52m)",48000,"Grevesse & Sauval (1998, SSRv, 85, 161) / unregistered",413,2017MNRAS.472..350R
+Matsuno 2017,2017PASJ...69...24M,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",60000,"Asplund et al. (2009, ARA&A, 47, 481)",414,2017PASJ...69...24M
+Spite 2018,2018A&A...611A..30S,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",47000,"Lodders et al. (2009, Landolt-Boernstein, New Series; 4B, 44)",416,2018AAP...611A..30S
+Bonifacio 2018,2018A&A...612A..65B,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",30000,"Lodders et al. (2009, Landolt-Boernstein, New Series; 4B, 44) / Caffau et al. (2011, Sol. Phys., 268, 255)",417,2018AAP...612A..65B
+Caffau 2018,2018A&A...614A..68C,SAGA,FOcal Reducer and low dispersion Spectrograph for VLT in ESO,5000,"Caffau et al. (2011, Sol. Phys., 268, 255)",418,2018AAP...614A..68C
+Spite 2018,2018A&A...617A..56S,Alex Ji,X-Shooter spectrograph on VLT in ESO,12600,"Lodders et al. (2009, Landolt-Boernstein, New Series; 4B, 44) / Caffau et al. (2011, Sol. Phys., 268, 255)",415,2018A&A...617A..56S
+Spite 2018,2018A&A...617A..56S,SAGA,X-Shooter spectrograph on VLT in ESO,12600,"Lodders et al. (2009, Landolt-Boernstein, New Series; 4B, 44) / Caffau et al. (2011, Sol. Phys., 268, 255)",419,2018AAP...617A..56S
+Francois 2018,2018A&A...619A..10F,SAGA,X-Shooter spectrograph on VLT in ESO,7410,"Caffau et al. (2011, Sol. Phys., 268, 255) / Lodders et al. (2009, Landolt-Boernstein, New Series; 4B, 44)",420,2018AAP...619A..10F
+Nagasawa 2018,2018ApJ...852...99N,SAGA,Fibre Large Array Multi Element Spectrograph (FLAMES) and UVES on VLT in ESO,47000,"Asplund et al. (2009, ARA&A, 47, 481)",421,2018ApJ...852...99N
+Aguado 2018,2018ApJ...852L..20A,SAGA,Optical System for Imaging and low-Intermediate-Resolution Integrated Spectroscopy (OSIRIS) on Gran Telescopio CANARIAS (GTC 10.4m),2500,self,422,2018ApJ...852L..20A
+Li 2018,2018ApJ...852L..31L,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",60000,"Asplund et al. (2009, ARA&A, 47, 481)",423,2018ApJ...852L..31L
+Sakari 2018,2018ApJ...854L..20S,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),83000,"unregistered / Asplund et al. (2009, ARA&A, 47, 481)",424,2018ApJ...854L..20S
+Aguado 2018,2018ApJ...854L..34A,SAGA,"Intermediate dispersion Spectrograph and Imaging System (ISIS) on William Herschel Telescope (WHT,4.2m)",2400,"Asplund et al. (2004, A&A, 417, 751)",425,2018ApJ...854L..34A
+Hansen 2018,2018ApJ...855...83H,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",high,"Asplund et al. (2009, ARA&A, 47, 481)",426,2018ApJ...855...83H
+Ji 2018,2018ApJ...856..138J,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),35000,"Asplund et al. (2009, ARA&A, 47, 481)",427,2018ApJ...856..138J
+Chiti 2018,2018ApJ...856..142C,SAGA,MagE (Magellan Echellette) spectrograph of the Magellan Baade telescope at Las Campanas Observatory (Baade/MagE 6.5m),6000,"Asplund et al. (2009, ARA&A, 47, 481)",428,2018ApJ...856..142C
+Chiti 2018,2018ApJ...857...74C,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),28000,"Asplund et al. (2009, ARA&A, 47, 481)",429,2018ApJ...857...74C
+Hansen 2018,2018ApJ...858...92H,SAGA,"Echelle spectrograph on the du Pont telescope at Las Campanas Observatory (du Pont, 2.5m)",25000,"Asplund et al. (2009, ARA&A, 47, 481)",430,2018ApJ...858...92H
+Bandyopadhyay 2018,2018ApJ...859..114B,SAGA,Hanle Faint Object Spectrograph Camera (HFOSC) on the 2m Himalayan Chandra Telescope (HCT 2m),30000,"Scott et al. (2015, A&A, 573, A25) / Grevesse et al. (2015, A&A, 573, A27) / Asplund et al. (2009, ARA&A, 47, 481) / Scott et al. (2015, A&A, 573, A26)",431,2018ApJ...859..114B
+Holmbeck 2018,2018ApJ...859L..24H,SAGA,Robert G. Tull Coude Spectrograph on 2.7m H.J.Smith Telescope in McDonald Obs.,60000,"Grevesse et al. (2015, A&A, 573, A27)",432,2018ApJ...859L..24H
+Roederer 2018,2018ApJ...860..125R,SAGA,"HIRES on Keck I (HIRES, 10m)",49000,"Asplund et al. (2009, ARA&A, 47, 481)",433,2018ApJ...860..125R
+Gull 2018,2018ApJ...862..174G,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),35000,"Asplund et al. (2009, ARA&A, 47, 481)",434,2018ApJ...862..174G
+Cain 2018,2018ApJ...864...43C,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),35000,"Asplund et al. (2009, ARA&A, 47, 481)",435,2018ApJ...864...43C
+Roederer 2018,2018ApJ...865..129R,SAGA,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),68000,"Asplund et al. (2009, ARA&A, 47, 481)",436,2018ApJ...865..129R
+Sakari 2018,2018ApJ...868..110S,SAGA,Apache Point Observatory (APO) 3.5 m Telescope (3.5m),31500,"Asplund et al. (2009, ARA&A, 47, 481)",437,2018ApJ...868..110S
+Duggan 2018,2018ApJ...869...50D,SAGA,DEep Imaging Multi-Object Spectrograph (DEIMOS) on Keck II,2250,"Anders and Grevesse (1989, GeCoA, 53, 197) / unregistered",438,2018ApJ...869...50D
+Starkenburg 2018,2018MNRAS.481.3838S,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",30000,"Lodders et al. (2009, Landolt-Boernstein, New Series; 4B, 44) / Caffau et al. (2011, Sol. Phys., 268, 255)",439,2018MNRAS.481.3838S
+Aoki 2018,2018PASJ...70...94A,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",60000,"Asplund et al. (2009, ARA&A, 47, 481)",440,2018PASJ...70...94A
+Skuladottir 2019,2019A&A...631A.171S,Manual Compilation,Fibre Large Array Multi Element Spectrograph (FLAMES) and GIRAFFE on VLT in ESO,20000,"Grevesse & Sauval (1998, SSRv, 85, 161)",441,2019A&A...631A.171S
+Arentsen 2019,2019A&A...621A.108A,SAGA,Gecko echelle spectrograph on Canada-France-Hawaii Telescope (CFHT),68000,"Asplund et al. (2009, ARA&A, 47, 481)",442,2019AAP...621A.108A
+Amarsi 2019,2019A&A...622L...4A,SAGA,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",60000,"Asplund et al. (2009, ARA&A, 47, 481)",443,2019AAP...622L...4A
+Fernández-Trincado 2019,2019A&A...631A..97F,SAGA,Apache Point Observatory Galactic Evolution Experiment (APOGEE) with Sloan Foundation 2.5m Telescope at APO (2.5m),22500,"Asplund et al. (2005, ASPC, 336, 25) / Grevesse et al. (2015, A&A, 573, A27)",444,2019AAP...631A..97F
+Ji 2019,2019ApJ...870...83J,SAGA,Gemini Remote Access to CFHT Echelle SpectroPolarimetric Device for the Observation of Stars (ESPaDOnS) Spectrograph (GRACES),40000,"Asplund et al. (2009, ARA&A, 47, 481)",445,2019ApJ...870...83J
+Placco 2019,2019ApJ...870..122P,SAGA,"ESO Faint Object Spectrograph and Camera v.2 (EFOSC-2) at New Technology Telescope (NTT, 3.58m)",1200,"Asplund et al. (2009, ARA&A, 47, 481)",446,2019ApJ...870..122P
+Sakari 2019,2019ApJ...874..148S,SAGA,Apache Point Observatory (APO) 3.5 m Telescope (3.5m),31500,"Asplund et al. (2009, ARA&A, 47, 481)",447,2019ApJ...874..148S
+Mardini 2019,2019ApJ...875...89M,SAGA,Automated Planet Finder (APF) at the Lick Observatory (2.4m),110000,"Asplund et al. (2009, ARA&A, 47, 481)",448,2019ApJ...875...89M
+Ezzeddine 2019,2019ApJ...876...97E,SAGA,Cosmic Origins Spectrograph on HST,high,"Asplund et al. (2009, ARA&A, 47, 481)",449,2019ApJ...876...97E
+Mardini 2019,2019ApJ...882...27M,SAGA,Automated Planet Finder (APF) at the Lick Observatory (2.4m),110000,"Asplund et al. (2009, ARA&A, 47, 481)",450,2019ApJ...882...27M
+Marshall 2019,2019ApJ...882..177M,Alex Ji,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),41000,"Asplund et al. (2009, ARA&A, 47, 481)",451,2019ApJ...882..177M
+Fernandez-Trincado 2019,2019ApJ...886L...8F,SAGA,Apache Point Observatory (APO) 3.5 m Telescope (3.5m),22500,"Asplund et al. (2005, ASPC, 336, 25)",452,2019ApJ...886L...8F
+Mishenina 2019,2019MNRAS.484.3846M,SAGA,ELODIE spectrograph on the Haute Provence Observatoir (1.93m),42000,self,453,2019MNRAS.484.3846M
+Purandardas 2019,2019MNRAS.486.3266P,SAGA,Cassegrain spectrograph at the 2.3m Vainu Bappu Telescope at Kavalur,72000,"Asplund et al. (2009, ARA&A, 47, 481)",454,2019MNRAS.486.3266P
+Pereira 2019,2019MNRAS.488..482P,SAGA,FEROS on La Silla 2.2 m Max-Planck Telescope at ESO (2.2m),48000,"Grevesse & Sauval (1998, SSRv, 85, 161)",455,2019MNRAS.488..482P
+Venn 2019,2019MNRAS.492.3241V,SAGA,Echelle SpectroPolarimetric Device for the Observation of Stars (ESPaDOnS) at CFHT,68000,"Asplund et al. (2009, ARA&A, 47, 481)",456,2019MNRAS.492.3241V
+Xing 2019,2019NatAs...3..631X,SAGA,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",45000,"Asplund et al. (2009, ARA&A, 47, 481)",457,2019NatAs...3..631X
+Reichert 2020,2020A&A...641A.127R,Manual Compilation,"Fibre Large Array Multi Element Spectrograph (FLAMES) and GIRAFFE on VLT in ESO, UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m), X-Shooter spectrograph on VLT in ESO",15000,"Asplund et al. (2009, ARA&A, 47, 481)",458,2020A&A...641A.127R
+Theler 2020,2020A&A...642A.176T,Manual Compilation,Fibre Large Array Multi Element Spectrograph (FLAMES) and GIRAFFE on VLT in ESO,20000,"Grevesse & Sauval (1998, SSRv, 85, 161)",459,2020A&A...642A.176T
+Ji 2020,2020ApJ...889...27J,Alex Ji,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),30000,"Asplund et al. (2009, ARA&A, 47, 481)",460,2020ApJ...889...27J
+de los Reyes 2020,2020ApJ...891...85D,Manual Compilation,DEep Imaging Multi-Object Spectrograph (DEIMOS) on Keck II,4500,"Asplund et al. (2009, ARA&A, 47, 481)",461,2020ApJ...891...85R
+Hansen 2020,2020ApJ...897..183H,Alex Ji,MIKE spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),41000,"Asplund et al. (2009, ARA&A, 47, 481)",462,2020ApJ...897..183H
+Lombardo 2022,2022A&A...665A..10L,Manual Compilation,"UVES on Unit Telescope 2 (Kueyen) on VLT in ESO (UVES, 8m)",49800,"Caffau et al. (2011, Sol. Phys., 268, 255) / Lodders et al. (2009, Landolt-Boernstein, New Series; 4B, 44)",463,2022A&A...665A..10L
+Li 2022,2022ApJ...931..147L,Manual Compilation,"High Dispersion Spectrograph (HDS) on Subaru (HDS, 8.2m)",36000,"Asplund et al. (2009, ARA&A, 47, 481)",464,2022ApJ...931..147L
+Chiti 2022,2022ApJ...939...41C,Alex Ji,IMACS spectrograph of the Magellan Clay telescope at Las Campanas Observatory (Clay/MIKE 6.5m),11000,Self,465,2022ApJ...939...41C
+Waller 2022,2023MNRAS.519.1349W,Alex Ji,Gemini Remote Access to CFHT Echelle SpectroPolarimetric Device for the Observation of Stars (ESPaDOnS) Spectrograph (GRACES),65000,"Asplund et al. (2009, ARA&A, 47, 481)",466,2023MNRAS.519.1349W
+Nissen 2024,2024A&A...682A.116N,Manual Compilation,nan,high,"Asplund et al. (2021, A&A, 653, A141)",467,2024A&A...682A.116N
