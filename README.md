@@ -69,7 +69,10 @@ Gaia cross-matching was performed with the Whole Sky Database (WSDB), constructe
 All included papers' bibcodes are in the CAMPS_Metadata_Dict.csv. The bibtex file for all relevant papers is located in the file `CAMPS_citations.bibtex`
 
 Any paper used should be cited directly.
+
 If the paper comes from SAGA, follow the SAGA citation requirements specified here: http://sagadatabase.jp/
+
 If the paper comes from JINAbase, cite the following paper: https://iopscience.iop.org/article/10.3847/1538-4365/aadfe9
+
 
 This work was co-created with Shuhan Zheng.
