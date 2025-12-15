@@ -50,14 +50,14 @@ Gaia cross-matching was performed with the Whole Sky Database (WSDB), constructe
 
 ## How to use
 1. Fill in booleans and the `paper_list` dictionary:
-- Set booleans to true or false depending on which catalogues you would like to add
-- Fill in the paper list dictionary. For each paper specify which tables from Vizier you want, what the Vizier tag is, temporary storage path, shortened paper name, name of the column containing the stars, name of the column containing the galaxies (if no such column exists, write None and specify a galaxy name), and the paper type 'Vizier'
-- If you would like to add extra catalogues stored as an Astropy table locally, include them in the custom dictionary
+    - Set booleans to true or false depending on which catalogues you would like to add
+    - Fill in the paper list dictionary. For each paper specify which tables from Vizier you want, what the Vizier tag is, temporary storage path, shortened paper name, name of the column containing the stars, name of the column containing the galaxies (if no such column exists, write None and specify a galaxy name), and the paper type 'Vizier'
+    - If you would like to add extra catalogues stored as an Astropy table locally, include them in the custom dictionary
 2. Run cells below:
-- If an incoming paper has column names that are not recognized, you will be prompted to input a column name. Input _ if you do not wish for this column to be included
+    - If an incoming paper has column names that are not recognized, you will be prompted to input a column name. Input _ if you do not wish for this column to be included
 3. Run metadata table and/or collapse table:
-- Metadata table generates one like CAMPS_Metadata_Dict.csv
-- Collapsed table will remove abundance species differentiation by keeping the first instance of any measurement of an abundance.
+    - Metadata table generates one like CAMPS_Metadata_Dict.csv
+    - Collapsed table will remove abundance species differentiation by keeping the first instance of any measurement of an abundance.
 
 ## Known Problems
 - CAMPS cannot handle importing papers that aren't in Vizier or added separately in an Astropy format.
