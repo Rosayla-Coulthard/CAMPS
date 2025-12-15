@@ -22,9 +22,13 @@ The tools to compile CAMPS are available in this repository. The data for SAGA a
 
 ### Compiling External Sources
 CAMPS has the option to add on preexisting literature compilations, SAGA, JINAbase, and Dr. Alexander Ji's dwarf galaxy catalogue. Dr. Ji's catalogue is located in the repository as `dwarf_lit_all_coo.org`, SAGA and JINAbase are not located in the repository, they can be downloaded here:
+
 SAGA: http://sagadatabase.jp/
+
 JINAbase: https://jinabase.pythonanywhere.com/ 
+
 Dr. Ji's dwarf galaxy catalogue was downloaded from https://github.com/alexji/alexmods/tree/master/alexmods/data 
+
 SAGA can be added with the `Add_SAGA` boolean set to True. Path names may need to be adjusted in the `addsurveys.py` file, under the `saga` function
 JINAbase can be added with the `Add_JINA` boolean set to True. Path names may need to be adjusted in the `addsurveys.py` file, under the `saga` function
 Dr. Ji's dwarf galaxy catalogue can be added with the `Add_Ji` boolean set to True
